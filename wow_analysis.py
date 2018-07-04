@@ -1,6 +1,13 @@
-def get_log_master_list(api_key, boss_list, log_start=None, unwanted_players=None):
+GUILD_NAME = 'Last%20Pull'
+REALM = 'Cenarius'
+REGION = 'US'
+
+def get_log_master_list(api_key,
+                        boss_list,
+                        log_start=None,
+                        unwanted_players=None):
     '''
-    Extracts mythic log information for World of Warcraft guild, Last Pull, 
+    Extracts mythic log information for World of Warcraft guild, Last Pull,
         on Cenarius, and saves in 'master_list.csv'.
     Requires import of the following libraries: pandas as pd, numpy as np,
         requests, json, os
@@ -14,7 +21,8 @@ def get_log_master_list(api_key, boss_list, log_start=None, unwanted_players=Non
         pandas DataFrame
     '''
     # Gather all guild logs
-    link = "https://www.warcraftlogs.com:443/v1/reports/guild/Last%20Pull/Cenarius/US?api_key="
+    link = "https://www.warcraftlogs.com:443/v1/reports/guild/" + GUILD_NAME +\
+            "/" + REALM + "/" + REGION + "/US?api_key="
     guild_logs = requests.get(link + api_key)
     log_list = guild_logs.json()
     # Convert to df
