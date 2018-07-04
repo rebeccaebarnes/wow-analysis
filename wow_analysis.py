@@ -55,8 +55,8 @@ def get_log_master_list(api_key,
         if not os.path.exists(file_path):
             print("Creating file", log_id)
             link = "https://www.warcraftlogs.com:443/v1/report/fights/" \
-                + log_id + "?api_key=" + api_key
-            log = requests.get(link)
+                + log_id + "?api_key="
+            log = requests.get(link + api_key)
             log = log.json()
             data = {}
             for key in ['fights', 'friendlies', 'enemies']:
