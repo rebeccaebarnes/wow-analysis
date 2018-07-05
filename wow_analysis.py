@@ -229,3 +229,150 @@ def import_clean_master_list():
     df = df[cols]
 
     return df
+
+def player_info_query(player_name, metric):
+    '''
+    Queries Warcraft Logs api for player rankings according to the metric.
+    Saves json file of query data.
+    Requires import of the following libraries: os, json
+
+    args:
+        player_name: (str) player name
+        metric: (str) one of 'hps', 'dps', 'tankhps'
+    returns:
+        None
+    '''
+    # Create folder if doesn't exist:
+    folder_name = 'player_rankings'
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+
+    # Manage players not in guild
+    try:
+        # Create player ranking file
+        file_name = player_name + '_' + metric + '_player_rankings.txt'
+        file_path = os.path.join(folder_name, file_name)
+        print("Creating file for", player_name, "for", metric)
+        link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + player_name + "/" + REALM + "/" + REGION + "?metric=" + metric + "&partition=1&timeframe=historical&api_key="
+        player_info = requests.get(link + api_key)
+        player_info = player_info.json()
+        with open(file_path, "w") as file:
+            json.dump(player_info, file)
+    except TypeError:
+        print("Missed data for", player, ": not in guild")
+
+def import_player_info(player_names):
+    '''
+    Queries Warcraft Logs api for players' rankings for hps, dps and tankhps.
+    Saves json file of query data.
+    Requires import of the following libraries: os, json
+
+    args:
+        player_name: (str) player name
+        metric: (str) one of 'hps', 'dps', 'tankhps'
+    returns:
+        None
+    '''
+    metrics = ['hps', 'dps', 'tankhps']
+
+    for player in player_names:
+        for metric in metrics:
+            player_info_query(player, metric)
+
+def player_rankings_df(player_name, metric, primary_role):
+    '''
+    Creates df of player rankings for metric.
+    Requires import of the following libraries: pandas as pd, json
+
+    args:
+        player_name: (str) player name
+        metric: (str) one of 'hps', 'dps', 'tankhps'
+        primary_role: (str) one of 'healer', 'damage', 'tank'
+    returns:
+        pandas DataFrame
+    '''
+    # Manage players not in guild
+    try:
+        # Open file
+        file_name = 'player_rankings/' + player_name + '_' + metric + '_player_rankings.txt'
+        with open(file_name) as json_file:
+            data = json.load(json_file)
+
+        # Create player df
+        df_list = []
+        for boss in data:
+            # Only gather mythic difficulty
+            if boss['difficulty'] == 5:
+                df_list.append({
+                    'player_name': player_name,
+                    'primary_role': primary_role,
+                    'boss_id': boss['encounterID'],
+                    'boss_name': boss['encounterName'],
+                    'percentile': boss['percentile'],
+                    'ilevel': boss['ilvlKeyOrPatch'],
+                    'spec': boss['spec'],
+                    'metric': metric,
+                    'ranking_date': boss['startTime']
+                })
+
+    except TypeError:
+        print("Missed data for", player_name, ": not in guild")
+
+    # Convert to df
+    player_data = pd.DataFrame(df_list, columns=['player_name',
+                                                 'primary_role',
+                                                 'boss_id',
+                                                 'boss_name',
+                                                 'percentile',
+                                                 'ilevel',
+                                                 'spec',
+                                                 'metric',
+                                                 'ranking_date'])
+
+    return player_data
+
+def player_rankings():
+    '''
+    Creates df of players' rankings from 'player_list.csv', reads info from
+    player files and saves in 'player_rankings.csv'.
+    Requires import of the following libraries: pandas as pd, json, os
+
+    args:
+        player_name: (str) player name
+        metric: (str) one of 'hps', 'dps', 'tankhps'
+        primary_role: (str) one of 'healer', 'damage', 'tank'
+    returns:
+        pandas DataFrame
+    '''
+    # Read in player_list
+    player_list = pd.read_csv('player_list.csv', encoding='iso-8859-1')
+    player_names = list(player_list.player)
+    metrics = ['hps', 'dps', 'tankhps']
+
+    # Create empty df
+    df = pd.DataFrame([], columns=['player_name',
+                                   'primary_role',
+                                   'boss_id',
+                                   'boss_name',
+                                   'percentile',
+                                   'ilevel',
+                                   'spec',
+                                   'metric',
+                                   'ranking_date'])
+
+    # Read in player info
+    for player in player_names:
+        for metric in metrics:
+            # Create player df
+            player_df = player_rankings_df(player, metric, player_list[player_list.player == player]['primary_role'].iloc[0])
+            # Join to df
+            df = pd.concat([df, player_df])
+
+    # Clean df
+    df.percentile = df.percentile.astype('int')
+    df.ilevel = df.ilevel.astype('int')
+
+    # Save df
+    df.to_csv('player_rankings.csv', index=False, encoding='iso-8859-1')
+
+    return df
