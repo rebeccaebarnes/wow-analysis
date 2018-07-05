@@ -1,3 +1,9 @@
+import pandas as pd
+import numpy as np
+import json
+import os
+import requests
+
 GUILD_NAME = 'Last%20Pull'
 REALM = 'Cenarius'
 REGION = 'US'
