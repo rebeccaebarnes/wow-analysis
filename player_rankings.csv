@@ -1,332 +1,994 @@
-player_name,boss_id,boss_name,percentile,ilevel,spec,ranking_date
-Vaelyra,2063,Aggramar,75,974,Havoc,2018-04-25
-Vaelyra,2064,Portal Keeper Hasabel,75,971,Havoc,2018-03-07
-Vaelyra,2069,Varimathras,24,963,Vengeance,2018-03-09
-Vaelyra,2070,Antoran High Command,56,963,Havoc,2018-02-28
-Vaelyra,2073,The Coven of Shivarra,70,974,Havoc,2018-03-30
-Vaelyra,2074,Felhounds of Sargeras,91,974,Havoc,2018-04-12
-Vaelyra,2075,Eonar,77,973,Havoc,2018-03-14
-Vaelyra,2076,Garothi Worldbreaker,79,961,Havoc,2018-02-07
-Vaelyra,2082,Imonar the Soulhunter,57,963,Havoc,2018-03-01
-Vaelyra,2088,Kin'garoth,60,974,Havoc,2018-03-21
-Metonymy,2063,Aggramar,25,979,Fire,2018-04-25
-Metonymy,2064,Portal Keeper Hasabel,85,975,Fire,2018-03-07
-Metonymy,2069,Varimathras,80,979,Fire,2018-04-11
-Metonymy,2070,Antoran High Command,74,973,Fire,2018-02-21
-Metonymy,2073,The Coven of Shivarra,64,979,Fire,2018-03-30
-Metonymy,2074,Felhounds of Sargeras,86,979,Fire,2018-04-12
-Metonymy,2075,Eonar,71,975,Fire,2018-03-07
-Metonymy,2076,Garothi Worldbreaker,91,979,Fire,2018-04-11
-Metonymy,2082,Imonar the Soulhunter,73,971,Fire,2018-02-16
-Metonymy,2088,Kin'garoth,60,980,Fire,2018-04-11
-Brian,2063,Aggramar,41,971,Marksmanship,2018-04-25
-Brian,2064,Portal Keeper Hasabel,71,971,Marksmanship,2018-03-07
-Brian,2069,Varimathras,90,969,Marksmanship,2018-03-29
-Brian,2070,Antoran High Command,90,971,Marksmanship,2018-03-07
-Brian,2073,The Coven of Shivarra,73,969,Marksmanship,2018-03-30
-Brian,2074,Felhounds of Sargeras,84,961,Beast Mastery,2018-02-21
-Brian,2074,Felhounds of Sargeras,95,971,Marksmanship,2018-04-12
-Brian,2075,Eonar,90,961,Marksmanship,2018-03-21
-Brian,2076,Garothi Worldbreaker,96,968,Marksmanship,2018-03-14
-Brian,2076,Garothi Worldbreaker,18,965,Survival,2018-04-11
-Brian,2082,Imonar the Soulhunter,95,970,Marksmanship,2018-04-04
-Brian,2088,Kin'garoth,81,970,Marksmanship,2018-04-11
-Shaami,2063,Aggramar,80,973,Restoration,2018-05-10
-Shaami,2064,Portal Keeper Hasabel,92,971,Restoration,2018-02-08
-Shaami,2069,Varimathras,86,975,Restoration,2018-04-10
-Shaami,2070,Antoran High Command,99,976,Restoration,2018-05-17
-Shaami,2073,The Coven of Shivarra,61,974,Feral,2018-03-27
-Shaami,2073,The Coven of Shivarra,65,976,Restoration,2018-04-12
-Shaami,2074,Felhounds of Sargeras,95,971,Restoration,2018-02-08
-Shaami,2074,Felhounds of Sargeras,57,974,Feral,2018-04-12
-Shaami,2075,Eonar,95,967,Restoration,2018-01-16
-Shaami,2075,Eonar,62,973,Feral,2018-04-05
-Shaami,2076,Garothi Worldbreaker,98,971,Restoration,2018-02-08
-Shaami,2076,Garothi Worldbreaker,56,973,Feral,2018-04-05
-Shaami,2082,Imonar the Soulhunter,95,974,Restoration,2018-03-15
-Shaami,2088,Kin'garoth,92,973,Restoration,2018-02-20
-Shaami,2088,Kin'garoth,64,973,Feral,2018-04-05
-Petrol,2063,Aggramar,17,979,Fire,2018-04-25
-Petrol,2064,Portal Keeper Hasabel,92,971,Fire,2018-03-07
-Petrol,2069,Varimathras,51,978,Fire,2018-03-21
-Petrol,2070,Antoran High Command,65,973,Fire,2018-02-21
-Petrol,2073,The Coven of Shivarra,50,979,Fire,2018-04-11
-Petrol,2074,Felhounds of Sargeras,99,975,Fire,2018-02-21
-Petrol,2075,Eonar,95,965,Fire,2018-01-12
-Petrol,2076,Garothi Worldbreaker,86,979,Fire,2018-04-04
-Petrol,2082,Imonar the Soulhunter,93,979,Fire,2018-04-11
-Petrol,2088,Kin'garoth,81,978,Fire,2018-04-05
-Ayriea,2063,Aggramar,32,976,Beast Mastery,2018-04-25
-Ayriea,2064,Portal Keeper Hasabel,83,973,Beast Mastery,2018-03-15
-Ayriea,2069,Varimathras,83,972,Beast Mastery,2018-03-09
-Ayriea,2070,Antoran High Command,15,951,Marksmanship,2018-01-24
-Ayriea,2070,Antoran High Command,72,969,Beast Mastery,2018-02-21
-Ayriea,2073,The Coven of Shivarra,79,975,Beast Mastery,2018-03-30
-Ayriea,2074,Felhounds of Sargeras,99,975,Beast Mastery,2018-04-04
-Ayriea,2075,Eonar,95,974,Beast Mastery,2018-03-21
-Ayriea,2076,Garothi Worldbreaker,61,950,Marksmanship,2018-01-24
-Ayriea,2076,Garothi Worldbreaker,97,974,Beast Mastery,2018-03-21
-Ayriea,2082,Imonar the Soulhunter,87,974,Beast Mastery,2018-03-21
-Ayriea,2088,Kin'garoth,95,974,Beast Mastery,2018-03-21
-Stradivarus,2063,Aggramar,57,972,Fury,2018-04-25
-Stradivarus,2064,Portal Keeper Hasabel,36,958,Fury,2018-02-22
-Stradivarus,2069,Varimathras,64,966,Fury,2018-03-09
-Stradivarus,2070,Antoran High Command,80,959,Fury,2018-02-23
-Stradivarus,2073,The Coven of Shivarra,88,970,Fury,2018-04-11
-Stradivarus,2074,Felhounds of Sargeras,80,966,Fury,2018-03-07
-Stradivarus,2075,Eonar,75,957,Fury,2018-02-28
-Stradivarus,2076,Garothi Worldbreaker,96,962,Fury,2018-02-21
-Stradivarus,2082,Imonar the Soulhunter,66,970,Fury,2018-03-28
-Stradivarus,2088,Kin'garoth,71,966,Fury,2018-03-08
-Earrl,2063,Aggramar,9,976,Guardian,2018-04-25
-Earrl,2064,Portal Keeper Hasabel,26,962,Guardian,2018-01-05
-Earrl,2069,Varimathras,46,973,Guardian,2018-03-21
-Earrl,2070,Antoran High Command,58,964,Guardian,2018-02-28
-Earrl,2073,The Coven of Shivarra,10,974,Guardian,2018-04-05
-Earrl,2074,Felhounds of Sargeras,34,970,Guardian,2018-02-07
-Earrl,2075,Eonar,83,965,Guardian,2018-01-19
-Earrl,2076,Garothi Worldbreaker,19,973,Guardian,2018-04-11
-Earrl,2082,Imonar the Soulhunter,53,973,Guardian,2018-04-04
-Earrl,2088,Kin'garoth,43,974,Guardian,2018-04-05
-Illestra,2063,Aggramar,29,976,Restoration,2018-04-25
-Illestra,2064,Portal Keeper Hasabel,54,962,Restoration,2018-01-05
-Illestra,2069,Varimathras,60,975,Restoration,2018-04-11
-Illestra,2070,Antoran High Command,92,965,Restoration,2018-01-11
-Illestra,2073,The Coven of Shivarra,69,974,Restoration,2018-03-30
-Illestra,2074,Felhounds of Sargeras,92,967,Restoration,2018-01-18
-Illestra,2075,Eonar,50,969,Restoration,2018-02-14
-Illestra,2076,Garothi Worldbreaker,76,969,Restoration,2018-02-21
-Illestra,2082,Imonar the Soulhunter,88,971,Restoration,2018-03-28
-Illestra,2088,Kin'garoth,24,969,Restoration,2018-02-22
-Kamer,2064,Portal Keeper Hasabel,60,963,Retribution,2018-02-07
-Kamer,2070,Antoran High Command,69,963,Retribution,2018-02-07
-Kamer,2074,Felhounds of Sargeras,65,960,Retribution,2018-01-11
-Kamer,2075,Eonar,59,961,Retribution,2018-01-19
-Kamer,2076,Garothi Worldbreaker,73,960,Retribution,2018-01-10
-Kamer,2082,Imonar the Soulhunter,59,963,Retribution,2018-02-01
-Cagliostro,2063,Aggramar,57,971,Arms,2018-04-25
-Cagliostro,2064,Portal Keeper Hasabel,99,962,Arms,2018-01-18
-Cagliostro,2069,Varimathras,94,967,Arms,2018-04-11
-Cagliostro,2070,Antoran High Command,95,964,Arms,2018-01-19
-Cagliostro,2073,The Coven of Shivarra,97,971,Arms,2018-03-30
-Cagliostro,2074,Felhounds of Sargeras,94,969,Arms,2018-02-28
-Cagliostro,2075,Eonar,88,970,Arms,2018-03-07
-Cagliostro,2076,Garothi Worldbreaker,96,969,Arms,2018-02-21
-Cagliostro,2082,Imonar the Soulhunter,82,971,Arms,2018-04-04
-Cagliostro,2088,Kin'garoth,71,969,Arms,2018-02-22
-Shallowfall,2063,Aggramar,14,971,Blood,2018-04-25
-Shallowfall,2064,Portal Keeper Hasabel,18,967,Blood,2018-02-21
-Shallowfall,2069,Varimathras,31,967,Unholy,2018-03-09
-Shallowfall,2070,Antoran High Command,59,962,Unholy,2018-02-07
-Shallowfall,2073,The Coven of Shivarra,52,969,Unholy,2018-03-30
-Shallowfall,2074,Felhounds of Sargeras,92,970,Unholy,2018-04-12
-Shallowfall,2075,Eonar,22,959,Blood,2018-01-25
-Shallowfall,2075,Eonar,99,966,Unholy,2018-02-22
-Shallowfall,2076,Garothi Worldbreaker,87,968,Unholy,2018-04-11
-Shallowfall,2082,Imonar the Soulhunter,48,969,Unholy,2018-03-28
-Shallowfall,2088,Kin'garoth,41,969,Unholy,2018-03-28
-Tawñ,2064,Portal Keeper Hasabel,70,968,Frost,2018-02-22
-Tawñ,2069,Varimathras,67,972,Frost,2018-04-10
-Tawñ,2070,Antoran High Command,57,972,Frost,2018-03-27
-Tawñ,2073,The Coven of Shivarra,83,971,Frost,2018-03-20
-Tawñ,2074,Felhounds of Sargeras,88,972,Frost,2018-03-27
-Tawñ,2075,Eonar,62,972,Frost,2018-04-05
-Tawñ,2076,Garothi Worldbreaker,93,968,Frost,2018-02-22
-Tawñ,2082,Imonar the Soulhunter,52,971,Frost,2018-03-22
-Tawñ,2088,Kin'garoth,74,969,Frost,2018-03-06
-Divanance,2063,Aggramar,72,973,Blood,2018-04-25
-Divanance,2064,Portal Keeper Hasabel,19,962,Blood,2018-01-05
-Divanance,2069,Varimathras,52,971,Blood,2018-03-21
-Divanance,2070,Antoran High Command,49,968,Blood,2018-01-11
-Divanance,2073,The Coven of Shivarra,61,972,Blood,2018-04-11
-Divanance,2074,Felhounds of Sargeras,55,974,Blood,2018-04-04
-Divanance,2075,Eonar,65,969,Blood,2018-01-25
-Divanance,2076,Garothi Worldbreaker,18,970,Blood,2018-02-28
-Divanance,2082,Imonar the Soulhunter,58,976,Blood,2018-04-11
-Divanance,2088,Kin'garoth,46,974,Blood,2018-04-05
-Psychodruid,2064,Portal Keeper Hasabel,76,966,Balance,2018-03-15
-Psychodruid,2069,Varimathras,38,974,Balance,2018-04-11
-Psychodruid,2070,Antoran High Command,64,958,Balance,2018-01-05
-Psychodruid,2070,Antoran High Command,63,965,Guardian,2018-03-14
-Psychodruid,2073,The Coven of Shivarra,36,971,Balance,2018-03-30
-Psychodruid,2074,Felhounds of Sargeras,73,965,Guardian,2018-03-14
-Psychodruid,2074,Felhounds of Sargeras,47,974,Balance,2018-04-04
-Psychodruid,2075,Eonar,25,965,Guardian,2018-03-14
-Psychodruid,2075,Eonar,38,972,Balance,2018-03-28
-Psychodruid,2076,Garothi Worldbreaker,85,965,Guardian,2018-03-14
-Psychodruid,2076,Garothi Worldbreaker,51,974,Balance,2018-04-11
-Psychodruid,2082,Imonar the Soulhunter,19,961,Balance,2018-02-09
-Psychodruid,2088,Kin'garoth,17,966,Balance,2018-03-21
-Velsummers,2064,Portal Keeper Hasabel,69,972,Balance,2018-03-09
-Velsummers,2069,Varimathras,53,974,Balance,2018-03-15
-Velsummers,2070,Antoran High Command,81,972,Balance,2018-03-09
-Velsummers,2073,The Coven of Shivarra,83,972,Balance,2018-03-15
-Velsummers,2074,Felhounds of Sargeras,87,974,Balance,2018-03-28
-Velsummers,2075,Eonar,54,972,Balance,2018-03-09
-Velsummers,2076,Garothi Worldbreaker,90,974,Balance,2018-03-14
-Velsummers,2082,Imonar the Soulhunter,75,974,Balance,2018-03-29
-Velsummers,2088,Kin'garoth,27,974,Balance,2018-03-15
-Radiantldeal,2063,Aggramar,31,972,Holy,2018-04-25
-Radiantldeal,2064,Portal Keeper Hasabel,78,972,Holy,2018-03-15
-Radiantldeal,2069,Varimathras,76,970,Holy,2018-04-05
-Radiantldeal,2070,Antoran High Command,74,970,Holy,2018-03-07
-Radiantldeal,2073,The Coven of Shivarra,35,974,Holy,2018-03-22
-Radiantldeal,2074,Felhounds of Sargeras,93,964,Holy,2018-01-24
-Radiantldeal,2074,Felhounds of Sargeras,12,956,Shadow,2018-02-21
-Radiantldeal,2075,Eonar,90,972,Holy,2018-03-21
-Radiantldeal,2076,Garothi Worldbreaker,89,949,Holy,2017-12-14
-Radiantldeal,2076,Garothi Worldbreaker,75,956,Shadow,2018-02-21
-Radiantldeal,2082,Imonar the Soulhunter,91,972,Holy,2018-03-15
-Radiantldeal,2082,Imonar the Soulhunter,95,969,Shadow,2018-04-11
-Radiantldeal,2088,Kin'garoth,86,970,Holy,2018-04-05
-Mythrose,2063,Aggramar,45,972,Discipline,2018-04-25
-Mythrose,2064,Portal Keeper Hasabel,33,970,Discipline,2018-02-28
-Mythrose,2064,Portal Keeper Hasabel,92,974,Holy,2018-03-15
-Mythrose,2069,Varimathras,84,973,Discipline,2018-04-11
-Mythrose,2070,Antoran High Command,97,958,Holy,2018-01-05
-Mythrose,2073,The Coven of Shivarra,71,971,Discipline,2018-04-11
-Mythrose,2074,Felhounds of Sargeras,90,968,Holy,2018-02-14
-Mythrose,2074,Felhounds of Sargeras,86,970,Discipline,2018-04-04
-Mythrose,2075,Eonar,99,978,Holy,2018-04-12
-Mythrose,2076,Garothi Worldbreaker,89,974,Holy,2018-03-21
-Mythrose,2076,Garothi Worldbreaker,93,971,Discipline,2018-04-11
-Mythrose,2082,Imonar the Soulhunter,99,977,Holy,2018-04-11
-Mythrose,2088,Kin'garoth,91,971,Holy,2018-02-22
-Shadowbaine,2063,Aggramar,57,979,Destruction,2018-04-25
-Shadowbaine,2064,Portal Keeper Hasabel,72,975,Destruction,2018-03-07
-Shadowbaine,2069,Varimathras,74,977,Affliction,2018-04-05
-Shadowbaine,2069,Varimathras,70,979,Destruction,2018-04-11
-Shadowbaine,2070,Antoran High Command,54,970,Affliction,2018-02-07
-Shadowbaine,2073,The Coven of Shivarra,66,976,Affliction,2018-04-05
-Shadowbaine,2074,Felhounds of Sargeras,85,975,Affliction,2018-04-04
-Shadowbaine,2075,Eonar,76,968,Affliction,2018-01-25
-Shadowbaine,2076,Garothi Worldbreaker,96,978,Destruction,2018-04-04
-Shadowbaine,2082,Imonar the Soulhunter,25,964,Affliction,2018-02-01
-Shadowbaine,2082,Imonar the Soulhunter,81,979,Destruction,2018-04-11
-Shadowbaine,2088,Kin'garoth,74,975,Destruction,2018-03-08
-Acturus,2063,Aggramar,75,976,Holy,2018-04-25
-Acturus,2064,Portal Keeper Hasabel,66,970,Holy,2018-02-14
-Acturus,2069,Varimathras,6,967,Retribution,2018-04-05
-Acturus,2069,Varimathras,39,976,Holy,2018-04-11
-Acturus,2070,Antoran High Command,83,962,Holy,2018-01-11
-Acturus,2073,The Coven of Shivarra,9,967,Retribution,2018-04-05
-Acturus,2073,The Coven of Shivarra,58,976,Holy,2018-04-11
-Acturus,2074,Felhounds of Sargeras,75,972,Holy,2018-03-07
-Acturus,2075,Eonar,42,976,Holy,2018-04-12
-Acturus,2076,Garothi Worldbreaker,82,976,Holy,2018-04-11
-Acturus,2082,Imonar the Soulhunter,95,976,Holy,2018-04-11
-Acturus,2088,Kin'garoth,23,971,Holy,2018-02-22
-Acturus,2088,Kin'garoth,6,967,Retribution,2018-04-05
-Velryssa,2063,Aggramar,91,972,Arms,2018-04-25
-Velryssa,2064,Portal Keeper Hasabel,90,953,Fury,2018-01-05
-Velryssa,2064,Portal Keeper Hasabel,82,970,Arms,2018-03-07
-Velryssa,2069,Varimathras,46,971,Arms,2018-03-29
-Velryssa,2069,Varimathras,14,966,Fury,2018-04-05
-Velryssa,2070,Antoran High Command,80,954,Fury,2018-01-11
-Velryssa,2070,Antoran High Command,70,970,Arms,2018-03-07
-Velryssa,2073,The Coven of Shivarra,51,972,Arms,2018-04-05
-Velryssa,2074,Felhounds of Sargeras,86,959,Fury,2018-01-31
-Velryssa,2074,Felhounds of Sargeras,96,966,Arms,2018-02-14
-Velryssa,2075,Eonar,85,957,Fury,2018-01-19
-Velryssa,2076,Garothi Worldbreaker,43,960,Fury,2018-02-07
-Velryssa,2076,Garothi Worldbreaker,96,970,Arms,2018-03-14
-Velryssa,2082,Imonar the Soulhunter,61,971,Arms,2018-04-04
-Velryssa,2088,Kin'garoth,25,964,Fury,2018-02-22
-Velryssa,2088,Kin'garoth,45,970,Arms,2018-03-08
-Tinytiki,2063,Aggramar,9,968,Assassination,2018-04-25
-Tinytiki,2064,Portal Keeper Hasabel,61,968,Assassination,2018-02-28
-Tinytiki,2069,Varimathras,8,968,Assassination,2018-04-05
-Tinytiki,2070,Antoran High Command,53,968,Assassination,2018-02-28
-Tinytiki,2074,Felhounds of Sargeras,50,968,Assassination,2018-04-04
-Tinytiki,2075,Eonar,72,968,Assassination,2018-02-28
-Tinytiki,2076,Garothi Worldbreaker,70,967,Assassination,2018-02-21
-Tinytiki,2082,Imonar the Soulhunter,39,968,Assassination,2018-03-21
-Tinytiki,2088,Kin'garoth,35,968,Assassination,2018-03-15
-Daffy,2063,Aggramar,39,972,Restoration,2018-04-25
-Daffy,2069,Varimathras,27,970,Restoration,2018-04-11
-Daffyjr,2070,Antoran High Command,8,967,Restoration,2018-03-17
-Daffyjr,2070,Antoran High Command,32,963,Balance,2018-03-31
-Daffy,2073,The Coven of Shivarra,19,969,Restoration,2018-04-05
-Daffyjr,2074,Felhounds of Sargeras,22,965,Balance,2018-03-24
-Daffy,2074,Felhounds of Sargeras,17,971,Restoration,2018-04-12
-Daffyjr,2075,Eonar,33,966,Balance,2018-03-24
-Daffy,2075,Eonar,78,967,Restoration,2018-04-04
-Daffyjr,2076,Garothi Worldbreaker,95,964,Balance,2018-02-17
-Daffy,2076,Garothi Worldbreaker,47,969,Restoration,2018-04-11
-Daffy,2082,Imonar the Soulhunter,45,967,Restoration,2018-04-04
-Daffy,2088,Kin'garoth,15,970,Restoration,2018-04-11
-Èllipses,2063,Aggramar,74,974,Affliction,2018-04-25
-Èllipses,2064,Portal Keeper Hasabel,43,967,Affliction,2018-03-15
-Èllipses,2069,Varimathras,86,967,Affliction,2018-03-09
-Èllipses,2070,Antoran High Command,34,966,Affliction,2018-03-07
-Èllipses,2073,The Coven of Shivarra,82,974,Affliction,2018-04-11
-Èllipses,2074,Felhounds of Sargeras,91,974,Affliction,2018-04-04
-Èllipses,2075,Eonar,40,974,Affliction,2018-04-12
-Èllipses,2076,Garothi Worldbreaker,81,974,Affliction,2018-04-04
-Èllipses,2082,Imonar the Soulhunter,73,974,Affliction,2018-04-04
-Èllipses,2088,Kin'garoth,85,967,Affliction,2018-03-15
-Au,2064,Portal Keeper Hasabel,81,972,Retribution,2018-02-21
-Au,2069,Varimathras,18,973,Retribution,2018-04-11
-Au,2070,Antoran High Command,94,971,Retribution,2018-03-07
-Au,2073,The Coven of Shivarra,49,973,Retribution,2018-03-22
-Au,2074,Felhounds of Sargeras,81,973,Retribution,2018-04-12
-Au,2075,Eonar,61,972,Retribution,2018-03-14
-Au,2076,Garothi Worldbreaker,77,973,Retribution,2018-03-07
-Au,2082,Imonar the Soulhunter,48,972,Retribution,2018-02-22
-Au,2082,Imonar the Soulhunter,33,967,Holy,2018-03-01
-Au,2088,Kin'garoth,72,973,Retribution,2018-03-21
-Future,2063,Aggramar,80,975,Elemental,2018-04-25
-Znoch,2064,Portal Keeper Hasabel,84,970,Elemental,2018-02-21
-Future,2069,Varimathras,84,975,Elemental,2018-03-16
-Znoch,2070,Antoran High Command,93,968,Elemental,2018-02-07
-Future,2073,The Coven of Shivarra,90,975,Elemental,2018-03-30
-Future,2074,Felhounds of Sargeras,92,975,Elemental,2018-04-04
-Future,2075,Eonar,90,973,Elemental,2018-03-14
-Future,2076,Garothi Worldbreaker,93,975,Elemental,2018-04-04
-Future,2082,Imonar the Soulhunter,77,975,Elemental,2018-03-28
-Future,2088,Kin'garoth,94,972,Elemental,2018-03-02
-Pulsè,2064,Portal Keeper Hasabel,86,972,Affliction,2018-03-15
-Pulsè,2069,Varimathras,90,974,Affliction,2018-04-05
-Pulsè,2070,Antoran High Command,96,972,Affliction,2018-03-14
-Pulsè,2073,The Coven of Shivarra,99,974,Affliction,2018-04-05
-Pulsè,2074,Felhounds of Sargeras,82,976,Affliction,2018-04-12
-Pulsè,2075,Eonar,75,974,Affliction,2018-04-04
-Pulsè,2076,Garothi Worldbreaker,87,974,Affliction,2018-04-04
-Pulsè,2082,Imonar the Soulhunter,57,973,Affliction,2018-03-21
-Pulsè,2082,Imonar the Soulhunter,24,972,Destruction,2018-04-04
-Pulsè,2088,Kin'garoth,80,972,Affliction,2018-03-08
-Kyarrix,2064,Portal Keeper Hasabel,59,968,Beast Mastery,2018-02-28
-Kyarrix,2069,Varimathras,60,970,Beast Mastery,2018-03-29
-Kyarrix,2070,Antoran High Command,64,965,Beast Mastery,2018-02-14
-Kyarrix,2074,Felhounds of Sargeras,87,966,Beast Mastery,2018-02-21
-Kyarrix,2075,Eonar,50,969,Beast Mastery,2018-03-14
-Kyarrix,2076,Garothi Worldbreaker,71,968,Beast Mastery,2018-03-14
-Kyarrix,2082,Imonar the Soulhunter,73,968,Beast Mastery,2018-03-15
-Kyarrix,2088,Kin'garoth,28,969,Beast Mastery,2018-03-15
-Yoked,2075,Eonar,13,961,Frost,2018-03-21
-Yoked,2076,Garothi Worldbreaker,36,961,Frost,2018-03-21
-Bryiah,2064,Portal Keeper Hasabel,50,967,Retribution,2018-02-28
-Bryiah,2069,Varimathras,9,969,Retribution,2018-03-16
-Bryiah,2070,Antoran High Command,10,960,Retribution,2018-02-14
-Bryiah,2074,Felhounds of Sargeras,49,968,Retribution,2018-03-14
-Bryiah,2075,Eonar,43,968,Retribution,2018-03-14
-Bryiah,2076,Garothi Worldbreaker,52,968,Retribution,2018-03-14
-Bryiah,2082,Imonar the Soulhunter,9,967,Retribution,2018-03-01
-Bryiah,2088,Kin'garoth,10,967,Retribution,2018-03-02
-Zephyyra,2064,Portal Keeper Hasabel,21,967,Restoration,2018-02-28
-Zephyyra,2069,Varimathras,17,973,Restoration,2018-03-29
-Zephyyra,2070,Antoran High Command,32,973,Restoration,2018-03-14
-Zephyyra,2074,Felhounds of Sargeras,35,966,Restoration,2018-02-21
-Zephyyra,2075,Eonar,32,972,Restoration,2018-03-07
-Zephyyra,2076,Garothi Worldbreaker,19,956,Restoration,2018-01-04
-Zephyyra,2082,Imonar the Soulhunter,9,965,Restoration,2018-02-16
-Zephyyra,2088,Kin'garoth,5,971,Restoration,2018-03-02
-Googboog,2064,Portal Keeper Hasabel,86,964,Enhancement,2018-01-18
-Googboog,2070,Antoran High Command,94,963,Enhancement,2018-01-11
-Googboog,2074,Felhounds of Sargeras,75,965,Enhancement,2018-01-24
-Googboog,2075,Eonar,97,965,Enhancement,2018-01-25
-Googboog,2076,Garothi Worldbreaker,90,965,Enhancement,2018-01-24
-Cinzia,2064,Portal Keeper Hasabel,33,955,Beast Mastery,2018-01-18
-Cinzia,2070,Antoran High Command,8,950,Beast Mastery,2018-01-05
-Cinzia,2074,Felhounds of Sargeras,48,955,Beast Mastery,2018-01-18
-Cinzia,2076,Garothi Worldbreaker,18,951,Beast Mastery,2018-01-04
+player_name,primary_role,boss_id,boss_name,percentile,ilevel,spec,metric,ranking_date
+Vaelyra,damage,2063,Aggramar,59,974,Havoc,hps,1524630281068
+Vaelyra,damage,2064,Portal Keeper Hasabel,51,973,Havoc,hps,1521079882001
+Vaelyra,damage,2069,Varimathras,8,965,Vengeance,hps,1522896515498
+Vaelyra,damage,2070,Antoran High Command,71,961,Havoc,hps,1517980921959
+Vaelyra,damage,2073,The Coven of Shivarra,18,974,Havoc,hps,1522901008745
+Vaelyra,damage,2074,Felhounds of Sargeras,89,974,Havoc,hps,1522808393108
+Vaelyra,damage,2075,Eonar,38,973,Havoc,hps,1520398228358
+Vaelyra,damage,2076,Garothi Worldbreaker,90,949,Havoc,hps,1512712039198
+Vaelyra,damage,2082,Imonar the Soulhunter,99,973,Havoc,hps,1520401314116
+Vaelyra,damage,2088,Kin'garoth,79,974,Havoc,hps,1521605014073
+Vaelyra,damage,2063,Aggramar,75,974,Havoc,dps,1524630281068
+Vaelyra,damage,2064,Portal Keeper Hasabel,75,971,Havoc,dps,1520396684567
+Vaelyra,damage,2069,Varimathras,24,963,Vengeance,dps,1520569397568
+Vaelyra,damage,2070,Antoran High Command,56,963,Havoc,dps,1519793441868
+Vaelyra,damage,2073,The Coven of Shivarra,70,974,Havoc,dps,1522376934318
+Vaelyra,damage,2074,Felhounds of Sargeras,91,974,Havoc,dps,1523499180913
+Vaelyra,damage,2075,Eonar,77,973,Havoc,dps,1521002530175
+Vaelyra,damage,2076,Garothi Worldbreaker,79,961,Havoc,dps,1517979484801
+Vaelyra,damage,2082,Imonar the Soulhunter,57,963,Havoc,dps,1519876812409
+Vaelyra,damage,2088,Kin'garoth,60,974,Havoc,dps,1521605014073
+Vaelyra,damage,2063,Aggramar,84,974,Havoc,tankhps,1524630281068
+Vaelyra,damage,2064,Portal Keeper Hasabel,99,959,Havoc,tankhps,1516252872076
+Vaelyra,damage,2069,Varimathras,8,965,Vengeance,tankhps,1522896515498
+Vaelyra,damage,2070,Antoran High Command,82,973,Havoc,tankhps,1520395725301
+Vaelyra,damage,2073,The Coven of Shivarra,75,974,Havoc,tankhps,1521687707637
+Vaelyra,damage,2074,Felhounds of Sargeras,80,953,Havoc,tankhps,1513834010309
+Vaelyra,damage,2075,Eonar,90,959,Havoc,tankhps,1516334842591
+Vaelyra,damage,2076,Garothi Worldbreaker,96,953,Havoc,tankhps,1513828848451
+Vaelyra,damage,2082,Imonar the Soulhunter,95,974,Havoc,tankhps,1522205659716
+Vaelyra,damage,2088,Kin'garoth,75,963,Havoc,tankhps,1519277566021
+Metonymy,damage,2063,Aggramar,19,979,Fire,hps,1524630281068
+Metonymy,damage,2064,Portal Keeper Hasabel,56,970,Fire,hps,1516849859958
+Metonymy,damage,2069,Varimathras,17,978,Fire,hps,1521607425341
+Metonymy,damage,2070,Antoran High Command,25,969,Fire,hps,1517376924206
+Metonymy,damage,2073,The Coven of Shivarra,11,979,Fire,hps,1522901008745
+Metonymy,damage,2074,Felhounds of Sargeras,93,954,Fire,hps,1513307636011
+Metonymy,damage,2075,Eonar,28,970,Fire,hps,1516852272031
+Metonymy,damage,2076,Garothi Worldbreaker,95,972,Fire,hps,1518577683075
+Metonymy,damage,2082,Imonar the Soulhunter,86,973,Fire,hps,1519876812409
+Metonymy,damage,2088,Kin'garoth,22,980,Fire,hps,1522894708677
+Metonymy,damage,2063,Aggramar,25,979,Fire,dps,1524630281068
+Metonymy,damage,2064,Portal Keeper Hasabel,85,975,Fire,dps,1520396684567
+Metonymy,damage,2069,Varimathras,80,979,Fire,dps,1523418451728
+Metonymy,damage,2070,Antoran High Command,74,973,Fire,dps,1519188706862
+Metonymy,damage,2073,The Coven of Shivarra,64,979,Fire,dps,1522376934318
+Metonymy,damage,2074,Felhounds of Sargeras,86,979,Fire,dps,1523499180913
+Metonymy,damage,2075,Eonar,71,975,Fire,dps,1520398228358
+Metonymy,damage,2076,Garothi Worldbreaker,91,979,Fire,dps,1523412517978
+Metonymy,damage,2082,Imonar the Soulhunter,73,971,Fire,dps,1518756782147
+Metonymy,damage,2088,Kin'garoth,60,980,Fire,dps,1523416330465
+Metonymy,damage,2063,Aggramar,99,979,Fire,tankhps,1524630281068
+Metonymy,damage,2064,Portal Keeper Hasabel,99,961,Fire,tankhps,1515130363055
+Metonymy,damage,2069,Varimathras,100,976,Fire,tankhps,1520569397568
+Metonymy,damage,2070,Antoran High Command,99,961,Fire,tankhps,1515122898246
+Metonymy,damage,2073,The Coven of Shivarra,99,978,Fire,tankhps,1521687707637
+Metonymy,damage,2074,Felhounds of Sargeras,99,954,Fire,tankhps,1513307636011
+Metonymy,damage,2075,Eonar,100,963,Fire,tankhps,1515733013436
+Metonymy,damage,2076,Garothi Worldbreaker,100,953,Fire,tankhps,1512712039198
+Metonymy,damage,2082,Imonar the Soulhunter,99,968,Fire,tankhps,1517464313373
+Metonymy,damage,2088,Kin'garoth,99,974,Fire,tankhps,1519277566021
+Brian,damage,2063,Aggramar,97,971,Marksmanship,hps,1524630281068
+Brian,damage,2064,Portal Keeper Hasabel,56,965,Marksmanship,hps,1519794868091
+Brian,damage,2069,Varimathras,85,969,Marksmanship,hps,1521607425341
+Brian,damage,2070,Antoran High Command,36,965,Marksmanship,hps,1519188706862
+Brian,damage,2073,The Coven of Shivarra,96,970,Marksmanship,hps,1523421264349
+Brian,damage,2074,Felhounds of Sargeras,24,964,Beast Mastery,hps,1519791952922
+Brian,damage,2074,Felhounds of Sargeras,85,970,Marksmanship,hps,1522808393108
+Brian,damage,2075,Eonar,68,965,Marksmanship,hps,1523500679659
+Brian,damage,2076,Garothi Worldbreaker,83,970,Marksmanship,hps,1522807798544
+Brian,damage,2076,Garothi Worldbreaker,61,965,Survival,hps,1523412517978
+Brian,damage,2082,Imonar the Soulhunter,98,964,Marksmanship,hps,1518756782147
+Brian,damage,2088,Kin'garoth,92,970,Marksmanship,hps,1519961880739
+Brian,damage,2063,Aggramar,41,971,Marksmanship,dps,1524630281068
+Brian,damage,2064,Portal Keeper Hasabel,71,971,Marksmanship,dps,1520396684567
+Brian,damage,2069,Varimathras,90,969,Marksmanship,dps,1522292673441
+Brian,damage,2070,Antoran High Command,90,971,Marksmanship,dps,1520395725301
+Brian,damage,2073,The Coven of Shivarra,73,969,Marksmanship,dps,1522376934318
+Brian,damage,2074,Felhounds of Sargeras,84,961,Beast Mastery,dps,1519187697625
+Brian,damage,2074,Felhounds of Sargeras,95,971,Marksmanship,dps,1523499180913
+Brian,damage,2075,Eonar,90,961,Marksmanship,dps,1521600980965
+Brian,damage,2076,Garothi Worldbreaker,96,968,Marksmanship,dps,1520998041848
+Brian,damage,2076,Garothi Worldbreaker,18,965,Survival,dps,1523412517978
+Brian,damage,2082,Imonar the Soulhunter,95,970,Marksmanship,dps,1522813327487
+Brian,damage,2088,Kin'garoth,81,970,Marksmanship,dps,1523416330465
+Brian,damage,2063,Aggramar,99,971,Marksmanship,tankhps,1524630281068
+Brian,damage,2064,Portal Keeper Hasabel,99,960,Marksmanship,tankhps,1517455706753
+Brian,damage,2069,Varimathras,99,966,Marksmanship,tankhps,1520569397568
+Brian,damage,2070,Antoran High Command,99,961,Marksmanship,tankhps,1517980921959
+Brian,damage,2073,The Coven of Shivarra,99,969,Marksmanship,tankhps,1521687707637
+Brian,damage,2074,Felhounds of Sargeras,90,955,Beast Mastery,tankhps,1517980075296
+Brian,damage,2074,Felhounds of Sargeras,99,971,Marksmanship,tankhps,1520394938240
+Brian,damage,2075,Eonar,99,953,Marksmanship,tankhps,1517458306323
+Brian,damage,2076,Garothi Worldbreaker,99,961,Marksmanship,tankhps,1517979484801
+Brian,damage,2076,Garothi Worldbreaker,99,965,Survival,tankhps,1523412517978
+Brian,damage,2082,Imonar the Soulhunter,99,959,Marksmanship,tankhps,1517464313373
+Brian,damage,2088,Kin'garoth,99,965,Marksmanship,tankhps,1519277566021
+Shaami,healer,2063,Aggramar,80,973,Restoration,hps,1525924317360
+Shaami,healer,2064,Portal Keeper Hasabel,92,971,Restoration,hps,1518060210754
+Shaami,healer,2069,Varimathras,86,975,Restoration,hps,1523324914601
+Shaami,healer,2070,Antoran High Command,99,976,Restoration,hps,1526523545546
+Shaami,healer,2073,The Coven of Shivarra,61,974,Feral,hps,1522111625185
+Shaami,healer,2073,The Coven of Shivarra,65,976,Restoration,hps,1523497841205
+Shaami,healer,2074,Felhounds of Sargeras,95,971,Restoration,hps,1518054155339
+Shaami,healer,2074,Felhounds of Sargeras,57,974,Feral,hps,1523492120762
+Shaami,healer,2075,Eonar,95,967,Restoration,hps,1516073690253
+Shaami,healer,2075,Eonar,62,973,Feral,hps,1522890043324
+Shaami,healer,2076,Garothi Worldbreaker,98,971,Restoration,hps,1518052359528
+Shaami,healer,2076,Garothi Worldbreaker,56,973,Feral,hps,1522887280110
+Shaami,healer,2082,Imonar the Soulhunter,95,974,Restoration,hps,1521076012921
+Shaami,healer,2088,Kin'garoth,92,973,Restoration,hps,1519094639522
+Shaami,healer,2088,Kin'garoth,64,973,Feral,hps,1522895250060
+Shaami,healer,2063,Aggramar,20,973,Restoration,dps,1525924317360
+Shaami,healer,2064,Portal Keeper Hasabel,97,973,Restoration,dps,1519869524908
+Shaami,healer,2069,Varimathras,43,975,Restoration,dps,1521688206524
+Shaami,healer,2070,Antoran High Command,84,968,Restoration,dps,1516845350053
+Shaami,healer,2073,The Coven of Shivarra,9,974,Feral,dps,1522111625185
+Shaami,healer,2073,The Coven of Shivarra,40,976,Restoration,dps,1523497841205
+Shaami,healer,2074,Felhounds of Sargeras,84,968,Restoration,dps,1516844321874
+Shaami,healer,2074,Felhounds of Sargeras,67,974,Feral,dps,1523492120762
+Shaami,healer,2075,Eonar,76,975,Restoration,dps,1521679700836
+Shaami,healer,2075,Eonar,9,973,Feral,dps,1522890040046
+Shaami,healer,2076,Garothi Worldbreaker,89,973,Restoration,dps,1520471713367
+Shaami,healer,2076,Garothi Worldbreaker,72,973,Feral,dps,1522887280110
+Shaami,healer,2082,Imonar the Soulhunter,91,975,Restoration,dps,1521682115832
+Shaami,healer,2088,Kin'garoth,80,975,Restoration,dps,1521685273702
+Shaami,healer,2088,Kin'garoth,20,973,Feral,dps,1522895250060
+Shaami,healer,2063,Aggramar,71,973,Restoration,tankhps,1525924317360
+Shaami,healer,2064,Portal Keeper Hasabel,94,971,Restoration,tankhps,1518060210754
+Shaami,healer,2069,Varimathras,87,975,Restoration,tankhps,1523324914601
+Shaami,healer,2070,Antoran High Command,83,976,Restoration,tankhps,1526523545546
+Shaami,healer,2073,The Coven of Shivarra,95,974,Feral,tankhps,1521518074677
+Shaami,healer,2073,The Coven of Shivarra,88,976,Restoration,tankhps,1523497841205
+Shaami,healer,2074,Felhounds of Sargeras,87,975,Restoration,tankhps,1522113174908
+Shaami,healer,2074,Felhounds of Sargeras,80,974,Feral,tankhps,1523492120762
+Shaami,healer,2075,Eonar,84,970,Restoration,tankhps,1517453935389
+Shaami,healer,2075,Eonar,80,973,Feral,tankhps,1522890043324
+Shaami,healer,2076,Garothi Worldbreaker,85,975,Restoration,tankhps,1522282295816
+Shaami,healer,2076,Garothi Worldbreaker,90,973,Feral,tankhps,1522887280110
+Shaami,healer,2082,Imonar the Soulhunter,79,974,Restoration,tankhps,1520474818768
+Shaami,healer,2088,Kin'garoth,97,975,Restoration,tankhps,1522724969449
+Shaami,healer,2088,Kin'garoth,90,973,Feral,tankhps,1522895253430
+Petrol,damage,2063,Aggramar,61,979,Fire,hps,1524630281068
+Petrol,damage,2064,Portal Keeper Hasabel,63,972,Fire,hps,1518580911747
+Petrol,damage,2069,Varimathras,82,978,Fire,hps,1521607425341
+Petrol,damage,2070,Antoran High Command,42,966,Fire,hps,1515642354665
+Petrol,damage,2073,The Coven of Shivarra,34,979,Fire,hps,1523421264349
+Petrol,damage,2074,Felhounds of Sargeras,82,971,Fire,hps,1517376003305
+Petrol,damage,2075,Eonar,80,971,Fire,hps,1517458306323
+Petrol,damage,2076,Garothi Worldbreaker,96,972,Fire,hps,1518577683075
+Petrol,damage,2082,Imonar the Soulhunter,97,972,Fire,hps,1518145906721
+Petrol,damage,2088,Kin'garoth,49,978,Fire,hps,1522209262483
+Petrol,damage,2063,Aggramar,17,979,Fire,dps,1524630281068
+Petrol,damage,2064,Portal Keeper Hasabel,92,971,Fire,dps,1520396684567
+Petrol,damage,2069,Varimathras,51,978,Fire,dps,1521607425341
+Petrol,damage,2070,Antoran High Command,65,973,Fire,dps,1519188706862
+Petrol,damage,2073,The Coven of Shivarra,50,979,Fire,dps,1523421264349
+Petrol,damage,2074,Felhounds of Sargeras,99,975,Fire,dps,1519187697625
+Petrol,damage,2075,Eonar,95,965,Fire,dps,1515733013436
+Petrol,damage,2076,Garothi Worldbreaker,86,979,Fire,dps,1522807798544
+Petrol,damage,2082,Imonar the Soulhunter,93,979,Fire,dps,1523414443165
+Petrol,damage,2088,Kin'garoth,81,978,Fire,dps,1522894708677
+Petrol,damage,2063,Aggramar,99,979,Fire,tankhps,1524630281068
+Petrol,damage,2064,Portal Keeper Hasabel,99,961,Fire,tankhps,1515130363055
+Petrol,damage,2069,Varimathras,100,976,Fire,tankhps,1520569397568
+Petrol,damage,2070,Antoran High Command,99,961,Fire,tankhps,1515122898246
+Petrol,damage,2073,The Coven of Shivarra,99,979,Fire,tankhps,1521687707637
+Petrol,damage,2074,Felhounds of Sargeras,99,952,Fire,tankhps,1513307636011
+Petrol,damage,2075,Eonar,100,965,Fire,tankhps,1515733013436
+Petrol,damage,2076,Garothi Worldbreaker,100,952,Fire,tankhps,1512712039198
+Petrol,damage,2082,Imonar the Soulhunter,99,971,Fire,tankhps,1517464313373
+Petrol,damage,2088,Kin'garoth,99,974,Fire,tankhps,1519277566021
+Ayriea,damage,2063,Aggramar,66,976,Beast Mastery,hps,1524630281068
+Ayriea,damage,2064,Portal Keeper Hasabel,88,973,Beast Mastery,hps,1521079882001
+Ayriea,damage,2069,Varimathras,91,975,Beast Mastery,hps,1521168193659
+Ayriea,damage,2070,Antoran High Command,70,953,Beast Mastery,hps,1515122898246
+Ayriea,damage,2070,Antoran High Command,6,951,Marksmanship,hps,1516772280170
+Ayriea,damage,2073,The Coven of Shivarra,74,975,Beast Mastery,hps,1522376934318
+Ayriea,damage,2074,Felhounds of Sargeras,88,953,Beast Mastery,hps,1515039964678
+Ayriea,damage,2075,Eonar,87,955,Beast Mastery,hps,1516334842591
+Ayriea,damage,2076,Garothi Worldbreaker,9,950,Marksmanship,hps,1516769435682
+Ayriea,damage,2076,Garothi Worldbreaker,68,975,Beast Mastery,hps,1523412517978
+Ayriea,damage,2082,Imonar the Soulhunter,97,968,Beast Mastery,hps,1518145906721
+Ayriea,damage,2088,Kin'garoth,92,975,Beast Mastery,hps,1521085242770
+Ayriea,damage,2063,Aggramar,32,976,Beast Mastery,dps,1524630281068
+Ayriea,damage,2064,Portal Keeper Hasabel,83,973,Beast Mastery,dps,1521079882001
+Ayriea,damage,2069,Varimathras,83,972,Beast Mastery,dps,1520569397568
+Ayriea,damage,2070,Antoran High Command,15,951,Marksmanship,dps,1516772280170
+Ayriea,damage,2070,Antoran High Command,72,969,Beast Mastery,dps,1519188706862
+Ayriea,damage,2073,The Coven of Shivarra,79,975,Beast Mastery,dps,1522376934318
+Ayriea,damage,2074,Felhounds of Sargeras,99,975,Beast Mastery,dps,1522808393108
+Ayriea,damage,2075,Eonar,95,974,Beast Mastery,dps,1521600980965
+Ayriea,damage,2076,Garothi Worldbreaker,61,950,Marksmanship,dps,1516769435682
+Ayriea,damage,2076,Garothi Worldbreaker,97,974,Beast Mastery,dps,1521599805800
+Ayriea,damage,2082,Imonar the Soulhunter,87,974,Beast Mastery,dps,1521604136509
+Ayriea,damage,2088,Kin'garoth,95,974,Beast Mastery,dps,1521605014073
+Ayriea,damage,2063,Aggramar,95,976,Beast Mastery,tankhps,1524630281068
+Ayriea,damage,2064,Portal Keeper Hasabel,95,953,Beast Mastery,tankhps,1515130363055
+Ayriea,damage,2069,Varimathras,90,972,Beast Mastery,tankhps,1520569397568
+Ayriea,damage,2070,Antoran High Command,95,953,Beast Mastery,tankhps,1515122898246
+Ayriea,damage,2070,Antoran High Command,99,951,Marksmanship,tankhps,1516772280170
+Ayriea,damage,2073,The Coven of Shivarra,95,975,Beast Mastery,tankhps,1521687707637
+Ayriea,damage,2074,Felhounds of Sargeras,95,949,Beast Mastery,tankhps,1513307636011
+Ayriea,damage,2075,Eonar,95,953,Beast Mastery,tankhps,1515733013436
+Ayriea,damage,2076,Garothi Worldbreaker,95,949,Beast Mastery,tankhps,1512712039198
+Ayriea,damage,2076,Garothi Worldbreaker,99,950,Marksmanship,tankhps,1516769435682
+Ayriea,damage,2082,Imonar the Soulhunter,95,958,Beast Mastery,tankhps,1517464313373
+Ayriea,damage,2088,Kin'garoth,95,969,Beast Mastery,tankhps,1519277566021
+Stradivarus,damage,2063,Aggramar,19,972,Fury,hps,1524630281068
+Stradivarus,damage,2064,Portal Keeper Hasabel,47,958,Fury,hps,1519268724305
+Stradivarus,damage,2069,Varimathras,36,970,Fury,hps,1523418451728
+Stradivarus,damage,2070,Antoran High Command,33,962,Fury,hps,1520395725301
+Stradivarus,damage,2073,The Coven of Shivarra,41,969,Fury,hps,1521687707637
+Stradivarus,damage,2074,Felhounds of Sargeras,65,970,Fury,hps,1522808393108
+Stradivarus,damage,2075,Eonar,38,956,Fury,hps,1519265494431
+Stradivarus,damage,2076,Garothi Worldbreaker,18,970,Fury,hps,1523412517978
+Stradivarus,damage,2082,Imonar the Soulhunter,54,970,Fury,hps,1523414443165
+Stradivarus,damage,2088,Kin'garoth,53,968,Fury,hps,1521605014073
+Stradivarus,damage,2063,Aggramar,57,972,Fury,dps,1524630281068
+Stradivarus,damage,2064,Portal Keeper Hasabel,36,958,Fury,dps,1519268724305
+Stradivarus,damage,2069,Varimathras,64,966,Fury,dps,1520569397568
+Stradivarus,damage,2070,Antoran High Command,80,959,Fury,dps,1519358831714
+Stradivarus,damage,2073,The Coven of Shivarra,88,970,Fury,dps,1523421264349
+Stradivarus,damage,2074,Felhounds of Sargeras,80,966,Fury,dps,1520394938240
+Stradivarus,damage,2075,Eonar,75,957,Fury,dps,1519788062051
+Stradivarus,damage,2076,Garothi Worldbreaker,96,962,Fury,dps,1519184670805
+Stradivarus,damage,2082,Imonar the Soulhunter,66,970,Fury,dps,1522205659716
+Stradivarus,damage,2088,Kin'garoth,71,966,Fury,dps,1520484709791
+Stradivarus,damage,2063,Aggramar,99,972,Fury,tankhps,1524630281068
+Stradivarus,damage,2064,Portal Keeper Hasabel,99,966,Fury,tankhps,1520396684567
+Stradivarus,damage,2069,Varimathras,99,966,Fury,tankhps,1520569397568
+Stradivarus,damage,2070,Antoran High Command,99,962,Fury,tankhps,1520395725301
+Stradivarus,damage,2073,The Coven of Shivarra,99,969,Fury,tankhps,1521687707637
+Stradivarus,damage,2074,Felhounds of Sargeras,99,966,Fury,tankhps,1520394938240
+Stradivarus,damage,2075,Eonar,99,959,Fury,tankhps,1520398228358
+Stradivarus,damage,2076,Garothi Worldbreaker,99,966,Fury,tankhps,1520394276503
+Stradivarus,damage,2082,Imonar the Soulhunter,99,966,Fury,tankhps,1520401314116
+Stradivarus,damage,2088,Kin'garoth,99,966,Fury,tankhps,1520484709791
+Earrl,tank,2063,Aggramar,9,976,Guardian,hps,1524630281068
+Earrl,tank,2064,Portal Keeper Hasabel,26,962,Guardian,hps,1515130363055
+Earrl,tank,2069,Varimathras,55,973,Guardian,hps,1521607425341
+Earrl,tank,2070,Antoran High Command,52,964,Guardian,hps,1519793441868
+Earrl,tank,2073,The Coven of Shivarra,9,974,Guardian,hps,1522901008745
+Earrl,tank,2074,Felhounds of Sargeras,36,970,Guardian,hps,1517980075296
+Earrl,tank,2075,Eonar,85,965,Guardian,hps,1516334842591
+Earrl,tank,2076,Garothi Worldbreaker,18,973,Guardian,hps,1523412517978
+Earrl,tank,2082,Imonar the Soulhunter,50,973,Guardian,hps,1522813327487
+Earrl,tank,2088,Kin'garoth,41,974,Guardian,hps,1522894708677
+Earrl,tank,2063,Aggramar,13,976,Guardian,dps,1524630281068
+Earrl,tank,2064,Portal Keeper Hasabel,81,968,Guardian,dps,1517982342329
+Earrl,tank,2069,Varimathras,59,973,Guardian,dps,1521168193659
+Earrl,tank,2070,Antoran High Command,44,964,Guardian,dps,1519793441868
+Earrl,tank,2073,The Coven of Shivarra,20,967,Guardian,dps,1523421264349
+Earrl,tank,2074,Felhounds of Sargeras,60,970,Guardian,dps,1517980075296
+Earrl,tank,2075,Eonar,15,964,Guardian,dps,1519270102929
+Earrl,tank,2076,Garothi Worldbreaker,68,973,Guardian,dps,1521599805800
+Earrl,tank,2082,Imonar the Soulhunter,55,974,Guardian,dps,1522205659716
+Earrl,tank,2088,Kin'garoth,29,973,Guardian,dps,1519277566021
+Earrl,tank,2063,Aggramar,9,976,Guardian,tankhps,1524630281068
+Earrl,tank,2064,Portal Keeper Hasabel,26,962,Guardian,tankhps,1515130363055
+Earrl,tank,2069,Varimathras,46,973,Guardian,tankhps,1521607425341
+Earrl,tank,2070,Antoran High Command,58,964,Guardian,tankhps,1519793441868
+Earrl,tank,2073,The Coven of Shivarra,10,974,Guardian,tankhps,1522901008745
+Earrl,tank,2074,Felhounds of Sargeras,34,970,Guardian,tankhps,1517980075296
+Earrl,tank,2075,Eonar,83,965,Guardian,tankhps,1516334842591
+Earrl,tank,2076,Garothi Worldbreaker,19,973,Guardian,tankhps,1523412517978
+Earrl,tank,2082,Imonar the Soulhunter,53,973,Guardian,tankhps,1522813327487
+Earrl,tank,2088,Kin'garoth,43,974,Guardian,tankhps,1522894708677
+Illestra,healer,2063,Aggramar,29,976,Restoration,hps,1524630281068
+Illestra,healer,2064,Portal Keeper Hasabel,54,962,Restoration,hps,1515130363055
+Illestra,healer,2069,Varimathras,60,975,Restoration,hps,1523418451728
+Illestra,healer,2070,Antoran High Command,92,965,Restoration,hps,1515642354665
+Illestra,healer,2073,The Coven of Shivarra,69,974,Restoration,hps,1522376934318
+Illestra,healer,2074,Felhounds of Sargeras,92,967,Restoration,hps,1516245283845
+Illestra,healer,2075,Eonar,50,969,Restoration,hps,1518581903601
+Illestra,healer,2076,Garothi Worldbreaker,76,969,Restoration,hps,1519187091250
+Illestra,healer,2082,Imonar the Soulhunter,88,971,Restoration,hps,1522205659716
+Illestra,healer,2088,Kin'garoth,24,969,Restoration,hps,1519277566021
+Illestra,healer,2063,Aggramar,75,976,Restoration,dps,1524630281068
+Illestra,healer,2064,Portal Keeper Hasabel,89,972,Restoration,dps,1521079882001
+Illestra,healer,2069,Varimathras,95,973,Restoration,dps,1520569397568
+Illestra,healer,2070,Antoran High Command,97,972,Restoration,dps,1521000531210
+Illestra,healer,2073,The Coven of Shivarra,89,974,Restoration,dps,1522376934318
+Illestra,healer,2074,Felhounds of Sargeras,91,971,Restoration,dps,1519791952922
+Illestra,healer,2075,Eonar,94,972,Restoration,dps,1521600980965
+Illestra,healer,2076,Garothi Worldbreaker,96,972,Restoration,dps,1520394276503
+Illestra,healer,2082,Imonar the Soulhunter,85,971,Restoration,dps,1522205659716
+Illestra,healer,2088,Kin'garoth,96,972,Restoration,dps,1519961880739
+Illestra,healer,2063,Aggramar,75,976,Restoration,tankhps,1524630281068
+Illestra,healer,2064,Portal Keeper Hasabel,64,962,Restoration,tankhps,1515130363055
+Illestra,healer,2069,Varimathras,95,974,Restoration,tankhps,1522896515498
+Illestra,healer,2070,Antoran High Command,99,967,Restoration,tankhps,1516338297103
+Illestra,healer,2073,The Coven of Shivarra,46,973,Restoration,tankhps,1522900996301
+Illestra,healer,2074,Felhounds of Sargeras,96,961,Restoration,tankhps,1515039964678
+Illestra,healer,2075,Eonar,9,972,Restoration,tankhps,1521600980965
+Illestra,healer,2076,Garothi Worldbreaker,95,951,Restoration,tankhps,1512712039198
+Illestra,healer,2082,Imonar the Soulhunter,84,968,Restoration,tankhps,1517464313373
+Illestra,healer,2088,Kin'garoth,92,973,Restoration,tankhps,1522894708677
+Kamer,damage,2064,Portal Keeper Hasabel,53,963,Retribution,hps,1517982342329
+Kamer,damage,2070,Antoran High Command,48,963,Retribution,hps,1517980921959
+Kamer,damage,2074,Felhounds of Sargeras,75,960,Retribution,hps,1515641042349
+Kamer,damage,2075,Eonar,32,961,Retribution,hps,1516852272031
+Kamer,damage,2076,Garothi Worldbreaker,83,955,Retribution,hps,1513828848451
+Kamer,damage,2082,Imonar the Soulhunter,83,965,Retribution,hps,1518145906721
+Kamer,damage,2064,Portal Keeper Hasabel,60,963,Retribution,dps,1517982342329
+Kamer,damage,2070,Antoran High Command,69,963,Retribution,dps,1517980921959
+Kamer,damage,2074,Felhounds of Sargeras,65,960,Retribution,dps,1515641042349
+Kamer,damage,2075,Eonar,59,961,Retribution,dps,1516334842591
+Kamer,damage,2076,Garothi Worldbreaker,73,960,Retribution,dps,1515562796615
+Kamer,damage,2082,Imonar the Soulhunter,59,963,Retribution,dps,1517464313373
+Kamer,damage,2064,Portal Keeper Hasabel,95,960,Retribution,tankhps,1515646087606
+Kamer,damage,2070,Antoran High Command,93,956,Retribution,tankhps,1515122898246
+Kamer,damage,2074,Felhounds of Sargeras,92,955,Retribution,tankhps,1513834010309
+Kamer,damage,2075,Eonar,31,964,Retribution,tankhps,1517458306323
+Kamer,damage,2076,Garothi Worldbreaker,92,955,Retribution,tankhps,1513828848451
+Kamer,damage,2082,Imonar the Soulhunter,25,963,Retribution,tankhps,1517464313373
+Cagliostro,damage,2063,Aggramar,41,971,Arms,hps,1524630281068
+Cagliostro,damage,2064,Portal Keeper Hasabel,81,955,Arms,hps,1515130363055
+Cagliostro,damage,2069,Varimathras,44,971,Arms,hps,1522292673441
+Cagliostro,damage,2070,Antoran High Command,59,953,Arms,hps,1515122898246
+Cagliostro,damage,2073,The Coven of Shivarra,29,971,Arms,hps,1522376934318
+Cagliostro,damage,2074,Felhounds of Sargeras,60,969,Arms,hps,1519791952922
+Cagliostro,damage,2075,Eonar,63,969,Arms,hps,1518581903601
+Cagliostro,damage,2076,Garothi Worldbreaker,50,969,Arms,hps,1519187091250
+Cagliostro,damage,2082,Imonar the Soulhunter,97,969,Arms,hps,1518756782147
+Cagliostro,damage,2088,Kin'garoth,28,969,Arms,hps,1520484709791
+Cagliostro,damage,2063,Aggramar,57,971,Arms,dps,1524630281068
+Cagliostro,damage,2064,Portal Keeper Hasabel,99,962,Arms,dps,1516252872076
+Cagliostro,damage,2069,Varimathras,94,967,Arms,dps,1523418451728
+Cagliostro,damage,2070,Antoran High Command,95,964,Arms,dps,1516338297103
+Cagliostro,damage,2073,The Coven of Shivarra,97,971,Arms,dps,1522376934318
+Cagliostro,damage,2074,Felhounds of Sargeras,94,969,Arms,dps,1519791952922
+Cagliostro,damage,2075,Eonar,88,970,Arms,dps,1520398228358
+Cagliostro,damage,2076,Garothi Worldbreaker,96,969,Arms,dps,1519187091250
+Cagliostro,damage,2082,Imonar the Soulhunter,82,971,Arms,dps,1522813327487
+Cagliostro,damage,2088,Kin'garoth,71,969,Arms,dps,1519277566021
+Cagliostro,damage,2063,Aggramar,99,971,Arms,tankhps,1524630281068
+Cagliostro,damage,2064,Portal Keeper Hasabel,99,967,Arms,tankhps,1517982342329
+Cagliostro,damage,2069,Varimathras,100,969,Arms,tankhps,1520569397568
+Cagliostro,damage,2070,Antoran High Command,99,969,Arms,tankhps,1521000531210
+Cagliostro,damage,2073,The Coven of Shivarra,99,970,Arms,tankhps,1521687707637
+Cagliostro,damage,2074,Felhounds of Sargeras,99,953,Arms,tankhps,1515039964678
+Cagliostro,damage,2075,Eonar,99,955,Arms,tankhps,1515733013436
+Cagliostro,damage,2076,Garothi Worldbreaker,100,953,Arms,tankhps,1515037651071
+Cagliostro,damage,2082,Imonar the Soulhunter,99,965,Arms,tankhps,1517464313373
+Cagliostro,damage,2088,Kin'garoth,99,969,Arms,tankhps,1519277566021
+Shallowfall,damage,2063,Aggramar,8,971,Blood,hps,1524630281068
+Shallowfall,damage,2064,Portal Keeper Hasabel,6,955,Blood,hps,1515646087606
+Shallowfall,damage,2069,Varimathras,54,969,Unholy,hps,1522896515498
+Shallowfall,damage,2070,Antoran High Command,44,950,Unholy,hps,1515122898246
+Shallowfall,damage,2073,The Coven of Shivarra,82,969,Unholy,hps,1522376934318
+Shallowfall,damage,2074,Felhounds of Sargeras,67,962,Unholy,hps,1518578325471
+Shallowfall,damage,2075,Eonar,54,959,Blood,hps,1516852272031
+Shallowfall,damage,2075,Eonar,73,969,Unholy,hps,1521600980965
+Shallowfall,damage,2076,Garothi Worldbreaker,70,957,Unholy,hps,1515562796615
+Shallowfall,damage,2082,Imonar the Soulhunter,76,969,Unholy,hps,1521080629977
+Shallowfall,damage,2088,Kin'garoth,51,969,Unholy,hps,1522209262483
+Shallowfall,damage,2063,Aggramar,14,971,Blood,dps,1524630281068
+Shallowfall,damage,2064,Portal Keeper Hasabel,18,967,Blood,dps,1519190421534
+Shallowfall,damage,2069,Varimathras,31,967,Unholy,dps,1520569397568
+Shallowfall,damage,2070,Antoran High Command,59,962,Unholy,dps,1517980921959
+Shallowfall,damage,2073,The Coven of Shivarra,52,969,Unholy,dps,1522376934318
+Shallowfall,damage,2074,Felhounds of Sargeras,92,970,Unholy,dps,1523499180913
+Shallowfall,damage,2075,Eonar,22,959,Blood,dps,1516852272031
+Shallowfall,damage,2075,Eonar,99,966,Unholy,dps,1519270102929
+Shallowfall,damage,2076,Garothi Worldbreaker,87,968,Unholy,dps,1523412517978
+Shallowfall,damage,2082,Imonar the Soulhunter,48,969,Unholy,dps,1522205659716
+Shallowfall,damage,2088,Kin'garoth,41,969,Unholy,dps,1522209262483
+Shallowfall,damage,2063,Aggramar,8,971,Blood,tankhps,1524630281068
+Shallowfall,damage,2064,Portal Keeper Hasabel,6,955,Blood,tankhps,1515646087606
+Shallowfall,damage,2069,Varimathras,100,967,Unholy,tankhps,1520569397568
+Shallowfall,damage,2070,Antoran High Command,100,950,Unholy,tankhps,1515122898246
+Shallowfall,damage,2073,The Coven of Shivarra,99,969,Unholy,tankhps,1522376934318
+Shallowfall,damage,2074,Felhounds of Sargeras,100,949,Unholy,tankhps,1513834010309
+Shallowfall,damage,2075,Eonar,99,958,Unholy,tankhps,1515733013436
+Shallowfall,damage,2075,Eonar,52,959,Blood,tankhps,1516852272031
+Shallowfall,damage,2076,Garothi Worldbreaker,100,942,Unholy,tankhps,1512712039198
+Shallowfall,damage,2082,Imonar the Soulhunter,99,960,Unholy,tankhps,1517464313373
+Shallowfall,damage,2088,Kin'garoth,100,967,Unholy,tankhps,1519277566021
+Tawñ,damage,2064,Portal Keeper Hasabel,83,966,Frost,hps,1516682225349
+Tawñ,damage,2069,Varimathras,90,971,Frost,hps,1520310815047
+Tawñ,damage,2070,Antoran High Command,99,954,Frost,hps,1513654898825
+Tawñ,damage,2073,The Coven of Shivarra,93,971,Frost,hps,1522111625185
+Tawñ,damage,2074,Felhounds of Sargeras,97,950,Frost,hps,1513050741087
+Tawñ,damage,2075,Eonar,91,964,Frost,hps,1515472110061
+Tawñ,damage,2076,Garothi Worldbreaker,97,956,Frost,hps,1513818426517
+Tawñ,damage,2082,Imonar the Soulhunter,84,965,Frost,hps,1517460469516
+Tawñ,damage,2088,Kin'garoth,94,965,Frost,hps,1519094639522
+Tawñ,damage,2064,Portal Keeper Hasabel,70,968,Frost,dps,1519265923864
+Tawñ,damage,2069,Varimathras,67,972,Frost,dps,1523324914601
+Tawñ,damage,2070,Antoran High Command,57,972,Frost,dps,1522114218494
+Tawñ,damage,2073,The Coven of Shivarra,83,971,Frost,dps,1521518074677
+Tawñ,damage,2074,Felhounds of Sargeras,88,972,Frost,dps,1522113174908
+Tawñ,damage,2075,Eonar,62,972,Frost,dps,1522890040046
+Tawñ,damage,2076,Garothi Worldbreaker,93,968,Frost,dps,1519262727554
+Tawñ,damage,2082,Imonar the Soulhunter,52,971,Frost,dps,1521682115832
+Tawñ,damage,2088,Kin'garoth,74,969,Frost,dps,1520302011507
+Tawñ,damage,2064,Portal Keeper Hasabel,100,964,Frost,tankhps,1515465669066
+Tawñ,damage,2069,Varimathras,99,971,Frost,tankhps,1520310815047
+Tawñ,damage,2070,Antoran High Command,100,954,Frost,tankhps,1513654898825
+Tawñ,damage,2073,The Coven of Shivarra,99,971,Frost,tankhps,1521518074866
+Tawñ,damage,2074,Felhounds of Sargeras,99,950,Frost,tankhps,1513050742492
+Tawñ,damage,2075,Eonar,100,964,Frost,tankhps,1515472106894
+Tawñ,damage,2076,Garothi Worldbreaker,99,950,Frost,tankhps,1513044001467
+Tawñ,damage,2082,Imonar the Soulhunter,99,965,Frost,tankhps,1517288187355
+Tawñ,damage,2088,Kin'garoth,99,965,Frost,tankhps,1519098238512
+Divanance,tank,2063,Aggramar,72,973,Blood,hps,1524630281068
+Divanance,tank,2064,Portal Keeper Hasabel,20,962,Blood,hps,1515130363055
+Divanance,tank,2069,Varimathras,58,971,Blood,hps,1521607425341
+Divanance,tank,2070,Antoran High Command,59,968,Blood,hps,1515642354665
+Divanance,tank,2073,The Coven of Shivarra,61,972,Blood,hps,1523421264349
+Divanance,tank,2074,Felhounds of Sargeras,57,974,Blood,hps,1522808393108
+Divanance,tank,2075,Eonar,70,969,Blood,hps,1516852272031
+Divanance,tank,2076,Garothi Worldbreaker,18,970,Blood,hps,1519791306866
+Divanance,tank,2082,Imonar the Soulhunter,58,976,Blood,hps,1523414443165
+Divanance,tank,2088,Kin'garoth,46,974,Blood,hps,1522894708677
+Divanance,tank,2063,Aggramar,66,973,Blood,dps,1524630281068
+Divanance,tank,2064,Portal Keeper Hasabel,82,965,Blood,dps,1519794868091
+Divanance,tank,2069,Varimathras,64,972,Blood,dps,1522292673441
+Divanance,tank,2070,Antoran High Command,59,972,Blood,dps,1520395725301
+Divanance,tank,2073,The Coven of Shivarra,45,972,Blood,dps,1521687707637
+Divanance,tank,2074,Felhounds of Sargeras,75,972,Blood,dps,1519187697625
+Divanance,tank,2075,Eonar,45,972,Blood,dps,1520398228358
+Divanance,tank,2076,Garothi Worldbreaker,69,974,Blood,dps,1522807798544
+Divanance,tank,2082,Imonar the Soulhunter,65,976,Blood,dps,1521604136509
+Divanance,tank,2088,Kin'garoth,58,976,Blood,dps,1521605014073
+Divanance,tank,2063,Aggramar,72,973,Blood,tankhps,1524630281068
+Divanance,tank,2064,Portal Keeper Hasabel,19,962,Blood,tankhps,1515130363055
+Divanance,tank,2069,Varimathras,52,971,Blood,tankhps,1521607425341
+Divanance,tank,2070,Antoran High Command,49,968,Blood,tankhps,1515642354665
+Divanance,tank,2073,The Coven of Shivarra,61,972,Blood,tankhps,1523421264349
+Divanance,tank,2074,Felhounds of Sargeras,55,974,Blood,tankhps,1522808393108
+Divanance,tank,2075,Eonar,65,969,Blood,tankhps,1516852272031
+Divanance,tank,2076,Garothi Worldbreaker,18,970,Blood,tankhps,1519791306866
+Divanance,tank,2082,Imonar the Soulhunter,58,976,Blood,tankhps,1523414443165
+Divanance,tank,2088,Kin'garoth,46,974,Blood,tankhps,1522894708677
+Psychodruid,damage,2064,Portal Keeper Hasabel,79,958,Balance,hps,1515130363055
+Psychodruid,damage,2069,Varimathras,89,974,Balance,hps,1522896515498
+Psychodruid,damage,2070,Antoran High Command,84,958,Balance,hps,1515122898246
+Psychodruid,damage,2070,Antoran High Command,54,965,Guardian,hps,1521000531210
+Psychodruid,damage,2073,The Coven of Shivarra,68,971,Balance,hps,1522901008745
+Psychodruid,damage,2074,Felhounds of Sargeras,23,965,Guardian,hps,1520999436695
+Psychodruid,damage,2074,Felhounds of Sargeras,92,974,Balance,hps,1522808393108
+Psychodruid,damage,2075,Eonar,66,965,Guardian,hps,1521002534869
+Psychodruid,damage,2075,Eonar,73,972,Balance,hps,1522203845319
+Psychodruid,damage,2076,Garothi Worldbreaker,34,965,Guardian,hps,1520998041848
+Psychodruid,damage,2076,Garothi Worldbreaker,67,974,Balance,hps,1522807798544
+Psychodruid,damage,2082,Imonar the Soulhunter,100,965,Balance,hps,1520401314116
+Psychodruid,damage,2088,Kin'garoth,85,974,Balance,hps,1522209262483
+Psychodruid,damage,2064,Portal Keeper Hasabel,76,966,Balance,dps,1521079882001
+Psychodruid,damage,2069,Varimathras,38,974,Balance,dps,1523418451728
+Psychodruid,damage,2070,Antoran High Command,64,958,Balance,dps,1515122898246
+Psychodruid,damage,2070,Antoran High Command,63,965,Guardian,dps,1521000531210
+Psychodruid,damage,2073,The Coven of Shivarra,36,971,Balance,dps,1522376934318
+Psychodruid,damage,2074,Felhounds of Sargeras,73,965,Guardian,dps,1520999436695
+Psychodruid,damage,2074,Felhounds of Sargeras,47,974,Balance,dps,1522808393108
+Psychodruid,damage,2075,Eonar,25,965,Guardian,dps,1521002530175
+Psychodruid,damage,2075,Eonar,38,972,Balance,dps,1522203845319
+Psychodruid,damage,2076,Garothi Worldbreaker,85,965,Guardian,dps,1520998041848
+Psychodruid,damage,2076,Garothi Worldbreaker,51,974,Balance,dps,1523412517978
+Psychodruid,damage,2082,Imonar the Soulhunter,19,961,Balance,dps,1518145906721
+Psychodruid,damage,2088,Kin'garoth,17,966,Balance,dps,1521605014073
+Psychodruid,damage,2064,Portal Keeper Hasabel,99,966,Balance,tankhps,1520396684567
+Psychodruid,damage,2069,Varimathras,98,962,Balance,tankhps,1520569397568
+Psychodruid,damage,2070,Antoran High Command,99,964,Balance,tankhps,1517376924206
+Psychodruid,damage,2070,Antoran High Command,48,965,Guardian,tankhps,1521000531210
+Psychodruid,damage,2073,The Coven of Shivarra,98,971,Balance,tankhps,1522901008745
+Psychodruid,damage,2074,Felhounds of Sargeras,98,955,Balance,tankhps,1515039964678
+Psychodruid,damage,2074,Felhounds of Sargeras,21,965,Guardian,tankhps,1520999436695
+Psychodruid,damage,2075,Eonar,96,965,Balance,tankhps,1520398228358
+Psychodruid,damage,2075,Eonar,55,965,Guardian,tankhps,1521002534869
+Psychodruid,damage,2076,Garothi Worldbreaker,98,955,Balance,tankhps,1515037651071
+Psychodruid,damage,2076,Garothi Worldbreaker,30,965,Guardian,tankhps,1520998041848
+Psychodruid,damage,2082,Imonar the Soulhunter,99,962,Balance,tankhps,1521080629977
+Psychodruid,damage,2088,Kin'garoth,99,962,Balance,tankhps,1519961880739
+Velsummers,damage,2064,Portal Keeper Hasabel,78,972,Balance,hps,1520573505515
+Velsummers,damage,2069,Varimathras,33,974,Balance,hps,1519882103373
+Velsummers,damage,2070,Antoran High Command,97,972,Balance,hps,1520999185621
+Velsummers,damage,2073,The Coven of Shivarra,76,972,Balance,hps,1521086245330
+Velsummers,damage,2074,Felhounds of Sargeras,65,972,Balance,hps,1520998190648
+Velsummers,damage,2075,Eonar,55,972,Balance,hps,1521002187477
+Velsummers,damage,2076,Garothi Worldbreaker,41,974,Balance,hps,1522206238588
+Velsummers,damage,2082,Imonar the Soulhunter,72,974,Balance,hps,1521003284485
+Velsummers,damage,2088,Kin'garoth,42,974,Balance,hps,1521081916947
+Velsummers,damage,2064,Portal Keeper Hasabel,69,972,Balance,dps,1520573505515
+Velsummers,damage,2069,Varimathras,53,974,Balance,dps,1521089594127
+Velsummers,damage,2070,Antoran High Command,81,972,Balance,dps,1520572352755
+Velsummers,damage,2073,The Coven of Shivarra,83,972,Balance,dps,1521086245330
+Velsummers,damage,2074,Felhounds of Sargeras,87,974,Balance,dps,1522207610505
+Velsummers,damage,2075,Eonar,54,972,Balance,dps,1520575030781
+Velsummers,damage,2076,Garothi Worldbreaker,90,974,Balance,dps,1520997521637
+Velsummers,damage,2082,Imonar the Soulhunter,75,974,Balance,dps,1522290973776
+Velsummers,damage,2088,Kin'garoth,27,974,Balance,dps,1521081916947
+Velsummers,damage,2064,Portal Keeper Hasabel,90,972,Balance,tankhps,1520573505515
+Velsummers,damage,2069,Varimathras,95,974,Balance,tankhps,1519882100979
+Velsummers,damage,2070,Antoran High Command,90,972,Balance,tankhps,1520572352755
+Velsummers,damage,2073,The Coven of Shivarra,95,972,Balance,tankhps,1519876641020
+Velsummers,damage,2074,Felhounds of Sargeras,80,974,Balance,tankhps,1520570964864
+Velsummers,damage,2075,Eonar,80,972,Balance,tankhps,1520575032963
+Velsummers,damage,2076,Garothi Worldbreaker,90,973,Balance,tankhps,1519790658269
+Velsummers,damage,2082,Imonar the Soulhunter,90,973,Balance,tankhps,1519791790168
+Velsummers,damage,2088,Kin'garoth,95,973,Balance,tankhps,1519794047157
+Radiantldeal,healer,2063,Aggramar,31,972,Holy,hps,1524630281068
+Radiantldeal,healer,2064,Portal Keeper Hasabel,78,972,Holy,hps,1521079882001
+Radiantldeal,healer,2069,Varimathras,76,970,Holy,hps,1522896515498
+Radiantldeal,healer,2070,Antoran High Command,74,970,Holy,hps,1520395725301
+Radiantldeal,healer,2073,The Coven of Shivarra,35,974,Holy,hps,1521687707637
+Radiantldeal,healer,2074,Felhounds of Sargeras,93,964,Holy,hps,1516770353280
+Radiantldeal,healer,2074,Felhounds of Sargeras,12,956,Shadow,hps,1519187697625
+Radiantldeal,healer,2075,Eonar,90,972,Holy,hps,1521600980965
+Radiantldeal,healer,2076,Garothi Worldbreaker,89,949,Holy,hps,1513228458280
+Radiantldeal,healer,2076,Garothi Worldbreaker,75,956,Shadow,hps,1519187091250
+Radiantldeal,healer,2082,Imonar the Soulhunter,91,972,Holy,hps,1521080629977
+Radiantldeal,healer,2082,Imonar the Soulhunter,95,969,Shadow,hps,1523414443165
+Radiantldeal,healer,2088,Kin'garoth,86,970,Holy,hps,1522894708677
+Radiantldeal,healer,2063,Aggramar,31,972,Holy,dps,1524630281068
+Radiantldeal,healer,2064,Portal Keeper Hasabel,50,964,Holy,dps,1516849859958
+Radiantldeal,healer,2069,Varimathras,33,971,Holy,dps,1522292673441
+Radiantldeal,healer,2070,Antoran High Command,30,954,Holy,dps,1515122898246
+Radiantldeal,healer,2073,The Coven of Shivarra,70,972,Holy,dps,1522901008745
+Radiantldeal,healer,2074,Felhounds of Sargeras,32,956,Shadow,dps,1519187697625
+Radiantldeal,healer,2074,Felhounds of Sargeras,43,970,Holy,dps,1523499180913
+Radiantldeal,healer,2075,Eonar,73,972,Holy,dps,1522203845319
+Radiantldeal,healer,2076,Garothi Worldbreaker,62,946,Holy,dps,1512712039198
+Radiantldeal,healer,2076,Garothi Worldbreaker,62,969,Shadow,dps,1523412517978
+Radiantldeal,healer,2082,Imonar the Soulhunter,25,966,Holy,dps,1517464313373
+Radiantldeal,healer,2082,Imonar the Soulhunter,53,969,Shadow,dps,1523414443165
+Radiantldeal,healer,2088,Kin'garoth,26,972,Holy,dps,1521605014073
+Radiantldeal,healer,2063,Aggramar,64,972,Holy,tankhps,1524630281068
+Radiantldeal,healer,2064,Portal Keeper Hasabel,90,967,Holy,tankhps,1517982342329
+Radiantldeal,healer,2069,Varimathras,96,971,Holy,tankhps,1521168193659
+Radiantldeal,healer,2070,Antoran High Command,86,964,Holy,tankhps,1516772280170
+Radiantldeal,healer,2073,The Coven of Shivarra,60,972,Holy,tankhps,1522901008745
+Radiantldeal,healer,2074,Felhounds of Sargeras,91,955,Holy,tankhps,1515641042349
+Radiantldeal,healer,2074,Felhounds of Sargeras,20,956,Shadow,tankhps,1519187697625
+Radiantldeal,healer,2075,Eonar,9,972,Holy,tankhps,1523500679659
+Radiantldeal,healer,2076,Garothi Worldbreaker,74,970,Holy,tankhps,1520394276503
+Radiantldeal,healer,2076,Garothi Worldbreaker,61,969,Shadow,tankhps,1523412517978
+Radiantldeal,healer,2082,Imonar the Soulhunter,70,970,Holy,tankhps,1520401314116
+Radiantldeal,healer,2082,Imonar the Soulhunter,64,969,Shadow,tankhps,1523414443165
+Radiantldeal,healer,2088,Kin'garoth,61,972,Holy,tankhps,1521605014073
+Mythrose,healer,2063,Aggramar,45,972,Discipline,hps,1524630281068
+Mythrose,healer,2064,Portal Keeper Hasabel,33,970,Discipline,hps,1519794868091
+Mythrose,healer,2064,Portal Keeper Hasabel,92,974,Holy,hps,1521079882001
+Mythrose,healer,2069,Varimathras,84,973,Discipline,hps,1523418451728
+Mythrose,healer,2070,Antoran High Command,97,958,Holy,hps,1515122898246
+Mythrose,healer,2073,The Coven of Shivarra,71,971,Discipline,hps,1523421264349
+Mythrose,healer,2074,Felhounds of Sargeras,90,968,Holy,hps,1518578325471
+Mythrose,healer,2074,Felhounds of Sargeras,86,970,Discipline,hps,1522808393108
+Mythrose,healer,2075,Eonar,99,978,Holy,hps,1523500685670
+Mythrose,healer,2076,Garothi Worldbreaker,89,974,Holy,hps,1521599805800
+Mythrose,healer,2076,Garothi Worldbreaker,93,971,Discipline,hps,1523412517978
+Mythrose,healer,2082,Imonar the Soulhunter,99,977,Holy,hps,1523414443165
+Mythrose,healer,2088,Kin'garoth,91,971,Holy,hps,1519277566021
+Mythrose,healer,2063,Aggramar,15,972,Discipline,dps,1524630281068
+Mythrose,healer,2064,Portal Keeper Hasabel,80,960,Holy,dps,1515130363055
+Mythrose,healer,2064,Portal Keeper Hasabel,26,970,Discipline,dps,1519794868091
+Mythrose,healer,2069,Varimathras,71,971,Discipline,dps,1521607425341
+Mythrose,healer,2070,Antoran High Command,86,965,Holy,dps,1516772280170
+Mythrose,healer,2073,The Coven of Shivarra,45,971,Discipline,dps,1521687707637
+Mythrose,healer,2074,Felhounds of Sargeras,74,972,Holy,dps,1520394938240
+Mythrose,healer,2074,Felhounds of Sargeras,54,970,Discipline,dps,1520999436695
+Mythrose,healer,2075,Eonar,41,965,Holy,dps,1516852272031
+Mythrose,healer,2076,Garothi Worldbreaker,81,955,Holy,dps,1513828848451
+Mythrose,healer,2076,Garothi Worldbreaker,59,971,Discipline,dps,1523412517978
+Mythrose,healer,2082,Imonar the Soulhunter,73,968,Holy,dps,1518145906721
+Mythrose,healer,2088,Kin'garoth,58,974,Holy,dps,1522894708677
+Mythrose,healer,2063,Aggramar,34,972,Discipline,tankhps,1524630281068
+Mythrose,healer,2064,Portal Keeper Hasabel,91,964,Holy,tankhps,1516252872076
+Mythrose,healer,2064,Portal Keeper Hasabel,55,970,Discipline,tankhps,1519794868091
+Mythrose,healer,2069,Varimathras,57,966,Discipline,tankhps,1520569397568
+Mythrose,healer,2070,Antoran High Command,96,971,Holy,tankhps,1519188706862
+Mythrose,healer,2073,The Coven of Shivarra,66,971,Discipline,tankhps,1523421264349
+Mythrose,healer,2074,Felhounds of Sargeras,90,972,Holy,tankhps,1519791952922
+Mythrose,healer,2074,Felhounds of Sargeras,87,971,Discipline,tankhps,1523499180913
+Mythrose,healer,2075,Eonar,99,978,Holy,tankhps,1523500679659
+Mythrose,healer,2076,Garothi Worldbreaker,96,960,Holy,tankhps,1515562796615
+Mythrose,healer,2076,Garothi Worldbreaker,65,970,Discipline,tankhps,1520998041848
+Mythrose,healer,2082,Imonar the Soulhunter,99,972,Holy,tankhps,1519876812409
+Mythrose,healer,2088,Kin'garoth,93,974,Holy,tankhps,1522894708677
+Shadowbaine,damage,2063,Aggramar,23,979,Destruction,hps,1524630281068
+Shadowbaine,damage,2064,Portal Keeper Hasabel,84,961,Destruction,hps,1516252872076
+Shadowbaine,damage,2069,Varimathras,14,975,Affliction,hps,1521607425341
+Shadowbaine,damage,2069,Varimathras,41,979,Destruction,hps,1523418451728
+Shadowbaine,damage,2070,Antoran High Command,46,959,Affliction,hps,1515642354665
+Shadowbaine,damage,2073,The Coven of Shivarra,78,976,Affliction,hps,1522901008745
+Shadowbaine,damage,2074,Felhounds of Sargeras,73,976,Affliction,hps,1523499180913
+Shadowbaine,damage,2075,Eonar,74,973,Affliction,hps,1519795900955
+Shadowbaine,damage,2076,Garothi Worldbreaker,64,979,Destruction,hps,1523412517978
+Shadowbaine,damage,2082,Imonar the Soulhunter,14,964,Affliction,hps,1517464313373
+Shadowbaine,damage,2082,Imonar the Soulhunter,86,973,Destruction,hps,1519876812409
+Shadowbaine,damage,2088,Kin'garoth,75,975,Destruction,hps,1520484709791
+Shadowbaine,damage,2063,Aggramar,57,979,Destruction,dps,1524630281068
+Shadowbaine,damage,2064,Portal Keeper Hasabel,72,975,Destruction,dps,1520396684567
+Shadowbaine,damage,2069,Varimathras,74,977,Affliction,dps,1522896515498
+Shadowbaine,damage,2069,Varimathras,70,979,Destruction,dps,1523418451728
+Shadowbaine,damage,2070,Antoran High Command,54,970,Affliction,dps,1517980921959
+Shadowbaine,damage,2073,The Coven of Shivarra,66,976,Affliction,dps,1522901008745
+Shadowbaine,damage,2074,Felhounds of Sargeras,85,975,Affliction,dps,1522808393108
+Shadowbaine,damage,2075,Eonar,76,968,Affliction,dps,1516852272031
+Shadowbaine,damage,2076,Garothi Worldbreaker,96,978,Destruction,dps,1522807798544
+Shadowbaine,damage,2082,Imonar the Soulhunter,25,964,Affliction,dps,1517464313373
+Shadowbaine,damage,2082,Imonar the Soulhunter,81,979,Destruction,dps,1523414443165
+Shadowbaine,damage,2088,Kin'garoth,74,975,Destruction,dps,1520484709791
+Shadowbaine,damage,2063,Aggramar,100,979,Destruction,tankhps,1524630281068
+Shadowbaine,damage,2064,Portal Keeper Hasabel,100,961,Destruction,tankhps,1515130363055
+Shadowbaine,damage,2069,Varimathras,99,974,Affliction,tankhps,1521168193659
+Shadowbaine,damage,2069,Varimathras,100,978,Destruction,tankhps,1522292673441
+Shadowbaine,damage,2070,Antoran High Command,99,958,Affliction,tankhps,1515122898246
+Shadowbaine,damage,2073,The Coven of Shivarra,99,975,Affliction,tankhps,1521687707637
+Shadowbaine,damage,2074,Felhounds of Sargeras,99,954,Affliction,tankhps,1513307636011
+Shadowbaine,damage,2075,Eonar,99,960,Affliction,tankhps,1515733013436
+Shadowbaine,damage,2076,Garothi Worldbreaker,100,953,Destruction,tankhps,1512712039198
+Shadowbaine,damage,2082,Imonar the Soulhunter,99,964,Affliction,tankhps,1517464313373
+Shadowbaine,damage,2082,Imonar the Soulhunter,99,971,Destruction,tankhps,1518145906721
+Shadowbaine,damage,2088,Kin'garoth,99,974,Destruction,tankhps,1519277566021
+Acturus,healer,2063,Aggramar,75,976,Holy,hps,1524630281068
+Acturus,healer,2064,Portal Keeper Hasabel,66,970,Holy,hps,1518580911747
+Acturus,healer,2069,Varimathras,6,967,Retribution,hps,1522896515498
+Acturus,healer,2069,Varimathras,39,976,Holy,hps,1523418451728
+Acturus,healer,2070,Antoran High Command,83,962,Holy,hps,1515642354665
+Acturus,healer,2073,The Coven of Shivarra,9,967,Retribution,hps,1522901008745
+Acturus,healer,2073,The Coven of Shivarra,58,976,Holy,hps,1523421264349
+Acturus,healer,2074,Felhounds of Sargeras,75,972,Holy,hps,1520394938240
+Acturus,healer,2075,Eonar,42,976,Holy,hps,1523500685670
+Acturus,healer,2076,Garothi Worldbreaker,82,976,Holy,hps,1523412517978
+Acturus,healer,2082,Imonar the Soulhunter,95,976,Holy,hps,1523414443165
+Acturus,healer,2088,Kin'garoth,23,971,Holy,hps,1519277566021
+Acturus,healer,2088,Kin'garoth,6,967,Retribution,hps,1522894708677
+Acturus,healer,2063,Aggramar,65,976,Holy,dps,1524630281068
+Acturus,healer,2064,Portal Keeper Hasabel,90,962,Holy,dps,1515130363055
+Acturus,healer,2069,Varimathras,46,967,Retribution,dps,1522292673441
+Acturus,healer,2069,Varimathras,43,976,Holy,dps,1523418451728
+Acturus,healer,2070,Antoran High Command,73,962,Holy,dps,1515122898246
+Acturus,healer,2073,The Coven of Shivarra,9,967,Retribution,dps,1522901008745
+Acturus,healer,2073,The Coven of Shivarra,77,976,Holy,dps,1523421264349
+Acturus,healer,2074,Felhounds of Sargeras,67,976,Holy,dps,1523499180913
+Acturus,healer,2075,Eonar,75,974,Holy,dps,1521002530175
+Acturus,healer,2076,Garothi Worldbreaker,74,976,Holy,dps,1522807798544
+Acturus,healer,2082,Imonar the Soulhunter,72,976,Holy,dps,1523414443165
+Acturus,healer,2088,Kin'garoth,7,967,Retribution,dps,1522894708677
+Acturus,healer,2088,Kin'garoth,69,976,Holy,dps,1523416330465
+Acturus,healer,2063,Aggramar,78,976,Holy,tankhps,1524630281068
+Acturus,healer,2064,Portal Keeper Hasabel,78,970,Holy,tankhps,1518580911747
+Acturus,healer,2069,Varimathras,82,967,Retribution,tankhps,1522292673441
+Acturus,healer,2069,Varimathras,53,976,Holy,tankhps,1523418451728
+Acturus,healer,2070,Antoran High Command,43,962,Holy,tankhps,1515642354665
+Acturus,healer,2073,The Coven of Shivarra,69,976,Holy,tankhps,1522376934318
+Acturus,healer,2073,The Coven of Shivarra,91,967,Retribution,tankhps,1522901008745
+Acturus,healer,2074,Felhounds of Sargeras,95,953,Holy,tankhps,1513307636011
+Acturus,healer,2075,Eonar,86,962,Holy,tankhps,1515733013436
+Acturus,healer,2076,Garothi Worldbreaker,96,951,Holy,tankhps,1512712039198
+Acturus,healer,2082,Imonar the Soulhunter,74,970,Holy,tankhps,1518145906721
+Acturus,healer,2088,Kin'garoth,48,972,Holy,tankhps,1520484709791
+Acturus,healer,2088,Kin'garoth,89,967,Retribution,tankhps,1522894708677
+Velryssa,damage,2063,Aggramar,49,972,Arms,hps,1524630281068
+Velryssa,damage,2064,Portal Keeper Hasabel,23,953,Fury,hps,1515130363055
+Velryssa,damage,2064,Portal Keeper Hasabel,8,970,Arms,hps,1520396684567
+Velryssa,damage,2069,Varimathras,23,971,Arms,hps,1522292673441
+Velryssa,damage,2069,Varimathras,9,966,Fury,hps,1522896515498
+Velryssa,damage,2070,Antoran High Command,18,953,Fury,hps,1515122898246
+Velryssa,damage,2070,Antoran High Command,21,970,Arms,hps,1520395725301
+Velryssa,damage,2073,The Coven of Shivarra,35,972,Arms,hps,1522901008745
+Velryssa,damage,2074,Felhounds of Sargeras,8,960,Fury,hps,1517980075296
+Velryssa,damage,2074,Felhounds of Sargeras,83,969,Arms,hps,1520394938240
+Velryssa,damage,2075,Eonar,20,956,Fury,hps,1516852272031
+Velryssa,damage,2076,Garothi Worldbreaker,9,960,Fury,hps,1517979484801
+Velryssa,damage,2076,Garothi Worldbreaker,85,969,Arms,hps,1519187091250
+Velryssa,damage,2082,Imonar the Soulhunter,95,970,Arms,hps,1520401314116
+Velryssa,damage,2088,Kin'garoth,27,964,Fury,hps,1519277566021
+Velryssa,damage,2088,Kin'garoth,46,971,Arms,hps,1522894708677
+Velryssa,damage,2063,Aggramar,91,972,Arms,dps,1524630281068
+Velryssa,damage,2064,Portal Keeper Hasabel,90,953,Fury,dps,1515130363055
+Velryssa,damage,2064,Portal Keeper Hasabel,82,970,Arms,dps,1520396684567
+Velryssa,damage,2069,Varimathras,46,971,Arms,dps,1522292673441
+Velryssa,damage,2069,Varimathras,14,966,Fury,dps,1522896515498
+Velryssa,damage,2070,Antoran High Command,80,954,Fury,dps,1515642354665
+Velryssa,damage,2070,Antoran High Command,70,970,Arms,dps,1520395725301
+Velryssa,damage,2073,The Coven of Shivarra,51,972,Arms,dps,1522901008745
+Velryssa,damage,2074,Felhounds of Sargeras,86,959,Fury,dps,1517376003305
+Velryssa,damage,2074,Felhounds of Sargeras,96,966,Arms,dps,1518578325471
+Velryssa,damage,2075,Eonar,85,957,Fury,dps,1516334842591
+Velryssa,damage,2076,Garothi Worldbreaker,43,960,Fury,dps,1517979484801
+Velryssa,damage,2076,Garothi Worldbreaker,96,970,Arms,dps,1520998041848
+Velryssa,damage,2082,Imonar the Soulhunter,61,971,Arms,dps,1522813327487
+Velryssa,damage,2088,Kin'garoth,25,964,Fury,dps,1519277566021
+Velryssa,damage,2088,Kin'garoth,45,970,Arms,dps,1520484709791
+Velryssa,damage,2063,Aggramar,99,972,Arms,tankhps,1524630281068
+Velryssa,damage,2064,Portal Keeper Hasabel,99,953,Fury,tankhps,1515130363055
+Velryssa,damage,2064,Portal Keeper Hasabel,99,970,Arms,tankhps,1520396684567
+Velryssa,damage,2069,Varimathras,100,956,Arms,tankhps,1520569397568
+Velryssa,damage,2069,Varimathras,99,966,Fury,tankhps,1522896515498
+Velryssa,damage,2070,Antoran High Command,99,953,Fury,tankhps,1515122898246
+Velryssa,damage,2070,Antoran High Command,99,970,Arms,tankhps,1520395725301
+Velryssa,damage,2073,The Coven of Shivarra,99,971,Arms,tankhps,1521687707637
+Velryssa,damage,2074,Felhounds of Sargeras,100,949,Arms,tankhps,1513307636011
+Velryssa,damage,2074,Felhounds of Sargeras,99,959,Fury,tankhps,1517376003305
+Velryssa,damage,2075,Eonar,99,957,Fury,tankhps,1515733013436
+Velryssa,damage,2076,Garothi Worldbreaker,100,947,Arms,tankhps,1512712039198
+Velryssa,damage,2076,Garothi Worldbreaker,100,954,Fury,tankhps,1515562796615
+Velryssa,damage,2082,Imonar the Soulhunter,99,967,Arms,tankhps,1517464313373
+Velryssa,damage,2088,Kin'garoth,99,964,Fury,tankhps,1519277566021
+Velryssa,damage,2088,Kin'garoth,99,970,Arms,tankhps,1520484709791
+Tinytiki,damage,2063,Aggramar,87,968,Assassination,hps,1524630281068
+Tinytiki,damage,2064,Portal Keeper Hasabel,70,968,Assassination,hps,1519190421534
+Tinytiki,damage,2069,Varimathras,84,968,Assassination,hps,1522896515498
+Tinytiki,damage,2070,Antoran High Command,70,962,Assassination,hps,1516338297103
+Tinytiki,damage,2074,Felhounds of Sargeras,75,967,Assassination,hps,1519187697625
+Tinytiki,damage,2075,Eonar,60,964,Assassination,hps,1518581903601
+Tinytiki,damage,2076,Garothi Worldbreaker,76,967,Assassination,hps,1519187091250
+Tinytiki,damage,2082,Imonar the Soulhunter,69,968,Assassination,hps,1522205659716
+Tinytiki,damage,2088,Kin'garoth,75,968,Assassination,hps,1519277566021
+Tinytiki,damage,2063,Aggramar,9,968,Assassination,dps,1524630281068
+Tinytiki,damage,2064,Portal Keeper Hasabel,61,968,Assassination,dps,1519794868091
+Tinytiki,damage,2069,Varimathras,8,968,Assassination,dps,1522896515498
+Tinytiki,damage,2070,Antoran High Command,53,968,Assassination,dps,1519793441868
+Tinytiki,damage,2074,Felhounds of Sargeras,50,968,Assassination,dps,1522808393108
+Tinytiki,damage,2075,Eonar,72,968,Assassination,dps,1519795900955
+Tinytiki,damage,2076,Garothi Worldbreaker,70,967,Assassination,dps,1519187091250
+Tinytiki,damage,2082,Imonar the Soulhunter,39,968,Assassination,dps,1521604136509
+Tinytiki,damage,2088,Kin'garoth,35,968,Assassination,dps,1521085242770
+Tinytiki,damage,2063,Aggramar,100,968,Assassination,tankhps,1524630281068
+Tinytiki,damage,2064,Portal Keeper Hasabel,100,960,Assassination,tankhps,1516252872076
+Tinytiki,damage,2069,Varimathras,99,968,Assassination,tankhps,1521607425276
+Tinytiki,damage,2070,Antoran High Command,99,962,Assassination,tankhps,1516338297103
+Tinytiki,damage,2074,Felhounds of Sargeras,100,947,Assassination,tankhps,1513307636011
+Tinytiki,damage,2075,Eonar,100,959,Assassination,tankhps,1515733013436
+Tinytiki,damage,2076,Garothi Worldbreaker,100,947,Assassination,tankhps,1513228458280
+Tinytiki,damage,2082,Imonar the Soulhunter,99,963,Assassination,tankhps,1518145906721
+Tinytiki,damage,2088,Kin'garoth,99,968,Assassination,tankhps,1519277566021
+Daffy,healer,2063,Aggramar,39,972,Restoration,hps,1524630281068
+Daffy,healer,2069,Varimathras,27,970,Restoration,hps,1523418451728
+Daffy,healer,2070,Antoran High Command,8,967,Restoration,hps,1521256375481
+Daffy,healer,2070,Antoran High Command,32,963,Balance,hps,1522469147695
+Daffy,healer,2073,The Coven of Shivarra,19,969,Restoration,hps,1522901008745
+Daffy,healer,2074,Felhounds of Sargeras,22,965,Balance,hps,1521858342089
+Daffy,healer,2074,Felhounds of Sargeras,17,971,Restoration,hps,1523499180913
+Daffy,healer,2075,Eonar,33,966,Balance,hps,1521865527175
+Daffy,healer,2075,Eonar,78,967,Restoration,hps,1522809881962
+Daffy,healer,2076,Garothi Worldbreaker,95,964,Balance,hps,1518840455201
+Daffy,healer,2076,Garothi Worldbreaker,47,969,Restoration,hps,1523412517978
+Daffy,healer,2082,Imonar the Soulhunter,45,967,Restoration,hps,1522813327487
+Daffy,healer,2088,Kin'garoth,15,970,Restoration,hps,1523416330465
+Daffy,healer,2063,Aggramar,55,972,Restoration,dps,1524630281068
+Daffy,healer,2069,Varimathras,39,969,Restoration,dps,1522896515498
+Daffy,healer,2070,Antoran High Command,62,961,Balance,dps,1519451287822
+Daffy,healer,2070,Antoran High Command,29,967,Restoration,dps,1521256375481
+Daffy,healer,2073,The Coven of Shivarra,71,971,Restoration,dps,1523421264349
+Daffy,healer,2074,Felhounds of Sargeras,24,965,Balance,dps,1521858342089
+Daffy,healer,2074,Felhounds of Sargeras,92,971,Restoration,dps,1523499180913
+Daffy,healer,2075,Eonar,20,966,Balance,dps,1521865520413
+Daffy,healer,2075,Eonar,73,971,Restoration,dps,1523500679659
+Daffy,healer,2076,Garothi Worldbreaker,49,965,Balance,dps,1521857624466
+Daffy,healer,2076,Garothi Worldbreaker,88,969,Restoration,dps,1523412517978
+Daffy,healer,2082,Imonar the Soulhunter,68,969,Restoration,dps,1523414443165
+Daffy,healer,2088,Kin'garoth,57,970,Restoration,dps,1523416330465
+Daffy,healer,2063,Aggramar,72,972,Restoration,tankhps,1524630281068
+Daffy,healer,2069,Varimathras,81,970,Restoration,tankhps,1523418451728
+Daffy,healer,2070,Antoran High Command,90,961,Balance,tankhps,1519451287822
+Daffy,healer,2070,Antoran High Command,52,967,Restoration,tankhps,1521256375481
+Daffy,healer,2073,The Coven of Shivarra,54,969,Restoration,tankhps,1522901008745
+Daffy,healer,2074,Felhounds of Sargeras,90,959,Balance,tankhps,1518841486725
+Daffy,healer,2074,Felhounds of Sargeras,23,967,Restoration,tankhps,1522808393108
+Daffy,healer,2075,Eonar,80,966,Balance,tankhps,1521865520413
+Daffy,healer,2075,Eonar,21,967,Restoration,tankhps,1522809881962
+Daffy,healer,2076,Garothi Worldbreaker,90,964,Balance,tankhps,1518840455201
+Daffy,healer,2076,Garothi Worldbreaker,67,969,Restoration,tankhps,1523412517978
+Daffy,healer,2082,Imonar the Soulhunter,79,969,Restoration,tankhps,1523414443165
+Daffy,healer,2088,Kin'garoth,46,967,Restoration,tankhps,1522894708677
+Èllipses,damage,2063,Aggramar,33,974,Affliction,hps,1524630281068
+Èllipses,damage,2064,Portal Keeper Hasabel,50,967,Affliction,hps,1521079882001
+Èllipses,damage,2069,Varimathras,59,969,Affliction,hps,1521607425341
+Èllipses,damage,2070,Antoran High Command,46,962,Affliction,hps,1518579092480
+Èllipses,damage,2073,The Coven of Shivarra,18,974,Affliction,hps,1523421264349
+Èllipses,damage,2074,Felhounds of Sargeras,76,967,Affliction,hps,1519791952922
+Èllipses,damage,2075,Eonar,66,974,Affliction,hps,1523500679659
+Èllipses,damage,2076,Garothi Worldbreaker,37,974,Affliction,hps,1522807798544
+Èllipses,damage,2082,Imonar the Soulhunter,44,974,Affliction,hps,1522813327487
+Èllipses,damage,2088,Kin'garoth,40,966,Affliction,hps,1519277566021
+Èllipses,damage,2063,Aggramar,74,974,Affliction,dps,1524630281068
+Èllipses,damage,2064,Portal Keeper Hasabel,43,967,Affliction,dps,1521079882001
+Èllipses,damage,2069,Varimathras,86,967,Affliction,dps,1520569397568
+Èllipses,damage,2070,Antoran High Command,34,966,Affliction,dps,1520395725301
+Èllipses,damage,2073,The Coven of Shivarra,82,974,Affliction,dps,1523421264349
+Èllipses,damage,2074,Felhounds of Sargeras,91,974,Affliction,dps,1522808393108
+Èllipses,damage,2075,Eonar,40,974,Affliction,dps,1523500679659
+Èllipses,damage,2076,Garothi Worldbreaker,81,974,Affliction,dps,1522807798544
+Èllipses,damage,2082,Imonar the Soulhunter,73,974,Affliction,dps,1522813327487
+Èllipses,damage,2088,Kin'garoth,85,967,Affliction,dps,1521085242770
+Èllipses,damage,2063,Aggramar,100,974,Affliction,tankhps,1524630281068
+Èllipses,damage,2064,Portal Keeper Hasabel,99,963,Affliction,tankhps,1518580911747
+Èllipses,damage,2069,Varimathras,100,967,Affliction,tankhps,1520569397568
+Èllipses,damage,2070,Antoran High Command,99,962,Affliction,tankhps,1518579092480
+Èllipses,damage,2073,The Coven of Shivarra,99,970,Affliction,tankhps,1521687707637
+Èllipses,damage,2074,Felhounds of Sargeras,99,962,Affliction,tankhps,1518578325471
+Èllipses,damage,2075,Eonar,99,963,Affliction,tankhps,1518061611736
+Èllipses,damage,2076,Garothi Worldbreaker,99,962,Affliction,tankhps,1518577683075
+Èllipses,damage,2082,Imonar the Soulhunter,99,961,Affliction,tankhps,1518145906721
+Èllipses,damage,2088,Kin'garoth,99,966,Affliction,tankhps,1519277566021
+Au,damage,2064,Portal Keeper Hasabel,99,971,Retribution,hps,1519794868091
+Au,damage,2069,Varimathras,98,973,Retribution,hps,1523418451728
+Au,damage,2070,Antoran High Command,99,971,Retribution,hps,1518579092480
+Au,damage,2073,The Coven of Shivarra,100,973,Retribution,hps,1522901008745
+Au,damage,2074,Felhounds of Sargeras,99,973,Retribution,hps,1520394938240
+Au,damage,2075,Eonar,99,971,Retribution,hps,1518581903601
+Au,damage,2076,Garothi Worldbreaker,99,973,Retribution,hps,1521599805800
+Au,damage,2082,Imonar the Soulhunter,9,967,Holy,hps,1519876812409
+Au,damage,2082,Imonar the Soulhunter,99,973,Retribution,hps,1523414443165
+Au,damage,2088,Kin'garoth,99,973,Retribution,hps,1519961880739
+Au,damage,2064,Portal Keeper Hasabel,81,972,Retribution,dps,1519190421534
+Au,damage,2069,Varimathras,18,973,Retribution,dps,1523418451728
+Au,damage,2070,Antoran High Command,94,971,Retribution,dps,1520395725301
+Au,damage,2073,The Coven of Shivarra,49,973,Retribution,dps,1521687707637
+Au,damage,2074,Felhounds of Sargeras,81,973,Retribution,dps,1523499180913
+Au,damage,2075,Eonar,61,972,Retribution,dps,1521002530175
+Au,damage,2076,Garothi Worldbreaker,77,973,Retribution,dps,1520394276503
+Au,damage,2082,Imonar the Soulhunter,48,972,Retribution,dps,1519274859461
+Au,damage,2082,Imonar the Soulhunter,33,967,Holy,dps,1519876812409
+Au,damage,2088,Kin'garoth,72,973,Retribution,dps,1521605014073
+Au,damage,2064,Portal Keeper Hasabel,99,971,Retribution,tankhps,1519794868091
+Au,damage,2069,Varimathras,96,972,Retribution,tankhps,1521168193659
+Au,damage,2070,Antoran High Command,99,971,Retribution,tankhps,1519793441868
+Au,damage,2073,The Coven of Shivarra,99,973,Retribution,tankhps,1522901008745
+Au,damage,2074,Felhounds of Sargeras,98,973,Retribution,tankhps,1520999436695
+Au,damage,2075,Eonar,99,970,Retribution,tankhps,1516852272031
+Au,damage,2076,Garothi Worldbreaker,98,968,Retribution,tankhps,1517979484801
+Au,damage,2082,Imonar the Soulhunter,22,967,Holy,tankhps,1519876812409
+Au,damage,2082,Imonar the Soulhunter,100,973,Retribution,tankhps,1521604136509
+Au,damage,2088,Kin'garoth,100,973,Retribution,tankhps,1519961880739
+Future,damage,2063,Aggramar,89,975,Elemental,hps,1524630281068
+Future,damage,2064,Portal Keeper Hasabel,95,966,Elemental,hps,1516849859958
+Future,damage,2069,Varimathras,99,975,Elemental,hps,1521607425341
+Future,damage,2070,Antoran High Command,99,971,Elemental,hps,1519793441868
+Future,damage,2073,The Coven of Shivarra,99,976,Elemental,hps,1523421264349
+Future,damage,2074,Felhounds of Sargeras,98,966,Elemental,hps,1516245283845
+Future,damage,2075,Eonar,75,975,Elemental,hps,1522203845319
+Future,damage,2076,Garothi Worldbreaker,94,975,Elemental,hps,1522807798544
+Future,damage,2082,Imonar the Soulhunter,100,972,Elemental,hps,1519274859461
+Future,damage,2088,Kin'garoth,99,973,Elemental,hps,1519277566021
+Future,damage,2063,Aggramar,80,975,Elemental,dps,1524630281068
+Future,damage,2064,Portal Keeper Hasabel,84,970,Elemental,dps,1519190421534
+Future,damage,2069,Varimathras,84,975,Elemental,dps,1521168193659
+Future,damage,2070,Antoran High Command,93,968,Elemental,dps,1517980921959
+Future,damage,2073,The Coven of Shivarra,90,975,Elemental,dps,1522376934318
+Future,damage,2074,Felhounds of Sargeras,92,975,Elemental,dps,1522808393108
+Future,damage,2075,Eonar,90,973,Elemental,dps,1521002534869
+Future,damage,2076,Garothi Worldbreaker,93,975,Elemental,dps,1522807798544
+Future,damage,2082,Imonar the Soulhunter,77,975,Elemental,dps,1522205659716
+Future,damage,2088,Kin'garoth,94,972,Elemental,dps,1519961880739
+Future,damage,2063,Aggramar,95,975,Elemental,tankhps,1524630281068
+Future,damage,2064,Portal Keeper Hasabel,95,971,Elemental,tankhps,1519794868091
+Future,damage,2069,Varimathras,99,972,Elemental,tankhps,1520569397568
+Future,damage,2070,Antoran High Command,99,970,Elemental,tankhps,1519188706862
+Future,damage,2073,The Coven of Shivarra,99,976,Elemental,tankhps,1523421264349
+Future,damage,2074,Felhounds of Sargeras,97,971,Elemental,tankhps,1517980075296
+Future,damage,2075,Eonar,90,973,Elemental,tankhps,1521002534869
+Future,damage,2076,Garothi Worldbreaker,95,975,Elemental,tankhps,1520998046589
+Future,damage,2082,Imonar the Soulhunter,100,971,Elemental,tankhps,1518756782147
+Future,damage,2088,Kin'garoth,99,973,Elemental,tankhps,1519277566021
+Pulsè,damage,2064,Portal Keeper Hasabel,40,972,Affliction,hps,1521079882001
+Pulsè,damage,2069,Varimathras,33,971,Affliction,hps,1520569397568
+Pulsè,damage,2070,Antoran High Command,80,972,Affliction,hps,1521000531210
+Pulsè,damage,2073,The Coven of Shivarra,75,974,Affliction,hps,1522901008745
+Pulsè,damage,2074,Felhounds of Sargeras,44,976,Affliction,hps,1523499180913
+Pulsè,damage,2075,Eonar,40,974,Affliction,hps,1522809878143
+Pulsè,damage,2076,Garothi Worldbreaker,37,974,Affliction,hps,1522807798544
+Pulsè,damage,2082,Imonar the Soulhunter,39,972,Affliction,hps,1521080629977
+Pulsè,damage,2082,Imonar the Soulhunter,30,972,Destruction,hps,1522813327487
+Pulsè,damage,2088,Kin'garoth,44,972,Affliction,hps,1521605014073
+Pulsè,damage,2064,Portal Keeper Hasabel,86,972,Affliction,dps,1521079882001
+Pulsè,damage,2069,Varimathras,90,974,Affliction,dps,1522896515498
+Pulsè,damage,2070,Antoran High Command,96,972,Affliction,dps,1521000531210
+Pulsè,damage,2073,The Coven of Shivarra,99,974,Affliction,dps,1522901008745
+Pulsè,damage,2074,Felhounds of Sargeras,82,976,Affliction,dps,1523499180913
+Pulsè,damage,2075,Eonar,75,974,Affliction,dps,1522809881962
+Pulsè,damage,2076,Garothi Worldbreaker,87,974,Affliction,dps,1522807798544
+Pulsè,damage,2082,Imonar the Soulhunter,57,973,Affliction,dps,1521604136509
+Pulsè,damage,2082,Imonar the Soulhunter,24,972,Destruction,dps,1522813327487
+Pulsè,damage,2088,Kin'garoth,80,972,Affliction,dps,1520484709791
+Pulsè,damage,2064,Portal Keeper Hasabel,99,972,Affliction,tankhps,1521079882001
+Pulsè,damage,2069,Varimathras,100,971,Affliction,tankhps,1520569397568
+Pulsè,damage,2070,Antoran High Command,99,972,Affliction,tankhps,1521000531210
+Pulsè,damage,2073,The Coven of Shivarra,99,973,Affliction,tankhps,1521687707637
+Pulsè,damage,2074,Felhounds of Sargeras,99,972,Affliction,tankhps,1520999441464
+Pulsè,damage,2075,Eonar,99,972,Affliction,tankhps,1521002534869
+Pulsè,damage,2076,Garothi Worldbreaker,99,972,Affliction,tankhps,1520998046589
+Pulsè,damage,2082,Imonar the Soulhunter,99,972,Affliction,tankhps,1521080629977
+Pulsè,damage,2082,Imonar the Soulhunter,99,972,Destruction,tankhps,1522813323674
+Pulsè,damage,2088,Kin'garoth,99,972,Affliction,tankhps,1520484709791
+Kyarrix,damage,2064,Portal Keeper Hasabel,92,965,Beast Mastery,hps,1518580911747
+Kyarrix,damage,2069,Varimathras,94,970,Beast Mastery,hps,1522292673441
+Kyarrix,damage,2070,Antoran High Command,95,965,Beast Mastery,hps,1518579092480
+Kyarrix,damage,2074,Felhounds of Sargeras,97,966,Beast Mastery,hps,1519187697625
+Kyarrix,damage,2075,Eonar,86,965,Beast Mastery,hps,1518581903601
+Kyarrix,damage,2076,Garothi Worldbreaker,98,967,Beast Mastery,hps,1519791306866
+Kyarrix,damage,2082,Imonar the Soulhunter,94,966,Beast Mastery,hps,1519274859461
+Kyarrix,damage,2088,Kin'garoth,78,969,Beast Mastery,hps,1521085242770
+Kyarrix,damage,2064,Portal Keeper Hasabel,59,968,Beast Mastery,dps,1519794868091
+Kyarrix,damage,2069,Varimathras,60,970,Beast Mastery,dps,1522292673441
+Kyarrix,damage,2070,Antoran High Command,64,965,Beast Mastery,dps,1518579092480
+Kyarrix,damage,2074,Felhounds of Sargeras,87,966,Beast Mastery,dps,1519187697625
+Kyarrix,damage,2075,Eonar,50,969,Beast Mastery,dps,1521002534869
+Kyarrix,damage,2076,Garothi Worldbreaker,71,968,Beast Mastery,dps,1520998041848
+Kyarrix,damage,2082,Imonar the Soulhunter,73,968,Beast Mastery,dps,1521080629977
+Kyarrix,damage,2088,Kin'garoth,28,969,Beast Mastery,dps,1521085242770
+Kyarrix,damage,2064,Portal Keeper Hasabel,90,965,Beast Mastery,tankhps,1518580911747
+Kyarrix,damage,2069,Varimathras,90,970,Beast Mastery,tankhps,1521168193659
+Kyarrix,damage,2070,Antoran High Command,90,965,Beast Mastery,tankhps,1518579092480
+Kyarrix,damage,2074,Felhounds of Sargeras,90,965,Beast Mastery,tankhps,1518578325471
+Kyarrix,damage,2075,Eonar,95,965,Beast Mastery,tankhps,1518581903601
+Kyarrix,damage,2076,Garothi Worldbreaker,90,965,Beast Mastery,tankhps,1518577683075
+Kyarrix,damage,2082,Imonar the Soulhunter,90,966,Beast Mastery,tankhps,1519274859461
+Kyarrix,damage,2088,Kin'garoth,95,967,Beast Mastery,tankhps,1519277566021
+Yoked,damage,2075,Eonar,23,961,Frost,hps,1521600980965
+Yoked,damage,2076,Garothi Worldbreaker,60,961,Frost,hps,1521599805800
+Yoked,damage,2075,Eonar,13,961,Frost,dps,1521600980965
+Yoked,damage,2076,Garothi Worldbreaker,36,961,Frost,dps,1521599805800
+Yoked,damage,2075,Eonar,99,961,Frost,tankhps,1521600980965
+Yoked,damage,2076,Garothi Worldbreaker,99,961,Frost,tankhps,1521599805800
+Bryiah,damage,2064,Portal Keeper Hasabel,86,957,Retribution,hps,1515646087606
+Bryiah,damage,2069,Varimathras,33,969,Retribution,hps,1521168193659
+Bryiah,damage,2070,Antoran High Command,23,960,Retribution,hps,1518579092480
+Bryiah,damage,2074,Felhounds of Sargeras,30,959,Retribution,hps,1517980075296
+Bryiah,damage,2075,Eonar,76,968,Retribution,hps,1521002530175
+Bryiah,damage,2076,Garothi Worldbreaker,63,967,Retribution,hps,1519791306866
+Bryiah,damage,2082,Imonar the Soulhunter,96,967,Retribution,hps,1519876812409
+Bryiah,damage,2088,Kin'garoth,42,967,Retribution,hps,1519961880739
+Bryiah,damage,2064,Portal Keeper Hasabel,50,967,Retribution,dps,1519794868091
+Bryiah,damage,2069,Varimathras,9,969,Retribution,dps,1521168193659
+Bryiah,damage,2070,Antoran High Command,10,960,Retribution,dps,1518579092480
+Bryiah,damage,2074,Felhounds of Sargeras,49,968,Retribution,dps,1520999436695
+Bryiah,damage,2075,Eonar,43,968,Retribution,dps,1521002530175
+Bryiah,damage,2076,Garothi Worldbreaker,52,968,Retribution,dps,1520998041848
+Bryiah,damage,2082,Imonar the Soulhunter,9,967,Retribution,dps,1519876812409
+Bryiah,damage,2088,Kin'garoth,10,967,Retribution,dps,1519961880739
+Bryiah,damage,2064,Portal Keeper Hasabel,62,967,Retribution,tankhps,1519794868091
+Bryiah,damage,2069,Varimathras,90,969,Retribution,tankhps,1521168193659
+Bryiah,damage,2070,Antoran High Command,43,960,Retribution,tankhps,1518579092480
+Bryiah,damage,2074,Felhounds of Sargeras,88,959,Retribution,tankhps,1517980075296
+Bryiah,damage,2075,Eonar,58,968,Retribution,tankhps,1521002530175
+Bryiah,damage,2076,Garothi Worldbreaker,81,949,Retribution,tankhps,1512712039198
+Bryiah,damage,2082,Imonar the Soulhunter,41,967,Retribution,tankhps,1519876812409
+Bryiah,damage,2088,Kin'garoth,24,967,Retribution,tankhps,1519961880739
+Zephyyra,healer,2064,Portal Keeper Hasabel,21,967,Restoration,hps,1519794868091
+Zephyyra,healer,2069,Varimathras,17,973,Restoration,hps,1522292673441
+Zephyyra,healer,2070,Antoran High Command,32,973,Restoration,hps,1521000531210
+Zephyyra,healer,2074,Felhounds of Sargeras,35,966,Restoration,hps,1519187697625
+Zephyyra,healer,2075,Eonar,32,972,Restoration,hps,1520398228358
+Zephyyra,healer,2076,Garothi Worldbreaker,19,956,Restoration,hps,1515037651071
+Zephyyra,healer,2082,Imonar the Soulhunter,9,965,Restoration,hps,1518756782147
+Zephyyra,healer,2088,Kin'garoth,5,971,Restoration,hps,1519961880739
+Zephyyra,healer,2064,Portal Keeper Hasabel,25,965,Restoration,dps,1517982342329
+Zephyyra,healer,2069,Varimathras,20,973,Restoration,dps,1522292673441
+Zephyyra,healer,2070,Antoran High Command,30,965,Restoration,dps,1517980921959
+Zephyyra,healer,2074,Felhounds of Sargeras,10,961,Restoration,dps,1516770353280
+Zephyyra,healer,2075,Eonar,66,973,Restoration,dps,1521002530175
+Zephyyra,healer,2076,Garothi Worldbreaker,50,952,Restoration,dps,1513828848451
+Zephyyra,healer,2082,Imonar the Soulhunter,44,965,Restoration,dps,1518756782147
+Zephyyra,healer,2088,Kin'garoth,40,971,Restoration,dps,1519961880739
+Zephyyra,healer,2064,Portal Keeper Hasabel,17,972,Restoration,tankhps,1520396684567
+Zephyyra,healer,2069,Varimathras,27,973,Restoration,tankhps,1522292673441
+Zephyyra,healer,2070,Antoran High Command,34,973,Restoration,tankhps,1521000531210
+Zephyyra,healer,2074,Felhounds of Sargeras,28,973,Restoration,tankhps,1520999436695
+Zephyyra,healer,2075,Eonar,90,973,Restoration,tankhps,1521002530175
+Zephyyra,healer,2076,Garothi Worldbreaker,29,956,Restoration,tankhps,1515037651071
+Zephyyra,healer,2082,Imonar the Soulhunter,20,964,Restoration,tankhps,1517464313373
+Zephyyra,healer,2088,Kin'garoth,15,971,Restoration,tankhps,1519961880739
+Googboog,damage,2064,Portal Keeper Hasabel,17,959,Enhancement,hps,1515130363055
+Googboog,damage,2070,Antoran High Command,18,963,Enhancement,hps,1515642354665
+Googboog,damage,2074,Felhounds of Sargeras,67,965,Enhancement,hps,1516770353280
+Googboog,damage,2075,Eonar,21,964,Enhancement,hps,1516334842591
+Googboog,damage,2076,Garothi Worldbreaker,23,951,Enhancement,hps,1513228458280
+Googboog,damage,2064,Portal Keeper Hasabel,86,964,Enhancement,dps,1516252872076
+Googboog,damage,2070,Antoran High Command,94,963,Enhancement,dps,1515642354665
+Googboog,damage,2074,Felhounds of Sargeras,75,965,Enhancement,dps,1516770353280
+Googboog,damage,2075,Eonar,97,965,Enhancement,dps,1516852272031
+Googboog,damage,2076,Garothi Worldbreaker,90,965,Enhancement,dps,1516769435682
+Googboog,damage,2064,Portal Keeper Hasabel,90,959,Enhancement,tankhps,1515130363055
+Googboog,damage,2070,Antoran High Command,90,959,Enhancement,tankhps,1515122898246
+Googboog,damage,2074,Felhounds of Sargeras,90,951,Enhancement,tankhps,1513307636011
+Googboog,damage,2075,Eonar,90,963,Enhancement,tankhps,1515733013436
+Googboog,damage,2076,Garothi Worldbreaker,90,950,Enhancement,tankhps,1512712039198
+Cinzia,damage,2064,Portal Keeper Hasabel,20,955,Beast Mastery,hps,1516252872076
+Cinzia,damage,2070,Antoran High Command,50,950,Beast Mastery,hps,1515122898246
+Cinzia,damage,2074,Felhounds of Sargeras,56,949,Beast Mastery,hps,1513834010309
+Cinzia,damage,2076,Garothi Worldbreaker,13,951,Beast Mastery,hps,1515037651071
+Cinzia,damage,2064,Portal Keeper Hasabel,33,955,Beast Mastery,dps,1516252872076
+Cinzia,damage,2070,Antoran High Command,8,950,Beast Mastery,dps,1515122898246
+Cinzia,damage,2074,Felhounds of Sargeras,48,955,Beast Mastery,dps,1516245283845
+Cinzia,damage,2076,Garothi Worldbreaker,18,951,Beast Mastery,dps,1515037651071
+Cinzia,damage,2064,Portal Keeper Hasabel,90,955,Beast Mastery,tankhps,1516252872076
+Cinzia,damage,2070,Antoran High Command,95,950,Beast Mastery,tankhps,1515122898246
+Cinzia,damage,2074,Felhounds of Sargeras,95,947,Beast Mastery,tankhps,1513307636011
+Cinzia,damage,2076,Garothi Worldbreaker,95,943,Beast Mastery,tankhps,1512712039198
