@@ -1,0 +1,37 @@
+class,spec,role
+Warrior,Arms,damage
+Warrior,Fury,damage
+Warrior,Protection,tank
+Paladin,Holy,healer
+Paladin,Protection,tank
+Paladin,Retribution,damage
+Hunter,Beast Mastery,damage
+Hunter,Marksmanship,damage
+Hunter,Survival,damage
+Rogue,Assassination,damage
+Rogue,Outlaw,damage
+Rogue,Subtlety,damage
+Priest,Discipline,healer
+Priest,Holy,healer
+Priest,Shadow,damage
+Death Knight,Blood,tank
+Death Knight,Frost,damage
+Death Knight,Unholy,damage
+Shaman,Elemental,damage
+Shaman,Enhancement,damage
+Shaman,Restoration,healer
+Mage,Arcane,damage
+Mage,Fire,damage
+Mage,Frost,damage
+Warlock,Affliction,damage
+Warlock,Demonology,damage
+Warlock,Destruction,damage
+Monk,Brewmaster,tank
+Monk,Mistweaver,healer
+Monk,Windwalker,damage
+Druid,Balance,damage
+Druid,Feral,damage
+Druid,Guardian,tank
+Druid,Restoration,healer
+Demon Hunter,Havoc,damage
+Demon Hunter,Vengeance,tank
