@@ -4,34 +4,33 @@ import json
 import os
 import requests
 
-GUILD_NAME = 'Last%20Pull'
-REALM = 'Cenarius'
-REGION = 'US'
+GUILD_INFO = {
+              'guild_name': 'Last%20Pull',
+              'realm': 'Cenarius',
+              'region': 'US'
+}
 
-def get_log_master_list(api_key,
-                        boss_list,
-                        log_start=None,
-                        unwanted_players=None):
+def get_guild_logs(api_key, guild_info, log_start=0):
     '''
-    Extracts mythic log information for World of Warcraft guild, Last Pull,
-        on Cenarius, and saves in 'master_list.csv'.
-    Requires import of the following libraries: pandas as pd, numpy as np,
-        requests, json, os
+    Extracts all log information from World of Warcraft guild from Warcraft logs
+    API from log_start onwards. Saves log details in files.
 
     args:
-        api_key: (str) Public Key from personal Warcraft Logs account
-        boss_list: list of strings of boss names, as recorded by Warcraft Logs
-        log_start: optional. (int) unix time stamp for log start date
-        unwanted_players: optional. list of player names to exclude
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        guild_info: dict of guild info with three keys 'guild_name', 'realm',
+            'region'.
+        log_start: optional. (int) unix time stamp for log start date.
     returns:
-        pandas DataFrame
+        None.
     '''
     # Gather all guild logs
-    link = "https://www.warcraftlogs.com:443/v1/reports/guild/" + GUILD_NAME +\
-            "/" + REALM + "/" + REGION + "/US?api_key="
+    link = "https://www.warcraftlogs.com:443/v1/reports/guild/" +  \
+        guild_info['guild_name'] + "/" + guild_info['realm'] + "/" + \
+        guild_info['region'] + "?api_key="
     guild_logs = requests.get(link + api_key)
     log_list = guild_logs.json()
-    # Convert to df
+
+    # Convert to def
     log_info = pd.DataFrame(log_list, columns = ['id',
                                                  'title',
                                                  'owner',
@@ -74,6 +73,20 @@ def get_log_master_list(api_key,
 
     print("\nAll files created.\n")
 
+
+
+def extract_log_info(boss_list, unwanted_players=[]):
+    '''
+    Extracts mythic log information from Warcraft Logs json files, and saves in
+    'master_list.csv'. Files located in log_details folder with format log_id +
+    'log_details.txt'
+
+    args:
+        boss_list: list of strings of boss names, as recorded by Warcraft Logs
+        unwanted_players: optional. list of player names to exclude
+    returns:
+        pandas DataFrame
+    '''
     # Create empty df
     df = pd.DataFrame([], columns = ['log_id',
                                      'pull_id',
@@ -193,7 +206,6 @@ def import_clean_master_list():
     '''
     Imports data from 'master_list.csv' as created by get_log_master_list function.
     Reformats data for further analysis.
-    Requires import of the following libraries: pandas
 
     args:
         None
@@ -240,7 +252,6 @@ def player_info_query(player_name, metric):
     '''
     Queries Warcraft Logs api for player rankings according to the metric.
     Saves json file of query data.
-    Requires import of the following libraries: os, json
 
     args:
         player_name: (str) player name
@@ -271,7 +282,6 @@ def import_player_info(player_names):
     '''
     Queries Warcraft Logs api for players' rankings for hps, dps and tankhps.
     Saves json file of query data.
-    Requires import of the following libraries: os, json
 
     args:
         player_name: (str) player name
@@ -288,7 +298,6 @@ def import_player_info(player_names):
 def player_rankings_df(player_name, metric, primary_role):
     '''
     Creates df of player rankings for metric.
-    Requires import of the following libraries: pandas as pd, json
 
     args:
         player_name: (str) player name
@@ -341,7 +350,6 @@ def player_rankings():
     '''
     Creates df of players' rankings from 'player_list.csv', reads info from
     player files and saves in 'player_rankings.csv'.
-    Requires import of the following libraries: pandas as pd, json, os
 
     args:
         player_name: (str) player name
