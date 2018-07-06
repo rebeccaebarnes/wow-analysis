@@ -99,8 +99,9 @@ def extract_log_info(boss_list, unwanted_players=[]):
                                      'player_name'])
 
     # Read through all the files and create a fight info summary df
-    for file in os.listdir("/log_details"):
+    for log_id in log_info.log_id:
         # Open file
+        filename = 'log_details/' + log_id + '_log_details.txt'
         with open(filename) as json_file:
             data = json.load(json_file)
 
