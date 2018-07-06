@@ -4,7 +4,7 @@ import json
 import os
 import requests
 
-guild_info = {
+GUILD_INFO = {
               'guild_name': 'Last%20Pull',
               'realm': 'Cenarius',
               'region': 'US'
