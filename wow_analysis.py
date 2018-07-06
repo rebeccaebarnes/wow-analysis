@@ -248,16 +248,20 @@ def import_clean_master_list():
 
     return df
 
-def player_info_query(player_name, metric):
+def player_info_query(player_name, guild_info, metric, partition=0):
     '''
-    Queries Warcraft Logs api for player rankings according to the metric.
-    Saves json file of query data.
+    Queries Warcraft Logs api for player rankings from guild info according to
+    the metric and manages paramaters if applicable. Saves json file of query data.
 
     args:
         player_name: (str) player name
+        guild_info: dict of guild info with three keys 'guild_name', 'realm',
+            'region'.
         metric: (str) one of 'hps', 'dps', 'tankhps'
+        partition: optional. (int) include if wanting to extract partition other
+            than default indicated by Warcraft Logs api.
     returns:
-        None
+        None.
     '''
     # Create folder if doesn't exist:
     folder_name = 'player_rankings'
@@ -270,7 +274,16 @@ def player_info_query(player_name, metric):
         file_name = player_name + '_' + metric + '_player_rankings.txt'
         file_path = os.path.join(folder_name, file_name)
         print("Creating file for", player_name, "for", metric)
-        link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + player_name + "/" + REALM + "/" + REGION + "?metric=" + metric + "&partition=1&timeframe=historical&api_key="
+        if partition == 0:
+            link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + \
+            player_name + "/" + guild_info['realm'] + "/" + \
+            guild_info['region'] + "?metric=" + metric + \
+            "&timeframe=historical&api_key="
+        else:
+            link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + \
+            player_name + "/" + guild_info['realm'] + "/" + \
+            guild_info['region'] + "?metric=" + metric + "&partition=" + \
+            str(partition) + "&timeframe=historical&api_key="
         player_info = requests.get(link + api_key)
         player_info = player_info.json()
         with open(file_path, "w") as file:
