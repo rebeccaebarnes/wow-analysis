@@ -85,7 +85,7 @@ def extract_log_info(boss_list, unwanted_players=[]):
         boss_list: list of strings of boss names, as recorded by Warcraft Logs
         unwanted_players: optional. list of player names to exclude
     returns:
-        pandas DataFrame
+        None.
     '''
     # Create empty df
     df = pd.DataFrame([], columns = ['log_id',
@@ -199,8 +199,6 @@ def extract_log_info(boss_list, unwanted_players=[]):
     # Read into csv
     df.to_csv('master_list.csv', index=False, encoding='iso-8859-1')
     print("\nmaster_list saved.")
-
-    return df
 
 def import_clean_master_list():
     '''
