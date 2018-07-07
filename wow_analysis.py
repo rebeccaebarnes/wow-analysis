@@ -118,6 +118,7 @@ def extract_fights():
 
         # Collect fight info
         df_list = []
+        log_id = file.split('_')[0]
         try:
             for fight in data['fights']:
                 #print(fight['difficulty'])
