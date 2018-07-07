@@ -111,7 +111,7 @@ def extract_fights():
                                      'player_name'])
 
     # Read through all the files and create a fight info summary df
-    for file in os.listdir('/log_details'):
+    for file in os.listdir('log_details'):
         with open(file) as json_file:
             data = json.load(json_file)
 
