@@ -25,3 +25,41 @@ def max_parses(df, player_name, primary_role):
 
     # Create parse df from index_list
     return player_df.loc[index_list]
+
+def extract_max_parses():
+    # Read in parse info
+    df = wl.import_clean_player_rankings()
+
+    # Create empty df with same columns
+    cols = df.columns
+    parses_df = pd.DataFrame([], columns=cols)
+
+    # Find player names
+    player_names = list(df.player_name.unique())
+
+    # Get player primary role
+    player_info = pd.read_csv('player_list.csv', encoding='iso-8859-1')
+
+    # Read in class info
+    class_info = pd.read_csv('class_info.csv')
+
+    # Get player max parses
+    for player in player_names:
+        # Extract primary role from first row
+        primary_role = player_info[player_info.player == player]['primary_role'].iloc[0]
+        player_df = max_parses(df, player, primary_role)
+        # Remove rows with wrong spec
+        for index, row in player_df.iterrows():
+            spec = row.spec
+            # Check if spec is in class role list
+            spec_test = ((class_info.role == primary_role) & (class_info.spec == spec)).sum()
+            # If not, drop from df
+            if spec_test == 0:
+                player_df.drop(index, inplace=True)
+        # Add onto parses_df
+        parses_df = pd.concat([parses_df, player_df])
+
+    # Clean parses_df
+    parses_df = clean_player_rankings(parses_df)
+
+    return parses_df
