@@ -1,6 +1,16 @@
 import pandas as pd
+import warcraft_logs_fn as wl
 
 def max_parses(df, player_name, primary_role):
+    '''
+    Creates df of player maximum parse per boss passed on appropriate metric
+    for primary_role.
+
+    args:
+        df: pandas DataFrame from wl.import_clean_player_rankings.
+        player_name: (str) player's name.
+        primary_role: (str) primary role assigned to fight.
+    '''
     # Confirm metric
     if primary_role == 'damage':
         metric = 'dps'
@@ -29,6 +39,16 @@ def max_parses(df, player_name, primary_role):
     return player_df.loc[index_list]
 
 def extract_max_parses():
+    '''
+    Creates df of max parses for all players from import_clean_player_rankings.
+    Removes parses played in a spec not aligned with primary_role.
+    Imports from pre-existing files: 'player_list.csv', 'class_info.csv'
+
+    args:
+        None.
+    returns:
+        pandas DataFrame.
+    '''
     # Read in parse info
     df = wl.import_clean_player_rankings()
 
