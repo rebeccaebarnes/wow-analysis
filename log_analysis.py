@@ -1,3 +1,5 @@
+import pandas as pd
+
 def max_parses(df, player_name, primary_role):
     # Confirm metric
     if primary_role == 'damage':
