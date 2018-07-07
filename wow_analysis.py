@@ -351,7 +351,7 @@ def import_player_info(player_names):
         for metric in metrics:
             player_info_query(player, metric)
 
-def player_rankings_df(player_name, metric, primary_role):
+def create_rankings_df(player_name, metric, primary_role):
     '''
     Creates df of player rankings for metric.
 
