@@ -402,7 +402,7 @@ def create_rankings_df(player_name, metric, primary_role):
 
     return player_data
 
-def player_rankings():
+def get_player_rankings():
     '''
     Creates df of players' rankings from 'player_list.csv', reads info from
     player files and saves in 'player_rankings.csv'.
@@ -434,7 +434,7 @@ def player_rankings():
     for player in player_names:
         for metric in metrics:
             # Create player df
-            player_df = player_rankings_df(player, metric, player_list[player_list.player == player]['primary_role'].iloc[0])
+            player_df = create_rankings_df(player, metric, player_list[player_list.player == player]['primary_role'].iloc[0])
             # Join to df
             df = pd.concat([df, player_df])
 
