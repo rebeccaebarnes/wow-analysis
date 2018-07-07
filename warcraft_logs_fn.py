@@ -482,9 +482,8 @@ def import_clean_player_rankings():
     # Read in player_rankings
     df = pd.read_csv('player_rankings.csv', encoding='iso-8859-1')
 
-    # Reformat player_name, boss_id, and ranking_date
-    df.player_name = df.player_name.astype('category')
-    df.boss_id = df.boss_id.astype('str')
+    # Reformat columns
+    df = clean_player_rankings(df)
     df.ranking_date = pd.to_datetime(df.ranking_date, unit='ms').dt.date
 
     return df
