@@ -90,12 +90,13 @@ def save_logs(log_info, api_key, guild_info, log_start=0):
 
     print("\nAll files created.\n")
 
-def extract_fights():
+def extract_fights(boss_list, unwanted_players=[]):
     '''
     Extracts fight and player info from files in log_details.
 
     args:
-        None.
+        boss_list: list of instance bosses according to Warcraft Logs.
+        unwanted_players: optional. list of players to exclude from extraction.
     returns:
         pandas DataFrame.
     '''
