@@ -10,10 +10,10 @@ GUILD_INFO = {
               'region': 'US'
 }
 
-def get_guild_logs(api_key, guild_info, log_start=0):
+def get_logs(api_key, guild_info, log_start=0):
     '''
-    Extracts all log information from World of Warcraft guild from Warcraft logs
-    API from log_start onwards. Saves log details in files.
+    Extracts log information from World of Warcraft guild from Warcraft logs
+    API from log_start onwards.
 
     args:
         api_key: (str) Public Key from personal Warcraft Logs account.
@@ -21,7 +21,7 @@ def get_guild_logs(api_key, guild_info, log_start=0):
             'region'.
         log_start: optional. (int) unix time stamp for log start date.
     returns:
-        None.
+        pandas DataFrame.
     '''
     # Gather all guild logs
     link = "https://www.warcraftlogs.com:443/v1/reports/guild/" +  \
@@ -46,7 +46,24 @@ def get_guild_logs(api_key, guild_info, log_start=0):
     log_info.drop(['title', 'owner', 'zone'], axis=1, inplace=True)
     log_info = log_info[log_info.log_start >= log_start]
 
-    print("Logs gathered.\n")
+    return log_info
+
+def save_logs(log_info, api_key, guild_info, log_start=0):
+    '''
+    Saves log information for World of Warcraft guild from Warcraft logs
+    API, starting at log_start. Saves log details in json files.
+
+    args:
+        log_info: pandas DataFrame obtained from get_logs
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        guild_info: dict of guild info with three keys 'guild_name', 'realm',
+            'region'.
+        log_start: optional. (int) unix time stamp for log start date.
+    returns:
+        None.
+    '''
+    # Get log details
+    log_info = get_logs(api_key, guild_info, log_start)
 
     # Create folder if doesn't exist
     folder_name = 'log_details'
@@ -73,19 +90,14 @@ def get_guild_logs(api_key, guild_info, log_start=0):
 
     print("\nAll files created.\n")
 
-
-
-def extract_log_info(boss_list, unwanted_players=[]):
+def extract_fights():
     '''
-    Extracts mythic log information from Warcraft Logs json files, and saves in
-    'master_list.csv'. Files located in log_details folder with format log_id +
-    'log_details.txt'
+    Extracts fight and player info from files in log_details.
 
     args:
-        boss_list: list of strings of boss names, as recorded by Warcraft Logs
-        unwanted_players: optional. list of player names to exclude
-    returns:
         None.
+    returns:
+        pandas DataFrame.
     '''
     # Create empty df
     df = pd.DataFrame([], columns = ['log_id',
@@ -99,10 +111,8 @@ def extract_log_info(boss_list, unwanted_players=[]):
                                      'player_name'])
 
     # Read through all the files and create a fight info summary df
-    for log_id in log_info.log_id:
-        # Open file
-        filename = 'log_details/' + log_id + '_log_details.txt'
-        with open(filename) as json_file:
+    for file in os.listdir('/log_details'):
+        with open(file) as json_file:
             data = json.load(json_file)
 
         # Collect fight info
@@ -179,8 +189,26 @@ def extract_log_info(boss_list, unwanted_players=[]):
     df.drop('difficulty', axis=1, inplace=True)
     print("\nDataframe cleaned.")
 
+    return df
+
+
+
+def create_master_list(log_info, fight_info, boss_list, unwanted_players=[]):
+    '''
+    Creates master list of log, fight and player info and saves in
+    'master_list.csv'.
+
+    args:
+        log_info: pandas DataFrame obtained from get_logs function.
+        fight_info: pandas DataFrame obtained from extract_fights function.
+        boss_list: list of strings of boss names, as recorded by Warcraft Logs.
+        unwanted_players: optional. list of player names to exclude.
+    returns:
+        None.
+    '''
+
     # Merge log_info and df
-    df = df.merge(log_info, how="left", on="log_id")
+    df = fight_info.merge(log_info, how="left", on="log_id")
     print("\nMaster dataframe created.")
 
     # Re-order df
@@ -199,6 +227,22 @@ def extract_log_info(boss_list, unwanted_players=[]):
     # Read into csv
     df.to_csv('master_list.csv', index=False, encoding='iso-8859-1')
     print("\nmaster_list saved.")
+
+def extract_log_info(api_key,
+                     guild_info,
+                     boss_list,
+                     log_start=0,
+                     unwanted_players=[]):
+    # Create df of log info
+    log_info = get_logs(api_key, guild_info, log_start)
+
+    # Create file for each log's data
+    save_logs(log_info, api_key, guild_info, log_start)
+
+    # Extract fight information
+    fight_df = extract_fights()
+
+    create_master_list(log_info, fight_df, boss_list, unwanted_players)
 
 def import_clean_master_list():
     '''
