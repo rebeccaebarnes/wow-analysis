@@ -196,7 +196,7 @@ def extract_fights(boss_list, unwanted_players=[]):
 
 
 
-def create_master_list(log_info, fight_info, boss_list, unwanted_players=[]):
+def create_master_list(log_info, fight_info):
     '''
     Creates master list of log, fight and player info and saves in
     'master_list.csv'.
@@ -204,8 +204,6 @@ def create_master_list(log_info, fight_info, boss_list, unwanted_players=[]):
     args:
         log_info: pandas DataFrame obtained from get_logs function.
         fight_info: pandas DataFrame obtained from extract_fights function.
-        boss_list: list of strings of boss names, as recorded by Warcraft Logs.
-        unwanted_players: optional. list of player names to exclude.
     returns:
         None.
     '''
