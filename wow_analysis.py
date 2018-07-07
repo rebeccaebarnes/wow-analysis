@@ -241,7 +241,7 @@ def extract_log_info(api_key,
     save_logs(log_info, api_key, guild_info, log_start)
 
     # Extract fight information
-    fight_df = extract_fights()
+    fight_df = extract_fights(boss_list, unwanted_players)
 
     create_master_list(log_info, fight_df)
 
