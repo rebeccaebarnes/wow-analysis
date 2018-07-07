@@ -10,7 +10,7 @@ GUILD_INFO = {
               'region': 'US'
 }
 
-def get_logs(api_key, guild_info, log_start=0):
+def get_logs(api_key, guild_info, *log_start=0):
     '''
     Extracts log information from World of Warcraft guild from Warcraft logs
     API from log_start onwards.
@@ -48,7 +48,7 @@ def get_logs(api_key, guild_info, log_start=0):
 
     return log_info
 
-def save_logs(log_info, api_key, guild_info, log_start=0):
+def save_logs(log_info, api_key, guild_info, *log_start=0):
     '''
     Saves log information for World of Warcraft guild from Warcraft logs
     API, starting at log_start. Saves log details in json files.
@@ -90,7 +90,7 @@ def save_logs(log_info, api_key, guild_info, log_start=0):
 
     print("\nAll files created.\n")
 
-def extract_fights(boss_list, unwanted_players=[]):
+def extract_fights(boss_list, *unwanted_players=[]):
     '''
     Extracts fight and player info from files in log_details.
 
@@ -232,8 +232,8 @@ def create_master_list(log_info, fight_info):
 def extract_log_info(api_key,
                      guild_info,
                      boss_list,
-                     log_start=0,
-                     unwanted_players=[]):
+                     *log_start=0,
+                     *unwanted_players=[]):
     # Create df of log info
     log_info = get_logs(api_key, guild_info, log_start)
 
@@ -291,7 +291,7 @@ def import_clean_master_list():
 
     return df
 
-def player_info_query(player_name, guild_info, metric, partition=0):
+def player_info_query(player_name, guild_info, metric, *partition=0):
     '''
     Queries Warcraft Logs api for player rankings from guild info according to
     the metric and manages paramaters if applicable. Saves json file of query data.
