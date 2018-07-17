@@ -291,7 +291,7 @@ def import_clean_master_list():
 
     return df
 
-def player_info_query(player_name, guild_info, metric, partition=0):
+def player_info_query(player_name, guild_info, metric, api_key, partition=0):
     '''
     Queries Warcraft Logs api for player rankings from guild info according to
     the metric and manages paramaters if applicable. Saves json file of query data.
