@@ -334,14 +334,16 @@ def player_info_query(player_name, guild_info, metric, api_key, partition=0):
     except TypeError:
         print("Missed data for", player, ": not in guild")
 
-def import_player_info(player_names):
+def import_player_info(player_names, guild_info, api_key):
     '''
     Queries Warcraft Logs api for players' rankings for hps, dps and tankhps.
     Saves json file of query data.
 
     args:
-        player_name: (str) player name
-        metric: (str) one of 'hps', 'dps', 'tankhps'
+        player_names: list of player names
+        guild_info: dict of guild info with three keys 'guild_name', 'realm',
+            'region'.
+        api_key: (str) of Public Warcarft Logs API key
     returns:
         None
     '''
@@ -349,7 +351,7 @@ def import_player_info(player_names):
 
     for player in player_names:
         for metric in metrics:
-            player_info_query(player, metric)
+            player_info_query(player, guild_info, metric, api_key)
 
 def create_rankings_df(player_name, metric, primary_role):
     '''
