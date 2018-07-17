@@ -352,7 +352,7 @@ def import_player_info(player_names, guild_info, api_key):
 
     for player in player_names:
         for metric in metrics:
-            player_info_query(player, guild_info, metric, api_key)
+            player_info_query(player, guild_info, metric, api_key, partition=1)
 
 def create_rankings_df(player_name, metric, primary_role):
     '''
