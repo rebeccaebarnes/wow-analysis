@@ -180,7 +180,7 @@ def extract_fights(boss_list, unwanted_players=[]):
     # Ensure only desired bosses
     df = df[df.boss_name.isin(boss_list)]
     # Get mythic difficulty
-    df = df.query('difficulty == 5')
+    df = df.query('difficulty == 5' or 'difficulty == 4')
     # Remove unwanted players
     df = df[~(df.player_name.isin(unwanted_players))]
     # Change kill to bool
