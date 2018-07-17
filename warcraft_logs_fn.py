@@ -301,6 +301,7 @@ def player_info_query(player_name, guild_info, metric, api_key, partition=0):
         guild_info: dict of guild info with three keys 'guild_name', 'realm',
             'region'.
         metric: (str) one of 'hps', 'dps', 'tankhps'
+        api_key: (str) of Public Warcarft Logs API key
         partition: optional. (int) include if wanting to extract partition other
             than default indicated by Warcraft Logs api.
     returns:
