@@ -120,8 +120,8 @@ def extract_fights(boss_list, unwanted_players=[]):
         # Collect fight info
         df_list = []
         log_id = file.split('_')[0]
-        try:
-            for fight in data['fights']:
+        for fight in data['fights']:
+            try:
                 #print(fight['difficulty'])
                 #break
                 df_list.append({
@@ -134,17 +134,17 @@ def extract_fights(boss_list, unwanted_players=[]):
                     'difficulty': fight['difficulty'],
                     'kill': fight['kill']
                 })
-        except KeyError:
-            df_list.append({
-                    'log_id': log_id,
-                    'pull_id': fight['id'],
-                    'pull_start': fight['start_time'],
-                    'pull_end': fight['end_time'],
-                    'boss_id': fight['boss'],
-                    'boss_name': fight['name'],
-                    'difficulty': 'non-boss fight',
-                    'kill': 'non-boss fight'
-                })
+            except KeyError:
+                df_list.append({
+                        'log_id': log_id,
+                        'pull_id': fight['id'],
+                        'pull_start': fight['start_time'],
+                        'pull_end': fight['end_time'],
+                        'boss_id': fight['boss'],
+                        'boss_name': fight['name'],
+                        'difficulty': 'non-boss fight',
+                        'kill': 'non-boss fight'
+                        })
 
         # Convert to df
         fight_data = pd.DataFrame(df_list, columns = ['log_id',
