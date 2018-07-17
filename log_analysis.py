@@ -10,6 +10,8 @@ def max_parses(df, player_name, primary_role):
         df: pandas DataFrame from wl.import_clean_player_rankings.
         player_name: (str) player's name.
         primary_role: (str) primary role assigned to fight.
+    returns:
+        pandas DataFrame.
     '''
     # Confirm metric
     if primary_role == 'damage':
