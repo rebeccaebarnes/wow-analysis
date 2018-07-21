@@ -84,6 +84,6 @@ def extract_max_parses():
         parses_df = pd.concat([parses_df, player_df])
 
     # Clean parses_df
-    parses_df = clean_player_rankings(parses_df)
+    parses_df = wl.clean_player_rankings(parses_df)
 
     return parses_df
