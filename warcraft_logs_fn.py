@@ -537,3 +537,14 @@ def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
     # Create link
     link = link_start + log_type + '/' + log + end_info + by_info + ability_info + boss_info + link_end
     return link
+
+def get_query_details(link):
+    '''
+    Obtain Warcraft Logs API query details.
+    args:
+        link: (str) API query hyperlink.
+    returns:
+        json file info.
+    '''
+    event = requests.get(link)
+    return event.json()
