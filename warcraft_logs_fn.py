@@ -166,7 +166,8 @@ def extract_fights(boss_list, unwanted_players=[]):
                         'player_name': player['name']
                     })
         # Convert to df
-        player_data = pd.DataFrame(df_list, columns = ['pull_id', 'player_name'])
+        player_data = pd.DataFrame(df_list,
+                                   columns = ['pull_id', 'player_name'])
 
         # Merge df's
         merged_df = fight_data.merge(player_data, how='left', on='pull_id')
@@ -247,7 +248,8 @@ def extract_log_info(api_key,
 
 def import_clean_master_list():
     '''
-    Imports data from 'master_list.csv' as created by get_log_master_list function.
+    Imports data from 'master_list.csv' as created by get_log_master_list
+    function.
     Reformats data for further analysis.
 
     args:
@@ -294,7 +296,8 @@ def import_clean_master_list():
 def player_info_query(player_name, guild_info, metric, api_key, partition=0):
     '''
     Queries Warcraft Logs api for player rankings from guild info according to
-    the metric and manages paramaters if applicable. Saves json file of query data.
+    the metric and manages paramaters if applicable.
+    Saves json file of query data.
 
     args:
         player_name: (str) player name
@@ -368,7 +371,8 @@ def create_rankings_df(player_name, metric, primary_role):
     # Manage players not in guild
     try:
         # Open file
-        file_name = 'player_rankings/' + player_name + '_' + metric + '_player_rankings.txt'
+        file_name = 'player_rankings/' + player_name + '_' + metric + \
+                    '_player_rankings.txt'
         with open(file_name) as json_file:
             data = json.load(json_file)
 
@@ -437,7 +441,9 @@ def get_player_rankings():
     for player in player_names:
         for metric in metrics:
             # Create player df
-            player_df = create_rankings_df(player, metric, player_list[player_list.player == player]['primary_role'].iloc[0])
+            player_df = create_rankings_df(player,
+                                           metric,
+                                           player_list[player_list.player == player]['primary_role'].iloc[0])
             # Join to df
             df = pd.concat([df, player_df])
 
@@ -535,7 +541,8 @@ def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
     link_end = 'difficulty=5&api_key=' + api_key
 
     # Create link
-    link = link_start + log_type + '/' + log + end_info + by_info + ability_info + boss_info + link_end
+    link = link_start + log_type + '/' + log + end_info + by_info + \
+           ability_info + boss_info + link_end
     return link
 
 def get_query_details(link):
@@ -592,7 +599,12 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
         print('Collecting details for log', log)
 
         # Complete query
-        link = create_link(api_key, 'damage-taken', log_df, log, spell_id, boss_id)
+        link = create_link(api_key,
+                           'damage-taken',
+                           log_df,
+                           log,
+                           spell_id,
+                           boss_id)
         details = get_details(link)
 
         # Get player info
@@ -611,7 +623,13 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
             })
 
     # Create dataframe
-    df = pd.DataFrame(df_list, columns=['log_id', 'spell_id', 'spell_name', 'player', 'hits', 'damage_taken'])
+    df = pd.DataFrame(df_list,
+                      columns=['log_id',
+                               'spell_id',
+                               'spell_name',
+                               'player',
+                               'hits',
+                               'damage_taken'])
     drop_spell_name(df, spell_name)
 
     return df
