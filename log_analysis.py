@@ -162,7 +162,11 @@ def join_player_roles(fight_df, player_names):
     df = fight_df.merge(player_names[['player', 'primary_role']], how='left', on='player')
     return df
 
-def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
+def clean_fight_count(fight_df,
+                      log_df,
+                      player_names,
+                      boss_id,
+                      column_names=['player']):
     '''
     Adds fight counts, substitute alt names and combines with substituted names.
 
@@ -171,11 +175,12 @@ def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
         log_df: pandas DataFrame from master_list.csv.
         player_names: pandas DataFrame from player_list.csv.
         boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+        column_names: List of columns to include in the groupby.
     returns:
         pandas DataFrame.
     '''
     # Sum stats by player
-    df = fight_df.groupby('player')[['player', 'hits', 'damage_taken']].sum().reset_index()
+    df = fight_df.groupby('player')[column_names].sum().reset_index()
     # Join hit counts
     df = join_fight_count(df, log_df, boss_id)
     # Manage alts
