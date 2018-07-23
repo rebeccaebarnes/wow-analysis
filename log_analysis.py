@@ -130,3 +130,21 @@ def presence_count(log_df, boss_id):
 
     df = pd.DataFrame(df_list, columns=['boss_id', 'player', 'fight_count'])
     return df
+
+def join_fight_count(fight_df, log_df, boss_id):
+    '''
+    Joins fight count to fight df.
+    args:
+        fight_df: pandas DataFrame of fight statistics.
+        log_df: pandas DataFrame from master_list.csv.
+        boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+    returns:
+        pandas DataFrame.
+    '''
+    # Get player fight count
+    fight_count = presence_count(log_df, boss_id)
+
+    # Join fight count to fight_df
+    df = fight_df.merge(fight_count[['player', 'fight_count']], how='left', on='player')
+    
+    return df
