@@ -594,7 +594,7 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
         df: pandas DataFrame.
     '''
     df_list = []
-    logs = get_logs(log_df, boss_id)
+    logs = get_log_ids(log_df, boss_id)
     for log in logs:
         print('Collecting details for log', log)
 
@@ -605,7 +605,7 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
                            log,
                            spell_id,
                            boss_id)
-        details = get_details(link)
+        details = get_query_details(link)
 
         # Get player info
         for player in details['entries']:
@@ -654,7 +654,7 @@ def buff_duration(api_key,
         df: pandas DataFrame.
     '''
     df_list = []
-    logs = get_logs(log_df, boss_id)
+    logs = get_log_ids(log_df, boss_id)
     for log in logs:
         print('Collecting details for log', log)
 
@@ -663,7 +663,7 @@ def buff_duration(api_key,
         if buff is False:
             buff_type = 'debuffs'
         link = create_link(api_key, buff_type, log_df, log, spell_id, boss_id)
-        details = get_details(link)
+        details = get_query_details(link)
 
         # Get player info
         for player in details['auras']:
@@ -710,13 +710,13 @@ def cast_count(api_key,
         df: pandas DataFrame.
     '''
     df_list = []
-    logs = get_logs(log_df, boss_id)
+    logs = get_log_ids(log_df, boss_id)
     for log in logs:
         print('Collecting details for log', log)
 
         # Complete query
         link = create_link(api_key, 'casts', log_df, log, spell_id, boss_id)
-        details = get_details(link)
+        details = get_query_details(link)
 
         # Get player info
         for player in details['entries']:
