@@ -507,3 +507,33 @@ def get_log_ids(df, boss_id=None):
         logs = df[df.boss_id == boss_id].log_id.unique()
 
     return logs
+
+def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
+    '''
+    Creates link for Warcraft Logs API query.
+    args:
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        log_type: (str) One of 'damage-taken', 'casts', 'buffs' or 'debuffs'.
+        log_df: pandas DataFrame from get_logs.
+        log: (str) Log ID for log from Warcraft Logs.
+        spell_id: (int) Code for spell as defined in World of Warcraft.
+        boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+    returns:
+        (str) Link for Warcraft Logs API query.
+    '''
+    # Create link components
+    end = log_df[log_df['log_id'] == log].pull_end.max()
+    link_start = 'https://www.warcraftlogs.com:443/v1/report/tables/'
+    end_info = '?end=' + str(end) + '&'
+    by_info = 'by=source&'
+    ability_info = 'abilityid=' + str(spell_id) + '&'
+    if spell_id is None:
+        ability_info = ''
+    boss_info = 'encounter=' + str(boss_id) + '&'
+    if boss_id is None:
+        boss_info = ''
+    link_end = 'difficulty=5&api_key=' + api_key
+
+    # Create link
+    link = link_start + log_type + '/' + log + end_info + by_info + ability_info + boss_info + link_end
+    return link
