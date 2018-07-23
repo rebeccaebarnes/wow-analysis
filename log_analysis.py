@@ -186,14 +186,15 @@ def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
 
     return df
 
-def find_hit_order(fight_df, fight_count_limit, least=True):
+def find_count_order(fight_df, fight_count_limit, column_name, least=True):
     '''
-    Finds order of average damage hits within at least minimum fight count.
+    Finds order of average action within at least minimum fight count.
 
     args:
         fight_df: pandas DataFrame of fight statistics with fight count numbers.
-        fight_count_limit: minimum number of fights a player must have to be
+        fight_count_limit: Minimum number of fights a player must have to be
         included.
+        column_name: (str) Column of action to be averaged.
         least: (bool) If least is True will sort in ascending order, if False,
         in descending order.
     returns:
@@ -203,12 +204,12 @@ def find_hit_order(fight_df, fight_count_limit, least=True):
     df = fight_df.copy()
 
     # Create average hits per fight column
-    df['av_hit'] = df['hits'] / df['fight_count']
+    df['av_count'] = df[column_name] / df['fight_count']
 
     # Limit df to above fight_count_limit
     df = df[df['fight_count'] >= fight_count_limit]
 
     # Sort av_hits
-    df.sort_values('av_hit', ascending=least, inplace=True)
+    df.sort_values('av_count', ascending=least, inplace=True)
 
     return df
