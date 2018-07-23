@@ -635,12 +635,24 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
     return df
 
 def buff_duration(api_key,
-               log_df,
-               spell_id,
-               spell_name=None,
-               description=None,
-               boss_id=None,
-               buff=True):
+                  log_df,
+                  spell_id,
+                  spell_name=None,
+                  description=None,
+                  boss_id=None,
+                  buff=True):
+    '''
+    Completes a 'buffs' or 'debuffs' query of the Warcraft Logs API.
+    args:
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        log_df: pandas DataFrame from get_logs.
+        spell_id: (int) Code for spell as defined in World of Warcraft.
+        spell_name: Optional. (str) Name of spell.
+        boss_id: Optional. (int) Code for boss encounter as defined in World of
+        Warcraft.
+    returns:
+        df: pandas DataFrame.
+    '''
     df_list = []
     logs = get_logs(log_df, boss_id)
     for log in logs:
