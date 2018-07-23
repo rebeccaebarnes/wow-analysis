@@ -93,7 +93,7 @@ def change_names(df, player_names):
     Change alt player names retrieved from Warcraft Logs API query to player
     names.
     args:
-        df: pandas DataFrame from wl.get_logs.
+        df: pandas DataFrame with 'player' column.
         player_names: pandas DataFrame from player_list.csv.
     returns:
         None.
