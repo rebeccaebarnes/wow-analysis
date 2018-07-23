@@ -501,7 +501,7 @@ def get_log_ids(df, boss_id=None):
     returns:
         list-like object of log ids.
     '''
-    if boss_name is None:
+    if boss_id is None:
         logs = df['log_id'].unique()
     else:
         logs = df[df.boss_id == boss_id].log_id.unique()
