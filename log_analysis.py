@@ -186,14 +186,16 @@ def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
 
     return df
 
-def find_least_hits(fight_df, fight_count_limit):
+def find_hit_order(fight_df, fight_count_limit, least=True):
     '''
-    Finds least average damage hits within at least fight_count_limit.
+    Finds order of average damage hits within at least minimum fight count.
 
     args:
         fight_df: pandas DataFrame of fight statistics with fight count numbers.
         fight_count_limit: minimum number of fights a player must have to be
         included.
+        least: (bool) If least is True will sort in ascending order, if False,
+        in descending order.
     returns:
         pandas DataFrame.
     '''
@@ -206,7 +208,7 @@ def find_least_hits(fight_df, fight_count_limit):
     # Limit df to above fight_count_limit
     df = df[df['fight_count'] >= fight_count_limit]
 
-    # Sort av_hits by lowest first
-    df.sort_values('av_hit', inplace=True)
+    # Sort av_hits
+    df.sort_values('av_hit', ascending=least, inplace=True)
 
     return df
