@@ -572,3 +572,46 @@ def drop_description(df, description):
     '''
     if description is None:
         df.drop('description', axis=1, inplace=True)
+
+def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
+    '''
+    Completes a 'damage-taken' query of the Warcraft Logs API.
+    args:
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        log_df: pandas DataFrame from get_logs.
+        spell_id: (int) Code for spell as defined in World of Warcraft.
+        spell_name: Optional. (str) Name of spell.
+        boss_id: Optional. (int) Code for boss encounter as defined in World of
+        Warcraft.
+    returns:
+        df: pandas DataFrame.
+    '''
+    df_list = []
+    logs = get_logs(log_df, boss_id)
+    for log in logs:
+        print('Collecting details for log', log)
+
+        # Complete query
+        link = create_link(api_key, 'damage-taken', log_df, log, spell_id, boss_id)
+        details = get_details(link)
+
+        # Get player info
+        for player in details['entries']:
+            name = player['name']
+            print('Player added:', name)
+            hits = player['hitCount']
+            damage = player['total']
+            df_list.append({
+                'log_id': log,
+                'spell_id': spell_id,
+                'spell_name': spell_name,
+                'player': name,
+                'hits': hits,
+                'damage_taken': damage
+            })
+
+    # Create dataframe
+    df = pd.DataFrame(df_list, columns=['log_id', 'spell_id', 'spell_name', 'player', 'hits', 'damage_taken'])
+    drop_spell_name(df, spell_name)
+
+    return df
