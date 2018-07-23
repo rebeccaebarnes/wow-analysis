@@ -784,3 +784,52 @@ def cast_count(api_key,
     drop_spell_name(df, spell_name)
 
     return df
+
+def damage_done(api_key, log_df, boss_id=None, NPC=True):
+    '''
+    Completes a 'damage-taken' by enemies query of the Warcraft Logs API.
+    args:
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        log_df: pandas DataFrame from get_logs.
+        boss_id: Optional. (int) Code for boss encounter as defined in World of
+        Warcraft.
+        NPC: (bool) If True only damage to NPCs is calculated, if False, only
+        damage to Boss.
+    returns:
+        df: pandas DataFrame.
+    '''
+    df_list = []
+    logs = get_log_ids(log_df, boss_id)
+    for log in logs:
+        print('Collecting details for log', log)
+
+        # Complete query
+        link = create_link_damage_done(api_key, log_df, log, boss_id)
+        details = get_query_details(link)
+
+        # Get player info
+        for player in details['entries']:
+            if player['type'] == 'Pet':
+                continue
+            name = player['name']
+            print('Player added:', name)
+            damage = 0
+            # Collect damage for NPC or boss
+            for target in player['targets']:
+                if NPC is True:
+                    if target['type'] == 'NPC':
+                        damage += target['total']
+                else:
+                    if target['type'] == 'Boss':
+                        damage += target['total']
+            df_list.append({
+                'log_id': log,
+                'player': name,
+                'NPC': NPC,
+                'damage_done': damage
+            })
+
+    # Create dataframe
+    df = pd.DataFrame(df_list, columns=['log_id', 'player', 'NPC', 'damage_done'])
+
+    return df
