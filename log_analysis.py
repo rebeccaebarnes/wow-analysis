@@ -103,3 +103,27 @@ def change_names(df, player_names):
         player_name = row['player']
         if player_name in players:
             df.at[index, 'player'] = player_names[player_names['alt'] == player_name].player.iloc[0]
+
+
+def presence_count(log_df, boss_id):
+    '''
+    Counts all player appearances for a particular boss from logs.
+
+    args:
+        log_df: pandas DataFrame from master_list.csv.
+        boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+    returns:
+        pandas DataFrame.
+    '''
+    boss_fights = log_df[log_df['boss_id'] == boss_id]
+    df_list = []
+    for player in log_df['player_name'].unique():
+        count = boss_fights[boss_fights['player_name'] == player].shape[0]
+        df_list.append({
+            'boss_id': boss_id,
+            'player': player,
+            'fight_count': count
+        })
+
+    df = pd.DataFrame(df_list, columns=['boss_id', 'player', 'fight_count'])
+    return df
