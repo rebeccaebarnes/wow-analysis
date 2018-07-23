@@ -490,3 +490,11 @@ def import_clean_player_rankings():
     df.ranking_date = pd.to_datetime(df.ranking_date, unit='ms').dt.date
 
     return df
+
+def get_log_ids(df, boss_name=None):
+    if boss_name is None:
+        logs = df['log_id'].unique()
+    else:
+        logs = df[df.boss_id == boss_name].log_id.unique()
+
+    return logs
