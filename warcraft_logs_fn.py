@@ -590,7 +590,12 @@ def drop_description(df, description):
     if description is None:
         df.drop('description', axis=1, inplace=True)
 
-def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
+def damage_taken(api_key,
+                 log_df,
+                 spell_id,
+                 spell_name=None,
+                 boss_id=None,
+                 death_cutoff=None):
     '''
     Completes a 'damage-taken' query of the Warcraft Logs API.
     args:
@@ -600,6 +605,7 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
         spell_name: Optional. (str) Name of spell.
         boss_id: Optional. (int) Code for boss encounter as defined in World of
         Warcraft.
+        death_cutoff: (int) Exclude data after this many deaths.
     returns:
         df: pandas DataFrame.
     '''
@@ -614,7 +620,8 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
                            log_df,
                            log,
                            spell_id,
-                           boss_id)
+                           boss_id,
+                           death_cutoff)
         details = get_query_details(link)
 
         # Get player info
