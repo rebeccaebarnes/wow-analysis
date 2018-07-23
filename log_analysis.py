@@ -115,7 +115,10 @@ def presence_count(log_df, boss_id):
     returns:
         pandas DataFrame.
     '''
+    # Limit log_df to only those with boss_id
     boss_fights = log_df[log_df['boss_id'] == boss_id]
+
+    # Create df of player count within log
     df_list = []
     for player in log_df['player_name'].unique():
         count = boss_fights[boss_fights['player_name'] == player].shape[0]
