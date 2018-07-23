@@ -179,7 +179,7 @@ def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
     # Join hit counts
     df = join_fight_count(df, log_df, boss_id)
     # Manage alts
-    la.change_names(df, player_names)
+    change_names(df, player_names)
     df = df.groupby('player').sum().reset_index()
     # Join player role
     df = join_player_roles(df, player_names)
