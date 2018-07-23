@@ -146,5 +146,18 @@ def join_fight_count(fight_df, log_df, boss_id):
 
     # Join fight count to fight_df
     df = fight_df.merge(fight_count[['player', 'fight_count']], how='left', on='player')
-    
+
+    return df
+
+def join_player_roles(fight_df, player_names):
+    '''
+    Adds player roles to fight statistics.
+
+    args:
+        fight_df: pandas DataFrame of fight statistics.
+        player_names: pandas DataFrame from player_list.csv.
+    returns:
+        pandas DataFrame.
+    '''
+    df = fight_df.merge(player_names[['player', 'primary_role']], how='left', on='player')
     return df
