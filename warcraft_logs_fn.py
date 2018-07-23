@@ -491,10 +491,19 @@ def import_clean_player_rankings():
 
     return df
 
-def get_log_ids(df, boss_name=None):
+def get_log_ids(df, boss_id=None):
+    '''
+    Collects list of unique boss ids.
+
+    args:
+        df: pandas DataFrame from get_logs.
+        boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+    returns:
+        list-like object of log ids.
+    '''
     if boss_name is None:
         logs = df['log_id'].unique()
     else:
-        logs = df[df.boss_id == boss_name].log_id.unique()
+        logs = df[df.boss_id == boss_id].log_id.unique()
 
     return logs
