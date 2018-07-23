@@ -185,3 +185,28 @@ def clean_damage_fight_count(fight_df, log_df, player_names, boss_id):
     df = join_player_roles(df, player_names)
 
     return df
+
+def find_least_hits(fight_df, fight_count_limit):
+    '''
+    Finds least average damage hits within at least fight_count_limit.
+
+    args:
+        fight_df: pandas DataFrame of fight statistics with fight count numbers.
+        fight_count_limit: minimum number of fights a player must have to be
+        included.
+    returns:
+        pandas DataFrame.
+    '''
+    # Copy to avoid warning messages
+    df = fight_df.copy()
+
+    # Create average hits per fight column
+    df['av_hit'] = df['hits'] / df['fight_count']
+
+    # Limit df to above fight_count_limit
+    df = df[df['fight_count'] >= fight_count_limit]
+
+    # Sort av_hits by lowest first
+    df.sort_values('av_hit', inplace=True)
+
+    return df
