@@ -514,7 +514,13 @@ def get_log_ids(df, boss_id=None):
 
     return logs
 
-def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
+def create_link(api_key,
+                log_type,
+                log_df,
+                log,
+                spell_id=None,
+                boss_id=None,
+                death_cutoff=None):
     '''
     Creates link for Warcraft Logs API query.
     args:
@@ -524,6 +530,7 @@ def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
         log: (str) Log ID for log from Warcraft Logs.
         spell_id: (int) Code for spell as defined in World of Warcraft.
         boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+        death_cutoff: (int) Exclude data after this many deaths.
     returns:
         (str) Link for Warcraft Logs API query.
     '''
@@ -535,6 +542,9 @@ def create_link(api_key, log_type, log_df, log, spell_id=None, boss_id=None):
     ability_info = 'abilityid=' + str(spell_id) + '&'
     if spell_id is None:
         ability_info = ''
+    cutoff_info = 'cutoff=' + str(death_cutoff) + '&'
+    if death_cutoff is None:
+        cutoff_info = ''
     boss_info = 'encounter=' + str(boss_id) + '&'
     if boss_id is None:
         boss_info = ''
