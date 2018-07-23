@@ -560,3 +560,15 @@ def drop_spell_name(df, spell_name):
     '''
     if spell_name is None:
         df.drop('spell_name', axis=1, inplace=True)
+
+def drop_description(df, description):
+    '''
+    Conditional drop of 'description' column from dataframe.
+    args:
+        df: pandas DataFrame with 'description' column.
+        spell_name: One of None or (str) of description.
+    returns:
+        None.
+    '''
+    if description is None:
+        df.drop('description', axis=1, inplace=True)
