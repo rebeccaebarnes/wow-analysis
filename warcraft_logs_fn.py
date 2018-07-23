@@ -805,6 +805,7 @@ def damage_done(api_key, log_df, boss_id=None, NPC=True):
 
         # Complete query
         link = create_link_damage_done(api_key, log_df, log, boss_id)
+        print('Query link:', link)
         details = get_query_details(link)
 
         # Get player info
