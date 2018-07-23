@@ -117,6 +117,8 @@ def presence_count(log_df, boss_id):
     '''
     # Limit log_df to only those with boss_id
     boss_fights = log_df[log_df['boss_id'] == boss_id]
+    if boss_id is None:
+        boss_fights = log_df
 
     # Create df of player count within log
     df_list = []
