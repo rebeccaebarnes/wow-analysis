@@ -555,6 +555,32 @@ def create_link(api_key,
            ability_info + boss_info + link_end
     return link
 
+def create_link_damage_done(api_key, log_df, log, boss_id=None):
+    '''
+    Creates link for Warcraft Logs API query for damage done to enemies.
+    args:
+        api_key: (str) Public Key from personal Warcraft Logs account.
+        log_df: pandas DataFrame from get_logs.
+        log: (str) Log ID for log from Warcraft Logs.
+        boss_id: (int) Code for boss encounter as defined in World of Warcraft.
+    returns:
+        (str) Link for Warcraft Logs API query.
+    '''
+    # Create link components
+    end = log_df[log_df['log_id'] == log].pull_end.max()
+    link_start = 'https://www.warcraftlogs.com:443/v1/report/tables/damage-taken/'
+    end_info = '?end=' + str(end) + '&'
+    target_info = 'hostility=1&by=target&'
+    boss_info = 'encounter=' + str(boss_id) + '&'
+    if boss_id is None:
+        boss_info = ''
+    link_end = 'difficulty=5&api_key=' + api_key
+
+    # Create link
+    link = link_start + log + end_info + target_info + boss_info + link_end
+
+    return link
+
 def get_query_details(link):
     '''
     Obtain Warcraft Logs API query details.
