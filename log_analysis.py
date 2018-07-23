@@ -100,5 +100,6 @@ def change_names(df, player_names):
     '''
     players = player_names['alt'].unique()
     for index, row in df.iterrows():
-        if row['player'] in players:
+        player_name = row['player']
+        if player_name in players:
             df.at[index, 'player'] = player_names[player_names['alt'] == player_name].player.iloc[0]
