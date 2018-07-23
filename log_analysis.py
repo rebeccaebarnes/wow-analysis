@@ -166,7 +166,7 @@ def clean_fight_count(fight_df,
                       log_df,
                       player_names,
                       boss_id,
-                      column_names=['player']):
+                      column_names):
     '''
     Adds fight counts, substitute alt names and combines with substituted names.
 
