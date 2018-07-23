@@ -615,3 +615,49 @@ def damage_taken(api_key, log_df, spell_id, spell_name=None, boss_id=None):
     drop_spell_name(df, spell_name)
 
     return df
+
+def buff_duration(api_key,
+               log_df,
+               spell_id,
+               spell_name=None,
+               description=None,
+               boss_id=None,
+               buff=True):
+    df_list = []
+    logs = get_logs(log_df, boss_id)
+    for log in logs:
+        print('Collecting details for log', log)
+
+        # Complete query
+        buff_type = 'buffs'
+        if buff is False:
+            buff_type = 'debuffs'
+        link = create_link(api_key, buff_type, log_df, log, spell_id, boss_id)
+        details = get_details(link)
+
+        # Get player info
+        for player in details['auras']:
+            name = player['name']
+            print('Player added:', name)
+            duration = player['totalUptime']
+            df_list.append({
+                'log_id': log,
+                'spell_id': spell_id,
+                'spell_name': spell_name,
+                'description': description,
+                'player': name,
+                'duration': duration
+            })
+
+    # Create dataframe
+    df = pd.DataFrame(df_list,
+                      columns=['log_id',
+                               'spell_id',
+                               'spell_name',
+                               'description',
+                               'player',
+                               'duration'])
+    drop_spell_name(df, spell_name)
+    drop_description(df, description)
+
+    return df
