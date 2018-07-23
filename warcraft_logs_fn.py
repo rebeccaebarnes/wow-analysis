@@ -189,8 +189,6 @@ def extract_fights(boss_list, unwanted_players=[]):
     # Change start_time and end_time to int
     df.pull_start = df.pull_start.astype('int')
     df.pull_end = df.pull_end.astype('int')
-    # Drop difficulty column
-    df.drop('difficulty', axis=1, inplace=True)
     print("\nDataframe cleaned.")
 
     return df
@@ -222,6 +220,7 @@ def create_master_list(log_info, fight_info):
             'pull_end',
             'boss_id',
             'boss_name',
+            'difficulty',
             'kill',
             'player_name']
     df = df[cols]
