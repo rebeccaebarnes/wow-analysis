@@ -548,3 +548,15 @@ def get_query_details(link):
     '''
     event = requests.get(link)
     return event.json()
+
+def drop_spell_name(df, spell_name):
+    '''
+    Conditional drop of 'spell_name' column from dataframe.
+    args:
+        df: pandas DataFrame with 'spell_name' column.
+        spell_name: One of None or (str) of spell name.
+    returns:
+        None.
+    '''
+    if spell_name is None:
+        df.drop('spell_name', axis=1, inplace=True)
