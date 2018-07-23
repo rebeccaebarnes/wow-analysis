@@ -103,8 +103,8 @@ def extract_fights(boss_list, unwanted_players=[]):
     # Create empty df
     df = pd.DataFrame([], columns = ['log_id',
                                      'pull_id',
-                                     'start_time',
-                                     'end_time',
+                                     'pull_start',
+                                     'pull_end',
                                      'boss_id',
                                      'boss_name',
                                      'difficulty',
