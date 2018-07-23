@@ -87,3 +87,18 @@ def extract_max_parses():
     parses_df = wl.clean_player_rankings(parses_df)
 
     return parses_df
+
+def change_names(df, player_names):
+    '''
+    Change alt player names retrieved from Warcraft Logs API query to player
+    names.
+    args:
+        df: pandas DataFrame from wl.get_logs.
+        player_names: pandas DataFrame from player_list.csv.
+    returns:
+        None.
+    '''
+    players = player_names['alt'].unique()
+    for index, row in df.iterrows():
+        if row['player'] in players:
+            df.at[index, 'player'] = player_names[player_names['alt'] == player_name].player.iloc[0]
