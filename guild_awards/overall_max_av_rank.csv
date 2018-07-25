@@ -1,0 +1,286 @@
+player_name,primary_role,boss_id,boss_name,percentile,ilevel,spec,metric,ranking_date
+Vaelyra,damage,2063,Aggramar,75,974,Havoc,dps,2018-04-25
+Vaelyra,damage,2064,Portal Keeper Hasabel,75,971,Havoc,dps,2018-03-07
+Vaelyra,damage,2070,Antoran High Command,56,963,Havoc,dps,2018-02-28
+Vaelyra,damage,2073,The Coven of Shivarra,70,974,Havoc,dps,2018-03-30
+Vaelyra,damage,2074,Felhounds of Sargeras,91,974,Havoc,dps,2018-04-12
+Vaelyra,damage,2075,The Defense of Eonar,77,973,Havoc,dps,2018-03-14
+Vaelyra,damage,2076,Garothi Worldbreaker,79,961,Havoc,dps,2018-02-07
+Vaelyra,damage,2082,Imonar the Soulhunter,57,963,Havoc,dps,2018-03-01
+Vaelyra,damage,2088,Kin'garoth,60,974,Havoc,dps,2018-03-21
+Metonymy,damage,2063,Aggramar,25,979,Fire,dps,2018-04-25
+Metonymy,damage,2064,Portal Keeper Hasabel,85,975,Fire,dps,2018-03-07
+Metonymy,damage,2069,Varimathras,80,979,Fire,dps,2018-04-11
+Metonymy,damage,2070,Antoran High Command,74,973,Fire,dps,2018-02-21
+Metonymy,damage,2073,The Coven of Shivarra,64,979,Fire,dps,2018-03-30
+Metonymy,damage,2074,Felhounds of Sargeras,86,979,Fire,dps,2018-04-12
+Metonymy,damage,2075,The Defense of Eonar,71,975,Fire,dps,2018-03-07
+Metonymy,damage,2076,Garothi Worldbreaker,91,979,Fire,dps,2018-04-11
+Metonymy,damage,2082,Imonar the Soulhunter,73,971,Fire,dps,2018-02-16
+Metonymy,damage,2088,Kin'garoth,60,980,Fire,dps,2018-04-11
+Brian,damage,2063,Aggramar,41,971,Marksmanship,dps,2018-04-25
+Brian,damage,2064,Portal Keeper Hasabel,71,971,Marksmanship,dps,2018-03-07
+Brian,damage,2069,Varimathras,90,969,Marksmanship,dps,2018-03-29
+Brian,damage,2070,Antoran High Command,90,971,Marksmanship,dps,2018-03-07
+Brian,damage,2073,The Coven of Shivarra,73,969,Marksmanship,dps,2018-03-30
+Brian,damage,2074,Felhounds of Sargeras,95,971,Marksmanship,dps,2018-04-12
+Brian,damage,2075,The Defense of Eonar,90,961,Marksmanship,dps,2018-03-21
+Brian,damage,2076,Garothi Worldbreaker,96,968,Marksmanship,dps,2018-03-14
+Brian,damage,2082,Imonar the Soulhunter,95,970,Marksmanship,dps,2018-04-04
+Brian,damage,2088,Kin'garoth,81,970,Marksmanship,dps,2018-04-11
+Shaami,healer,2063,Aggramar,80,973,Restoration,hps,2018-05-10
+Shaami,healer,2064,Portal Keeper Hasabel,92,971,Restoration,hps,2018-02-08
+Shaami,healer,2069,Varimathras,86,975,Restoration,hps,2018-04-10
+Shaami,healer,2070,Antoran High Command,99,976,Restoration,hps,2018-05-17
+Shaami,healer,2073,The Coven of Shivarra,65,976,Restoration,hps,2018-04-12
+Shaami,healer,2074,Felhounds of Sargeras,95,971,Restoration,hps,2018-02-08
+Shaami,healer,2075,The Defense of Eonar,95,967,Restoration,hps,2018-01-16
+Shaami,healer,2076,Garothi Worldbreaker,98,971,Restoration,hps,2018-02-08
+Shaami,healer,2082,Imonar the Soulhunter,95,974,Restoration,hps,2018-03-15
+Shaami,healer,2088,Kin'garoth,92,973,Restoration,hps,2018-02-20
+Petrol,damage,2088,Kin'garoth,81,978,Fire,dps,2018-04-05
+Petrol,damage,2063,Aggramar,17,979,Fire,dps,2018-04-25
+Petrol,damage,2064,Portal Keeper Hasabel,92,971,Fire,dps,2018-03-07
+Petrol,damage,2069,Varimathras,51,978,Fire,dps,2018-03-21
+Petrol,damage,2070,Antoran High Command,65,973,Fire,dps,2018-02-21
+Petrol,damage,2073,The Coven of Shivarra,50,979,Fire,dps,2018-04-11
+Petrol,damage,2074,Felhounds of Sargeras,99,975,Fire,dps,2018-02-21
+Petrol,damage,2075,The Defense of Eonar,95,965,Fire,dps,2018-01-12
+Petrol,damage,2076,Garothi Worldbreaker,86,979,Fire,dps,2018-04-04
+Petrol,damage,2082,Imonar the Soulhunter,93,979,Fire,dps,2018-04-11
+Ayriea,damage,2076,Garothi Worldbreaker,97,974,Beast Mastery,dps,2018-03-21
+Ayriea,damage,2082,Imonar the Soulhunter,87,974,Beast Mastery,dps,2018-03-21
+Ayriea,damage,2088,Kin'garoth,95,974,Beast Mastery,dps,2018-03-21
+Ayriea,damage,2063,Aggramar,32,976,Beast Mastery,dps,2018-04-25
+Ayriea,damage,2064,Portal Keeper Hasabel,83,973,Beast Mastery,dps,2018-03-15
+Ayriea,damage,2069,Varimathras,83,972,Beast Mastery,dps,2018-03-09
+Ayriea,damage,2070,Antoran High Command,72,969,Beast Mastery,dps,2018-02-21
+Ayriea,damage,2073,The Coven of Shivarra,79,975,Beast Mastery,dps,2018-03-30
+Ayriea,damage,2074,Felhounds of Sargeras,99,975,Beast Mastery,dps,2018-04-04
+Ayriea,damage,2075,The Defense of Eonar,95,974,Beast Mastery,dps,2018-03-21
+Stradivarus,damage,2076,Garothi Worldbreaker,96,962,Fury,dps,2018-02-21
+Stradivarus,damage,2082,Imonar the Soulhunter,66,970,Fury,dps,2018-03-28
+Stradivarus,damage,2088,Kin'garoth,71,966,Fury,dps,2018-03-08
+Stradivarus,damage,2063,Aggramar,57,972,Fury,dps,2018-04-25
+Stradivarus,damage,2064,Portal Keeper Hasabel,36,958,Fury,dps,2018-02-22
+Stradivarus,damage,2069,Varimathras,64,966,Fury,dps,2018-03-09
+Stradivarus,damage,2070,Antoran High Command,80,959,Fury,dps,2018-02-23
+Stradivarus,damage,2073,The Coven of Shivarra,88,970,Fury,dps,2018-04-11
+Stradivarus,damage,2074,Felhounds of Sargeras,80,966,Fury,dps,2018-03-07
+Stradivarus,damage,2075,The Defense of Eonar,75,957,Fury,dps,2018-02-28
+Earrl,tank,2063,Aggramar,9,976,Guardian,tankhps,2018-04-25
+Earrl,tank,2064,Portal Keeper Hasabel,26,962,Guardian,tankhps,2018-01-05
+Earrl,tank,2069,Varimathras,46,973,Guardian,tankhps,2018-03-21
+Earrl,tank,2070,Antoran High Command,58,964,Guardian,tankhps,2018-02-28
+Earrl,tank,2073,The Coven of Shivarra,10,974,Guardian,tankhps,2018-04-05
+Earrl,tank,2074,Felhounds of Sargeras,34,970,Guardian,tankhps,2018-02-07
+Earrl,tank,2075,The Defense of Eonar,83,965,Guardian,tankhps,2018-01-19
+Earrl,tank,2076,Garothi Worldbreaker,19,973,Guardian,tankhps,2018-04-11
+Earrl,tank,2082,Imonar the Soulhunter,53,973,Guardian,tankhps,2018-04-04
+Earrl,tank,2088,Kin'garoth,43,974,Guardian,tankhps,2018-04-05
+Illestra,healer,2063,Aggramar,29,976,Restoration,hps,2018-04-25
+Illestra,healer,2064,Portal Keeper Hasabel,54,962,Restoration,hps,2018-01-05
+Illestra,healer,2069,Varimathras,60,975,Restoration,hps,2018-04-11
+Illestra,healer,2070,Antoran High Command,92,965,Restoration,hps,2018-01-11
+Illestra,healer,2073,The Coven of Shivarra,69,974,Restoration,hps,2018-03-30
+Illestra,healer,2074,Felhounds of Sargeras,92,967,Restoration,hps,2018-01-18
+Illestra,healer,2075,The Defense of Eonar,50,969,Restoration,hps,2018-02-14
+Illestra,healer,2076,Garothi Worldbreaker,76,969,Restoration,hps,2018-02-21
+Illestra,healer,2082,Imonar the Soulhunter,88,971,Restoration,hps,2018-03-28
+Illestra,healer,2088,Kin'garoth,24,969,Restoration,hps,2018-02-22
+Kamer,damage,2064,Portal Keeper Hasabel,60,963,Retribution,dps,2018-02-07
+Kamer,damage,2070,Antoran High Command,69,963,Retribution,dps,2018-02-07
+Kamer,damage,2074,Felhounds of Sargeras,65,960,Retribution,dps,2018-01-11
+Kamer,damage,2075,The Defense of Eonar,59,961,Retribution,dps,2018-01-19
+Kamer,damage,2076,Garothi Worldbreaker,73,960,Retribution,dps,2018-01-10
+Kamer,damage,2082,Imonar the Soulhunter,59,963,Retribution,dps,2018-02-01
+Cagliostro,damage,2063,Aggramar,57,971,Arms,dps,2018-04-25
+Cagliostro,damage,2064,Portal Keeper Hasabel,99,962,Arms,dps,2018-01-18
+Cagliostro,damage,2069,Varimathras,94,967,Arms,dps,2018-04-11
+Cagliostro,damage,2070,Antoran High Command,95,964,Arms,dps,2018-01-19
+Cagliostro,damage,2073,The Coven of Shivarra,97,971,Arms,dps,2018-03-30
+Cagliostro,damage,2074,Felhounds of Sargeras,94,969,Arms,dps,2018-02-28
+Cagliostro,damage,2075,The Defense of Eonar,88,970,Arms,dps,2018-03-07
+Cagliostro,damage,2076,Garothi Worldbreaker,96,969,Arms,dps,2018-02-21
+Cagliostro,damage,2082,Imonar the Soulhunter,82,971,Arms,dps,2018-04-04
+Cagliostro,damage,2088,Kin'garoth,71,969,Arms,dps,2018-02-22
+Shallowfall,damage,2069,Varimathras,31,967,Unholy,dps,2018-03-09
+Shallowfall,damage,2070,Antoran High Command,59,962,Unholy,dps,2018-02-07
+Shallowfall,damage,2073,The Coven of Shivarra,52,969,Unholy,dps,2018-03-30
+Shallowfall,damage,2074,Felhounds of Sargeras,92,970,Unholy,dps,2018-04-12
+Shallowfall,damage,2075,The Defense of Eonar,99,966,Unholy,dps,2018-02-22
+Shallowfall,damage,2076,Garothi Worldbreaker,87,968,Unholy,dps,2018-04-11
+Shallowfall,damage,2082,Imonar the Soulhunter,48,969,Unholy,dps,2018-03-28
+Shallowfall,damage,2088,Kin'garoth,41,969,Unholy,dps,2018-03-28
+Tawñ,damage,2064,Portal Keeper Hasabel,70,968,Frost,dps,2018-02-22
+Tawñ,damage,2069,Varimathras,67,972,Frost,dps,2018-04-10
+Tawñ,damage,2070,Antoran High Command,57,972,Frost,dps,2018-03-27
+Tawñ,damage,2073,The Coven of Shivarra,83,971,Frost,dps,2018-03-20
+Tawñ,damage,2074,Felhounds of Sargeras,88,972,Frost,dps,2018-03-27
+Tawñ,damage,2075,The Defense of Eonar,62,972,Frost,dps,2018-04-05
+Tawñ,damage,2076,Garothi Worldbreaker,93,968,Frost,dps,2018-02-22
+Tawñ,damage,2082,Imonar the Soulhunter,52,971,Frost,dps,2018-03-22
+Tawñ,damage,2088,Kin'garoth,74,969,Frost,dps,2018-03-06
+Divanance,tank,2063,Aggramar,72,973,Blood,tankhps,2018-04-25
+Divanance,tank,2064,Portal Keeper Hasabel,19,962,Blood,tankhps,2018-01-05
+Divanance,tank,2069,Varimathras,52,971,Blood,tankhps,2018-03-21
+Divanance,tank,2070,Antoran High Command,49,968,Blood,tankhps,2018-01-11
+Divanance,tank,2073,The Coven of Shivarra,61,972,Blood,tankhps,2018-04-11
+Divanance,tank,2074,Felhounds of Sargeras,55,974,Blood,tankhps,2018-04-04
+Divanance,tank,2075,The Defense of Eonar,65,969,Blood,tankhps,2018-01-25
+Divanance,tank,2076,Garothi Worldbreaker,18,970,Blood,tankhps,2018-02-28
+Divanance,tank,2082,Imonar the Soulhunter,58,976,Blood,tankhps,2018-04-11
+Divanance,tank,2088,Kin'garoth,46,974,Blood,tankhps,2018-04-05
+Psychodruid,damage,2064,Portal Keeper Hasabel,76,966,Balance,dps,2018-03-15
+Psychodruid,damage,2069,Varimathras,38,974,Balance,dps,2018-04-11
+Psychodruid,damage,2070,Antoran High Command,64,958,Balance,dps,2018-01-05
+Psychodruid,damage,2073,The Coven of Shivarra,36,971,Balance,dps,2018-03-30
+Psychodruid,damage,2075,The Defense of Eonar,38,972,Balance,dps,2018-03-28
+Psychodruid,damage,2082,Imonar the Soulhunter,19,961,Balance,dps,2018-02-09
+Psychodruid,damage,2088,Kin'garoth,17,966,Balance,dps,2018-03-21
+Velsummers,damage,2064,Portal Keeper Hasabel,69,972,Balance,dps,2018-03-09
+Velsummers,damage,2069,Varimathras,53,974,Balance,dps,2018-03-15
+Velsummers,damage,2070,Antoran High Command,81,972,Balance,dps,2018-03-09
+Velsummers,damage,2073,The Coven of Shivarra,83,972,Balance,dps,2018-03-15
+Velsummers,damage,2074,Felhounds of Sargeras,87,974,Balance,dps,2018-03-28
+Velsummers,damage,2075,The Defense of Eonar,54,972,Balance,dps,2018-03-09
+Velsummers,damage,2076,Garothi Worldbreaker,90,974,Balance,dps,2018-03-14
+Velsummers,damage,2082,Imonar the Soulhunter,75,974,Balance,dps,2018-03-29
+Velsummers,damage,2088,Kin'garoth,27,974,Balance,dps,2018-03-15
+Radiantldeal,healer,2088,Kin'garoth,86,970,Holy,hps,2018-04-05
+Radiantldeal,healer,2063,Aggramar,31,972,Holy,hps,2018-04-25
+Radiantldeal,healer,2064,Portal Keeper Hasabel,78,972,Holy,hps,2018-03-15
+Radiantldeal,healer,2069,Varimathras,76,970,Holy,hps,2018-04-05
+Radiantldeal,healer,2070,Antoran High Command,74,970,Holy,hps,2018-03-07
+Radiantldeal,healer,2073,The Coven of Shivarra,35,974,Holy,hps,2018-03-22
+Radiantldeal,healer,2074,Felhounds of Sargeras,93,964,Holy,hps,2018-01-24
+Radiantldeal,healer,2075,The Defense of Eonar,90,972,Holy,hps,2018-03-21
+Radiantldeal,healer,2076,Garothi Worldbreaker,89,949,Holy,hps,2017-12-14
+Mythrose,healer,2070,Antoran High Command,97,958,Holy,hps,2018-01-05
+Mythrose,healer,2073,The Coven of Shivarra,71,971,Discipline,hps,2018-04-11
+Mythrose,healer,2074,Felhounds of Sargeras,90,968,Holy,hps,2018-02-14
+Mythrose,healer,2075,The Defense of Eonar,99,978,Holy,hps,2018-04-12
+Mythrose,healer,2076,Garothi Worldbreaker,93,971,Discipline,hps,2018-04-11
+Mythrose,healer,2082,Imonar the Soulhunter,99,977,Holy,hps,2018-04-11
+Mythrose,healer,2088,Kin'garoth,91,971,Holy,hps,2018-02-22
+Mythrose,healer,2063,Aggramar,45,972,Discipline,hps,2018-04-25
+Mythrose,healer,2064,Portal Keeper Hasabel,92,974,Holy,hps,2018-03-15
+Mythrose,healer,2069,Varimathras,84,973,Discipline,hps,2018-04-11
+Shadowbaine,damage,2063,Aggramar,57,979,Destruction,dps,2018-04-25
+Shadowbaine,damage,2064,Portal Keeper Hasabel,72,975,Destruction,dps,2018-03-07
+Shadowbaine,damage,2069,Varimathras,74,977,Affliction,dps,2018-04-05
+Shadowbaine,damage,2070,Antoran High Command,54,970,Affliction,dps,2018-02-07
+Shadowbaine,damage,2073,The Coven of Shivarra,66,976,Affliction,dps,2018-04-05
+Shadowbaine,damage,2074,Felhounds of Sargeras,85,975,Affliction,dps,2018-04-04
+Shadowbaine,damage,2075,The Defense of Eonar,76,968,Affliction,dps,2018-01-25
+Shadowbaine,damage,2076,Garothi Worldbreaker,96,978,Destruction,dps,2018-04-04
+Shadowbaine,damage,2082,Imonar the Soulhunter,81,979,Destruction,dps,2018-04-11
+Shadowbaine,damage,2088,Kin'garoth,74,975,Destruction,dps,2018-03-08
+Acturus,healer,2063,Aggramar,75,976,Holy,hps,2018-04-25
+Acturus,healer,2064,Portal Keeper Hasabel,66,970,Holy,hps,2018-02-14
+Acturus,healer,2069,Varimathras,39,976,Holy,hps,2018-04-11
+Acturus,healer,2070,Antoran High Command,83,962,Holy,hps,2018-01-11
+Acturus,healer,2073,The Coven of Shivarra,58,976,Holy,hps,2018-04-11
+Acturus,healer,2074,Felhounds of Sargeras,75,972,Holy,hps,2018-03-07
+Acturus,healer,2075,The Defense of Eonar,42,976,Holy,hps,2018-04-12
+Acturus,healer,2076,Garothi Worldbreaker,82,976,Holy,hps,2018-04-11
+Acturus,healer,2082,Imonar the Soulhunter,95,976,Holy,hps,2018-04-11
+Acturus,healer,2088,Kin'garoth,23,971,Holy,hps,2018-02-22
+Velryssa,damage,2069,Varimathras,46,971,Arms,dps,2018-03-29
+Velryssa,damage,2070,Antoran High Command,80,954,Fury,dps,2018-01-11
+Velryssa,damage,2073,The Coven of Shivarra,51,972,Arms,dps,2018-04-05
+Velryssa,damage,2074,Felhounds of Sargeras,96,966,Arms,dps,2018-02-14
+Velryssa,damage,2075,The Defense of Eonar,85,957,Fury,dps,2018-01-19
+Velryssa,damage,2076,Garothi Worldbreaker,96,970,Arms,dps,2018-03-14
+Velryssa,damage,2082,Imonar the Soulhunter,61,971,Arms,dps,2018-04-04
+Velryssa,damage,2088,Kin'garoth,45,970,Arms,dps,2018-03-08
+Velryssa,damage,2063,Aggramar,91,972,Arms,dps,2018-04-25
+Velryssa,damage,2064,Portal Keeper Hasabel,90,953,Fury,dps,2018-01-05
+Tinytiki,damage,2063,Aggramar,9,968,Assassination,dps,2018-04-25
+Tinytiki,damage,2064,Portal Keeper Hasabel,61,968,Assassination,dps,2018-02-28
+Tinytiki,damage,2069,Varimathras,8,968,Assassination,dps,2018-04-05
+Tinytiki,damage,2070,Antoran High Command,53,968,Assassination,dps,2018-02-28
+Tinytiki,damage,2074,Felhounds of Sargeras,50,968,Assassination,dps,2018-04-04
+Tinytiki,damage,2075,The Defense of Eonar,72,968,Assassination,dps,2018-02-28
+Tinytiki,damage,2076,Garothi Worldbreaker,70,967,Assassination,dps,2018-02-21
+Tinytiki,damage,2082,Imonar the Soulhunter,39,968,Assassination,dps,2018-03-21
+Tinytiki,damage,2088,Kin'garoth,35,968,Assassination,dps,2018-03-15
+Daffy,healer,2075,The Defense of Eonar,78,967,Restoration,hps,2018-04-04
+Daffy,healer,2082,Imonar the Soulhunter,45,967,Restoration,hps,2018-04-04
+Daffy,healer,2088,Kin'garoth,15,970,Restoration,hps,2018-04-11
+Daffy,healer,2063,Aggramar,39,972,Restoration,hps,2018-04-25
+Daffy,healer,2069,Varimathras,27,970,Restoration,hps,2018-04-11
+Daffy,healer,2073,The Coven of Shivarra,19,969,Restoration,hps,2018-04-05
+Èllipses,damage,2063,Aggramar,74,974,Affliction,dps,2018-04-25
+Èllipses,damage,2064,Portal Keeper Hasabel,43,967,Affliction,dps,2018-03-15
+Èllipses,damage,2069,Varimathras,86,967,Affliction,dps,2018-03-09
+Èllipses,damage,2070,Antoran High Command,34,966,Affliction,dps,2018-03-07
+Èllipses,damage,2073,The Coven of Shivarra,82,974,Affliction,dps,2018-04-11
+Èllipses,damage,2074,Felhounds of Sargeras,91,974,Affliction,dps,2018-04-04
+Èllipses,damage,2075,The Defense of Eonar,40,974,Affliction,dps,2018-04-12
+Èllipses,damage,2076,Garothi Worldbreaker,81,974,Affliction,dps,2018-04-04
+Èllipses,damage,2082,Imonar the Soulhunter,73,974,Affliction,dps,2018-04-04
+Èllipses,damage,2088,Kin'garoth,85,967,Affliction,dps,2018-03-15
+Au,damage,2064,Portal Keeper Hasabel,81,972,Retribution,dps,2018-02-21
+Au,damage,2069,Varimathras,18,973,Retribution,dps,2018-04-11
+Au,damage,2070,Antoran High Command,94,971,Retribution,dps,2018-03-07
+Au,damage,2073,The Coven of Shivarra,49,973,Retribution,dps,2018-03-22
+Au,damage,2074,Felhounds of Sargeras,81,973,Retribution,dps,2018-04-12
+Au,damage,2075,The Defense of Eonar,61,972,Retribution,dps,2018-03-14
+Au,damage,2076,Garothi Worldbreaker,77,973,Retribution,dps,2018-03-07
+Au,damage,2082,Imonar the Soulhunter,48,972,Retribution,dps,2018-02-22
+Au,damage,2088,Kin'garoth,72,973,Retribution,dps,2018-03-21
+Future,damage,2063,Aggramar,80,975,Elemental,dps,2018-04-25
+Future,damage,2064,Portal Keeper Hasabel,84,970,Elemental,dps,2018-02-21
+Future,damage,2069,Varimathras,84,975,Elemental,dps,2018-03-16
+Future,damage,2070,Antoran High Command,93,968,Elemental,dps,2018-02-07
+Future,damage,2073,The Coven of Shivarra,90,975,Elemental,dps,2018-03-30
+Future,damage,2074,Felhounds of Sargeras,92,975,Elemental,dps,2018-04-04
+Future,damage,2075,The Defense of Eonar,90,973,Elemental,dps,2018-03-14
+Future,damage,2076,Garothi Worldbreaker,93,975,Elemental,dps,2018-04-04
+Future,damage,2082,Imonar the Soulhunter,77,975,Elemental,dps,2018-03-28
+Future,damage,2088,Kin'garoth,94,972,Elemental,dps,2018-03-02
+Pulsè,damage,2064,Portal Keeper Hasabel,86,972,Affliction,dps,2018-03-15
+Pulsè,damage,2069,Varimathras,90,974,Affliction,dps,2018-04-05
+Pulsè,damage,2070,Antoran High Command,96,972,Affliction,dps,2018-03-14
+Pulsè,damage,2073,The Coven of Shivarra,99,974,Affliction,dps,2018-04-05
+Pulsè,damage,2074,Felhounds of Sargeras,82,976,Affliction,dps,2018-04-12
+Pulsè,damage,2075,The Defense of Eonar,75,974,Affliction,dps,2018-04-04
+Pulsè,damage,2076,Garothi Worldbreaker,87,974,Affliction,dps,2018-04-04
+Pulsè,damage,2082,Imonar the Soulhunter,57,973,Affliction,dps,2018-03-21
+Pulsè,damage,2088,Kin'garoth,80,972,Affliction,dps,2018-03-08
+Kyarrix,damage,2064,Portal Keeper Hasabel,59,968,Beast Mastery,dps,2018-02-28
+Kyarrix,damage,2069,Varimathras,60,970,Beast Mastery,dps,2018-03-29
+Kyarrix,damage,2070,Antoran High Command,64,965,Beast Mastery,dps,2018-02-14
+Kyarrix,damage,2074,Felhounds of Sargeras,87,966,Beast Mastery,dps,2018-02-21
+Kyarrix,damage,2075,The Defense of Eonar,50,969,Beast Mastery,dps,2018-03-14
+Kyarrix,damage,2076,Garothi Worldbreaker,71,968,Beast Mastery,dps,2018-03-14
+Kyarrix,damage,2082,Imonar the Soulhunter,73,968,Beast Mastery,dps,2018-03-15
+Kyarrix,damage,2088,Kin'garoth,28,969,Beast Mastery,dps,2018-03-15
+Yoked,damage,2075,The Defense of Eonar,13,961,Frost,dps,2018-03-21
+Yoked,damage,2076,Garothi Worldbreaker,36,961,Frost,dps,2018-03-21
+Bryiah,damage,2070,Antoran High Command,10,960,Retribution,dps,2018-02-14
+Bryiah,damage,2074,Felhounds of Sargeras,49,968,Retribution,dps,2018-03-14
+Bryiah,damage,2075,The Defense of Eonar,43,968,Retribution,dps,2018-03-14
+Bryiah,damage,2076,Garothi Worldbreaker,52,968,Retribution,dps,2018-03-14
+Bryiah,damage,2082,Imonar the Soulhunter,9,967,Retribution,dps,2018-03-01
+Bryiah,damage,2088,Kin'garoth,10,967,Retribution,dps,2018-03-02
+Bryiah,damage,2064,Portal Keeper Hasabel,50,967,Retribution,dps,2018-02-28
+Bryiah,damage,2069,Varimathras,9,969,Retribution,dps,2018-03-16
+Zephyyra,healer,2064,Portal Keeper Hasabel,21,967,Restoration,hps,2018-02-28
+Zephyyra,healer,2069,Varimathras,17,973,Restoration,hps,2018-03-29
+Zephyyra,healer,2070,Antoran High Command,32,973,Restoration,hps,2018-03-14
+Zephyyra,healer,2074,Felhounds of Sargeras,35,966,Restoration,hps,2018-02-21
+Zephyyra,healer,2075,The Defense of Eonar,32,972,Restoration,hps,2018-03-07
+Zephyyra,healer,2076,Garothi Worldbreaker,19,956,Restoration,hps,2018-01-04
+Zephyyra,healer,2082,Imonar the Soulhunter,9,965,Restoration,hps,2018-02-16
+Zephyyra,healer,2088,Kin'garoth,5,971,Restoration,hps,2018-03-02
+Googboog,damage,2064,Portal Keeper Hasabel,86,964,Enhancement,dps,2018-01-18
+Googboog,damage,2070,Antoran High Command,94,963,Enhancement,dps,2018-01-11
+Googboog,damage,2074,Felhounds of Sargeras,75,965,Enhancement,dps,2018-01-24
+Googboog,damage,2075,The Defense of Eonar,97,965,Enhancement,dps,2018-01-25
+Googboog,damage,2076,Garothi Worldbreaker,90,965,Enhancement,dps,2018-01-24
+Cinzia,damage,2064,Portal Keeper Hasabel,33,955,Beast Mastery,dps,2018-01-18
+Cinzia,damage,2070,Antoran High Command,8,950,Beast Mastery,dps,2018-01-05
+Cinzia,damage,2074,Felhounds of Sargeras,48,955,Beast Mastery,dps,2018-01-18
+Cinzia,damage,2076,Garothi Worldbreaker,18,951,Beast Mastery,dps,2018-01-04
