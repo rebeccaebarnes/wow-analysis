@@ -100,7 +100,9 @@ def get_json_data(folder_name, file):
     '''
     if os.path.isfile(os.path.join(folder_name, file)):
         with open(os.path.join(folder_name, file)) as json_file:
-            return json.load(json_file)
+            data = json.load(json_file)
+
+    return data
 
 def create_fight_df(data, file):
     '''Create dataframe of specific fight details from json file.
