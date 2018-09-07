@@ -90,7 +90,7 @@ def save_logs(log_info, api_key, guild_info, log_start=0):
     print("\nAll files created.\n")
 
 def get_json_data(folder_name, file):
-    '''Obtains json data from specified location, ignoring folders.
+    '''Obtains json data from specified location.
 
     args:
         folder_name: (str).
@@ -98,9 +98,8 @@ def get_json_data(folder_name, file):
     returns:
         json data as dict.
     '''
-    if os.path.isfile(os.path.join(folder_name, file)):
-        with open(os.path.join(folder_name, file)) as json_file:
-            data = json.load(json_file)
+    with open(os.path.join(folder_name, file)) as json_file:
+        data = json.load(json_file)
 
     return data
 
@@ -196,14 +195,15 @@ def extract_fights(boss_list, unwanted_players=[]):
     # Get fight data
     folder_name = 'log_details'
     for file in os.listdir(folder_name):
-        log_id = file.split('_')[0]
-        data = get_json_data(folder_name, file)
-        fight_df = create_fight_df(data, file)
-        player_df = create_player_df(data)
-        merged_df = fight_df.merge(player_df, how='left', on='pull_id')
-        # Add on to df
-        df = pd.concat([df, merged_df])
-        print("Log ID", log_id, "done.")
+        if os.path.isfile(os.path.join(folder_name, file)):
+            log_id = file.split('_')[0]
+            data = get_json_data(folder_name, file)
+            fight_df = create_fight_df(data, file)
+            player_df = create_player_df(data)
+            merged_df = fight_df.merge(player_df, how='left', on='pull_id')
+            # Add on to df
+            df = pd.concat([df, merged_df])
+            print("Log ID", log_id, "done.")
     print("\nDataframe created.")
 
     # Clean df
