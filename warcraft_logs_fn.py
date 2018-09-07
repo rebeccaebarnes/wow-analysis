@@ -361,7 +361,7 @@ def player_info_query(player_name, guild_info, metric, api_key, partition=0):
         with open(file_path, "w") as file:
             json.dump(player_info, file)
     except TypeError:
-        print("Missed data for", player, ": not in guild")
+        print("Missed data for", player_name, ": not in guild")
 
 def import_player_info(player_names, guild_info, api_key):
     '''
