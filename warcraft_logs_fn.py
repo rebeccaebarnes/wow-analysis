@@ -171,16 +171,7 @@ def create_player_df(data):
                                columns=['pull_id', 'player_name'])
     return player_data
 
-def extract_fights(boss_list, unwanted_players=[]):
-    '''
-    Extracts fight and player info from files in log_details.
-
-    args:
-        boss_list: list of instance bosses according to Warcraft Logs.
-        unwanted_players: optional. list of players to exclude from extraction.
-    returns:
-        pandas DataFrame.
-    '''
+def create_combined_df():
     # Create empty df
     df = pd.DataFrame([], columns=['log_id',
                                    'pull_id',
@@ -205,7 +196,20 @@ def extract_fights(boss_list, unwanted_players=[]):
             df = pd.concat([df, merged_df])
             print("Log ID", log_id, "done.")
     print("\nDataframe created.")
+    return df
 
+def extract_fights(boss_list, unwanted_players=[]):
+    '''
+    Extracts fight and player info from files in log_details.
+
+    args:
+        boss_list: list of instance bosses according to Warcraft Logs.
+        unwanted_players: optional. list of players to exclude from extraction.
+    returns:
+        pandas DataFrame.
+    '''
+
+    df = create_combined_df()
     # Clean df
     # Ensure only desired bosses
     df = df[df.boss_name.isin(boss_list)]
