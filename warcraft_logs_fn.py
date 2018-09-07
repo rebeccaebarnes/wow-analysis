@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import json
 import os
 import requests
@@ -90,6 +89,87 @@ def save_logs(log_info, api_key, guild_info, log_start=0):
 
     print("\nAll files created.\n")
 
+def get_json_data(folder_name, file):
+    '''Obtains json data from specified location, ignoring folders.
+
+    args:
+        folder_name: (str).
+        file: (str).
+    returns:
+        json data as dict.
+    '''
+    if os.path.isfile(os.path.join(folder_name, file)):
+        with open(os.path.join(folder_name, file)) as json_file:
+            return json.load(json_file)
+
+def create_fight_df(data, file):
+    '''Create dataframe of specific fight details from json file.
+
+    args:
+        data: json file.
+        file: (str) File name.
+    returns:
+        Pandas DataFrame.
+    '''
+    # Extract data
+    df_list = []
+    log_id = file.split('_')[0]
+    for fight in data['fights']:
+        try:
+            df_list.append({
+                'log_id': log_id,
+                'pull_id': fight['id'],
+                'pull_start': fight['start_time'],
+                'pull_end': fight['end_time'],
+                'boss_id': fight['boss'],
+                'boss_name': fight['name'],
+                'difficulty': fight['difficulty'],
+                'kill': fight['kill']
+                })
+        except KeyError:
+            df_list.append({'log_id': log_id,
+                            'pull_id': fight['id'],
+                            'pull_start': fight['start_time'],
+                            'pull_end': fight['end_time'],
+                            'boss_id': fight['boss'],
+                            'boss_name': fight['name'],
+                            'difficulty': 'non-boss fight',
+                            'kill': 'non-boss fight'})
+
+    # Convert to df
+    fight_data = pd.DataFrame(df_list, columns=['log_id',
+                                                'pull_id',
+                                                'pull_start',
+                                                'pull_end',
+                                                'boss_id',
+                                                'boss_name',
+                                                'difficulty',
+                                                'kill'])
+
+    return fight_data
+
+def create_player_df(data):
+    '''Create dataframe of players per fight from json file.
+
+    args:
+        data: json file.
+    returns:
+        Pandas DataFrame.
+    '''
+    # Collect players for each attempt
+    df_list = []
+    for player in data['friendlies']:
+        if player['type'] not in ['NPC', 'Pet']:
+            for fight in player['fights']:
+                df_list.append({
+                    'pull_id': fight['id'],
+                    'player_name': player['name']
+                    })
+    # Convert to df
+    player_data = pd.DataFrame(df_list,
+                               columns=['pull_id', 'player_name'])
+    return player_data
+
 def extract_fights(boss_list, unwanted_players=[]):
     '''
     Extracts fight and player info from files in log_details.
@@ -101,79 +181,27 @@ def extract_fights(boss_list, unwanted_players=[]):
         pandas DataFrame.
     '''
     # Create empty df
-    df = pd.DataFrame([], columns = ['log_id',
-                                     'pull_id',
-                                     'pull_start',
-                                     'pull_end',
-                                     'boss_id',
-                                     'boss_name',
-                                     'difficulty',
-                                     'kill',
-                                     'player_name'])
+    df = pd.DataFrame([], columns=['log_id',
+                                   'pull_id',
+                                   'pull_start',
+                                   'pull_end',
+                                   'boss_id',
+                                   'boss_name',
+                                   'difficulty',
+                                   'kill',
+                                   'player_name'])
 
-    # Read through all the files and create a fight info summary df
+    # Get fight data
     folder_name = 'log_details'
     for file in os.listdir(folder_name):
-        if os.path.isfile(os.path.join(folder_name, file)):
-            with open(os.path.join(folder_name, file)) as json_file:
-                data = json.load(json_file)
-
-            # Collect fight info
-            df_list = []
-            log_id = file.split('_')[0]
-            for fight in data['fights']:
-                try:
-                    #print(fight['difficulty'])
-                    #break
-                    df_list.append({
-                        'log_id': log_id,
-                        'pull_id': fight['id'],
-                        'pull_start': fight['start_time'],
-                        'pull_end': fight['end_time'],
-                        'boss_id': fight['boss'],
-                        'boss_name': fight['name'],
-                        'difficulty': fight['difficulty'],
-                        'kill': fight['kill']
-                        })
-                except KeyError:
-                    df_list.append({'log_id': log_id,
-                                    'pull_id': fight['id'],
-                                    'pull_start': fight['start_time'],
-                                    'pull_end': fight['end_time'],
-                                    'boss_id': fight['boss'],
-                                    'boss_name': fight['name'],
-                                    'difficulty': 'non-boss fight',
-                                    'kill': 'non-boss fight'})
-
-                # Convert to df
-                fight_data = pd.DataFrame(df_list, columns=['log_id',
-                                                            'pull_id',
-                                                            'pull_start',
-                                                            'pull_end',
-                                                            'boss_id',
-                                                            'boss_name',
-                                                            'difficulty',
-                                                            'kill'])
-
-            # Collect players for each attempt
-            df_list = []
-            for player in data['friendlies']:
-                if player['type'] not in ['NPC', 'Pet']:
-                    for fight in player['fights']:
-                        df_list.append({
-                            'pull_id': fight['id'],
-                            'player_name': player['name']
-                            })
-            # Convert to df
-            player_data = pd.DataFrame(df_list,
-                                           columns=['pull_id', 'player_name'])
-
-            # Merge df's
-            merged_df = fight_data.merge(player_data, how='left', on='pull_id')
-
-            # Add on to df
-            df = pd.concat([df, merged_df])
-            print("Log ID", log_id, "done.")
+        log_id = file.split('_')[0]
+        data = get_json_data(folder_name, file)
+        fight_df = create_fight_df(data, file)
+        player_df = create_player_df(data)
+        merged_df = fight_df.merge(player_df, how='left', on='pull_id')
+        # Add on to df
+        df = pd.concat([df, merged_df])
+        print("Log ID", log_id, "done.")
     print("\nDataframe created.")
 
     # Clean df
@@ -188,8 +216,6 @@ def extract_fights(boss_list, unwanted_players=[]):
     # Change start_time and end_time to int
     df.pull_start = df.pull_start.astype('int')
     df.pull_end = df.pull_end.astype('int')
-    # Drop difficulty column
-    df.drop('difficulty', axis=1, inplace=True)
     print("\nDataframe cleaned.")
 
     return df
