@@ -551,6 +551,7 @@ def create_link(api_key,
                 log,
                 spell_id=None,
                 boss_id=None,
+                difficulty=5,
                 death_cutoff=None):
     '''
     Creates link for Warcraft Logs API query.
@@ -579,7 +580,7 @@ def create_link(api_key,
     boss_info = 'encounter=' + str(boss_id) + '&'
     if boss_id is None:
         boss_info = ''
-    link_end = 'difficulty=5&api_key=' + api_key
+    link_end = 'difficulty=' + str(difficulty) + '&api_key=' + api_key
 
     # Create link
     link = link_start + log_type + '/' + log + end_info + by_info + \
