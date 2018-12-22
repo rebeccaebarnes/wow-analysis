@@ -1,5 +1,13 @@
 import pandas as pd
+import numpy as np
 import warcraft_logs_fn as wl
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Set formatting
+sns.set()
+sns.set_style('white')
+palette=['#dcb950', '#55a868', '#dd8452', '#4c72b0', '#7fb3e6']
 
 def max_parses(df, player_name, primary_role):
     '''
@@ -220,3 +228,49 @@ def find_count_order(fight_df, fight_count_limit, column_name, least=True):
     df.sort_values('av_count', ascending=least, inplace=True)
 
     return df
+
+def plot_hist(data, bins, title):
+    '''
+    Plot histogram of data using specified formatting.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+        bins: array-like. Bin edges.
+        title: (str) Title for plot.
+    '''
+    plt.hist(data, bins=bins, color=palette[-1], edgecolor='white')
+    plt.title(title, fontsize=14);
+    sns.despine()
+
+    plt.show()
+
+def role_hist(data, bins, title):
+    '''
+    Plot a facet of histograms of data using specified formatting.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+        bins: array-like. Bin edges.
+        title: (str) Title for plot.
+    '''
+    g = sns.FacetGrid(data, col='primary_role', hue='primary_role',
+                      col_wrap=2, palette=palette)
+    g.map(plt.hist, "av_count", bins=bins, edgecolor='white');
+    for i in np.arange(2, 4):
+        g.axes[i].set_xlabel('')
+    plt.suptitle(title, y=1.04);
+
+    plt.show()
+
+def print_metrics(data):
+    '''
+    Print mean and median 'av_count' and max 'fight_count'.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+    returns:
+        None
+    '''
+    print('Mean is {:2f} per attempt.'.format(data['av_count'].mean()))
+    print('Median is {:2f} per attempt.'.format(data['av_count'].median()))
+    print('Max attempts by player is {}.'.format(data['fight_count'].max()))
