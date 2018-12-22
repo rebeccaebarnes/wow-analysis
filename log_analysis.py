@@ -1,8 +1,11 @@
+import os
+
 import pandas as pd
 import numpy as np
-import warcraft_logs_fn as wl
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+import warcraft_logs_fn as wl
 
 # Set formatting
 sns.set()
@@ -254,7 +257,9 @@ def role_hist(data, bins, title):
         title: (str) Title for plot.
     '''
     g = sns.FacetGrid(data, col='primary_role', hue='primary_role',
-                      col_wrap=2, palette=palette)
+                      col_wrap=2, palette=palette,
+                      col_order=['rdps', 'healer', 'mdps', 'tank'],
+                      hue_order=['rdps', 'healer', 'mdps', 'tank'])
     g.map(plt.hist, "av_count", bins=bins, edgecolor='white');
     for i in np.arange(2, 4):
         g.axes[i].set_xlabel('')
@@ -274,3 +279,39 @@ def print_metrics(data):
     print('Mean is {:2f} per attempt.'.format(data['av_count'].mean()))
     print('Median is {:2f} per attempt.'.format(data['av_count'].median()))
     print('Max attempts by player is {}.'.format(data['fight_count'].max()))
+
+def collect_stats(data, master_list, player_list, boss_name, boss_id,
+                  spell_name, analysis_columns, min_attempts, least=True,
+                  bins=None):
+    # Save data
+    folder_name = 'guild_awards'
+    name_list = spell_name.lower().split()
+    snake_spell = '_'.join(name_list)
+    lower_boss = boss_name.lower().replace("''", "").replace(" ", "")
+    file_name = lower_boss + '_' + snake_spell + '_data.csv'
+    file_path = os.path.join(folder_name, file_name)
+    data.to_csv(file_path, encoding='iso-8859-1', index=False)
+
+    # Complete analysis
+    analysis = clean_fight_count(data, master_list, player_list,
+                                 boss_id, analysis_columns)
+    final_analysis = find_count_order(analysis, min_attempts,
+                                      analysis_columns[0], least)
+    print(final_analysis)
+
+    # Save analysis
+    file_name = lower_boss + '_' + snake_spell + '_analysis.csv'
+    file_path = os.path.join(folder_name, file_name)
+    final_analysis.to_csv(file_path, encoding='iso-8859-1', index=False)
+
+    # Show plots
+    title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
+            ' per Attempt'
+    plot_hist(final_analysis['av_count'], bins, title)
+
+    title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
+            ' by Role'
+    role_hist(final_analysis, bins, title)
+
+    # Print metrics
+    print_metrics(final_analysis)
