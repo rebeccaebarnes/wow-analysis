@@ -654,6 +654,7 @@ def damage_taken(api_key,
                  spell_id,
                  spell_name=None,
                  boss_id=None,
+                 hit_type='hitCount',
                  death_cutoff=None):
     '''
     Completes a 'damage-taken' query of the Warcraft Logs API.
@@ -687,7 +688,7 @@ def damage_taken(api_key,
         for player in details['entries']:
             name = player['name']
             print('Player added:', name)
-            hits = player['hitCount']
+            hits = player[hit_type]
             damage = player['total']
             df_list.append({
                 'log_id': log,
@@ -706,7 +707,8 @@ def damage_taken(api_key,
                                'player',
                                'hits',
                                'damage_taken'])
-    drop_spell_name(df, spell_name)
+    if not spell_name:
+        drop_spell_name(df, spell_name)
 
     return df
 
