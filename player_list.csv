@@ -13,7 +13,7 @@ Grombrindal,mdps,Cagliostro,True,True,
 Tawn,rdps,,True,True,
 Draigo,tank,,True,True,
 Psychodruid,rdps,,True,True,
-Katanescence,healer,,False,True,
+Katanescence,healer,Katheals,False,True,
 Sumi,rdps,Brassi,True,True,
 Toy,mdps,,True,True,
 Mythrose,healer,,True,True,
@@ -26,3 +26,4 @@ Liavre,mdps,,False,True,
 Vampyric,mdps,,True,False,Sep-11-18
 Kopyelock,rdps,,True,False,Oct-16-18
 Velsummers,healer,,True,True,
+Kiwisoda,rdps,,True,False,Oct-23-18
