@@ -287,7 +287,7 @@ def collect_stats(data, master_list, player_list, boss_name, boss_id,
     folder_name = 'guild_awards'
     name_list = spell_name.lower().split()
     snake_spell = '_'.join(name_list)
-    lower_boss = boss_name.lower().replace("''", "").replace(" ", "")
+    lower_boss = boss_name.lower().replace("'", "").replace(" ", "")
     file_name = lower_boss + '_' + snake_spell + '_data.csv'
     file_path = os.path.join(folder_name, file_name)
     data.to_csv(file_path, encoding='iso-8859-1', index=False)
