@@ -253,6 +253,7 @@ def create_master_list(log_info, fight_info):
             'pull_end',
             'boss_id',
             'boss_name',
+            'difficulty',
             'kill',
             'player_name']
     df = df[cols]
