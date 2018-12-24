@@ -232,7 +232,7 @@ def find_count_order(fight_df, fight_count_limit, column_name, least=True):
 
     return df
 
-def plot_hist(data, bins, title):
+def plot_hist(data, bins, title, xlabel):
     '''
     Plot histogram of data using specified formatting.
 
@@ -242,7 +242,9 @@ def plot_hist(data, bins, title):
         title: (str) Title for plot.
     '''
     plt.hist(data, bins=bins, color=palette[-1], edgecolor='white')
-    plt.title(title, fontsize=14);
+    plt.title(title, fontsize=14)
+    plt.xlabel(xlabel)
+    plt.ylabel('Number of People');
     sns.despine()
 
     plt.show()
@@ -307,7 +309,8 @@ def collect_stats(data, master_list, player_list, boss_name, boss_id,
     # Show plots
     title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
             ' per Attempt'
-    plot_hist(final_analysis['av_count'], bins, title)
+    xlabel = 'Average ' + spell_name + ' per Attempt'
+    plot_hist(final_analysis['av_count'], bins, title, xlabel)
 
     title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
             ' by Role'
