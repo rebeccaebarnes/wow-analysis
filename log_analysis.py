@@ -307,12 +307,19 @@ def collect_stats(data, master_list, player_list, boss_name, boss_id,
     final_analysis.to_csv(file_path, encoding='iso-8859-1', index=False)
 
     # Show plots
-    title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
-            ' per Attempt'
-    xlabel = 'Average ' + spell_name + ' per Attempt'
+    if analysis_columns[0] == 'damage_done':
+        title = 'Average Damage Done to ' + spell_name + ' per Attempt'
+        xlabel = 'Average ' + spell_name + ' Damage per Attempt'
+    else:
+        title = 'Average ' + analysis_columns[0].title() + ' of ' \
+                + spell_name + ' per Attempt'
+        xlabel = 'Average ' + spell_name + ' per Attempt'
     plot_hist(final_analysis['av_count'], bins, title, xlabel)
 
-    title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
+    if analysis_columns[0] == 'damage_done':
+        title = 'Average Damage Done to ' + spell_name + ' by Role'
+    else:
+        title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
             ' by Role'
     role_hist(final_analysis, bins, title)
 
