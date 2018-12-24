@@ -748,13 +748,15 @@ def buff_duration(api_key,
             name = player['name']
             print('Player added:', name)
             duration = player['totalUptime']
+            uses = player['totalUses']
             df_list.append({
                 'log_id': log,
                 'spell_id': spell_id,
                 'spell_name': spell_name,
                 'description': description,
                 'player': name,
-                'duration': duration
+                'duration': duration,
+                'uses': uses
             })
 
     # Create dataframe
@@ -764,7 +766,8 @@ def buff_duration(api_key,
                                'spell_name',
                                'description',
                                'player',
-                               'duration'])
+                               'duration',
+                               'uses'])
     drop_spell_name(df, spell_name)
     drop_description(df, description)
 
