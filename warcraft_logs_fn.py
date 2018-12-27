@@ -585,7 +585,7 @@ def create_link(api_key,
 
     # Create link
     link = link_start + log_type + '/' + log + end_info + by_info + \
-           ability_info + boss_info + link_end
+           ability_info + cutoff_info + boss_info + link_end
     return link
 
 def create_link_damage_done(api_key, log_df, log, boss_id=None):
