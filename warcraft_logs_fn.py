@@ -681,7 +681,7 @@ def damage_taken(api_key,
                            log,
                            spell_id,
                            boss_id,
-                           death_cutoff)
+                           death_cutoff=death_cutoff)
         details = get_query_details(link)
 
         # Get player info
