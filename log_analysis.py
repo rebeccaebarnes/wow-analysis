@@ -325,3 +325,29 @@ def collect_stats(data, master_list, player_list, boss_name, boss_id,
 
     # Print metrics
     print_metrics(final_analysis)
+
+def first_kill_logs(log_df):
+    '''
+    Create dataframe of first kills.
+
+    args:
+        log_df: pandas DataFrame similar to that from master_list.csv.
+    returns:
+        pandas DataFrame.
+    '''
+    # Get only kill logs
+    kill_logs = log_df[['log_id',
+                    'log_start',
+                    'log_end',
+                    'pull_start',
+                    'pull_end',
+                    'boss_id',
+                    'boss_name']][log_df.kill == True]
+
+    # Sort by kill date
+    kill_logs.sort_values('log_start', inplace=True)
+
+    # Get first kill
+    kill_logs.drop_duplicates(subset=['boss_id'], inplace=True)
+
+    return kill_logs
