@@ -25,7 +25,7 @@ def max_parses(df, player_name, primary_role):
         pandas DataFrame.
     '''
     # Confirm metric
-    if primary_role == 'damage':
+    if primary_role == 'mdps' or primary_role == 'rdps':
         metric = 'dps'
     if primary_role == 'healer':
         metric = 'hps'
