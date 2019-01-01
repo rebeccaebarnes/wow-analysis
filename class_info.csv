@@ -1,37 +1,37 @@
 class,spec,role
-Warrior,Arms,damage
-Warrior,Fury,damage
+Warrior,Arms,mdps
+Warrior,Fury,mdps
 Warrior,Protection,tank
 Paladin,Holy,healer
 Paladin,Protection,tank
-Paladin,Retribution,damage
-Hunter,Beast Mastery,damage
-Hunter,Marksmanship,damage
-Hunter,Survival,damage
-Rogue,Assassination,damage
-Rogue,Outlaw,damage
-Rogue,Subtlety,damage
+Paladin,Retribution,mdps
+Hunter,Beast Mastery,rdps
+Hunter,Marksmanship,rdps
+Hunter,Survival,mdps
+Rogue,Assassination,mdps
+Rogue,Outlaw,mdps
+Rogue,Subtlety,mdps
 Priest,Discipline,healer
 Priest,Holy,healer
-Priest,Shadow,damage
+Priest,Shadow,rdps
 Death Knight,Blood,tank
-Death Knight,Frost,damage
-Death Knight,Unholy,damage
-Shaman,Elemental,damage
-Shaman,Enhancement,damage
+Death Knight,Frost,mdps
+Death Knight,Unholy,mdps
+Shaman,Elemental,rdps
+Shaman,Enhancement,mdps
 Shaman,Restoration,healer
-Mage,Arcane,damage
-Mage,Fire,damage
-Mage,Frost,damage
-Warlock,Affliction,damage
-Warlock,Demonology,damage
-Warlock,Destruction,damage
+Mage,Arcane,rdps
+Mage,Fire,rdps
+Mage,Frost,rdps
+Warlock,Affliction,rdps
+Warlock,Demonology,rdps
+Warlock,Destruction,rdps
 Monk,Brewmaster,tank
 Monk,Mistweaver,healer
-Monk,Windwalker,damage
-Druid,Balance,damage
-Druid,Feral,damage
+Monk,Windwalker,mdps
+Druid,Balance,rdps
+Druid,Feral,mdps
 Druid,Guardian,tank
 Druid,Restoration,healer
-Demon Hunter,Havoc,damage
+Demon Hunter,Havoc,mdps
 Demon Hunter,Vengeance,tank
