@@ -9,4 +9,4 @@ The most recent guild awards analysis can be found [here](https://github.com/reb
 ## Technologies Used
 - Python
 - Libraries: numpy, pandas, matplotlib, seaborn, json, requests, os
-- Personal modules: [log_analysis](https://github.com/rebeccaebarnes/wow-analysis/blob/master/log_analysis.py), warcraft_logs_fn(https://github.com/rebeccaebarnes/wow-analysis/blob/master/warcraft_logs_fn.py)
+- Personal modules: [log_analysis](https://github.com/rebeccaebarnes/wow-analysis/blob/master/log_analysis.py), [warcraft_logs_fn](https://github.com/rebeccaebarnes/wow-analysis/blob/master/warcraft_logs_fn.py)
