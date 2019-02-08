@@ -1,5 +1,16 @@
+import os
+
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 import warcraft_logs_fn as wl
+
+# Set formatting
+sns.set()
+sns.set_style('white')
+palette=['#dcb950', '#55a868', '#dd8452', '#4c72b0', '#7fb3e6']
 
 def max_parses(df, player_name, primary_role):
     '''
@@ -14,7 +25,7 @@ def max_parses(df, player_name, primary_role):
         pandas DataFrame.
     '''
     # Confirm metric
-    if primary_role == 'damage':
+    if primary_role == 'mdps' or primary_role == 'rdps':
         metric = 'dps'
     if primary_role == 'healer':
         metric = 'hps'
@@ -220,3 +231,123 @@ def find_count_order(fight_df, fight_count_limit, column_name, least=True):
     df.sort_values('av_count', ascending=least, inplace=True)
 
     return df
+
+def plot_hist(data, bins, title, xlabel):
+    '''
+    Plot histogram of data using specified formatting.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+        bins: array-like. Bin edges.
+        title: (str) Title for plot.
+    '''
+    plt.hist(data, bins=bins, color=palette[-1], edgecolor='white')
+    plt.title(title, fontsize=14)
+    plt.xlabel(xlabel)
+    plt.ylabel('Number of People');
+    sns.despine()
+
+    plt.show()
+
+def role_hist(data, bins, title):
+    '''
+    Plot a facet of histograms of data using specified formatting.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+        bins: array-like. Bin edges.
+        title: (str) Title for plot.
+    '''
+    g = sns.FacetGrid(data, col='primary_role', hue='primary_role',
+                      col_wrap=2, palette=palette,
+                      col_order=['rdps', 'healer', 'mdps', 'tank'],
+                      hue_order=['rdps', 'healer', 'mdps', 'tank'])
+    g.map(plt.hist, "av_count", bins=bins, edgecolor='white');
+    for i in np.arange(2, 4):
+        g.axes[i].set_xlabel('')
+    plt.suptitle(title, y=1.04);
+
+    plt.show()
+
+def print_metrics(data):
+    '''
+    Print mean and median 'av_count' and max 'fight_count'.
+
+    args:
+        data: pandas DataFrame created by find_count_order.
+    returns:
+        None
+    '''
+    print('Mean is {:2f} per attempt.'.format(data['av_count'].mean()))
+    print('Median is {:2f} per attempt.'.format(data['av_count'].median()))
+    print('Max attempts by player is {}.'.format(data['fight_count'].max()))
+
+def collect_stats(data, master_list, player_list, boss_name, boss_id,
+                  spell_name, analysis_columns, min_attempts, least=True,
+                  bins=None):
+    # Save data
+    folder_name = 'guild_awards'
+    name_list = spell_name.lower().split()
+    snake_spell = '_'.join(name_list)
+    lower_boss = boss_name.lower().replace("'", "").replace(" ", "")
+    file_name = lower_boss + '_' + snake_spell + '_data.csv'
+    file_path = os.path.join(folder_name, file_name)
+    data.to_csv(file_path, encoding='iso-8859-1', index=False)
+
+    # Complete analysis
+    analysis = clean_fight_count(data, master_list, player_list,
+                                 boss_id, analysis_columns)
+    final_analysis = find_count_order(analysis, min_attempts,
+                                      analysis_columns[0], least)
+    print(final_analysis)
+
+    # Save analysis
+    file_name = lower_boss + '_' + snake_spell + '_analysis.csv'
+    file_path = os.path.join(folder_name, file_name)
+    final_analysis.to_csv(file_path, encoding='iso-8859-1', index=False)
+
+    # Show plots
+    if analysis_columns[0] == 'damage_done':
+        title = 'Average Damage Done to ' + spell_name + ' per Attempt'
+        xlabel = 'Average ' + spell_name + ' Damage per Attempt'
+    else:
+        title = 'Average ' + analysis_columns[0].title() + ' of ' \
+                + spell_name + ' per Attempt'
+        xlabel = 'Average ' + spell_name + ' per Attempt'
+    plot_hist(final_analysis['av_count'], bins, title, xlabel)
+
+    if analysis_columns[0] == 'damage_done':
+        title = 'Average Damage Done to ' + spell_name + ' by Role'
+    else:
+        title = 'Average ' + analysis_columns[0].title() + ' of ' + spell_name + \
+            ' by Role'
+    role_hist(final_analysis, bins, title)
+
+    # Print metrics
+    print_metrics(final_analysis)
+
+def first_kill_logs(log_df):
+    '''
+    Create dataframe of first kills.
+
+    args:
+        log_df: pandas DataFrame similar to that from master_list.csv.
+    returns:
+        pandas DataFrame.
+    '''
+    # Get only kill logs
+    kill_logs = log_df[['log_id',
+                    'log_start',
+                    'log_end',
+                    'pull_start',
+                    'pull_end',
+                    'boss_id',
+                    'boss_name']][log_df.kill == True]
+
+    # Sort by kill date
+    kill_logs.sort_values('log_start', inplace=True)
+
+    # Get first kill
+    kill_logs.drop_duplicates(subset=['boss_id'], inplace=True)
+
+    return kill_logs

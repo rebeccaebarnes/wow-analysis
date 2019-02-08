@@ -1,0 +1,185 @@
+player_name,primary_role,boss_id,boss_name,percentile,ilevel,spec,metric,ranking_date
+Vaelyra,mdps,2128,Fetid Devourer,31,377,Havoc,dps,2018-11-08
+Vaelyra,mdps,2134,Vectis,31,376,Havoc,dps,2018-10-31
+Vaelyra,mdps,2135,Mythrax,55,379,Havoc,dps,2018-11-16
+Vaelyra,mdps,2136,Zek'voz,60,372,Havoc,dps,2018-10-03
+Vaelyra,mdps,2141,MOTHER,49,372,Havoc,dps,2018-10-03
+Vaelyra,mdps,2144,Taloc,80,373,Havoc,dps,2018-10-10
+Metonymy,rdps,2128,Fetid Devourer,59,381,Frost,dps,2018-10-31
+Metonymy,rdps,2134,Vectis,40,383,Frost,dps,2018-11-07
+Metonymy,rdps,2135,Mythrax,8,385,Frost,dps,2018-11-16
+Metonymy,rdps,2136,Zek'voz,24,383,Frost,dps,2018-11-07
+Metonymy,rdps,2141,MOTHER,85,382,Frost,dps,2018-11-07
+Metonymy,rdps,2144,Taloc,84,382,Frost,dps,2018-11-07
+Metonymy,rdps,2145,Zul,28,381,Arcane,dps,2018-11-08
+Brian,mdps,2128,Fetid Devourer,38,382,Assassination,dps,2018-10-31
+Brian,mdps,2134,Vectis,82,382,Assassination,dps,2018-11-07
+Brian,mdps,2135,Mythrax,85,383,Assassination,dps,2018-11-16
+Brian,mdps,2136,Zek'voz,48,378,Outlaw,dps,2018-10-17
+Brian,mdps,2141,MOTHER,72,378,Assassination,dps,2018-10-17
+Brian,mdps,2144,Taloc,95,381,Assassination,dps,2018-10-31
+Brian,mdps,2145,Zul,92,380,Subtlety,dps,2018-11-08
+Petrol,rdps,2128,Fetid Devourer,87,382,Frost,dps,2018-10-31
+Petrol,rdps,2134,Vectis,90,382,Frost,dps,2018-11-07
+Petrol,rdps,2135,Mythrax,16,383,Frost,dps,2018-11-16
+Petrol,rdps,2136,Zek'voz,67,382,Frost,dps,2018-11-07
+Petrol,rdps,2141,MOTHER,90,381,Frost,dps,2018-10-24
+Petrol,rdps,2144,Taloc,97,381,Frost,dps,2018-10-24
+Petrol,rdps,2145,Zul,17,383,Arcane,dps,2018-11-08
+Ayriea,rdps,2136,Zek'voz,93,381,Beast Mastery,dps,2018-11-07
+Ayriea,rdps,2141,MOTHER,99,376,Beast Mastery,dps,2018-10-10
+Ayriea,rdps,2144,Taloc,93,381,Beast Mastery,dps,2018-11-07
+Ayriea,rdps,2128,Fetid Devourer,83,380,Beast Mastery,dps,2018-10-31
+Ayriea,rdps,2134,Vectis,92,377,Beast Mastery,dps,2018-10-17
+Ayriea,rdps,2135,Mythrax,36,381,Beast Mastery,dps,2018-11-16
+Stradlock,rdps,2128,Fetid Devourer,90,377,Affliction,dps,2018-10-31
+Stradlock,rdps,2134,Vectis,89,377,Affliction,dps,2018-10-31
+Stradlock,rdps,2136,Zek'voz,90,377,Affliction,dps,2018-10-31
+Stradlock,rdps,2141,MOTHER,96,377,Affliction,dps,2018-10-31
+Stradlock,rdps,2144,Taloc,96,377,Affliction,dps,2018-11-07
+Stradlock,rdps,2145,Zul,34,377,Affliction,dps,2018-11-08
+Uuglei,mdps,2128,Fetid Devourer,26,378,Retribution,dps,2018-10-31
+Uuglei,mdps,2134,Vectis,73,378,Retribution,dps,2018-10-17
+Uuglei,mdps,2136,Zek'voz,21,378,Retribution,dps,2018-10-31
+Uuglei,mdps,2141,MOTHER,85,378,Retribution,dps,2018-10-31
+Uuglei,mdps,2144,Taloc,85,379,Retribution,dps,2018-11-07
+Earrl,tank,2128,Fetid Devourer,61,379,Guardian,tankhps,2018-11-08
+Earrl,tank,2134,Vectis,20,379,Guardian,tankhps,2018-10-25
+Earrl,tank,2135,Mythrax,29,382,Guardian,tankhps,2018-11-16
+Earrl,tank,2136,Zek'voz,43,379,Guardian,tankhps,2018-10-17
+Earrl,tank,2141,MOTHER,42,365,Guardian,tankhps,2018-09-20
+Earrl,tank,2144,Taloc,49,363,Guardian,tankhps,2018-09-19
+Earrl,tank,2145,Zul,50,380,Guardian,tankhps,2018-11-08
+Illestra,healer,2134,Vectis,75,375,Restoration,hps,2018-10-17
+Illestra,healer,2135,Mythrax,36,381,Restoration,hps,2018-11-16
+Illestra,healer,2136,Zek'voz,42,376,Restoration,hps,2018-10-25
+Illestra,healer,2141,MOTHER,39,379,Restoration,hps,2018-11-07
+Illestra,healer,2144,Taloc,65,363,Restoration,hps,2018-09-19
+Illestra,healer,2145,Zul,34,380,Restoration,hps,2018-11-08
+Illestra,healer,2128,Fetid Devourer,37,380,Restoration,hps,2018-11-08
+Grombrindal,mdps,2128,Fetid Devourer,9,379,Arms,dps,2018-10-26
+Grombrindal,mdps,2134,Vectis,46,381,Arms,dps,2018-11-07
+Grombrindal,mdps,2135,Mythrax,89,381,Arms,dps,2018-11-16
+Grombrindal,mdps,2136,Zek'voz,84,376,Arms,dps,2018-10-03
+Grombrindal,mdps,2141,MOTHER,32,378,Arms,dps,2018-10-17
+Grombrindal,mdps,2144,Taloc,91,381,Arms,dps,2018-11-07
+Tawn,rdps,2128,Fetid Devourer,67,379,Frost,dps,2018-10-26
+Tawn,rdps,2134,Vectis,26,381,Frost,dps,2018-11-07
+Tawn,rdps,2135,Mythrax,9,382,Frost,dps,2018-11-16
+Tawn,rdps,2136,Zek'voz,37,381,Frost,dps,2018-11-07
+Tawn,rdps,2141,MOTHER,96,381,Frost,dps,2018-11-07
+Tawn,rdps,2144,Taloc,92,379,Frost,dps,2018-10-24
+Tawn,rdps,2145,Zul,33,381,Frost,dps,2018-11-08
+Draigo,tank,2128,Fetid Devourer,84,381,Brewmaster,tankhps,2018-10-31
+Draigo,tank,2134,Vectis,82,376,Brewmaster,tankhps,2018-10-17
+Draigo,tank,2135,Mythrax,15,382,Brewmaster,tankhps,2018-11-16
+Draigo,tank,2136,Zek'voz,85,381,Brewmaster,tankhps,2018-11-07
+Draigo,tank,2141,MOTHER,44,381,Brewmaster,tankhps,2018-11-07
+Draigo,tank,2144,Taloc,70,381,Brewmaster,tankhps,2018-11-07
+Draigo,tank,2145,Zul,91,381,Brewmaster,tankhps,2018-11-08
+Psychodruid,rdps,2128,Fetid Devourer,69,381,Balance,dps,2018-10-31
+Psychodruid,rdps,2134,Vectis,53,381,Balance,dps,2018-10-31
+Psychodruid,rdps,2135,Mythrax,54,386,Balance,dps,2018-11-16
+Psychodruid,rdps,2136,Zek'voz,59,381,Balance,dps,2018-10-31
+Psychodruid,rdps,2141,MOTHER,87,380,Balance,dps,2018-10-24
+Psychodruid,rdps,2144,Taloc,95,385,Balance,dps,2018-11-07
+Katanescence,healer,2122,G'huun,89,379,Mistweaver,hps,2018-11-30
+Katanescence,healer,2128,Fetid Devourer,97,379,Mistweaver,hps,2018-11-08
+Katanescence,healer,2134,Vectis,75,373,Mistweaver,hps,2018-10-17
+Katanescence,healer,2135,Mythrax,87,379,Mistweaver,hps,2018-11-27
+Katanescence,healer,2136,Zek'voz,90,378,Mistweaver,hps,2018-10-31
+Katanescence,healer,2141,MOTHER,80,370,Mistweaver,hps,2018-10-10
+Katanescence,healer,2144,Taloc,95,373,Mistweaver,hps,2018-10-31
+Katanescence,healer,2145,Zul,88,381,Mistweaver,hps,2018-12-05
+Sumi,rdps,2128,Fetid Devourer,66,381,Beast Mastery,dps,2018-10-26
+Sumi,rdps,2134,Vectis,66,378,Beast Mastery,dps,2018-10-25
+Sumi,rdps,2135,Mythrax,9,382,Beast Mastery,dps,2018-11-16
+Sumi,rdps,2136,Zek'voz,89,376,Beast Mastery,dps,2018-10-12
+Sumi,rdps,2141,MOTHER,96,382,Beast Mastery,dps,2018-10-31
+Sumi,rdps,2144,Taloc,87,381,Beast Mastery,dps,2018-10-31
+Toy,mdps,2128,Fetid Devourer,73,379,Retribution,dps,2018-11-08
+Toy,mdps,2134,Vectis,55,377,Retribution,dps,2018-10-17
+Toy,mdps,2135,Mythrax,9,380,Retribution,dps,2018-11-16
+Toy,mdps,2136,Zek'voz,17,377,Retribution,dps,2018-10-17
+Toy,mdps,2141,MOTHER,89,376,Retribution,dps,2018-10-17
+Toy,mdps,2144,Taloc,96,376,Retribution,dps,2018-10-17
+Mythrose,healer,2128,Fetid Devourer,89,377,Discipline,hps,2018-10-31
+Mythrose,healer,2134,Vectis,86,378,Holy,hps,2018-10-31
+Mythrose,healer,2135,Mythrax,17,378,Discipline,hps,2018-11-16
+Mythrose,healer,2136,Zek'voz,87,376,Discipline,hps,2018-10-31
+Mythrose,healer,2141,MOTHER,82,374,Discipline,hps,2018-10-17
+Mythrose,healer,2144,Taloc,92,374,Discipline,hps,2018-10-24
+Shadowbaine,rdps,2128,Fetid Devourer,13,378,Affliction,dps,2018-10-26
+Shadowbaine,rdps,2134,Vectis,50,379,Affliction,dps,2018-11-07
+Shadowbaine,rdps,2135,Mythrax,17,380,Affliction,dps,2018-11-16
+Shadowbaine,rdps,2136,Zek'voz,67,373,Affliction,dps,2018-10-17
+Shadowbaine,rdps,2141,MOTHER,90,376,Affliction,dps,2018-10-24
+Shadowbaine,rdps,2144,Taloc,88,379,Affliction,dps,2018-11-07
+Shadowbaine,rdps,2145,Zul,14,380,Affliction,dps,2018-11-08
+Acturus,healer,2128,Fetid Devourer,30,379,Holy,hps,2018-11-08
+Acturus,healer,2134,Vectis,45,379,Holy,hps,2018-11-07
+Acturus,healer,2135,Mythrax,60,380,Holy,hps,2018-11-16
+Acturus,healer,2136,Zek'voz,41,375,Holy,hps,2018-10-17
+Acturus,healer,2141,MOTHER,7,375,Holy,hps,2018-10-24
+Acturus,healer,2144,Taloc,80,375,Holy,hps,2018-10-24
+Acturus,healer,2145,Zul,34,379,Holy,hps,2018-11-08
+Velryssa,mdps,2128,Fetid Devourer,8,382,Arms,dps,2018-11-08
+Velryssa,mdps,2134,Vectis,73,381,Arms,dps,2018-11-07
+Velryssa,mdps,2136,Zek'voz,42,379,Arms,dps,2018-10-31
+Velryssa,mdps,2141,MOTHER,42,379,Arms,dps,2018-10-31
+Velryssa,mdps,2144,Taloc,96,379,Arms,dps,2018-10-31
+Velryssa,mdps,2145,Zul,23,384,Arms,dps,2018-11-08
+Jampers,healer,2135,Mythrax,67,382,Holy,hps,2018-11-16
+Jampers,healer,2136,Zek'voz,81,370,Holy,hps,2018-10-03
+Jampers,healer,2141,MOTHER,34,374,Holy,hps,2018-10-10
+Jampers,healer,2144,Taloc,78,377,Holy,hps,2018-10-31
+Jampers,healer,2145,Zul,14,380,Holy,hps,2018-11-08
+Jampers,healer,2128,Fetid Devourer,61,380,Holy,hps,2018-11-08
+Jampers,healer,2134,Vectis,51,375,Holy,hps,2018-10-17
+Dough,rdps,2141,MOTHER,69,360,Affliction,dps,2018-10-03
+Dough,rdps,2144,Taloc,91,359,Affliction,dps,2018-09-19
+Liavre,mdps,2128,Fetid Devourer,55,380,Subtlety,dps,2018-11-08
+Liavre,mdps,2134,Vectis,9,378,Assassination,dps,2018-10-31
+Liavre,mdps,2135,Mythrax,62,381,Assassination,dps,2018-11-16
+Liavre,mdps,2136,Zek'voz,89,376,Subtlety,dps,2018-10-25
+Liavre,mdps,2141,MOTHER,78,378,Subtlety,dps,2018-10-31
+Liavre,mdps,2144,Taloc,97,380,Subtlety,dps,2018-11-07
+Liavre,mdps,2145,Zul,94,378,Subtlety,dps,2018-11-08
+Vampyric,mdps,2128,Fetid Devourer,81,380,Havoc,dps,2018-11-08
+Vampyric,mdps,2134,Vectis,51,378,Havoc,dps,2018-11-07
+Vampyric,mdps,2136,Zek'voz,76,378,Havoc,dps,2018-11-07
+Vampyric,mdps,2141,MOTHER,90,377,Havoc,dps,2018-10-24
+Vampyric,mdps,2144,Taloc,83,375,Havoc,dps,2018-10-17
+Kopyelock,rdps,2128,Fetid Devourer,44,378,Affliction,dps,2018-11-08
+Kopyelock,rdps,2134,Vectis,40,374,Affliction,dps,2018-10-25
+Kopyelock,rdps,2135,Mythrax,9,379,Affliction,dps,2018-11-16
+Kopyelock,rdps,2136,Zek'voz,64,378,Affliction,dps,2018-11-07
+Kopyelock,rdps,2141,MOTHER,78,376,Affliction,dps,2018-10-31
+Kopyelock,rdps,2144,Taloc,90,373,Affliction,dps,2018-10-24
+Kopyelock,rdps,2145,Zul,20,378,Affliction,dps,2018-11-08
+Kiwisoda,rdps,2136,Zek'voz,23,374,Beast Mastery,dps,2018-11-07
+Kiwisoda,rdps,2141,MOTHER,55,370,Beast Mastery,dps,2018-10-31
+Kiwisoda,rdps,2144,Taloc,77,374,Beast Mastery,dps,2018-11-07
+Kiwisoda,rdps,2145,Zul,29,374,Beast Mastery,dps,2018-11-08
+Kiwisoda,rdps,2128,Fetid Devourer,8,374,Beast Mastery,dps,2018-11-08
+Kiwisoda,rdps,2134,Vectis,35,372,Beast Mastery,dps,2018-10-31
+Metonymy,rdps,2122,G'huun,15,388,Fire,dps,2018-12-20
+Brian,mdps,2122,G'huun,69,386,Subtlety,dps,2018-12-20
+Petrol,rdps,2122,G'huun,22,384,Fire,dps,2018-12-20
+Ayriea,rdps,2122,G'huun,26,387,Beast Mastery,dps,2018-12-20
+Stradlock,rdps,2122,G'huun,59,382,Affliction,dps,2018-12-20
+Earrl,tank,2122,G'huun,8,385,Guardian,tankhps,2018-12-20
+Illestra,healer,2122,G'huun,20,382,Restoration,hps,2018-12-20
+Grombrindal,mdps,2122,G'huun,27,383,Arms,dps,2018-12-20
+Tawn,rdps,2122,G'huun,19,386,Frost,dps,2018-12-20
+Draigo,tank,2122,G'huun,58,384,Brewmaster,tankhps,2018-12-20
+Psychodruid,rdps,2122,G'huun,22,387,Balance,dps,2018-12-20
+Toy,mdps,2122,G'huun,86,382,Retribution,dps,2018-12-20
+Mythrose,healer,2122,G'huun,60,381,Discipline,hps,2018-12-20
+Shadowbaine,rdps,2122,G'huun,41,382,Affliction,dps,2018-12-20
+Acturus,healer,2122,G'huun,22,381,Holy,hps,2018-12-20
+Velryssa,mdps,2122,G'huun,28,386,Arms,dps,2018-12-20
+Jampers,healer,2122,G'huun,85,382,Holy,hps,2018-12-20
+Vampyric,mdps,2122,G'huun,60,382,Havoc,dps,2018-12-20
+Kopyelock,rdps,2122,G'huun,15,383,Affliction,dps,2018-12-20
+Velsummers,healer,2122,G'huun,42,378,Restoration,hps,2018-12-20

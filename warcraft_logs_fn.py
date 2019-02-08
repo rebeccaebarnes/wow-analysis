@@ -253,6 +253,7 @@ def create_master_list(log_info, fight_info):
             'pull_end',
             'boss_id',
             'boss_name',
+            'difficulty',
             'kill',
             'player_name']
     df = df[cols]
@@ -369,7 +370,7 @@ def player_info_query(player_name, guild_info, metric, api_key, partition=0):
     except TypeError:
         print("Missed data for", player_name, ": not in guild")
 
-def import_player_info(player_names, guild_info, api_key):
+def import_player_info(player_names, guild_info, api_key, partition=1):
     '''
     Queries Warcraft Logs api for players' rankings for hps, dps and tankhps.
     Saves json file of query data.
@@ -386,7 +387,8 @@ def import_player_info(player_names, guild_info, api_key):
 
     for player in player_names:
         for metric in metrics:
-            player_info_query(player, guild_info, metric, api_key, partition=1)
+            player_info_query(player, guild_info, metric, api_key,
+                              partition=partition)
 
 def create_rankings_df(player_name, metric, primary_role):
     '''
@@ -551,6 +553,7 @@ def create_link(api_key,
                 log,
                 spell_id=None,
                 boss_id=None,
+                difficulty=5,
                 death_cutoff=None):
     '''
     Creates link for Warcraft Logs API query.
@@ -579,11 +582,11 @@ def create_link(api_key,
     boss_info = 'encounter=' + str(boss_id) + '&'
     if boss_id is None:
         boss_info = ''
-    link_end = 'difficulty=5&api_key=' + api_key
+    link_end = 'difficulty=' + str(difficulty) + '&api_key=' + api_key
 
     # Create link
     link = link_start + log_type + '/' + log + end_info + by_info + \
-           ability_info + boss_info + link_end
+           ability_info + cutoff_info + boss_info + link_end
     return link
 
 def create_link_damage_done(api_key, log_df, log, boss_id=None):
@@ -652,6 +655,7 @@ def damage_taken(api_key,
                  spell_id,
                  spell_name=None,
                  boss_id=None,
+                 hit_type='hitCount',
                  death_cutoff=None):
     '''
     Completes a 'damage-taken' query of the Warcraft Logs API.
@@ -678,14 +682,14 @@ def damage_taken(api_key,
                            log,
                            spell_id,
                            boss_id,
-                           death_cutoff)
+                           death_cutoff=death_cutoff)
         details = get_query_details(link)
 
         # Get player info
         for player in details['entries']:
             name = player['name']
             print('Player added:', name)
-            hits = player['hitCount']
+            hits = player[hit_type]
             damage = player['total']
             df_list.append({
                 'log_id': log,
@@ -704,7 +708,8 @@ def damage_taken(api_key,
                                'player',
                                'hits',
                                'damage_taken'])
-    drop_spell_name(df, spell_name)
+    if not spell_name:
+        drop_spell_name(df, spell_name)
 
     return df
 
@@ -744,13 +749,15 @@ def buff_duration(api_key,
             name = player['name']
             print('Player added:', name)
             duration = player['totalUptime']
+            uses = player['totalUses']
             df_list.append({
                 'log_id': log,
                 'spell_id': spell_id,
                 'spell_name': spell_name,
                 'description': description,
                 'player': name,
-                'duration': duration
+                'duration': duration,
+                'uses': uses
             })
 
     # Create dataframe
@@ -760,7 +767,8 @@ def buff_duration(api_key,
                                'spell_name',
                                'description',
                                'player',
-                               'duration'])
+                               'duration',
+                               'uses'])
     drop_spell_name(df, spell_name)
     drop_description(df, description)
 
@@ -836,7 +844,6 @@ def damage_done(api_key, log_df, boss_id=None, NPC=True):
 
         # Complete query
         link = create_link_damage_done(api_key, log_df, log, boss_id)
-        print('Query link:', link)
         details = get_query_details(link)
 
         # Get player info
