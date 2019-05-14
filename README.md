@@ -6,6 +6,8 @@ There are two primary types of analysis that are completed - analysis to underst
 
 The most recent guild awards analysis can be found [here](https://github.com/rebeccaebarnes/wow-analysis/blob/master/uldir_guild_awards.ipynb).
 
+**If you've found this helpful, please consider forking, rather than cloning this repo.**
+
 ## Technologies Used
 - Python
 - Libraries: numpy, pandas, matplotlib, seaborn, json, requests, os
