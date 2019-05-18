@@ -1,6 +1,6 @@
-player,primary_role,alt,tier_end,tier_start,start_date
+﻿player,primary_role,alt,tier_end,tier_start,start_date
 Irvaeryss,mdps,,TRUE,TRUE,
-Met�nymy,rdps,,TRUE,TRUE,
+Metönymy,rdps,,TRUE,TRUE,
 Brianjr,mdps,,TRUE,TRUE,
 Petroll,rdps,,TRUE,TRUE,
 Ayriea,rdps,,TRUE,TRUE,
@@ -9,7 +9,7 @@ Earrl,tank,,TRUE,TRUE,
 Illestrae,healer,,TRUE,TRUE,
 Elzam,mdps,,TRUE,TRUE,
 Tawn,rdps,,TRUE,TRUE,
-Divinance,tank,,TRUE,TRUE,
+Divinance,tank,Divanance,TRUE,TRUE,
 Psychodruid,rdps,,TRUE,TRUE,
 Kushinaa,healer,,FALSE,TRUE,
 Soome,rdps,,TRUE,FALSE,2019-03-11
