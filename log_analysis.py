@@ -111,9 +111,6 @@ def change_names(df, player_names):
     '''
     players = player_names['alt'].unique()
     for index, row in df.iterrows():
-        # Manage no alternative names
-        if np.isnan(players):
-            break
         player_name = row['player']
         if player_name in players:
             df.at[index, 'player'] = player_names[player_names['alt'] == player_name].player.iloc[0]
@@ -200,7 +197,8 @@ def clean_fight_count(fight_df,
     # Join hit counts
     df = join_fight_count(df, log_df, boss_id)
     # Manage alts
-    change_names(df, player_names)
+    if not np.isnan(player_names['alt'].unique()):
+        change_names(df, player_names)
     df = df.groupby('player').sum().reset_index()
     # Join player role
     df = join_player_roles(df, player_names)
