@@ -228,6 +228,9 @@ def find_count_order(fight_df, fight_count_limit, column_name, least=True):
     # Limit df to above fight_count_limit
     df = df[df['fight_count'] >= fight_count_limit]
 
+    # Remove players not in list
+    df.dropna(subset=['primary_role'], inplace=True)
+
     # Sort av_hits
     df.sort_values('av_count', ascending=least, inplace=True)
 
