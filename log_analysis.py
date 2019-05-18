@@ -158,7 +158,7 @@ def join_fight_count(fight_df, log_df, boss_id):
     fight_count = presence_count(log_df, boss_id)
 
     # Join fight count to fight_df
-    df = fight_df.merge(fight_count[['player', 'fight_count']], how='left', on='player')
+    df = fight_df.merge(fight_count[['player', 'fight_count']], how='outer', on='player')
 
     return df
 
