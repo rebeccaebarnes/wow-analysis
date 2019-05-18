@@ -4,8 +4,8 @@ import os
 import requests
 
 GUILD_INFO = {
-              'guild_name': 'Last%20Pull',
-              'realm': 'Cenarius',
+              'guild_name': 'Tempest',
+              'realm': 'Proudmoore',
               'region': 'US'
 }
 
