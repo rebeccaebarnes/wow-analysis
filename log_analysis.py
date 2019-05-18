@@ -197,9 +197,9 @@ def clean_fight_count(fight_df,
     # Join hit counts
     df = join_fight_count(df, log_df, boss_id)
     # Manage alts
-    if not np.isnan(player_names['alt'].unique()):
+    if player_names['alt'].unique().shape[0] != 1 :
         change_names(df, player_names)
-    df = df.groupby('player').sum().reset_index()
+        df = df.groupby('player').sum().reset_index()
     # Join player role
     df = join_player_roles(df, player_names)
 
