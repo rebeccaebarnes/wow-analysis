@@ -312,13 +312,10 @@ def collect_stats(data, master_list, player_list, boss_name, boss_id,
 
     # Show plots
     if analysis_columns[0] == 'damage_done':
-        title = 'Average Damage Done to ' + spell_name + ' per Attempt'
         xlabel = 'Average ' + spell_name + ' Damage per Attempt'
     else:
-        title = 'Average ' + analysis_columns[0].title() + ' of ' \
-                + spell_name + ' per Attempt'
         xlabel = 'Average ' + spell_name + ' per Attempt'
-    plot_hist(final_analysis['av_count'], bins, title, xlabel)
+    plot_hist(final_analysis['av_count'], bins, spell_name, xlabel)
 
     if analysis_columns[0] == 'damage_done':
         title = 'Average Damage Done to ' + spell_name + ' by Role'
