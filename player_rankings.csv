@@ -1,0 +1,673 @@
+player_name,primary_role,boss_id,boss_name,percentile,ilevel,spec,metric,ranking_date
+Irvaeryss,mdps,2263,Grong,9,406,Havoc,hps,1552445115547
+Irvaeryss,mdps,2265,Champion of the Light,12,410,Havoc,hps,1554257165251
+Irvaeryss,mdps,2266,Jadefire Masters,80,409,Havoc,hps,1553653089188
+Irvaeryss,mdps,2268,Conclave of the Chosen,92,411,Havoc,hps,1554260008755
+Irvaeryss,mdps,2271,Opulence,51,410,Havoc,hps,1554259041332
+Irvaeryss,mdps,2272,King Rastakhan,73,412,Havoc,hps,1554265523074
+Irvaeryss,mdps,2276,Mekkatorque,28,413,Havoc,hps,1554347440312
+Irvaeryss,mdps,2281,Lady Jaina Proudmoore,18,415,Havoc,hps,1558059107111
+Irvaeryss,mdps,2263,Grong,66,409,Havoc,dps,1553653765947
+Irvaeryss,mdps,2265,Champion of the Light,80,410,Havoc,dps,1554257165251
+Irvaeryss,mdps,2266,Jadefire Masters,73,410,Havoc,dps,1554257655681
+Irvaeryss,mdps,2268,Conclave of the Chosen,57,411,Havoc,dps,1554260008755
+Irvaeryss,mdps,2271,Opulence,82,409,Havoc,dps,1553655232798
+Irvaeryss,mdps,2272,King Rastakhan,82,408,Havoc,dps,1552533369615
+Irvaeryss,mdps,2276,Mekkatorque,59,413,Havoc,dps,1554347440312
+Irvaeryss,mdps,2281,Lady Jaina Proudmoore,12,415,Havoc,dps,1558059107111
+Irvaeryss,mdps,2263,Grong,90,406,Havoc,tankhps,1552445115547
+Irvaeryss,mdps,2265,Champion of the Light,70,405,Havoc,tankhps,1552443107863
+Irvaeryss,mdps,2266,Jadefire Masters,95,409,Havoc,tankhps,1553653089188
+Irvaeryss,mdps,2268,Conclave of the Chosen,73,411,Havoc,tankhps,1554260008755
+Irvaeryss,mdps,2271,Opulence,60,406,Havoc,tankhps,1552446703950
+Irvaeryss,mdps,2272,King Rastakhan,84,408,Havoc,tankhps,1552533369615
+Irvaeryss,mdps,2276,Mekkatorque,60,413,Havoc,tankhps,1554347478863
+Irvaeryss,mdps,2281,Lady Jaina Proudmoore,19,415,Havoc,tankhps,1558059107111
+Metönymy,rdps,2263,Grong,49,414,Frost,hps,1553048930099
+Metönymy,rdps,2265,Champion of the Light,47,411,Frost,hps,1552443069481
+Metönymy,rdps,2266,Jadefire Masters,56,414,Frost,hps,1553048252914
+Metönymy,rdps,2268,Conclave of the Chosen,80,416,Frost,hps,1553656189937
+Metönymy,rdps,2271,Opulence,86,415,Frost,hps,1553655232798
+Metönymy,rdps,2272,King Rastakhan,47,416,Frost,hps,1553659431633
+Metönymy,rdps,2276,Mekkatorque,57,415,Frost,hps,1553742068623
+Metönymy,rdps,2280,Stormwall Blockade,21,416,Frost,hps,1554870363340
+Metönymy,rdps,2281,Lady Jaina Proudmoore,46,416,Fire,hps,1558059107111
+Metönymy,rdps,2263,Grong,87,416,Frost,dps,1553653765947
+Metönymy,rdps,2265,Champion of the Light,66,411,Frost,dps,1552443069481
+Metönymy,rdps,2266,Jadefire Masters,77,416,Frost,dps,1553653089188
+Metönymy,rdps,2268,Conclave of the Chosen,38,415,Frost,dps,1554260008755
+Metönymy,rdps,2271,Opulence,95,415,Frost,dps,1554259041332
+Metönymy,rdps,2272,King Rastakhan,51,413,Frost,dps,1552533369615
+Metönymy,rdps,2276,Mekkatorque,95,415,Frost,dps,1553742068623
+Metönymy,rdps,2280,Stormwall Blockade,9,416,Frost,dps,1554870363340
+Metönymy,rdps,2281,Lady Jaina Proudmoore,9,416,Fire,dps,1558059107111
+Metönymy,rdps,2263,Grong,95,411,Frost,tankhps,1552445115547
+Metönymy,rdps,2265,Champion of the Light,95,411,Frost,tankhps,1552443107863
+Metönymy,rdps,2266,Jadefire Masters,95,411,Frost,tankhps,1552443919839
+Metönymy,rdps,2268,Conclave of the Chosen,95,412,Frost,tankhps,1552449449329
+Metönymy,rdps,2271,Opulence,95,411,Frost,tankhps,1552446703950
+Metönymy,rdps,2272,King Rastakhan,95,413,Frost,tankhps,1552533404235
+Metönymy,rdps,2276,Mekkatorque,95,415,Frost,tankhps,1553742069943
+Metönymy,rdps,2280,Stormwall Blockade,95,416,Frost,tankhps,1554870364229
+Metönymy,rdps,2281,Lady Jaina Proudmoore,95,416,Fire,tankhps,1558059107111
+Brianjr,mdps,2263,Grong,44,414,Assassination,hps,1554258351231
+Brianjr,mdps,2265,Champion of the Light,55,414,Assassination,hps,1554257165251
+Brianjr,mdps,2266,Jadefire Masters,67,414,Assassination,hps,1554257695006
+Brianjr,mdps,2268,Conclave of the Chosen,80,411,Assassination,hps,1553054736573
+Brianjr,mdps,2271,Opulence,89,414,Assassination,hps,1554259041332
+Brianjr,mdps,2272,King Rastakhan,96,411,Assassination,hps,1552533369615
+Brianjr,mdps,2276,Mekkatorque,49,414,Assassination,hps,1554347440312
+Brianjr,mdps,2280,Stormwall Blockade,46,414,Assassination,hps,1554870363340
+Brianjr,mdps,2281,Lady Jaina Proudmoore,56,416,Assassination,hps,1558059107111
+Brianjr,mdps,2263,Grong,89,412,Assassination,dps,1553653765947
+Brianjr,mdps,2265,Champion of the Light,95,414,Assassination,dps,1554257165251
+Brianjr,mdps,2266,Jadefire Masters,83,412,Assassination,dps,1553653089188
+Brianjr,mdps,2268,Conclave of the Chosen,76,414,Assassination,dps,1554260008755
+Brianjr,mdps,2271,Opulence,91,414,Assassination,dps,1554259041332
+Brianjr,mdps,2272,King Rastakhan,62,412,Assassination,dps,1553659431633
+Brianjr,mdps,2276,Mekkatorque,29,412,Assassination,dps,1553742068623
+Brianjr,mdps,2280,Stormwall Blockade,56,414,Assassination,dps,1554870363340
+Brianjr,mdps,2281,Lady Jaina Proudmoore,55,416,Assassination,dps,1558059107111
+Brianjr,mdps,2263,Grong,99,411,Assassination,tankhps,1552445115547
+Brianjr,mdps,2265,Champion of the Light,99,410,Assassination,tankhps,1552443107863
+Brianjr,mdps,2266,Jadefire Masters,99,411,Assassination,tankhps,1552443919839
+Brianjr,mdps,2268,Conclave of the Chosen,99,411,Assassination,tankhps,1553054736573
+Brianjr,mdps,2271,Opulence,99,411,Assassination,tankhps,1552446703950
+Brianjr,mdps,2272,King Rastakhan,95,411,Assassination,tankhps,1552533404235
+Brianjr,mdps,2276,Mekkatorque,99,412,Assassination,tankhps,1553742069943
+Brianjr,mdps,2280,Stormwall Blockade,99,414,Assassination,tankhps,1554870364229
+Brianjr,mdps,2281,Lady Jaina Proudmoore,99,416,Assassination,tankhps,1558059107111
+Petroll,rdps,2263,Grong,93,416,Frost,hps,1553653765947
+Petroll,rdps,2265,Champion of the Light,79,417,Frost,hps,1554257165251
+Petroll,rdps,2266,Jadefire Masters,63,416,Frost,hps,1553653089188
+Petroll,rdps,2268,Conclave of the Chosen,86,414,Frost,hps,1552449449329
+Petroll,rdps,2271,Opulence,93,417,Frost,hps,1554259041332
+Petroll,rdps,2272,King Rastakhan,81,416,Frost,hps,1553659431633
+Petroll,rdps,2276,Mekkatorque,87,417,Frost,hps,1553742068623
+Petroll,rdps,2280,Stormwall Blockade,93,417,Frost,hps,1554870363340
+Petroll,rdps,2281,Lady Jaina Proudmoore,91,416,Fire,hps,1558059107111
+Petroll,rdps,2263,Grong,59,414,Frost,dps,1553048930099
+Petroll,rdps,2265,Champion of the Light,74,417,Frost,dps,1554257165251
+Petroll,rdps,2266,Jadefire Masters,53,416,Frost,dps,1553653089188
+Petroll,rdps,2268,Conclave of the Chosen,23,414,Frost,dps,1552449449329
+Petroll,rdps,2271,Opulence,18,416,Frost,dps,1553655232798
+Petroll,rdps,2272,King Rastakhan,63,416,Frost,dps,1553659431633
+Petroll,rdps,2276,Mekkatorque,80,417,Frost,dps,1553742068623
+Petroll,rdps,2280,Stormwall Blockade,33,417,Frost,dps,1554870363340
+Petroll,rdps,2281,Lady Jaina Proudmoore,8,416,Fire,dps,1558059107111
+Petroll,rdps,2263,Grong,95,414,Frost,tankhps,1552445115547
+Petroll,rdps,2265,Champion of the Light,95,414,Frost,tankhps,1552443107863
+Petroll,rdps,2266,Jadefire Masters,95,414,Frost,tankhps,1552443919839
+Petroll,rdps,2268,Conclave of the Chosen,95,414,Frost,tankhps,1552449449329
+Petroll,rdps,2271,Opulence,95,413,Frost,tankhps,1552446703950
+Petroll,rdps,2272,King Rastakhan,95,414,Frost,tankhps,1552533404235
+Petroll,rdps,2276,Mekkatorque,95,417,Frost,tankhps,1553742069943
+Petroll,rdps,2280,Stormwall Blockade,95,417,Frost,tankhps,1554870364229
+Petroll,rdps,2281,Lady Jaina Proudmoore,95,416,Fire,tankhps,1558059107111
+Ayriea,rdps,2263,Grong,65,412,Marksmanship,hps,1553048930099
+Ayriea,rdps,2265,Champion of the Light,10,414,Marksmanship,hps,1554257165251
+Ayriea,rdps,2266,Jadefire Masters,59,412,Marksmanship,hps,1553048252914
+Ayriea,rdps,2268,Conclave of the Chosen,84,412,Marksmanship,hps,1553054736573
+Ayriea,rdps,2271,Opulence,74,412,Marksmanship,hps,1553053754073
+Ayriea,rdps,2272,King Rastakhan,59,413,Marksmanship,hps,1553659431633
+Ayriea,rdps,2276,Mekkatorque,82,414,Marksmanship,hps,1553742068623
+Ayriea,rdps,2280,Stormwall Blockade,74,415,Beast Mastery,hps,1554870363340
+Ayriea,rdps,2281,Lady Jaina Proudmoore,89,415,Beast Mastery,hps,1558059107111
+Ayriea,rdps,2263,Grong,83,413,Marksmanship,dps,1553653765947
+Ayriea,rdps,2265,Champion of the Light,86,414,Marksmanship,dps,1554257165251
+Ayriea,rdps,2266,Jadefire Masters,64,414,Marksmanship,dps,1554257655681
+Ayriea,rdps,2268,Conclave of the Chosen,66,412,Marksmanship,dps,1553054736573
+Ayriea,rdps,2271,Opulence,93,412,Marksmanship,dps,1553053754073
+Ayriea,rdps,2272,King Rastakhan,56,414,Marksmanship,dps,1554265523074
+Ayriea,rdps,2276,Mekkatorque,84,415,Marksmanship,dps,1554347440312
+Ayriea,rdps,2280,Stormwall Blockade,16,415,Beast Mastery,dps,1554870363340
+Ayriea,rdps,2281,Lady Jaina Proudmoore,61,415,Beast Mastery,dps,1558059107111
+Ayriea,rdps,2263,Grong,99,412,Marksmanship,tankhps,1553048929849
+Ayriea,rdps,2265,Champion of the Light,99,414,Marksmanship,tankhps,1554257165251
+Ayriea,rdps,2266,Jadefire Masters,99,412,Marksmanship,tankhps,1553048252914
+Ayriea,rdps,2268,Conclave of the Chosen,100,408,Marksmanship,tankhps,1552449449329
+Ayriea,rdps,2271,Opulence,99,412,Marksmanship,tankhps,1553053753785
+Ayriea,rdps,2272,King Rastakhan,100,412,Marksmanship,tankhps,1553057000106
+Ayriea,rdps,2276,Mekkatorque,99,414,Marksmanship,tankhps,1553742069943
+Ayriea,rdps,2280,Stormwall Blockade,75,415,Beast Mastery,tankhps,1554870364229
+Ayriea,rdps,2281,Lady Jaina Proudmoore,91,415,Beast Mastery,tankhps,1558059107111
+Stradivarus,rdps,2268,Conclave of the Chosen,88,411,Shadow,hps,1552449449329
+Stradivarus,rdps,2271,Opulence,26,410,Shadow,hps,1552446700503
+Stradivarus,rdps,2272,King Rastakhan,35,411,Shadow,hps,1552533369615
+Stradivarus,rdps,2268,Conclave of the Chosen,54,411,Shadow,dps,1552449449329
+Stradivarus,rdps,2271,Opulence,49,410,Shadow,dps,1552446700503
+Stradivarus,rdps,2272,King Rastakhan,34,411,Shadow,dps,1552533369615
+Stradivarus,rdps,2268,Conclave of the Chosen,24,411,Shadow,tankhps,1552449449329
+Stradivarus,rdps,2271,Opulence,25,410,Shadow,tankhps,1552446703950
+Stradivarus,rdps,2272,King Rastakhan,20,411,Shadow,tankhps,1552533404235
+Earrl,tank,2263,Grong,51,412,Guardian,hps,1553653765947
+Earrl,tank,2265,Champion of the Light,82,412,Guardian,hps,1553047564887
+Earrl,tank,2266,Jadefire Masters,50,411,Guardian,hps,1552443884868
+Earrl,tank,2268,Conclave of the Chosen,58,412,Guardian,hps,1553656189937
+Earrl,tank,2271,Opulence,58,412,Guardian,hps,1553655232798
+Earrl,tank,2272,King Rastakhan,42,415,Guardian,hps,1554265523074
+Earrl,tank,2276,Mekkatorque,38,414,Guardian,hps,1553742068623
+Earrl,tank,2280,Stormwall Blockade,9,416,Guardian,hps,1554870363340
+Earrl,tank,2281,Lady Jaina Proudmoore,22,416,Guardian,hps,1558059107111
+Earrl,tank,2263,Grong,62,412,Guardian,dps,1553653765947
+Earrl,tank,2265,Champion of the Light,72,411,Guardian,dps,1552443069481
+Earrl,tank,2266,Jadefire Masters,32,415,Guardian,dps,1554257655681
+Earrl,tank,2268,Conclave of the Chosen,24,413,Guardian,dps,1552449449329
+Earrl,tank,2271,Opulence,16,415,Guardian,dps,1554259041332
+Earrl,tank,2272,King Rastakhan,30,412,Guardian,dps,1553659431633
+Earrl,tank,2276,Mekkatorque,12,415,Guardian,dps,1554347440312
+Earrl,tank,2280,Stormwall Blockade,37,416,Guardian,dps,1554870363340
+Earrl,tank,2281,Lady Jaina Proudmoore,8,416,Guardian,dps,1558059107111
+Earrl,tank,2263,Grong,53,412,Guardian,tankhps,1553653765947
+Earrl,tank,2265,Champion of the Light,81,412,Guardian,tankhps,1553047564887
+Earrl,tank,2266,Jadefire Masters,53,412,Guardian,tankhps,1553048252914
+Earrl,tank,2268,Conclave of the Chosen,56,412,Guardian,tankhps,1553656189937
+Earrl,tank,2271,Opulence,38,415,Guardian,tankhps,1554259041332
+Earrl,tank,2272,King Rastakhan,37,415,Guardian,tankhps,1554265523074
+Earrl,tank,2276,Mekkatorque,30,414,Guardian,tankhps,1553742068623
+Earrl,tank,2280,Stormwall Blockade,9,416,Guardian,tankhps,1554870363340
+Earrl,tank,2281,Lady Jaina Proudmoore,19,416,Guardian,tankhps,1558059107111
+Illestrae,healer,2263,Grong,67,409,Restoration,hps,1552445115547
+Illestrae,healer,2265,Champion of the Light,26,407,Restoration,hps,1552443069481
+Illestrae,healer,2266,Jadefire Masters,17,407,Restoration,hps,1552443884868
+Illestrae,healer,2268,Conclave of the Chosen,37,410,Restoration,hps,1553656189937
+Illestrae,healer,2271,Opulence,14,409,Restoration,hps,1552446700503
+Illestrae,healer,2272,King Rastakhan,63,413,Restoration,hps,1554265523074
+Illestrae,healer,2276,Mekkatorque,26,411,Restoration,hps,1553742068623
+Illestrae,healer,2280,Stormwall Blockade,65,413,Restoration,hps,1554870363340
+Illestrae,healer,2281,Lady Jaina Proudmoore,27,412,Restoration,hps,1558059107111
+Illestrae,healer,2263,Grong,93,409,Restoration,dps,1553048930099
+Illestrae,healer,2265,Champion of the Light,91,407,Restoration,dps,1552443069481
+Illestrae,healer,2266,Jadefire Masters,95,409,Restoration,dps,1553048252914
+Illestrae,healer,2268,Conclave of the Chosen,78,409,Restoration,dps,1552449449329
+Illestrae,healer,2271,Opulence,73,410,Restoration,dps,1553655232798
+Illestrae,healer,2272,King Rastakhan,67,410,Restoration,dps,1553659431633
+Illestrae,healer,2276,Mekkatorque,81,413,Restoration,dps,1554347440312
+Illestrae,healer,2280,Stormwall Blockade,58,413,Restoration,dps,1554870363340
+Illestrae,healer,2281,Lady Jaina Proudmoore,49,412,Restoration,dps,1558059107111
+Illestrae,healer,2263,Grong,29,411,Restoration,tankhps,1554258351231
+Illestrae,healer,2265,Champion of the Light,11,410,Restoration,tankhps,1553652407611
+Illestrae,healer,2266,Jadefire Masters,34,407,Restoration,tankhps,1552443923261
+Illestrae,healer,2268,Conclave of the Chosen,18,412,Restoration,tankhps,1554260008755
+Illestrae,healer,2271,Opulence,20,411,Restoration,tankhps,1554259041332
+Illestrae,healer,2272,King Rastakhan,52,413,Restoration,tankhps,1554265523074
+Illestrae,healer,2276,Mekkatorque,27,411,Restoration,tankhps,1553742068623
+Illestrae,healer,2280,Stormwall Blockade,33,413,Restoration,tankhps,1554870363340
+Illestrae,healer,2281,Lady Jaina Proudmoore,21,412,Restoration,tankhps,1558059107111
+Elzam,mdps,2263,Grong,86,413,Arms,hps,1553048930099
+Elzam,mdps,2265,Champion of the Light,91,413,Arms,hps,1553652407611
+Elzam,mdps,2266,Jadefire Masters,92,413,Arms,hps,1553653089188
+Elzam,mdps,2268,Conclave of the Chosen,75,413,Arms,hps,1553656189937
+Elzam,mdps,2271,Opulence,93,413,Arms,hps,1553655232798
+Elzam,mdps,2272,King Rastakhan,86,414,Arms,hps,1554265523074
+Elzam,mdps,2276,Mekkatorque,73,415,Arms,hps,1553742068623
+Elzam,mdps,2281,Lady Jaina Proudmoore,72,417,Fury,hps,1558059107111
+Elzam,mdps,2263,Grong,89,413,Arms,dps,1553048930099
+Elzam,mdps,2265,Champion of the Light,89,413,Arms,dps,1553652407611
+Elzam,mdps,2266,Jadefire Masters,85,413,Arms,dps,1553653089188
+Elzam,mdps,2268,Conclave of the Chosen,52,415,Arms,dps,1554260008755
+Elzam,mdps,2271,Opulence,80,413,Arms,dps,1553655232798
+Elzam,mdps,2272,King Rastakhan,51,414,Arms,dps,1554265523074
+Elzam,mdps,2276,Mekkatorque,75,415,Arms,dps,1553742068623
+Elzam,mdps,2281,Lady Jaina Proudmoore,24,417,Fury,dps,1558059107111
+Elzam,mdps,2263,Grong,95,413,Arms,tankhps,1553048929849
+Elzam,mdps,2265,Champion of the Light,95,413,Arms,tankhps,1553047564887
+Elzam,mdps,2266,Jadefire Masters,95,413,Arms,tankhps,1553048252914
+Elzam,mdps,2268,Conclave of the Chosen,95,413,Arms,tankhps,1553656189937
+Elzam,mdps,2271,Opulence,95,413,Arms,tankhps,1553655221308
+Elzam,mdps,2272,King Rastakhan,90,412,Arms,tankhps,1552533404235
+Elzam,mdps,2276,Mekkatorque,95,415,Arms,tankhps,1553742069943
+Elzam,mdps,2281,Lady Jaina Proudmoore,99,417,Fury,tankhps,1558059107111
+Tawn,rdps,2263,Grong,60,413,Frost,hps,1553048930099
+Tawn,rdps,2265,Champion of the Light,36,415,Frost,hps,1554257165251
+Tawn,rdps,2266,Jadefire Masters,58,414,Frost,hps,1553653089188
+Tawn,rdps,2268,Conclave of the Chosen,96,415,Frost,hps,1554260008755
+Tawn,rdps,2271,Opulence,87,414,Frost,hps,1553655232798
+Tawn,rdps,2272,King Rastakhan,76,415,Frost,hps,1554265523074
+Tawn,rdps,2276,Mekkatorque,37,414,Frost,hps,1553742068623
+Tawn,rdps,2280,Stormwall Blockade,47,414,Frost,hps,1554870363340
+Tawn,rdps,2263,Grong,92,415,Frost,dps,1553653765947
+Tawn,rdps,2265,Champion of the Light,78,415,Frost,dps,1554257165251
+Tawn,rdps,2266,Jadefire Masters,62,413,Frost,dps,1553048252914
+Tawn,rdps,2268,Conclave of the Chosen,54,415,Frost,dps,1554260008755
+Tawn,rdps,2271,Opulence,57,414,Frost,dps,1553655232798
+Tawn,rdps,2272,King Rastakhan,61,415,Frost,dps,1554265523074
+Tawn,rdps,2276,Mekkatorque,67,414,Frost,dps,1553742068623
+Tawn,rdps,2280,Stormwall Blockade,80,414,Frost,dps,1554870363340
+Tawn,rdps,2263,Grong,95,413,Frost,tankhps,1553048929849
+Tawn,rdps,2265,Champion of the Light,95,415,Frost,tankhps,1554257165251
+Tawn,rdps,2266,Jadefire Masters,95,413,Frost,tankhps,1553048252914
+Tawn,rdps,2268,Conclave of the Chosen,95,414,Frost,tankhps,1553656189937
+Tawn,rdps,2271,Opulence,95,412,Frost,tankhps,1553053753785
+Tawn,rdps,2272,King Rastakhan,95,413,Frost,tankhps,1553057000106
+Tawn,rdps,2276,Mekkatorque,95,414,Frost,tankhps,1553742069943
+Tawn,rdps,2280,Stormwall Blockade,95,414,Frost,tankhps,1554870364229
+Divinance,tank,2263,Grong,56,409,Brewmaster,hps,1553048930099
+Divinance,tank,2265,Champion of the Light,27,410,Brewmaster,hps,1553652407611
+Divinance,tank,2266,Jadefire Masters,32,413,Brewmaster,hps,1554257695006
+Divinance,tank,2268,Conclave of the Chosen,77,408,Brewmaster,hps,1552449449329
+Divinance,tank,2271,Opulence,18,412,Brewmaster,hps,1553655232798
+Divinance,tank,2272,King Rastakhan,29,414,Brewmaster,hps,1554265523074
+Divinance,tank,2280,Stormwall Blockade,63,415,Brewmaster,hps,1554870363340
+Divinance,tank,2281,Lady Jaina Proudmoore,33,417,Brewmaster,hps,1558059107111
+Divinance,tank,2263,Grong,90,409,Brewmaster,dps,1553048929849
+Divinance,tank,2265,Champion of the Light,96,410,Brewmaster,dps,1553652407611
+Divinance,tank,2266,Jadefire Masters,85,411,Brewmaster,dps,1553653089188
+Divinance,tank,2268,Conclave of the Chosen,81,413,Brewmaster,dps,1554260008755
+Divinance,tank,2271,Opulence,90,412,Brewmaster,dps,1553655232798
+Divinance,tank,2272,King Rastakhan,55,412,Brewmaster,dps,1553659431633
+Divinance,tank,2280,Stormwall Blockade,8,415,Brewmaster,dps,1554870363340
+Divinance,tank,2281,Lady Jaina Proudmoore,43,417,Brewmaster,dps,1558059107111
+Divinance,tank,2263,Grong,57,409,Brewmaster,tankhps,1553048930099
+Divinance,tank,2265,Champion of the Light,27,410,Brewmaster,tankhps,1553652407611
+Divinance,tank,2266,Jadefire Masters,33,413,Brewmaster,tankhps,1554257695006
+Divinance,tank,2268,Conclave of the Chosen,80,408,Brewmaster,tankhps,1552449449329
+Divinance,tank,2271,Opulence,19,412,Brewmaster,tankhps,1553655232798
+Divinance,tank,2272,King Rastakhan,30,414,Brewmaster,tankhps,1554265523074
+Divinance,tank,2280,Stormwall Blockade,64,415,Brewmaster,tankhps,1554870363340
+Divinance,tank,2281,Lady Jaina Proudmoore,34,417,Brewmaster,tankhps,1558059107111
+Psychodruid,rdps,2263,Grong,46,409,Balance,hps,1552445115547
+Psychodruid,rdps,2265,Champion of the Light,60,413,Balance,hps,1553652407611
+Psychodruid,rdps,2266,Jadefire Masters,46,409,Balance,hps,1552443919839
+Psychodruid,rdps,2268,Conclave of the Chosen,68,409,Balance,hps,1552449449329
+Psychodruid,rdps,2271,Opulence,82,409,Balance,hps,1552446700503
+Psychodruid,rdps,2272,King Rastakhan,61,413,Balance,hps,1554265523074
+Psychodruid,rdps,2276,Mekkatorque,88,414,Balance,hps,1554347440312
+Psychodruid,rdps,2280,Stormwall Blockade,36,414,Balance,hps,1554870363340
+Psychodruid,rdps,2263,Grong,38,409,Balance,dps,1552445115547
+Psychodruid,rdps,2265,Champion of the Light,59,411,Balance,dps,1553047564887
+Psychodruid,rdps,2266,Jadefire Masters,80,409,Balance,dps,1552443884868
+Psychodruid,rdps,2268,Conclave of the Chosen,45,409,Balance,dps,1552449449329
+Psychodruid,rdps,2271,Opulence,78,409,Balance,dps,1552446700503
+Psychodruid,rdps,2272,King Rastakhan,58,413,Balance,dps,1554265523074
+Psychodruid,rdps,2276,Mekkatorque,26,414,Balance,dps,1554347440312
+Psychodruid,rdps,2280,Stormwall Blockade,48,414,Balance,dps,1554870363340
+Psychodruid,rdps,2263,Grong,90,409,Balance,tankhps,1552445115547
+Psychodruid,rdps,2265,Champion of the Light,87,413,Balance,tankhps,1553652407611
+Psychodruid,rdps,2266,Jadefire Masters,84,409,Balance,tankhps,1552443923261
+Psychodruid,rdps,2268,Conclave of the Chosen,71,409,Balance,tankhps,1552449449329
+Psychodruid,rdps,2271,Opulence,85,409,Balance,tankhps,1552446700503
+Psychodruid,rdps,2272,King Rastakhan,70,411,Balance,tankhps,1552533369615
+Psychodruid,rdps,2276,Mekkatorque,31,414,Balance,tankhps,1554347440312
+Psychodruid,rdps,2280,Stormwall Blockade,37,414,Balance,tankhps,1554870363340
+Soome,rdps,2263,Grong,50,408,Balance,hps,1553653765947
+Soome,rdps,2265,Champion of the Light,68,393,Balance,hps,1552443069481
+Soome,rdps,2266,Jadefire Masters,51,409,Balance,hps,1554257655681
+Soome,rdps,2268,Conclave of the Chosen,43,409,Balance,hps,1554260008755
+Soome,rdps,2271,Opulence,50,409,Balance,hps,1554259041332
+Soome,rdps,2272,King Rastakhan,58,407,Balance,hps,1553659431633
+Soome,rdps,2276,Mekkatorque,34,413,Restoration,hps,1554347440312
+Soome,rdps,2276,Mekkatorque,37,407,Balance,hps,1553742068623
+Soome,rdps,2280,Stormwall Blockade,30,413,Balance,hps,1554870363340
+Soome,rdps,2281,Lady Jaina Proudmoore,89,415,Balance,hps,1558059107111
+Soome,rdps,2263,Grong,64,408,Balance,dps,1553653765947
+Soome,rdps,2265,Champion of the Light,66,408,Balance,dps,1554257165251
+Soome,rdps,2266,Jadefire Masters,64,409,Balance,dps,1554257655681
+Soome,rdps,2268,Conclave of the Chosen,52,407,Balance,dps,1553656189937
+Soome,rdps,2271,Opulence,32,409,Balance,dps,1554259041332
+Soome,rdps,2272,King Rastakhan,40,407,Balance,dps,1553659431633
+Soome,rdps,2276,Mekkatorque,9,407,Balance,dps,1553742068623
+Soome,rdps,2276,Mekkatorque,70,413,Restoration,dps,1554347440312
+Soome,rdps,2280,Stormwall Blockade,43,413,Balance,dps,1554870363340
+Soome,rdps,2281,Lady Jaina Proudmoore,9,415,Balance,dps,1558059107111
+Soome,rdps,2263,Grong,81,402,Balance,tankhps,1553048930099
+Soome,rdps,2265,Champion of the Light,69,408,Balance,tankhps,1554257165251
+Soome,rdps,2266,Jadefire Masters,96,407,Balance,tankhps,1553653089188
+Soome,rdps,2268,Conclave of the Chosen,59,407,Balance,tankhps,1553656189937
+Soome,rdps,2271,Opulence,67,409,Balance,tankhps,1554259041332
+Soome,rdps,2272,King Rastakhan,52,406,Balance,tankhps,1553056956364
+Soome,rdps,2276,Mekkatorque,58,413,Restoration,tankhps,1554347440312
+Soome,rdps,2276,Mekkatorque,32,407,Balance,tankhps,1553742068623
+Soome,rdps,2280,Stormwall Blockade,39,413,Balance,tankhps,1554870363340
+Soome,rdps,2281,Lady Jaina Proudmoore,77,415,Balance,tankhps,1558059107111
+Toyqt,mdps,2263,Grong,41,411,Retribution,hps,1554258351231
+Toyqt,mdps,2265,Champion of the Light,95,411,Retribution,hps,1554257165251
+Toyqt,mdps,2266,Jadefire Masters,84,409,Retribution,hps,1552443884868
+Toyqt,mdps,2268,Conclave of the Chosen,93,410,Retribution,hps,1553656189937
+Toyqt,mdps,2271,Opulence,87,411,Retribution,hps,1554259041332
+Toyqt,mdps,2272,King Rastakhan,86,410,Retribution,hps,1553659431633
+Toyqt,mdps,2276,Mekkatorque,89,411,Retribution,hps,1553742068623
+Toyqt,mdps,2280,Stormwall Blockade,80,413,Retribution,hps,1554870363340
+Toyqt,mdps,2281,Lady Jaina Proudmoore,75,414,Retribution,hps,1558059107111
+Toyqt,mdps,2263,Grong,77,411,Retribution,dps,1554258351231
+Toyqt,mdps,2265,Champion of the Light,49,410,Retribution,dps,1553652407611
+Toyqt,mdps,2266,Jadefire Masters,70,409,Retribution,dps,1552443884868
+Toyqt,mdps,2268,Conclave of the Chosen,40,410,Retribution,dps,1553656189937
+Toyqt,mdps,2271,Opulence,59,410,Retribution,dps,1553655232798
+Toyqt,mdps,2272,King Rastakhan,61,409,Retribution,dps,1552533369615
+Toyqt,mdps,2276,Mekkatorque,86,413,Retribution,dps,1554347440312
+Toyqt,mdps,2280,Stormwall Blockade,62,413,Retribution,dps,1554870363340
+Toyqt,mdps,2281,Lady Jaina Proudmoore,33,414,Retribution,dps,1558059107111
+Toyqt,mdps,2263,Grong,69,411,Retribution,tankhps,1554258351231
+Toyqt,mdps,2265,Champion of the Light,91,410,Retribution,tankhps,1553652407611
+Toyqt,mdps,2266,Jadefire Masters,99,409,Retribution,tankhps,1552443884868
+Toyqt,mdps,2268,Conclave of the Chosen,96,411,Retribution,tankhps,1554260008755
+Toyqt,mdps,2271,Opulence,89,409,Retribution,tankhps,1552446700503
+Toyqt,mdps,2272,King Rastakhan,97,409,Retribution,tankhps,1552533369615
+Toyqt,mdps,2276,Mekkatorque,96,413,Retribution,tankhps,1554347440312
+Toyqt,mdps,2280,Stormwall Blockade,96,413,Retribution,tankhps,1554870363340
+Toyqt,mdps,2281,Lady Jaina Proudmoore,94,414,Retribution,tankhps,1558059107111
+Mythroes,healer,2263,Grong,95,412,Holy,hps,1553048930099
+Mythroes,healer,2265,Champion of the Light,70,413,Holy,hps,1553652407611
+Mythroes,healer,2265,Champion of the Light,81,415,Discipline,hps,1554257165251
+Mythroes,healer,2266,Jadefire Masters,88,410,Holy,hps,1553048252914
+Mythroes,healer,2268,Conclave of the Chosen,57,413,Discipline,hps,1553054736573
+Mythroes,healer,2271,Opulence,82,414,Holy,hps,1554259041332
+Mythroes,healer,2272,King Rastakhan,79,413,Discipline,hps,1553056956364
+Mythroes,healer,2276,Mekkatorque,84,414,Holy,hps,1554347440312
+Mythroes,healer,2280,Stormwall Blockade,83,415,Discipline,hps,1554870363340
+Mythroes,healer,2281,Lady Jaina Proudmoore,40,417,Discipline,hps,1558059107111
+Mythroes,healer,2263,Grong,54,409,Holy,dps,1552445115547
+Mythroes,healer,2265,Champion of the Light,48,415,Discipline,dps,1554257165251
+Mythroes,healer,2265,Champion of the Light,70,383,Holy,dps,1553047564887
+Mythroes,healer,2266,Jadefire Masters,50,413,Holy,dps,1554257655681
+Mythroes,healer,2268,Conclave of the Chosen,38,413,Discipline,dps,1553054736573
+Mythroes,healer,2271,Opulence,30,412,Holy,dps,1553053754073
+Mythroes,healer,2272,King Rastakhan,51,413,Discipline,dps,1553056956364
+Mythroes,healer,2276,Mekkatorque,48,414,Holy,dps,1554347440312
+Mythroes,healer,2280,Stormwall Blockade,8,415,Discipline,dps,1554870363340
+Mythroes,healer,2281,Lady Jaina Proudmoore,7,417,Discipline,dps,1558059107111
+Mythroes,healer,2263,Grong,58,413,Holy,tankhps,1553653765947
+Mythroes,healer,2265,Champion of the Light,67,415,Discipline,tankhps,1554257165251
+Mythroes,healer,2265,Champion of the Light,66,413,Holy,tankhps,1553652407611
+Mythroes,healer,2266,Jadefire Masters,80,410,Holy,tankhps,1553048252914
+Mythroes,healer,2268,Conclave of the Chosen,48,414,Discipline,tankhps,1553656189937
+Mythroes,healer,2271,Opulence,90,414,Holy,tankhps,1554259041332
+Mythroes,healer,2272,King Rastakhan,71,410,Discipline,tankhps,1552533369615
+Mythroes,healer,2276,Mekkatorque,59,413,Holy,tankhps,1553742068623
+Mythroes,healer,2280,Stormwall Blockade,71,415,Discipline,tankhps,1554870363340
+Mythroes,healer,2281,Lady Jaina Proudmoore,68,417,Discipline,tankhps,1558059107111
+Shadowbaine,rdps,2263,Grong,55,413,Destruction,hps,1554258351231
+Shadowbaine,rdps,2265,Champion of the Light,75,413,Destruction,hps,1554257165251
+Shadowbaine,rdps,2266,Jadefire Masters,64,408,Destruction,hps,1553048252914
+Shadowbaine,rdps,2268,Conclave of the Chosen,84,413,Destruction,hps,1554260008755
+Shadowbaine,rdps,2271,Opulence,58,412,Destruction,hps,1553655232798
+Shadowbaine,rdps,2271,Opulence,26,408,Affliction,hps,1553053754073
+Shadowbaine,rdps,2272,King Rastakhan,84,411,Destruction,hps,1553056956364
+Shadowbaine,rdps,2276,Mekkatorque,81,413,Destruction,hps,1554347440312
+Shadowbaine,rdps,2280,Stormwall Blockade,9,413,Affliction,hps,1554870363340
+Shadowbaine,rdps,2281,Lady Jaina Proudmoore,94,415,Destruction,hps,1558059107111
+Shadowbaine,rdps,2263,Grong,80,412,Destruction,dps,1553653765947
+Shadowbaine,rdps,2265,Champion of the Light,79,413,Destruction,dps,1554257165251
+Shadowbaine,rdps,2266,Jadefire Masters,69,410,Destruction,dps,1553653089188
+Shadowbaine,rdps,2268,Conclave of the Chosen,64,408,Destruction,dps,1552449449329
+Shadowbaine,rdps,2271,Opulence,82,408,Affliction,dps,1553053754073
+Shadowbaine,rdps,2271,Opulence,57,412,Destruction,dps,1553655232798
+Shadowbaine,rdps,2272,King Rastakhan,75,411,Destruction,dps,1553056956364
+Shadowbaine,rdps,2276,Mekkatorque,39,413,Destruction,dps,1554347440312
+Shadowbaine,rdps,2280,Stormwall Blockade,24,413,Affliction,dps,1554870363340
+Shadowbaine,rdps,2281,Lady Jaina Proudmoore,9,415,Destruction,dps,1558059107111
+Shadowbaine,rdps,2263,Grong,99,408,Destruction,tankhps,1552445115547
+Shadowbaine,rdps,2265,Champion of the Light,99,408,Destruction,tankhps,1552443107863
+Shadowbaine,rdps,2266,Jadefire Masters,95,408,Destruction,tankhps,1552443919839
+Shadowbaine,rdps,2268,Conclave of the Chosen,100,408,Destruction,tankhps,1552449449329
+Shadowbaine,rdps,2271,Opulence,95,406,Affliction,tankhps,1552446703950
+Shadowbaine,rdps,2271,Opulence,99,412,Destruction,tankhps,1553655221308
+Shadowbaine,rdps,2272,King Rastakhan,100,408,Destruction,tankhps,1552533404235
+Shadowbaine,rdps,2276,Mekkatorque,99,413,Destruction,tankhps,1554347478863
+Shadowbaine,rdps,2280,Stormwall Blockade,99,413,Affliction,tankhps,1554870364229
+Shadowbaine,rdps,2281,Lady Jaina Proudmoore,99,415,Destruction,tankhps,1558059107111
+Acturus,healer,2263,Grong,68,412,Holy,hps,1554258351231
+Acturus,healer,2265,Champion of the Light,66,412,Holy,hps,1554257165251
+Acturus,healer,2266,Jadefire Masters,42,412,Holy,hps,1554257695006
+Acturus,healer,2268,Conclave of the Chosen,47,412,Holy,hps,1554260008755
+Acturus,healer,2271,Opulence,56,411,Holy,hps,1553655232798
+Acturus,healer,2272,King Rastakhan,72,411,Holy,hps,1553659431633
+Acturus,healer,2276,Mekkatorque,45,411,Holy,hps,1553742068623
+Acturus,healer,2280,Stormwall Blockade,26,411,Holy,hps,1554870363340
+Acturus,healer,2263,Grong,57,411,Holy,dps,1553653765947
+Acturus,healer,2265,Champion of the Light,96,411,Holy,dps,1553652407611
+Acturus,healer,2266,Jadefire Masters,59,408,Holy,dps,1553048252914
+Acturus,healer,2268,Conclave of the Chosen,56,408,Holy,dps,1553054736573
+Acturus,healer,2271,Opulence,65,411,Holy,dps,1553655232798
+Acturus,healer,2272,King Rastakhan,71,411,Holy,dps,1553659431633
+Acturus,healer,2276,Mekkatorque,29,412,Holy,dps,1554347440312
+Acturus,healer,2280,Stormwall Blockade,42,411,Holy,dps,1554870363340
+Acturus,healer,2263,Grong,56,412,Holy,tankhps,1554258351231
+Acturus,healer,2265,Champion of the Light,61,408,Holy,tankhps,1553047564887
+Acturus,healer,2266,Jadefire Masters,45,412,Holy,tankhps,1554257695006
+Acturus,healer,2268,Conclave of the Chosen,58,408,Holy,tankhps,1553054736573
+Acturus,healer,2271,Opulence,86,405,Holy,tankhps,1552446700503
+Acturus,healer,2272,King Rastakhan,45,411,Holy,tankhps,1553659431633
+Acturus,healer,2276,Mekkatorque,16,411,Holy,tankhps,1553742068623
+Acturus,healer,2280,Stormwall Blockade,9,411,Holy,tankhps,1554870363340
+Velryssa,mdps,2263,Grong,71,410,Arms,hps,1552445115547
+Velryssa,mdps,2265,Champion of the Light,23,414,Arms,hps,1554257165251
+Velryssa,mdps,2266,Jadefire Masters,22,410,Arms,hps,1552443884868
+Velryssa,mdps,2268,Conclave of the Chosen,86,410,Arms,hps,1552449449329
+Velryssa,mdps,2271,Opulence,20,410,Fury,hps,1553053754073
+Velryssa,mdps,2271,Opulence,56,410,Arms,hps,1552446700503
+Velryssa,mdps,2272,King Rastakhan,85,412,Arms,hps,1553056956364
+Velryssa,mdps,2276,Mekkatorque,90,415,Arms,hps,1554347440312
+Velryssa,mdps,2280,Stormwall Blockade,6,415,Arms,hps,1554870363340
+Velryssa,mdps,2263,Grong,87,414,Arms,dps,1554258351231
+Velryssa,mdps,2265,Champion of the Light,83,411,Arms,dps,1553047564887
+Velryssa,mdps,2266,Jadefire Masters,68,414,Arms,dps,1554257655681
+Velryssa,mdps,2268,Conclave of the Chosen,40,411,Arms,dps,1553054736573
+Velryssa,mdps,2271,Opulence,69,410,Arms,dps,1552446700503
+Velryssa,mdps,2271,Opulence,38,410,Fury,dps,1553053754073
+Velryssa,mdps,2272,King Rastakhan,28,412,Arms,dps,1553056956364
+Velryssa,mdps,2276,Mekkatorque,29,415,Arms,dps,1554347440312
+Velryssa,mdps,2280,Stormwall Blockade,77,415,Arms,dps,1554870363340
+Velryssa,mdps,2263,Grong,100,410,Arms,tankhps,1552445115547
+Velryssa,mdps,2265,Champion of the Light,95,410,Arms,tankhps,1552443107863
+Velryssa,mdps,2266,Jadefire Masters,100,410,Arms,tankhps,1552443919839
+Velryssa,mdps,2268,Conclave of the Chosen,100,410,Arms,tankhps,1552449449329
+Velryssa,mdps,2271,Opulence,99,410,Fury,tankhps,1553053753785
+Velryssa,mdps,2271,Opulence,90,410,Arms,tankhps,1552446703950
+Velryssa,mdps,2272,King Rastakhan,90,411,Arms,tankhps,1552533404235
+Velryssa,mdps,2276,Mekkatorque,95,413,Arms,tankhps,1553742069943
+Velryssa,mdps,2280,Stormwall Blockade,95,415,Arms,tankhps,1554870364229
+Jampers,healer,2263,Grong,74,415,Restoration,hps,1553653765947
+Jampers,healer,2265,Champion of the Light,64,414,Restoration,hps,1553047564887
+Jampers,healer,2266,Jadefire Masters,52,415,Restoration,hps,1553653141393
+Jampers,healer,2268,Conclave of the Chosen,48,415,Restoration,hps,1553656189937
+Jampers,healer,2271,Opulence,76,414,Restoration,hps,1553053754073
+Jampers,healer,2272,King Rastakhan,89,416,Restoration,hps,1554265523074
+Jampers,healer,2276,Mekkatorque,63,414,Restoration,hps,1553742068623
+Jampers,healer,2280,Stormwall Blockade,75,416,Restoration,hps,1554870363340
+Jampers,healer,2281,Lady Jaina Proudmoore,24,416,Restoration,hps,1558059107111
+Jampers,healer,2263,Grong,74,415,Restoration,dps,1553653765947
+Jampers,healer,2265,Champion of the Light,99,414,Restoration,dps,1554257165251
+Jampers,healer,2266,Jadefire Masters,99,414,Restoration,dps,1554257655681
+Jampers,healer,2268,Conclave of the Chosen,84,415,Restoration,dps,1554260008755
+Jampers,healer,2271,Opulence,84,415,Restoration,dps,1554259041332
+Jampers,healer,2272,King Rastakhan,77,414,Restoration,dps,1552533369615
+Jampers,healer,2276,Mekkatorque,57,414,Restoration,dps,1553742068623
+Jampers,healer,2280,Stormwall Blockade,33,416,Restoration,dps,1554870363340
+Jampers,healer,2281,Lady Jaina Proudmoore,36,416,Restoration,dps,1558059107111
+Jampers,healer,2263,Grong,68,415,Restoration,tankhps,1554258351231
+Jampers,healer,2265,Champion of the Light,38,414,Restoration,tankhps,1553047564887
+Jampers,healer,2266,Jadefire Masters,49,415,Restoration,tankhps,1553653141393
+Jampers,healer,2268,Conclave of the Chosen,32,415,Restoration,tankhps,1554260008755
+Jampers,healer,2271,Opulence,53,415,Restoration,tankhps,1554259041332
+Jampers,healer,2272,King Rastakhan,98,416,Restoration,tankhps,1554265523074
+Jampers,healer,2276,Mekkatorque,92,414,Restoration,tankhps,1553742068623
+Jampers,healer,2280,Stormwall Blockade,97,416,Restoration,tankhps,1554870363340
+Jampers,healer,2281,Lady Jaina Proudmoore,33,416,Restoration,tankhps,1558059107111
+Kopyedeep,rdps,2263,Grong,47,414,Affliction,hps,1554258351231
+Kopyedeep,rdps,2263,Grong,50,412,Destruction,hps,1553653765947
+Kopyedeep,rdps,2265,Champion of the Light,52,408,Destruction,hps,1552443069481
+Kopyedeep,rdps,2265,Champion of the Light,35,410,Affliction,hps,1553047564887
+Kopyedeep,rdps,2266,Jadefire Masters,59,413,Destruction,hps,1554257655681
+Kopyedeep,rdps,2266,Jadefire Masters,16,412,Affliction,hps,1553048252914
+Kopyedeep,rdps,2268,Conclave of the Chosen,53,412,Affliction,hps,1553054736573
+Kopyedeep,rdps,2268,Conclave of the Chosen,38,412,Destruction,hps,1553656189937
+Kopyedeep,rdps,2271,Opulence,74,414,Affliction,hps,1554259041332
+Kopyedeep,rdps,2271,Opulence,55,412,Demonology,hps,1553655232798
+Kopyedeep,rdps,2272,King Rastakhan,16,414,Affliction,hps,1554265523074
+Kopyedeep,rdps,2276,Mekkatorque,61,412,Affliction,hps,1553742068623
+Kopyedeep,rdps,2280,Stormwall Blockade,41,415,Affliction,hps,1554870363340
+Kopyedeep,rdps,2281,Lady Jaina Proudmoore,9,416,Destruction,hps,1558059107111
+Kopyedeep,rdps,2263,Grong,87,412,Affliction,dps,1553048930099
+Kopyedeep,rdps,2263,Grong,56,412,Destruction,dps,1553653765947
+Kopyedeep,rdps,2265,Champion of the Light,87,413,Destruction,dps,1554257165251
+Kopyedeep,rdps,2265,Champion of the Light,35,410,Affliction,dps,1553047564887
+Kopyedeep,rdps,2266,Jadefire Masters,80,412,Destruction,dps,1553653089188
+Kopyedeep,rdps,2266,Jadefire Masters,34,412,Affliction,dps,1553048252914
+Kopyedeep,rdps,2268,Conclave of the Chosen,57,410,Affliction,dps,1552449449329
+Kopyedeep,rdps,2268,Conclave of the Chosen,22,412,Destruction,dps,1553656189937
+Kopyedeep,rdps,2271,Opulence,58,412,Demonology,dps,1553655232798
+Kopyedeep,rdps,2271,Opulence,74,411,Affliction,dps,1553053754073
+Kopyedeep,rdps,2272,King Rastakhan,67,414,Affliction,dps,1554265523074
+Kopyedeep,rdps,2276,Mekkatorque,64,412,Affliction,dps,1553742068623
+Kopyedeep,rdps,2280,Stormwall Blockade,9,415,Affliction,dps,1554870363340
+Kopyedeep,rdps,2281,Lady Jaina Proudmoore,8,416,Destruction,dps,1558059107111
+Kopyedeep,rdps,2263,Grong,99,412,Affliction,tankhps,1553048929849
+Kopyedeep,rdps,2263,Grong,99,409,Destruction,tankhps,1552445115547
+Kopyedeep,rdps,2265,Champion of the Light,99,410,Affliction,tankhps,1553047564887
+Kopyedeep,rdps,2265,Champion of the Light,99,408,Destruction,tankhps,1552443107863
+Kopyedeep,rdps,2266,Jadefire Masters,95,412,Affliction,tankhps,1553048252914
+Kopyedeep,rdps,2266,Jadefire Masters,95,409,Destruction,tankhps,1552443919839
+Kopyedeep,rdps,2268,Conclave of the Chosen,99,412,Destruction,tankhps,1553656189937
+Kopyedeep,rdps,2268,Conclave of the Chosen,95,410,Affliction,tankhps,1552449449329
+Kopyedeep,rdps,2271,Opulence,95,408,Affliction,tankhps,1552446703950
+Kopyedeep,rdps,2271,Opulence,99,412,Demonology,tankhps,1553655221308
+Kopyedeep,rdps,2272,King Rastakhan,99,412,Affliction,tankhps,1553057000106
+Kopyedeep,rdps,2276,Mekkatorque,99,412,Affliction,tankhps,1553742069943
+Kopyedeep,rdps,2280,Stormwall Blockade,99,415,Affliction,tankhps,1554870364229
+Kopyedeep,rdps,2281,Lady Jaina Proudmoore,99,416,Destruction,tankhps,1558059107111
+Kohbee,rdps,2263,Grong,38,413,Beast Mastery,hps,1553048930099
+Kohbee,rdps,2265,Champion of the Light,19,413,Beast Mastery,hps,1553047564887
+Kohbee,rdps,2266,Jadefire Masters,51,413,Beast Mastery,hps,1553048252914
+Kohbee,rdps,2268,Conclave of the Chosen,51,414,Beast Mastery,hps,1553054736573
+Kohbee,rdps,2271,Opulence,16,415,Beast Mastery,hps,1554259041332
+Kohbee,rdps,2272,King Rastakhan,41,414,Beast Mastery,hps,1553056956364
+Kohbee,rdps,2276,Mekkatorque,40,416,Beast Mastery,hps,1554347440312
+Kohbee,rdps,2280,Stormwall Blockade,4,416,Beast Mastery,hps,1554870363340
+Kohbee,rdps,2281,Lady Jaina Proudmoore,5,416,Beast Mastery,hps,1558059107111
+Kohbee,rdps,2263,Grong,86,415,Beast Mastery,dps,1554258351231
+Kohbee,rdps,2265,Champion of the Light,82,413,Beast Mastery,dps,1553047564887
+Kohbee,rdps,2266,Jadefire Masters,90,415,Beast Mastery,dps,1554257655681
+Kohbee,rdps,2268,Conclave of the Chosen,91,415,Beast Mastery,dps,1554260008755
+Kohbee,rdps,2271,Opulence,70,415,Beast Mastery,dps,1554259041332
+Kohbee,rdps,2272,King Rastakhan,78,414,Beast Mastery,dps,1553056956364
+Kohbee,rdps,2276,Mekkatorque,78,414,Beast Mastery,dps,1553742068623
+Kohbee,rdps,2280,Stormwall Blockade,64,416,Beast Mastery,dps,1554870363340
+Kohbee,rdps,2281,Lady Jaina Proudmoore,59,416,Beast Mastery,dps,1558059107111
+Kohbee,rdps,2263,Grong,80,412,Beast Mastery,tankhps,1552445115547
+Kohbee,rdps,2265,Champion of the Light,80,413,Beast Mastery,tankhps,1553047564887
+Kohbee,rdps,2266,Jadefire Masters,88,415,Beast Mastery,tankhps,1554257655681
+Kohbee,rdps,2268,Conclave of the Chosen,90,414,Beast Mastery,tankhps,1553054736573
+Kohbee,rdps,2271,Opulence,80,412,Beast Mastery,tankhps,1552446703950
+Kohbee,rdps,2272,King Rastakhan,95,412,Beast Mastery,tankhps,1552533404235
+Kohbee,rdps,2276,Mekkatorque,80,414,Beast Mastery,tankhps,1553742069943
+Kohbee,rdps,2280,Stormwall Blockade,75,416,Beast Mastery,tankhps,1554870364229
+Kohbee,rdps,2281,Lady Jaina Proudmoore,80,416,Beast Mastery,tankhps,1558059107111
+Ultray,rdps,2268,Conclave of the Chosen,16,411,Destruction,hps,1552449449329
+Ultray,rdps,2271,Opulence,27,411,Demonology,hps,1552446700503
+Ultray,rdps,2268,Conclave of the Chosen,19,411,Destruction,dps,1552449449329
+Ultray,rdps,2271,Opulence,30,411,Demonology,dps,1552446700503
+Ultray,rdps,2268,Conclave of the Chosen,100,411,Destruction,tankhps,1552449449329
+Ultray,rdps,2271,Opulence,95,411,Demonology,tankhps,1552446703950
+Tahvee,rdps,2263,Grong,28,410,Beast Mastery,hps,1553653765947
+Tahvee,rdps,2265,Champion of the Light,82,407,Beast Mastery,hps,1552443069481
+Tahvee,rdps,2266,Jadefire Masters,17,408,Beast Mastery,hps,1553048252914
+Tahvee,rdps,2268,Conclave of the Chosen,49,408,Beast Mastery,hps,1552449449329
+Tahvee,rdps,2271,Opulence,28,408,Beast Mastery,hps,1552446700503
+Tahvee,rdps,2272,King Rastakhan,80,408,Beast Mastery,hps,1552533369615
+Tahvee,rdps,2276,Mekkatorque,64,413,Beast Mastery,hps,1554347440312
+Tahvee,rdps,2280,Stormwall Blockade,55,413,Beast Mastery,hps,1554870363340
+Tahvee,rdps,2263,Grong,93,409,Beast Mastery,dps,1553048930099
+Tahvee,rdps,2265,Champion of the Light,88,410,Beast Mastery,dps,1553652407611
+Tahvee,rdps,2266,Jadefire Masters,73,408,Beast Mastery,dps,1553048252914
+Tahvee,rdps,2268,Conclave of the Chosen,22,408,Beast Mastery,dps,1552449449329
+Tahvee,rdps,2271,Opulence,34,408,Beast Mastery,dps,1552446700503
+Tahvee,rdps,2272,King Rastakhan,55,408,Beast Mastery,dps,1552533369615
+Tahvee,rdps,2276,Mekkatorque,47,413,Beast Mastery,dps,1554347440312
+Tahvee,rdps,2280,Stormwall Blockade,96,413,Beast Mastery,dps,1554870363340
+Tahvee,rdps,2263,Grong,80,407,Beast Mastery,tankhps,1552445115547
+Tahvee,rdps,2265,Champion of the Light,80,407,Beast Mastery,tankhps,1552443107863
+Tahvee,rdps,2266,Jadefire Masters,80,407,Beast Mastery,tankhps,1552443919839
+Tahvee,rdps,2268,Conclave of the Chosen,90,408,Beast Mastery,tankhps,1552449449329
+Tahvee,rdps,2271,Opulence,80,408,Beast Mastery,tankhps,1552446703950
+Tahvee,rdps,2272,King Rastakhan,95,408,Beast Mastery,tankhps,1552533404235
+Tahvee,rdps,2276,Mekkatorque,94,413,Beast Mastery,tankhps,1554347440312
+Tahvee,rdps,2280,Stormwall Blockade,75,413,Beast Mastery,tankhps,1554870364229
+Atalya,mdps,2263,Grong,20,404,Frost,hps,1553048930099
+Atalya,mdps,2265,Champion of the Light,57,404,Frost,hps,1553047564887
+Atalya,mdps,2266,Jadefire Masters,28,407,Frost,hps,1554257695006
+Atalya,mdps,2268,Conclave of the Chosen,51,407,Frost,hps,1554260008755
+Atalya,mdps,2271,Opulence,22,405,Frost,hps,1553053754073
+Atalya,mdps,2272,King Rastakhan,39,408,Frost,hps,1553659431633
+Atalya,mdps,2276,Mekkatorque,28,409,Frost,hps,1554347440312
+Atalya,mdps,2281,Lady Jaina Proudmoore,95,414,Unholy,hps,1558059107111
+Atalya,mdps,2263,Grong,66,407,Frost,dps,1553653765947
+Atalya,mdps,2265,Champion of the Light,83,404,Frost,dps,1553047564887
+Atalya,mdps,2266,Jadefire Masters,52,407,Frost,dps,1554257655681
+Atalya,mdps,2268,Conclave of the Chosen,51,407,Frost,dps,1554260008755
+Atalya,mdps,2271,Opulence,20,408,Frost,dps,1554259041332
+Atalya,mdps,2272,King Rastakhan,33,408,Frost,dps,1553659431633
+Atalya,mdps,2276,Mekkatorque,22,409,Frost,dps,1554347440312
+Atalya,mdps,2281,Lady Jaina Proudmoore,26,414,Unholy,dps,1558059107111
+Atalya,mdps,2263,Grong,99,404,Frost,tankhps,1553048929849
+Atalya,mdps,2265,Champion of the Light,95,404,Frost,tankhps,1553047564887
+Atalya,mdps,2266,Jadefire Masters,95,404,Frost,tankhps,1553048252914
+Atalya,mdps,2268,Conclave of the Chosen,99,405,Frost,tankhps,1553054736573
+Atalya,mdps,2271,Opulence,99,405,Frost,tankhps,1553053753785
+Atalya,mdps,2272,King Rastakhan,100,405,Frost,tankhps,1553057000106
+Atalya,mdps,2276,Mekkatorque,100,409,Frost,tankhps,1554347478863
+Atalya,mdps,2281,Lady Jaina Proudmoore,95,414,Unholy,tankhps,1558059107111
+Hokk,mdps,2263,Grong,80,412,Unholy,hps,1553655688902
+Hokk,mdps,2265,Champion of the Light,60,412,Unholy,hps,1553652537897
+Hokk,mdps,2266,Jadefire Masters,76,411,Unholy,hps,1552446146567
+Hokk,mdps,2271,Opulence,36,412,Unholy,hps,1553229782213
+Hokk,mdps,2281,Lady Jaina Proudmoore,61,415,Unholy,hps,1558059107111
+Hokk,mdps,2263,Grong,88,413,Unholy,dps,1554432648861
+Hokk,mdps,2265,Champion of the Light,96,412,Unholy,dps,1553652537897
+Hokk,mdps,2266,Jadefire Masters,98,411,Unholy,dps,1552446146567
+Hokk,mdps,2271,Opulence,89,412,Unholy,dps,1553229782213
+Hokk,mdps,2281,Lady Jaina Proudmoore,77,415,Unholy,dps,1558059107111
+Hokk,mdps,2263,Grong,100,411,Unholy,tankhps,1552448754003
+Hokk,mdps,2265,Champion of the Light,99,409,Unholy,tankhps,1552444156825
+Hokk,mdps,2266,Jadefire Masters,100,411,Unholy,tankhps,1552446146567
+Hokk,mdps,2271,Opulence,99,412,Unholy,tankhps,1553229782213
+Hokk,mdps,2281,Lady Jaina Proudmoore,95,415,Unholy,tankhps,1558059107111
+Valmet,mdps,2263,Grong,74,413,Havoc,hps,1553048930099
+Valmet,mdps,2265,Champion of the Light,51,415,Havoc,hps,1554257165251
+Valmet,mdps,2266,Jadefire Masters,20,413,Havoc,hps,1552443884868
+Valmet,mdps,2268,Conclave of the Chosen,84,415,Havoc,hps,1554260008755
+Valmet,mdps,2271,Opulence,67,415,Havoc,hps,1554259041332
+Valmet,mdps,2272,King Rastakhan,88,415,Havoc,hps,1553659431633
+Valmet,mdps,2276,Mekkatorque,63,415,Havoc,hps,1554347440312
+Valmet,mdps,2280,Stormwall Blockade,31,415,Havoc,hps,1554870363340
+Valmet,mdps,2281,Lady Jaina Proudmoore,82,415,Havoc,hps,1558059107111
+Valmet,mdps,2263,Grong,95,415,Havoc,dps,1554258351231
+Valmet,mdps,2265,Champion of the Light,90,415,Havoc,dps,1554257165251
+Valmet,mdps,2266,Jadefire Masters,99,415,Havoc,dps,1554257655681
+Valmet,mdps,2268,Conclave of the Chosen,95,415,Havoc,dps,1554260008755
+Valmet,mdps,2271,Opulence,99,415,Havoc,dps,1554259041332
+Valmet,mdps,2272,King Rastakhan,71,415,Havoc,dps,1553659431633
+Valmet,mdps,2276,Mekkatorque,84,415,Havoc,dps,1554347440312
+Valmet,mdps,2280,Stormwall Blockade,32,415,Havoc,dps,1554870363340
+Valmet,mdps,2281,Lady Jaina Proudmoore,32,415,Havoc,dps,1558059107111
+Valmet,mdps,2263,Grong,90,413,Havoc,tankhps,1552445115547
+Valmet,mdps,2265,Champion of the Light,70,413,Havoc,tankhps,1552443107863
+Valmet,mdps,2266,Jadefire Masters,40,413,Havoc,tankhps,1552443919839
+Valmet,mdps,2268,Conclave of the Chosen,80,415,Havoc,tankhps,1554260008755
+Valmet,mdps,2271,Opulence,60,413,Havoc,tankhps,1552446703950
+Valmet,mdps,2272,King Rastakhan,87,415,Havoc,tankhps,1553659431633
+Valmet,mdps,2276,Mekkatorque,84,415,Havoc,tankhps,1553742068623
+Valmet,mdps,2280,Stormwall Blockade,60,415,Havoc,tankhps,1554870364229
+Valmet,mdps,2281,Lady Jaina Proudmoore,54,415,Havoc,tankhps,1558059107111
+Caydd,healer,2263,Grong,73,412,Mistweaver,hps,1553048930099
+Caydd,healer,2265,Champion of the Light,90,414,Mistweaver,hps,1554257165251
+Caydd,healer,2266,Jadefire Masters,69,414,Mistweaver,hps,1554257655681
+Caydd,healer,2268,Conclave of the Chosen,65,412,Mistweaver,hps,1553054736573
+Caydd,healer,2272,King Rastakhan,73,414,Mistweaver,hps,1554265523074
+Caydd,healer,2276,Mekkatorque,94,414,Mistweaver,hps,1554347440312
+Caydd,healer,2281,Lady Jaina Proudmoore,31,416,Mistweaver,hps,1558059107111
+Caydd,healer,2263,Grong,90,414,Mistweaver,dps,1554258351231
+Caydd,healer,2265,Champion of the Light,80,413,Mistweaver,dps,1553652407611
+Caydd,healer,2266,Jadefire Masters,82,414,Mistweaver,dps,1554257655681
+Caydd,healer,2268,Conclave of the Chosen,76,414,Mistweaver,dps,1553656189937
+Caydd,healer,2272,King Rastakhan,74,412,Mistweaver,dps,1552533369615
+Caydd,healer,2276,Mekkatorque,31,414,Mistweaver,dps,1553742068623
+Caydd,healer,2281,Lady Jaina Proudmoore,85,416,Mistweaver,dps,1558059107111
+Caydd,healer,2263,Grong,65,412,Mistweaver,tankhps,1553048930099
+Caydd,healer,2265,Champion of the Light,25,414,Mistweaver,tankhps,1554257165251
+Caydd,healer,2266,Jadefire Masters,21,413,Mistweaver,tankhps,1553653129920
+Caydd,healer,2268,Conclave of the Chosen,36,412,Mistweaver,tankhps,1552449449329
+Caydd,healer,2272,King Rastakhan,42,414,Mistweaver,tankhps,1554265523074
+Caydd,healer,2276,Mekkatorque,92,414,Mistweaver,tankhps,1554347440312
+Caydd,healer,2281,Lady Jaina Proudmoore,29,416,Mistweaver,tankhps,1558059107111
