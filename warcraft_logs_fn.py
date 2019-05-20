@@ -325,7 +325,8 @@ def import_clean_master_list():
 
     return df
 
-def player_info_query(player_name, guild_info, metric, api_key, partition=0):
+def player_info_query(player_name, guild_info, metric, api_key, partition=None,
+                      zone=None):
     '''
     Queries Warcraft Logs api for player rankings from guild info according to
     the metric and manages paramaters if applicable.
@@ -353,24 +354,30 @@ def player_info_query(player_name, guild_info, metric, api_key, partition=0):
         file_name = player_name + '_' + metric + '_player_rankings.txt'
         file_path = os.path.join(folder_name, file_name)
         print("Creating file for", player_name, "for", metric)
-        if partition == 0:
-            link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + \
-            player_name + "/" + guild_info['realm'] + "/" + \
-            guild_info['region'] + "?metric=" + metric + \
-            "&timeframe=historical&api_key="
+        if not partition:
+            partition_link = ''
+            historical_link = ''
         else:
-            link = "https://www.warcraftlogs.com:443/v1/rankings/character/" + \
-            player_name + "/" + guild_info['realm'] + "/" + \
-            guild_info['region'] + "?metric=" + metric + "&partition=" + \
-            str(partition) + "&timeframe=historical&api_key="
-        player_info = requests.get(link + api_key)
+            partition_link = '&partition=' + str(partition) + '&'
+            historical_link = 'timeframe=historical&'
+        if not zone:
+            zone_link = ''
+        else:
+            zone_link = 'zone=' + str(zone) + '&'
+        link_str = "https://www.warcraftlogs.com:443/v1/rankings/character/" + \
+                   player_name + "/" + guild_info['realm'] + "/" + \
+                   guild_info['region'] + "?" + zone_link + 'metric=' + \
+                   metric + '&' + partition_link + historical_link + \
+                   "api_key="
+        player_info = requests.get(link_str + api_key)
         player_info = player_info.json()
         with open(file_path, "w") as file:
             json.dump(player_info, file)
     except TypeError:
         print("Missed data for", player_name, ": not in guild")
 
-def import_player_info(player_names, guild_info, api_key, partition=1):
+def import_player_info(player_names, guild_info, api_key, partition=None,
+                       zone=None):
     '''
     Queries Warcraft Logs api for players' rankings for hps, dps and tankhps.
     Saves json file of query data.
@@ -388,7 +395,7 @@ def import_player_info(player_names, guild_info, api_key, partition=1):
     for player in player_names:
         for metric in metrics:
             player_info_query(player, guild_info, metric, api_key,
-                              partition=partition)
+                              partition=partition, zone=zone)
 
 def create_rankings_df(player_name, metric, primary_role):
     '''
