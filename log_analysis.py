@@ -236,7 +236,7 @@ def find_count_order(fight_df, fight_count_limit, column_name, least=True):
 
     return df
 
-def plot_hist(data, bins, title, xlabel):
+def plot_hist(data, bins, title, xlabel, center_bins=False):
     '''
     Plot histogram of data using specified formatting.
 
@@ -244,16 +244,21 @@ def plot_hist(data, bins, title, xlabel):
         data: pandas DataFrame created by find_count_order.
         bins: array-like. Bin edges.
         title: (str) Title for plot.
+        center_bins (optional, bool, default=False).
     '''
     plt.hist(data, bins=bins, color=palette[-1], edgecolor='white')
     plt.title(title, fontsize=14)
     plt.xlabel(xlabel)
-    plt.ylabel('Number of People');
+    plt.ylabel('Number of People')
+    if center_bins:
+        # Centre ticks in middle of bars
+        bin_interval = bins[1] - bins[0]
+        plt.xticks(bins[:-1] + bin_interval/2, bins[1:])
     sns.despine()
 
     plt.show()
 
-def role_hist(data, bins, title):
+def role_hist(data, bins, title, center_bins=False):
     '''
     Plot a facet of histograms of data using specified formatting.
 
@@ -261,15 +266,21 @@ def role_hist(data, bins, title):
         data: pandas DataFrame created by find_count_order.
         bins: array-like. Bin edges.
         title: (str) Title for plot.
+        center_bins (optional, bool, default=False).
     '''
     g = sns.FacetGrid(data, col='primary_role', hue='primary_role',
                       col_wrap=2, palette=palette,
                       col_order=['rdps', 'healer', 'mdps', 'tank'],
                       hue_order=['rdps', 'healer', 'mdps', 'tank'])
-    g.map(plt.hist, "av_count", bins=bins, edgecolor='white');
+    if center_bins:
+        bin_interval = bins[1] - bins[0]
+        (g.map(plt.hist, "av_count", bins=bins, edgecolor='white')
+          .set(xticks=bins[:-1] + bin_interval/2)
+          .set_xticklabels(bins[1:]))
+    g.map(plt.hist, "av_count", bins=bins, edgecolor='white')
     for i in np.arange(2, 4):
         g.axes[i].set_xlabel('')
-    plt.suptitle(title, y=1.04);
+    plt.suptitle(title, y=1.04)
 
     plt.show()
 
