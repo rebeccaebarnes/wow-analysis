@@ -1,0 +1,963 @@
+player_name,primary_role,boss_id,boss_name,percentile,ilevel,spec,metric,ranking_date
+Irvaeryss,mdps,2327,Maut,96,479,Havoc,hps,1595385198092
+Irvaeryss,mdps,2329,Wrathion,27,479,Havoc,hps,1595383438210
+Irvaeryss,mdps,2331,Ra-den the Despoiled,39,480,Havoc,hps,1596598878771
+Irvaeryss,mdps,2334,Prophet Skitra,32,479,Havoc,hps,1595384428884
+Irvaeryss,mdps,2335,Shad'har the Insatiable,12,480,Havoc,hps,1597206309526
+Irvaeryss,mdps,2337,Carapace of N'Zoth,64,479,Havoc,hps,1595561454015
+Irvaeryss,mdps,2343,Drest'agath,51,479,Havoc,hps,1595392591272
+Irvaeryss,mdps,2344,N'Zoth the Corruptor,92,480,Havoc,hps,1595991482427
+Irvaeryss,mdps,2345,"Il'gynoth, Corruption Reborn",21,479,Havoc,hps,1595471004181
+Irvaeryss,mdps,2327,Maut,78,479,Havoc,dps,1595385198092
+Irvaeryss,mdps,2329,Wrathion,58,479,Havoc,dps,1595383438210
+Irvaeryss,mdps,2331,Ra-den the Despoiled,32,480,Havoc,dps,1597205517661
+Irvaeryss,mdps,2334,Prophet Skitra,14,479,Havoc,dps,1595384428884
+Irvaeryss,mdps,2335,Shad'har the Insatiable,36,480,Havoc,dps,1597206309526
+Irvaeryss,mdps,2337,Carapace of N'Zoth,36,479,Havoc,dps,1595561454015
+Irvaeryss,mdps,2343,Drest'agath,72,479,Havoc,dps,1595392591272
+Irvaeryss,mdps,2344,N'Zoth the Corruptor,38,480,Havoc,dps,1597377892314
+Irvaeryss,mdps,2345,"Il'gynoth, Corruption Reborn",16,479,Havoc,dps,1595471004181
+Irvaeryss,mdps,2327,Maut,88,479,Havoc,tankhps,1595385198092
+Irvaeryss,mdps,2329,Wrathion,50,479,Havoc,tankhps,1595383438210
+Irvaeryss,mdps,2331,Ra-den the Despoiled,72,480,Havoc,tankhps,1597804551755
+Irvaeryss,mdps,2334,Prophet Skitra,60,479,Havoc,tankhps,1595384428884
+Irvaeryss,mdps,2335,Shad'har the Insatiable,70,479,Havoc,tankhps,1595392126363
+Irvaeryss,mdps,2337,Carapace of N'Zoth,60,479,Havoc,tankhps,1595561454015
+Irvaeryss,mdps,2343,Drest'agath,80,479,Havoc,tankhps,1595392591272
+Irvaeryss,mdps,2344,N'Zoth the Corruptor,88,480,Havoc,tankhps,1595991482427
+Irvaeryss,mdps,2345,"Il'gynoth, Corruption Reborn",95,479,Havoc,tankhps,1595471004181
+Metonymy,rdps,2327,Maut,45,477,Fire,hps,1597199505906
+Metonymy,rdps,2328,Dark Inquisitor Xanesh,69,477,Fire,hps,1595386571162
+Metonymy,rdps,2329,Wrathion,51,477,Fire,hps,1597197975312
+Metonymy,rdps,2331,Ra-den the Despoiled,71,477,Fire,hps,1597205517661
+Metonymy,rdps,2333,The Hivemind,81,477,Fire,hps,1597803914006
+Metonymy,rdps,2334,Prophet Skitra,92,477,Fire,hps,1595384428884
+Metonymy,rdps,2335,Shad'har the Insatiable,73,477,Fire,hps,1595392126363
+Metonymy,rdps,2336,Vexiona,42,477,Fire,hps,1595387635587
+Metonymy,rdps,2337,Carapace of N'Zoth,81,477,Fire,hps,1597288717506
+Metonymy,rdps,2343,Drest'agath,40,477,Fire,hps,1595392591272
+Metonymy,rdps,2344,N'Zoth the Corruptor,91,477,Fire,hps,1594779828264
+Metonymy,rdps,2345,"Il'gynoth, Corruption Reborn",73,477,Fire,hps,1597284611104
+Metonymy,rdps,2327,Maut,90,477,Fire,dps,1597199505906
+Metonymy,rdps,2328,Dark Inquisitor Xanesh,77,477,Fire,dps,1596596338807
+Metonymy,rdps,2329,Wrathion,86,477,Fire,dps,1597197975312
+Metonymy,rdps,2331,Ra-den the Despoiled,63,477,Fire,dps,1597804551755
+Metonymy,rdps,2333,The Hivemind,56,477,Fire,dps,1597204219433
+Metonymy,rdps,2334,Prophet Skitra,87,477,Fire,dps,1597198574747
+Metonymy,rdps,2335,Shad'har the Insatiable,82,477,Fire,dps,1596600126996
+Metonymy,rdps,2336,Vexiona,65,477,Fire,dps,1597203026918
+Metonymy,rdps,2337,Carapace of N'Zoth,60,477,Fire,dps,1597288717506
+Metonymy,rdps,2343,Drest'agath,86,477,Fire,dps,1596599548609
+Metonymy,rdps,2344,N'Zoth the Corruptor,78,477,Fire,dps,1597377892314
+Metonymy,rdps,2345,"Il'gynoth, Corruption Reborn",86,477,Fire,dps,1597284611104
+Metonymy,rdps,2327,Maut,99,479,Fire,tankhps,1595385198092
+Metonymy,rdps,2328,Dark Inquisitor Xanesh,99,477,Fire,tankhps,1595386571162
+Metonymy,rdps,2329,Wrathion,99,477,Fire,tankhps,1595383438210
+Metonymy,rdps,2331,Ra-den the Despoiled,99,477,Fire,tankhps,1595391159816
+Metonymy,rdps,2333,The Hivemind,99,477,Fire,tankhps,1595388337534
+Metonymy,rdps,2334,Prophet Skitra,99,477,Fire,tankhps,1595384428884
+Metonymy,rdps,2335,Shad'har the Insatiable,99,477,Fire,tankhps,1595392126363
+Metonymy,rdps,2336,Vexiona,99,477,Fire,tankhps,1595387635587
+Metonymy,rdps,2337,Carapace of N'Zoth,99,477,Fire,tankhps,1595561454015
+Metonymy,rdps,2343,Drest'agath,99,477,Fire,tankhps,1595392591272
+Metonymy,rdps,2344,N'Zoth the Corruptor,99,477,Fire,tankhps,1594779828264
+Metonymy,rdps,2345,"Il'gynoth, Corruption Reborn",99,477,Fire,tankhps,1595471004181
+Petrøl,rdps,2327,Maut,90,477,Fire,hps,1597199505906
+Petrøl,rdps,2328,Dark Inquisitor Xanesh,91,476,Fire,hps,1596596338807
+Petrøl,rdps,2329,Wrathion,40,478,Fire,hps,1597802709571
+Petrøl,rdps,2331,Ra-den the Despoiled,99,476,Fire,hps,1596598878771
+Petrøl,rdps,2333,The Hivemind,95,478,Fire,hps,1597803914006
+Petrøl,rdps,2334,Prophet Skitra,76,476,Fire,hps,1595384428884
+Petrøl,rdps,2335,Shad'har the Insatiable,56,477,Fire,hps,1597206309526
+Petrøl,rdps,2336,Vexiona,69,476,Fire,hps,1596596868616
+Petrøl,rdps,2337,Carapace of N'Zoth,81,477,Fire,hps,1597288717506
+Petrøl,rdps,2343,Drest'agath,62,477,Fire,hps,1597206688183
+Petrøl,rdps,2344,N'Zoth the Corruptor,67,478,Fire,hps,1597893585588
+Petrøl,rdps,2345,"Il'gynoth, Corruption Reborn",81,477,Fire,hps,1597284611104
+Petrøl,rdps,2327,Maut,86,476,Fire,dps,1595385198092
+Petrøl,rdps,2328,Dark Inquisitor Xanesh,71,477,Fire,dps,1597202341435
+Petrøl,rdps,2329,Wrathion,83,476,Fire,dps,1596593211153
+Petrøl,rdps,2331,Ra-den the Despoiled,38,478,Fire,dps,1597804551755
+Petrøl,rdps,2333,The Hivemind,74,478,Fire,dps,1597803914006
+Petrøl,rdps,2334,Prophet Skitra,94,477,Fire,dps,1597198574747
+Petrøl,rdps,2335,Shad'har the Insatiable,94,477,Fire,dps,1597206309526
+Petrøl,rdps,2336,Vexiona,57,477,Fire,dps,1597203026918
+Petrøl,rdps,2337,Carapace of N'Zoth,44,478,Fire,dps,1597810482838
+Petrøl,rdps,2343,Drest'agath,77,476,Fire,dps,1596599548609
+Petrøl,rdps,2344,N'Zoth the Corruptor,48,477,Fire,dps,1596686358309
+Petrøl,rdps,2345,"Il'gynoth, Corruption Reborn",88,477,Fire,dps,1597284611104
+Petrøl,rdps,2327,Maut,99,476,Fire,tankhps,1595385198092
+Petrøl,rdps,2328,Dark Inquisitor Xanesh,99,476,Fire,tankhps,1595386571162
+Petrøl,rdps,2329,Wrathion,99,476,Fire,tankhps,1595383438210
+Petrøl,rdps,2331,Ra-den the Despoiled,99,476,Fire,tankhps,1595391159816
+Petrøl,rdps,2333,The Hivemind,99,476,Fire,tankhps,1595388337534
+Petrøl,rdps,2334,Prophet Skitra,99,476,Fire,tankhps,1595384428884
+Petrøl,rdps,2335,Shad'har the Insatiable,99,476,Fire,tankhps,1595392126363
+Petrøl,rdps,2336,Vexiona,99,476,Fire,tankhps,1595387635587
+Petrøl,rdps,2337,Carapace of N'Zoth,99,476,Fire,tankhps,1595561454015
+Petrøl,rdps,2343,Drest'agath,99,476,Fire,tankhps,1595392591272
+Petrøl,rdps,2344,N'Zoth the Corruptor,99,476,Fire,tankhps,1594779828264
+Petrøl,rdps,2345,"Il'gynoth, Corruption Reborn",99,476,Fire,tankhps,1595471004181
+Ayreia,healer,2327,Maut,50,480,Holy,hps,1597199505906
+Ayreia,healer,2328,Dark Inquisitor Xanesh,35,480,Holy,hps,1596596338807
+Ayreia,healer,2329,Wrathion,40,480,Holy,hps,1596593211153
+Ayreia,healer,2331,Ra-den the Despoiled,33,480,Holy,hps,1597205517661
+Ayreia,healer,2333,The Hivemind,63,480,Holy,hps,1597803914006
+Ayreia,healer,2334,Prophet Skitra,44,480,Holy,hps,1597198574747
+Ayreia,healer,2335,Shad'har the Insatiable,66,480,Holy,hps,1597206309526
+Ayreia,healer,2336,Vexiona,27,480,Holy,hps,1596596868616
+Ayreia,healer,2337,Carapace of N'Zoth,20,480,Holy,hps,1597810482838
+Ayreia,healer,2343,Drest'agath,25,480,Holy,hps,1597206688183
+Ayreia,healer,2344,N'Zoth the Corruptor,64,480,Holy,hps,1595991482427
+Ayreia,healer,2345,"Il'gynoth, Corruption Reborn",35,480,Holy,hps,1597284611104
+Ayreia,healer,2327,Maut,69,480,Holy,dps,1597199505906
+Ayreia,healer,2328,Dark Inquisitor Xanesh,77,480,Holy,dps,1595386571162
+Ayreia,healer,2329,Wrathion,63,480,Holy,dps,1595383438210
+Ayreia,healer,2331,Ra-den the Despoiled,37,480,Holy,dps,1597205517661
+Ayreia,healer,2333,The Hivemind,67,480,Holy,dps,1596597466606
+Ayreia,healer,2334,Prophet Skitra,48,480,Holy,dps,1597198574747
+Ayreia,healer,2335,Shad'har the Insatiable,76,480,Holy,dps,1597206309526
+Ayreia,healer,2336,Vexiona,65,480,Holy,dps,1597203026918
+Ayreia,healer,2337,Carapace of N'Zoth,60,480,Holy,dps,1597810482838
+Ayreia,healer,2343,Drest'agath,18,480,Holy,dps,1596599548609
+Ayreia,healer,2344,N'Zoth the Corruptor,53,480,Holy,dps,1597893585588
+Ayreia,healer,2345,"Il'gynoth, Corruption Reborn",60,480,Holy,dps,1596602591830
+Ayreia,healer,2327,Maut,60,480,Holy,tankhps,1596594803884
+Ayreia,healer,2328,Dark Inquisitor Xanesh,66,480,Holy,tankhps,1596596338807
+Ayreia,healer,2329,Wrathion,72,480,Holy,tankhps,1597802709571
+Ayreia,healer,2331,Ra-den the Despoiled,65,480,Holy,tankhps,1597205517661
+Ayreia,healer,2333,The Hivemind,83,480,Holy,tankhps,1597803914006
+Ayreia,healer,2334,Prophet Skitra,49,480,Holy,tankhps,1597198574747
+Ayreia,healer,2335,Shad'har the Insatiable,95,480,Holy,tankhps,1597206309526
+Ayreia,healer,2336,Vexiona,25,480,Holy,tankhps,1596596868616
+Ayreia,healer,2337,Carapace of N'Zoth,36,480,Holy,tankhps,1597810482838
+Ayreia,healer,2343,Drest'agath,68,480,Holy,tankhps,1597206688183
+Ayreia,healer,2344,N'Zoth the Corruptor,94,480,Holy,tankhps,1594779828264
+Ayreia,healer,2345,"Il'gynoth, Corruption Reborn",55,480,Holy,tankhps,1597284611104
+Arkamani,rdps,2327,Maut,62,479,Beast Mastery,hps,1596594803884
+Arkamani,rdps,2328,Dark Inquisitor Xanesh,31,477,Beast Mastery,hps,1595386571162
+Arkamani,rdps,2329,Wrathion,58,479,Beast Mastery,hps,1596593211153
+Arkamani,rdps,2331,Ra-den the Despoiled,88,479,Beast Mastery,hps,1596598878771
+Arkamani,rdps,2333,The Hivemind,66,479,Beast Mastery,hps,1596597466606
+Arkamani,rdps,2334,Prophet Skitra,81,475,Beast Mastery,hps,1595384428884
+Arkamani,rdps,2335,Shad'har the Insatiable,56,478,Beast Mastery,hps,1595392126363
+Arkamani,rdps,2336,Vexiona,63,477,Beast Mastery,hps,1595387635587
+Arkamani,rdps,2337,Carapace of N'Zoth,55,479,Beast Mastery,hps,1596681501779
+Arkamani,rdps,2343,Drest'agath,64,478,Beast Mastery,hps,1595392591272
+Arkamani,rdps,2344,N'Zoth the Corruptor,79,480,Beast Mastery,hps,1597377892314
+Arkamani,rdps,2345,"Il'gynoth, Corruption Reborn",80,479,Beast Mastery,hps,1596602591830
+Arkamani,rdps,2327,Maut,94,480,Beast Mastery,dps,1597199505906
+Arkamani,rdps,2328,Dark Inquisitor Xanesh,81,480,Beast Mastery,dps,1597202341435
+Arkamani,rdps,2329,Wrathion,90,479,Beast Mastery,dps,1596593211153
+Arkamani,rdps,2331,Ra-den the Despoiled,68,480,Beast Mastery,dps,1597205517661
+Arkamani,rdps,2333,The Hivemind,96,480,Beast Mastery,dps,1597204219433
+Arkamani,rdps,2334,Prophet Skitra,90,479,Beast Mastery,dps,1596593885077
+Arkamani,rdps,2335,Shad'har the Insatiable,90,478,Beast Mastery,dps,1595392126363
+Arkamani,rdps,2336,Vexiona,79,480,Beast Mastery,dps,1597203026918
+Arkamani,rdps,2337,Carapace of N'Zoth,77,479,Beast Mastery,dps,1596681501779
+Arkamani,rdps,2343,Drest'agath,88,479,Beast Mastery,dps,1596599548609
+Arkamani,rdps,2344,N'Zoth the Corruptor,96,480,Beast Mastery,dps,1597377892314
+Arkamani,rdps,2345,"Il'gynoth, Corruption Reborn",81,480,Beast Mastery,dps,1597284611104
+Arkamani,rdps,2327,Maut,80,477,Beast Mastery,tankhps,1595385198092
+Arkamani,rdps,2328,Dark Inquisitor Xanesh,98,477,Beast Mastery,tankhps,1595386571162
+Arkamani,rdps,2329,Wrathion,80,475,Beast Mastery,tankhps,1595383438210
+Arkamani,rdps,2331,Ra-den the Despoiled,98,477,Beast Mastery,tankhps,1595391159816
+Arkamani,rdps,2333,The Hivemind,80,477,Beast Mastery,tankhps,1595388337534
+Arkamani,rdps,2334,Prophet Skitra,80,475,Beast Mastery,tankhps,1595384428884
+Arkamani,rdps,2335,Shad'har the Insatiable,80,478,Beast Mastery,tankhps,1595392126363
+Arkamani,rdps,2336,Vexiona,85,477,Beast Mastery,tankhps,1595387635587
+Arkamani,rdps,2337,Carapace of N'Zoth,80,478,Beast Mastery,tankhps,1595561454015
+Arkamani,rdps,2343,Drest'agath,80,478,Beast Mastery,tankhps,1595392591272
+Arkamani,rdps,2344,N'Zoth the Corruptor,95,480,Beast Mastery,tankhps,1597893585588
+Arkamani,rdps,2345,"Il'gynoth, Corruption Reborn",90,478,Beast Mastery,tankhps,1595471004181
+Earrl,tank,2327,Maut,85,480,Guardian,hps,1596594803884
+Earrl,tank,2328,Dark Inquisitor Xanesh,18,477,Guardian,hps,1595386571162
+Earrl,tank,2329,Wrathion,24,477,Guardian,hps,1595383438210
+Earrl,tank,2331,Ra-den the Despoiled,31,478,Guardian,hps,1597205517661
+Earrl,tank,2333,The Hivemind,21,481,Guardian,hps,1597803914006
+Earrl,tank,2334,Prophet Skitra,12,477,Guardian,hps,1595384428884
+Earrl,tank,2335,Shad'har the Insatiable,37,478,Guardian,hps,1595392126363
+Earrl,tank,2336,Vexiona,17,478,Guardian,hps,1595387635587
+Earrl,tank,2337,Carapace of N'Zoth,21,478,Guardian,hps,1595561454015
+Earrl,tank,2343,Drest'agath,30,479,Guardian,hps,1595392591272
+Earrl,tank,2344,N'Zoth the Corruptor,57,480,Guardian,hps,1597377892314
+Earrl,tank,2345,"Il'gynoth, Corruption Reborn",41,479,Guardian,hps,1597284611104
+Earrl,tank,2327,Maut,85,480,Guardian,dps,1597199505906
+Earrl,tank,2328,Dark Inquisitor Xanesh,90,480,Guardian,dps,1597202341435
+Earrl,tank,2329,Wrathion,94,480,Guardian,dps,1597197975312
+Earrl,tank,2331,Ra-den the Despoiled,57,478,Guardian,dps,1595391159816
+Earrl,tank,2333,The Hivemind,92,481,Guardian,dps,1597803914006
+Earrl,tank,2334,Prophet Skitra,86,479,Guardian,dps,1597198574747
+Earrl,tank,2335,Shad'har the Insatiable,79,479,Guardian,dps,1596600126996
+Earrl,tank,2336,Vexiona,70,478,Guardian,dps,1595387635587
+Earrl,tank,2337,Carapace of N'Zoth,43,479,Guardian,dps,1596681501779
+Earrl,tank,2343,Drest'agath,62,479,Guardian,dps,1597206688183
+Earrl,tank,2344,N'Zoth the Corruptor,34,478,Guardian,dps,1596686358309
+Earrl,tank,2345,"Il'gynoth, Corruption Reborn",32,479,Guardian,dps,1596602591830
+Earrl,tank,2327,Maut,85,480,Guardian,tankhps,1596594803884
+Earrl,tank,2328,Dark Inquisitor Xanesh,13,477,Guardian,tankhps,1595386571162
+Earrl,tank,2329,Wrathion,27,477,Guardian,tankhps,1595383438210
+Earrl,tank,2331,Ra-den the Despoiled,28,478,Guardian,tankhps,1597205517661
+Earrl,tank,2333,The Hivemind,18,481,Guardian,tankhps,1597803914006
+Earrl,tank,2334,Prophet Skitra,14,477,Guardian,tankhps,1595384428884
+Earrl,tank,2335,Shad'har the Insatiable,37,478,Guardian,tankhps,1595392126363
+Earrl,tank,2336,Vexiona,16,478,Guardian,tankhps,1595387635587
+Earrl,tank,2337,Carapace of N'Zoth,14,478,Guardian,tankhps,1595561454015
+Earrl,tank,2343,Drest'agath,29,479,Guardian,tankhps,1595392591272
+Earrl,tank,2344,N'Zoth the Corruptor,53,478,Guardian,tankhps,1594779828264
+Earrl,tank,2345,"Il'gynoth, Corruption Reborn",40,479,Guardian,tankhps,1597284611104
+Luthial,healer,2329,Wrathion,49,474,Holy,hps,1595043363949
+Luthial,healer,2335,Shad'har the Insatiable,75,474,Holy,hps,1595053917420
+Luthial,healer,2336,Vexiona,57,474,Holy,hps,1594527179740
+Luthial,healer,2345,"Il'gynoth, Corruption Reborn",56,476,Holy,hps,1596263059921
+Luthial,healer,2327,Maut,93,479,Holy,hps,1597199505906
+Luthial,healer,2328,Dark Inquisitor Xanesh,55,478,Holy,hps,1596596338807
+Luthial,healer,2331,Ra-den the Despoiled,72,479,Holy,hps,1597205517661
+Luthial,healer,2333,The Hivemind,82,479,Holy,hps,1597803914006
+Luthial,healer,2334,Prophet Skitra,77,476,Holy,hps,1595384428884
+Luthial,healer,2337,Carapace of N'Zoth,70,477,Holy,hps,1595561454015
+Luthial,healer,2343,Drest'agath,50,478,Holy,hps,1596599548609
+Luthial,healer,2344,N'Zoth the Corruptor,66,476,Holy,hps,1594779829497
+Luthial,healer,2328,Dark Inquisitor Xanesh,85,474,Holy,dps,1592712629590
+Luthial,healer,2331,Ra-den the Despoiled,86,474,Holy,dps,1591425035345
+Luthial,healer,2333,The Hivemind,72,474,Holy,dps,1591421288286
+Luthial,healer,2334,Prophet Skitra,82,474,Holy,dps,1595044224026
+Luthial,healer,2335,Shad'har the Insatiable,42,474,Holy,dps,1595053917420
+Luthial,healer,2343,Drest'agath,49,475,Holy,dps,1595134136865
+Luthial,healer,2345,"Il'gynoth, Corruption Reborn",13,476,Holy,dps,1596263059921
+Luthial,healer,2327,Maut,67,479,Holy,dps,1597199505906
+Luthial,healer,2329,Wrathion,81,476,Holy,dps,1595383438210
+Luthial,healer,2336,Vexiona,43,476,Holy,dps,1595387635587
+Luthial,healer,2337,Carapace of N'Zoth,14,477,Holy,dps,1595561454015
+Luthial,healer,2344,N'Zoth the Corruptor,63,478,Holy,dps,1596686358309
+Luthial,healer,2327,Maut,98,474,Holy,tankhps,1595044971801
+Luthial,healer,2328,Dark Inquisitor Xanesh,71,476,Holy,tankhps,1595136721709
+Luthial,healer,2329,Wrathion,58,474,Holy,tankhps,1592020403703
+Luthial,healer,2333,The Hivemind,95,474,Holy,tankhps,1591421288286
+Luthial,healer,2334,Prophet Skitra,90,474,Holy,tankhps,1591415817473
+Luthial,healer,2335,Shad'har the Insatiable,73,474,Holy,tankhps,1594528508542
+Luthial,healer,2336,Vexiona,96,476,Holy,tankhps,1595137868514
+Luthial,healer,2331,Ra-den the Despoiled,87,476,Holy,tankhps,1595391159816
+Luthial,healer,2337,Carapace of N'Zoth,93,477,Holy,tankhps,1595561454015
+Luthial,healer,2343,Drest'agath,67,478,Holy,tankhps,1596599548609
+Luthial,healer,2344,N'Zoth the Corruptor,78,476,Holy,tankhps,1594779828264
+Luthial,healer,2345,"Il'gynoth, Corruption Reborn",50,478,Holy,tankhps,1596602591830
+Shuxd,mdps,2327,Maut,81,475,Havoc,hps,1596594803884
+Shuxd,mdps,2328,Dark Inquisitor Xanesh,70,475,Havoc,hps,1596596338807
+Shuxd,mdps,2329,Wrathion,72,477,Havoc,hps,1597197975312
+Shuxd,mdps,2331,Ra-den the Despoiled,68,475,Havoc,hps,1596598878771
+Shuxd,mdps,2333,The Hivemind,16,476,Havoc,hps,1597803914006
+Shuxd,mdps,2334,Prophet Skitra,89,475,Havoc,hps,1595384428884
+Shuxd,mdps,2335,Shad'har the Insatiable,39,476,Havoc,hps,1596600126996
+Shuxd,mdps,2336,Vexiona,37,475,Havoc,hps,1596596868616
+Shuxd,mdps,2337,Carapace of N'Zoth,70,477,Havoc,hps,1597288717506
+Shuxd,mdps,2343,Drest'agath,39,474,Havoc,hps,1595392591272
+Shuxd,mdps,2344,N'Zoth the Corruptor,45,474,Havoc,hps,1594779828264
+Shuxd,mdps,2345,"Il'gynoth, Corruption Reborn",52,477,Havoc,hps,1597284611104
+Shuxd,mdps,2327,Maut,82,475,Havoc,dps,1596594803884
+Shuxd,mdps,2328,Dark Inquisitor Xanesh,93,475,Havoc,dps,1595386571162
+Shuxd,mdps,2329,Wrathion,93,477,Havoc,dps,1597802709571
+Shuxd,mdps,2331,Ra-den the Despoiled,72,477,Havoc,dps,1597804551755
+Shuxd,mdps,2333,The Hivemind,74,474,Havoc,dps,1595388337534
+Shuxd,mdps,2334,Prophet Skitra,54,475,Havoc,dps,1596593885077
+Shuxd,mdps,2335,Shad'har the Insatiable,96,476,Havoc,dps,1596600126996
+Shuxd,mdps,2336,Vexiona,83,475,Havoc,dps,1597203026918
+Shuxd,mdps,2337,Carapace of N'Zoth,90,477,Havoc,dps,1597288717506
+Shuxd,mdps,2343,Drest'agath,50,474,Havoc,dps,1595392591272
+Shuxd,mdps,2344,N'Zoth the Corruptor,38,474,Havoc,dps,1597377892314
+Shuxd,mdps,2345,"Il'gynoth, Corruption Reborn",82,477,Havoc,dps,1597284611104
+Shuxd,mdps,2327,Maut,71,475,Havoc,tankhps,1596594803884
+Shuxd,mdps,2328,Dark Inquisitor Xanesh,93,477,Havoc,tankhps,1597202341435
+Shuxd,mdps,2329,Wrathion,50,475,Havoc,tankhps,1595383438210
+Shuxd,mdps,2331,Ra-den the Despoiled,64,477,Havoc,tankhps,1597804551755
+Shuxd,mdps,2333,The Hivemind,77,475,Havoc,tankhps,1596597466606
+Shuxd,mdps,2334,Prophet Skitra,69,475,Havoc,tankhps,1595384428884
+Shuxd,mdps,2335,Shad'har the Insatiable,70,475,Havoc,tankhps,1595392126363
+Shuxd,mdps,2336,Vexiona,75,474,Havoc,tankhps,1595387635587
+Shuxd,mdps,2337,Carapace of N'Zoth,60,475,Havoc,tankhps,1595561454015
+Shuxd,mdps,2343,Drest'agath,80,474,Havoc,tankhps,1595392591272
+Shuxd,mdps,2344,N'Zoth the Corruptor,48,477,Havoc,tankhps,1597893585588
+Shuxd,mdps,2345,"Il'gynoth, Corruption Reborn",95,476,Havoc,tankhps,1596602591830
+Nockedloose,rdps,2327,Maut,8,479,Marksmanship,hps,1595385198092
+Nockedloose,rdps,2328,Dark Inquisitor Xanesh,25,479,Marksmanship,hps,1595386571162
+Nockedloose,rdps,2329,Wrathion,9,478,Beast Mastery,hps,1597802709571
+Nockedloose,rdps,2329,Wrathion,7,479,Marksmanship,hps,1595383438210
+Nockedloose,rdps,2331,Ra-den the Despoiled,44,479,Marksmanship,hps,1595391159816
+Nockedloose,rdps,2331,Ra-den the Despoiled,19,478,Beast Mastery,hps,1597804551755
+Nockedloose,rdps,2333,The Hivemind,41,478,Beast Mastery,hps,1597803914006
+Nockedloose,rdps,2333,The Hivemind,43,479,Marksmanship,hps,1595388337534
+Nockedloose,rdps,2334,Prophet Skitra,88,479,Marksmanship,hps,1595384428884
+Nockedloose,rdps,2334,Prophet Skitra,6,477,Beast Mastery,hps,1596593885077
+Nockedloose,rdps,2335,Shad'har the Insatiable,51,479,Marksmanship,hps,1595392126363
+Nockedloose,rdps,2336,Vexiona,10,479,Marksmanship,hps,1595387635587
+Nockedloose,rdps,2337,Carapace of N'Zoth,60,478,Marksmanship,hps,1596681501779
+Nockedloose,rdps,2337,Carapace of N'Zoth,48,478,Beast Mastery,hps,1597810482838
+Nockedloose,rdps,2343,Drest'agath,23,479,Marksmanship,hps,1595392591272
+Nockedloose,rdps,2344,N'Zoth the Corruptor,56,476,Beast Mastery,hps,1595991482427
+Nockedloose,rdps,2345,"Il'gynoth, Corruption Reborn",46,477,Beast Mastery,hps,1595471004181
+Nockedloose,rdps,2327,Maut,95,479,Marksmanship,dps,1595385198092
+Nockedloose,rdps,2328,Dark Inquisitor Xanesh,74,479,Marksmanship,dps,1595386571162
+Nockedloose,rdps,2329,Wrathion,85,478,Beast Mastery,dps,1597802709571
+Nockedloose,rdps,2329,Wrathion,94,479,Marksmanship,dps,1595383438210
+Nockedloose,rdps,2331,Ra-den the Despoiled,29,478,Beast Mastery,dps,1597804551755
+Nockedloose,rdps,2331,Ra-den the Despoiled,44,479,Marksmanship,dps,1595391159816
+Nockedloose,rdps,2333,The Hivemind,83,478,Beast Mastery,dps,1597803914006
+Nockedloose,rdps,2333,The Hivemind,58,479,Marksmanship,dps,1595388337534
+Nockedloose,rdps,2334,Prophet Skitra,73,479,Marksmanship,dps,1595384428884
+Nockedloose,rdps,2334,Prophet Skitra,35,477,Beast Mastery,dps,1596593885077
+Nockedloose,rdps,2335,Shad'har the Insatiable,91,479,Marksmanship,dps,1595392126363
+Nockedloose,rdps,2336,Vexiona,56,479,Marksmanship,dps,1595387635587
+Nockedloose,rdps,2337,Carapace of N'Zoth,63,478,Beast Mastery,dps,1597810482838
+Nockedloose,rdps,2337,Carapace of N'Zoth,39,478,Marksmanship,dps,1596681501779
+Nockedloose,rdps,2343,Drest'agath,30,479,Marksmanship,dps,1595392591272
+Nockedloose,rdps,2344,N'Zoth the Corruptor,68,479,Beast Mastery,dps,1597893585588
+Nockedloose,rdps,2345,"Il'gynoth, Corruption Reborn",35,477,Beast Mastery,dps,1595471004181
+Nockedloose,rdps,2327,Maut,99,479,Marksmanship,tankhps,1595385198092
+Nockedloose,rdps,2328,Dark Inquisitor Xanesh,100,479,Marksmanship,tankhps,1595386571162
+Nockedloose,rdps,2329,Wrathion,99,479,Marksmanship,tankhps,1595383438210
+Nockedloose,rdps,2329,Wrathion,80,478,Beast Mastery,tankhps,1597802709571
+Nockedloose,rdps,2331,Ra-den the Despoiled,99,479,Marksmanship,tankhps,1595391159816
+Nockedloose,rdps,2331,Ra-den the Despoiled,80,478,Beast Mastery,tankhps,1597804551755
+Nockedloose,rdps,2333,The Hivemind,99,479,Marksmanship,tankhps,1595388337534
+Nockedloose,rdps,2333,The Hivemind,80,478,Beast Mastery,tankhps,1597803914006
+Nockedloose,rdps,2334,Prophet Skitra,99,479,Marksmanship,tankhps,1595384428884
+Nockedloose,rdps,2334,Prophet Skitra,80,477,Beast Mastery,tankhps,1596593885077
+Nockedloose,rdps,2335,Shad'har the Insatiable,100,479,Marksmanship,tankhps,1595392126363
+Nockedloose,rdps,2336,Vexiona,100,479,Marksmanship,tankhps,1595387635587
+Nockedloose,rdps,2337,Carapace of N'Zoth,95,478,Marksmanship,tankhps,1596681501779
+Nockedloose,rdps,2337,Carapace of N'Zoth,80,478,Beast Mastery,tankhps,1597810482838
+Nockedloose,rdps,2343,Drest'agath,100,479,Marksmanship,tankhps,1595392591272
+Nockedloose,rdps,2344,N'Zoth the Corruptor,80,477,Beast Mastery,tankhps,1594779828264
+Nockedloose,rdps,2345,"Il'gynoth, Corruption Reborn",90,477,Beast Mastery,tankhps,1595471004181
+Divinance,tank,2327,Maut,21,478,Brewmaster,hps,1597199505906
+Divinance,tank,2328,Dark Inquisitor Xanesh,47,477,Brewmaster,hps,1595386571162
+Divinance,tank,2329,Wrathion,51,474,Brewmaster,hps,1597802709571
+Divinance,tank,2331,Ra-den the Despoiled,42,478,Brewmaster,hps,1597205517661
+Divinance,tank,2333,The Hivemind,73,476,Brewmaster,hps,1597803914006
+Divinance,tank,2334,Prophet Skitra,76,474,Brewmaster,hps,1595384428884
+Divinance,tank,2335,Shad'har the Insatiable,23,474,Brewmaster,hps,1597206309526
+Divinance,tank,2336,Vexiona,37,477,Brewmaster,hps,1595387635587
+Divinance,tank,2337,Carapace of N'Zoth,51,478,Brewmaster,hps,1596681501779
+Divinance,tank,2343,Drest'agath,13,478,Brewmaster,hps,1596599548609
+Divinance,tank,2344,N'Zoth the Corruptor,49,477,Brewmaster,hps,1597377892314
+Divinance,tank,2345,"Il'gynoth, Corruption Reborn",29,478,Brewmaster,hps,1597284611104
+Divinance,tank,2327,Maut,89,478,Brewmaster,dps,1596594803884
+Divinance,tank,2328,Dark Inquisitor Xanesh,75,477,Brewmaster,dps,1595386571162
+Divinance,tank,2329,Wrathion,80,474,Brewmaster,dps,1597802709571
+Divinance,tank,2331,Ra-den the Despoiled,85,474,Brewmaster,dps,1597804551755
+Divinance,tank,2333,The Hivemind,86,475,Brewmaster,dps,1595388337534
+Divinance,tank,2334,Prophet Skitra,75,474,Brewmaster,dps,1597198574747
+Divinance,tank,2335,Shad'har the Insatiable,84,474,Brewmaster,dps,1597206309526
+Divinance,tank,2336,Vexiona,70,477,Brewmaster,dps,1595387635587
+Divinance,tank,2337,Carapace of N'Zoth,74,478,Brewmaster,dps,1596681501779
+Divinance,tank,2343,Drest'agath,46,478,Brewmaster,dps,1596599548609
+Divinance,tank,2344,N'Zoth the Corruptor,82,478,Brewmaster,dps,1596686358309
+Divinance,tank,2345,"Il'gynoth, Corruption Reborn",86,478,Brewmaster,dps,1597284611104
+Divinance,tank,2327,Maut,21,478,Brewmaster,tankhps,1597199505906
+Divinance,tank,2328,Dark Inquisitor Xanesh,47,477,Brewmaster,tankhps,1595386571162
+Divinance,tank,2329,Wrathion,53,474,Brewmaster,tankhps,1597802709571
+Divinance,tank,2331,Ra-den the Despoiled,42,478,Brewmaster,tankhps,1597205517661
+Divinance,tank,2333,The Hivemind,74,476,Brewmaster,tankhps,1597803914006
+Divinance,tank,2334,Prophet Skitra,76,474,Brewmaster,tankhps,1595384428884
+Divinance,tank,2335,Shad'har the Insatiable,23,474,Brewmaster,tankhps,1597206309526
+Divinance,tank,2336,Vexiona,37,477,Brewmaster,tankhps,1595387635587
+Divinance,tank,2337,Carapace of N'Zoth,52,478,Brewmaster,tankhps,1596681501779
+Divinance,tank,2343,Drest'agath,13,478,Brewmaster,tankhps,1596599548609
+Divinance,tank,2344,N'Zoth the Corruptor,52,477,Brewmaster,tankhps,1597377892314
+Divinance,tank,2345,"Il'gynoth, Corruption Reborn",35,478,Brewmaster,tankhps,1597284611104
+Zodyhunt,rdps,2327,Maut,64,476,Beast Mastery,hps,1597199505906
+Zodyhunt,rdps,2328,Dark Inquisitor Xanesh,49,475,Beast Mastery,hps,1596596338807
+Zodyhunt,rdps,2329,Wrathion,80,476,Beast Mastery,hps,1597197975312
+Zodyhunt,rdps,2331,Ra-den the Despoiled,51,476,Beast Mastery,hps,1597205517661
+Zodyhunt,rdps,2333,The Hivemind,43,475,Beast Mastery,hps,1596597466606
+Zodyhunt,rdps,2334,Prophet Skitra,67,473,Beast Mastery,hps,1595384428884
+Zodyhunt,rdps,2335,Shad'har the Insatiable,77,473,Beast Mastery,hps,1595392126363
+Zodyhunt,rdps,2336,Vexiona,95,475,Beast Mastery,hps,1596596868616
+Zodyhunt,rdps,2337,Carapace of N'Zoth,56,476,Beast Mastery,hps,1596681501779
+Zodyhunt,rdps,2343,Drest'agath,73,477,Beast Mastery,hps,1597206688183
+Zodyhunt,rdps,2344,N'Zoth the Corruptor,96,475,Beast Mastery,hps,1595991482427
+Zodyhunt,rdps,2345,"Il'gynoth, Corruption Reborn",98,473,Beast Mastery,hps,1595471004181
+Zodyhunt,rdps,2327,Maut,92,476,Beast Mastery,dps,1597199505906
+Zodyhunt,rdps,2328,Dark Inquisitor Xanesh,92,475,Beast Mastery,dps,1596596338807
+Zodyhunt,rdps,2329,Wrathion,87,475,Beast Mastery,dps,1596593211153
+Zodyhunt,rdps,2331,Ra-den the Despoiled,46,476,Beast Mastery,dps,1597205517661
+Zodyhunt,rdps,2333,The Hivemind,83,476,Beast Mastery,dps,1597204219433
+Zodyhunt,rdps,2334,Prophet Skitra,85,476,Beast Mastery,dps,1597198574747
+Zodyhunt,rdps,2335,Shad'har the Insatiable,82,476,Beast Mastery,dps,1597206309526
+Zodyhunt,rdps,2336,Vexiona,74,473,Beast Mastery,dps,1595387635587
+Zodyhunt,rdps,2337,Carapace of N'Zoth,29,476,Beast Mastery,dps,1596681501779
+Zodyhunt,rdps,2343,Drest'agath,80,476,Beast Mastery,dps,1596599548609
+Zodyhunt,rdps,2344,N'Zoth the Corruptor,82,476,Beast Mastery,dps,1596686358309
+Zodyhunt,rdps,2345,"Il'gynoth, Corruption Reborn",28,476,Beast Mastery,dps,1596602591830
+Zodyhunt,rdps,2327,Maut,92,476,Beast Mastery,tankhps,1597199505906
+Zodyhunt,rdps,2328,Dark Inquisitor Xanesh,90,473,Beast Mastery,tankhps,1595386571162
+Zodyhunt,rdps,2329,Wrathion,96,476,Beast Mastery,tankhps,1597197975312
+Zodyhunt,rdps,2331,Ra-den the Despoiled,90,473,Beast Mastery,tankhps,1595391159816
+Zodyhunt,rdps,2333,The Hivemind,80,473,Beast Mastery,tankhps,1595388337534
+Zodyhunt,rdps,2334,Prophet Skitra,93,473,Beast Mastery,tankhps,1595384428884
+Zodyhunt,rdps,2335,Shad'har the Insatiable,96,473,Beast Mastery,tankhps,1595392126363
+Zodyhunt,rdps,2336,Vexiona,80,473,Beast Mastery,tankhps,1595387635587
+Zodyhunt,rdps,2337,Carapace of N'Zoth,80,473,Beast Mastery,tankhps,1595561454015
+Zodyhunt,rdps,2343,Drest'agath,80,473,Beast Mastery,tankhps,1595392591272
+Zodyhunt,rdps,2344,N'Zoth the Corruptor,97,474,Beast Mastery,tankhps,1594779828264
+Zodyhunt,rdps,2345,"Il'gynoth, Corruption Reborn",90,473,Beast Mastery,tankhps,1595471004181
+Lauly,healer,2327,Maut,79,478,Mistweaver,hps,1595385198092
+Lauly,healer,2328,Dark Inquisitor Xanesh,48,478,Mistweaver,hps,1595386571162
+Lauly,healer,2329,Wrathion,80,479,Mistweaver,hps,1597197975312
+Lauly,healer,2333,The Hivemind,78,478,Mistweaver,hps,1595388337534
+Lauly,healer,2334,Prophet Skitra,92,478,Mistweaver,hps,1595384428884
+Lauly,healer,2335,Shad'har the Insatiable,83,479,Mistweaver,hps,1597206309526
+Lauly,healer,2336,Vexiona,80,479,Mistweaver,hps,1597203026918
+Lauly,healer,2337,Carapace of N'Zoth,69,478,Mistweaver,hps,1596681501779
+Lauly,healer,2343,Drest'agath,75,478,Mistweaver,hps,1595392591272
+Lauly,healer,2344,N'Zoth the Corruptor,49,478,Mistweaver,hps,1595991482427
+Lauly,healer,2345,"Il'gynoth, Corruption Reborn",63,479,Mistweaver,hps,1597284611104
+Lauly,healer,2327,Maut,69,479,Mistweaver,dps,1597199505906
+Lauly,healer,2328,Dark Inquisitor Xanesh,55,478,Mistweaver,dps,1595386571162
+Lauly,healer,2329,Wrathion,74,479,Mistweaver,dps,1597802709571
+Lauly,healer,2333,The Hivemind,56,478,Mistweaver,dps,1595388337534
+Lauly,healer,2334,Prophet Skitra,71,479,Mistweaver,dps,1597198574747
+Lauly,healer,2335,Shad'har the Insatiable,53,479,Mistweaver,dps,1597206309526
+Lauly,healer,2336,Vexiona,42,478,Mistweaver,dps,1595387635587
+Lauly,healer,2337,Carapace of N'Zoth,24,478,Mistweaver,dps,1596681501779
+Lauly,healer,2343,Drest'agath,82,479,Mistweaver,dps,1597206688183
+Lauly,healer,2344,N'Zoth the Corruptor,31,478,Mistweaver,dps,1595991482427
+Lauly,healer,2345,"Il'gynoth, Corruption Reborn",28,479,Mistweaver,dps,1597284611104
+Lauly,healer,2327,Maut,83,479,Mistweaver,tankhps,1597199505906
+Lauly,healer,2328,Dark Inquisitor Xanesh,76,478,Mistweaver,tankhps,1595386571162
+Lauly,healer,2329,Wrathion,77,479,Mistweaver,tankhps,1597802709571
+Lauly,healer,2333,The Hivemind,82,478,Mistweaver,tankhps,1595388337534
+Lauly,healer,2334,Prophet Skitra,92,478,Mistweaver,tankhps,1595384428884
+Lauly,healer,2335,Shad'har the Insatiable,87,479,Mistweaver,tankhps,1597206309526
+Lauly,healer,2336,Vexiona,69,479,Mistweaver,tankhps,1597203026918
+Lauly,healer,2337,Carapace of N'Zoth,84,478,Mistweaver,tankhps,1596681501779
+Lauly,healer,2343,Drest'agath,71,478,Mistweaver,tankhps,1595392591272
+Lauly,healer,2344,N'Zoth the Corruptor,79,479,Mistweaver,tankhps,1597377892314
+Lauly,healer,2345,"Il'gynoth, Corruption Reborn",31,479,Mistweaver,tankhps,1597284611104
+Toyqt,mdps,2327,Maut,51,476,Holy,hps,1597199505906
+Toyqt,mdps,2328,Dark Inquisitor Xanesh,37,477,Retribution,hps,1597202341435
+Toyqt,mdps,2329,Wrathion,9,476,Holy,hps,1597197975312
+Toyqt,mdps,2329,Wrathion,48,478,Retribution,hps,1597802709571
+Toyqt,mdps,2331,Ra-den the Despoiled,98,478,Retribution,hps,1597804551755
+Toyqt,mdps,2333,The Hivemind,95,480,Retribution,hps,1597803914006
+Toyqt,mdps,2334,Prophet Skitra,16,476,Holy,hps,1597198574747
+Toyqt,mdps,2336,Vexiona,2,473,Protection,hps,1595387635587
+Toyqt,mdps,2337,Carapace of N'Zoth,36,477,Holy,hps,1597288717506
+Toyqt,mdps,2344,N'Zoth the Corruptor,87,478,Retribution,hps,1595991482427
+Toyqt,mdps,2345,"Il'gynoth, Corruption Reborn",43,479,Retribution,hps,1597284611104
+Toyqt,mdps,2327,Maut,76,476,Holy,dps,1597199505906
+Toyqt,mdps,2328,Dark Inquisitor Xanesh,82,477,Retribution,dps,1596596338807
+Toyqt,mdps,2329,Wrathion,74,478,Retribution,dps,1597802709571
+Toyqt,mdps,2329,Wrathion,83,476,Holy,dps,1597197975312
+Toyqt,mdps,2331,Ra-den the Despoiled,55,478,Retribution,dps,1597804551755
+Toyqt,mdps,2333,The Hivemind,92,479,Retribution,dps,1597204219433
+Toyqt,mdps,2334,Prophet Skitra,80,476,Holy,dps,1597198574747
+Toyqt,mdps,2336,Vexiona,85,475,Protection,dps,1597203026918
+Toyqt,mdps,2337,Carapace of N'Zoth,59,477,Holy,dps,1597288717506
+Toyqt,mdps,2344,N'Zoth the Corruptor,38,480,Retribution,dps,1597893585588
+Toyqt,mdps,2345,"Il'gynoth, Corruption Reborn",66,479,Retribution,dps,1597284611104
+Toyqt,mdps,2327,Maut,33,476,Holy,tankhps,1597199505906
+Toyqt,mdps,2328,Dark Inquisitor Xanesh,96,477,Retribution,tankhps,1596596338807
+Toyqt,mdps,2329,Wrathion,17,476,Holy,tankhps,1597197975312
+Toyqt,mdps,2329,Wrathion,73,478,Retribution,tankhps,1597802709571
+Toyqt,mdps,2331,Ra-den the Despoiled,99,478,Retribution,tankhps,1597804551755
+Toyqt,mdps,2333,The Hivemind,95,479,Retribution,tankhps,1597204219433
+Toyqt,mdps,2334,Prophet Skitra,9,476,Holy,tankhps,1597198574747
+Toyqt,mdps,2336,Vexiona,3,473,Protection,tankhps,1595387635587
+Toyqt,mdps,2337,Carapace of N'Zoth,22,477,Holy,tankhps,1597288717506
+Toyqt,mdps,2344,N'Zoth the Corruptor,99,478,Retribution,tankhps,1595991482427
+Toyqt,mdps,2345,"Il'gynoth, Corruption Reborn",70,479,Retribution,tankhps,1597284611104
+Mythrose,healer,2327,Maut,40,478,Holy,hps,1596594803884
+Mythrose,healer,2327,Maut,52,479,Discipline,hps,1595385198092
+Mythrose,healer,2328,Dark Inquisitor Xanesh,72,479,Discipline,hps,1596596338807
+Mythrose,healer,2329,Wrathion,38,478,Holy,hps,1596593211153
+Mythrose,healer,2331,Ra-den the Despoiled,74,479,Discipline,hps,1596598878771
+Mythrose,healer,2333,The Hivemind,85,479,Discipline,hps,1597803914006
+Mythrose,healer,2334,Prophet Skitra,60,478,Holy,hps,1596593885077
+Mythrose,healer,2334,Prophet Skitra,9,479,Discipline,hps,1595384428884
+Mythrose,healer,2335,Shad'har the Insatiable,82,479,Discipline,hps,1596600126996
+Mythrose,healer,2336,Vexiona,72,479,Discipline,hps,1596596868616
+Mythrose,healer,2337,Carapace of N'Zoth,54,479,Discipline,hps,1597810482838
+Mythrose,healer,2343,Drest'agath,51,479,Discipline,hps,1596599548609
+Mythrose,healer,2344,N'Zoth the Corruptor,66,479,Discipline,hps,1594779828264
+Mythrose,healer,2345,"Il'gynoth, Corruption Reborn",63,479,Discipline,hps,1597284611104
+Mythrose,healer,2327,Maut,34,479,Discipline,dps,1595385198092
+Mythrose,healer,2327,Maut,33,478,Holy,dps,1596594803884
+Mythrose,healer,2328,Dark Inquisitor Xanesh,30,479,Discipline,dps,1597202341435
+Mythrose,healer,2329,Wrathion,12,478,Holy,dps,1596593211153
+Mythrose,healer,2331,Ra-den the Despoiled,29,479,Discipline,dps,1597804551755
+Mythrose,healer,2333,The Hivemind,36,479,Discipline,dps,1597204219433
+Mythrose,healer,2334,Prophet Skitra,13,479,Discipline,dps,1595384428884
+Mythrose,healer,2334,Prophet Skitra,51,478,Holy,dps,1596593885077
+Mythrose,healer,2335,Shad'har the Insatiable,56,479,Discipline,dps,1597206309526
+Mythrose,healer,2336,Vexiona,23,479,Discipline,dps,1596596868616
+Mythrose,healer,2337,Carapace of N'Zoth,10,479,Discipline,dps,1596681501779
+Mythrose,healer,2343,Drest'agath,80,479,Discipline,dps,1597206688183
+Mythrose,healer,2344,N'Zoth the Corruptor,24,479,Discipline,dps,1597893585588
+Mythrose,healer,2345,"Il'gynoth, Corruption Reborn",15,479,Discipline,dps,1595471004181
+Mythrose,healer,2327,Maut,78,478,Holy,tankhps,1596594803884
+Mythrose,healer,2327,Maut,49,479,Discipline,tankhps,1595385198092
+Mythrose,healer,2328,Dark Inquisitor Xanesh,81,479,Discipline,tankhps,1595386571162
+Mythrose,healer,2329,Wrathion,53,478,Holy,tankhps,1596593211153
+Mythrose,healer,2331,Ra-den the Despoiled,97,479,Discipline,tankhps,1597804551755
+Mythrose,healer,2333,The Hivemind,92,479,Discipline,tankhps,1597803914006
+Mythrose,healer,2334,Prophet Skitra,61,478,Holy,tankhps,1596593885077
+Mythrose,healer,2334,Prophet Skitra,53,479,Discipline,tankhps,1595384428884
+Mythrose,healer,2335,Shad'har the Insatiable,64,479,Discipline,tankhps,1596600126996
+Mythrose,healer,2336,Vexiona,86,479,Discipline,tankhps,1597203026918
+Mythrose,healer,2337,Carapace of N'Zoth,94,479,Discipline,tankhps,1597810482838
+Mythrose,healer,2343,Drest'agath,51,479,Discipline,tankhps,1596599548609
+Mythrose,healer,2344,N'Zoth the Corruptor,97,479,Discipline,tankhps,1596686358309
+Mythrose,healer,2345,"Il'gynoth, Corruption Reborn",79,479,Discipline,tankhps,1597284611104
+Shadowbaine,rdps,2327,Maut,56,479,Destruction,hps,1597199505906
+Shadowbaine,rdps,2328,Dark Inquisitor Xanesh,65,479,Destruction,hps,1596596338807
+Shadowbaine,rdps,2329,Wrathion,50,478,Destruction,hps,1596593211153
+Shadowbaine,rdps,2331,Ra-den the Despoiled,36,479,Destruction,hps,1596598878771
+Shadowbaine,rdps,2333,The Hivemind,33,479,Destruction,hps,1597803914006
+Shadowbaine,rdps,2334,Prophet Skitra,11,479,Destruction,hps,1597198574747
+Shadowbaine,rdps,2335,Shad'har the Insatiable,68,477,Destruction,hps,1595392126363
+Shadowbaine,rdps,2335,Shad'har the Insatiable,60,479,Affliction,hps,1596600126996
+Shadowbaine,rdps,2336,Vexiona,25,479,Destruction,hps,1596596868616
+Shadowbaine,rdps,2337,Carapace of N'Zoth,29,482,Destruction,hps,1597288717506
+Shadowbaine,rdps,2343,Drest'agath,45,478,Destruction,hps,1597206688183
+Shadowbaine,rdps,2344,N'Zoth the Corruptor,39,481,Destruction,hps,1597377892314
+Shadowbaine,rdps,2345,"Il'gynoth, Corruption Reborn",30,479,Destruction,hps,1596602591830
+Shadowbaine,rdps,2327,Maut,93,479,Destruction,dps,1597199505906
+Shadowbaine,rdps,2328,Dark Inquisitor Xanesh,52,479,Destruction,dps,1596596338807
+Shadowbaine,rdps,2329,Wrathion,93,478,Destruction,dps,1596593211153
+Shadowbaine,rdps,2331,Ra-den the Despoiled,75,479,Destruction,dps,1596598878771
+Shadowbaine,rdps,2333,The Hivemind,84,479,Destruction,dps,1597803914006
+Shadowbaine,rdps,2334,Prophet Skitra,85,479,Destruction,dps,1597198574747
+Shadowbaine,rdps,2335,Shad'har the Insatiable,92,478,Destruction,dps,1597206309526
+Shadowbaine,rdps,2335,Shad'har the Insatiable,63,479,Affliction,dps,1596600126996
+Shadowbaine,rdps,2336,Vexiona,79,477,Destruction,dps,1595387635587
+Shadowbaine,rdps,2337,Carapace of N'Zoth,69,482,Destruction,dps,1597288717506
+Shadowbaine,rdps,2343,Drest'agath,67,479,Destruction,dps,1596599548609
+Shadowbaine,rdps,2344,N'Zoth the Corruptor,79,481,Destruction,dps,1597377892314
+Shadowbaine,rdps,2345,"Il'gynoth, Corruption Reborn",69,479,Destruction,dps,1597284611104
+Shadowbaine,rdps,2327,Maut,99,477,Destruction,tankhps,1595385198092
+Shadowbaine,rdps,2328,Dark Inquisitor Xanesh,99,477,Destruction,tankhps,1595386571162
+Shadowbaine,rdps,2329,Wrathion,99,476,Destruction,tankhps,1595383438210
+Shadowbaine,rdps,2331,Ra-den the Despoiled,99,477,Destruction,tankhps,1595391159816
+Shadowbaine,rdps,2333,The Hivemind,99,477,Destruction,tankhps,1595388337534
+Shadowbaine,rdps,2334,Prophet Skitra,99,477,Destruction,tankhps,1595384428884
+Shadowbaine,rdps,2335,Shad'har the Insatiable,99,477,Destruction,tankhps,1595392126363
+Shadowbaine,rdps,2335,Shad'har the Insatiable,99,479,Affliction,tankhps,1596600126996
+Shadowbaine,rdps,2336,Vexiona,99,477,Destruction,tankhps,1595387635587
+Shadowbaine,rdps,2337,Carapace of N'Zoth,99,480,Destruction,tankhps,1595561454015
+Shadowbaine,rdps,2343,Drest'agath,99,480,Destruction,tankhps,1595392591272
+Shadowbaine,rdps,2344,N'Zoth the Corruptor,99,479,Destruction,tankhps,1594779828264
+Shadowbaine,rdps,2345,"Il'gynoth, Corruption Reborn",99,480,Destruction,tankhps,1595471004181
+Niccom,mdps,2327,Maut,45,475,Arms,hps,1596594803884
+Niccom,mdps,2328,Dark Inquisitor Xanesh,23,475,Arms,hps,1596596338807
+Niccom,mdps,2329,Wrathion,10,477,Arms,hps,1597802709571
+Niccom,mdps,2331,Ra-den the Despoiled,68,477,Arms,hps,1597804551755
+Niccom,mdps,2333,The Hivemind,56,477,Arms,hps,1596597466606
+Niccom,mdps,2334,Prophet Skitra,72,475,Arms,hps,1595384428884
+Niccom,mdps,2335,Shad'har the Insatiable,49,475,Arms,hps,1595392126363
+Niccom,mdps,2336,Vexiona,48,475,Arms,hps,1595387635587
+Niccom,mdps,2337,Carapace of N'Zoth,25,475,Arms,hps,1595561454015
+Niccom,mdps,2343,Drest'agath,48,478,Arms,hps,1597206688183
+Niccom,mdps,2344,N'Zoth the Corruptor,39,479,Arms,hps,1597893585588
+Niccom,mdps,2345,"Il'gynoth, Corruption Reborn",38,475,Arms,hps,1597284611104
+Niccom,mdps,2327,Maut,91,475,Arms,dps,1596594803884
+Niccom,mdps,2328,Dark Inquisitor Xanesh,84,476,Arms,dps,1597202341435
+Niccom,mdps,2329,Wrathion,88,475,Arms,dps,1595383438210
+Niccom,mdps,2331,Ra-den the Despoiled,93,477,Arms,dps,1597804551755
+Niccom,mdps,2333,The Hivemind,95,478,Arms,dps,1597204219433
+Niccom,mdps,2334,Prophet Skitra,88,475,Arms,dps,1595384428884
+Niccom,mdps,2335,Shad'har the Insatiable,94,476,Arms,dps,1597206309526
+Niccom,mdps,2336,Vexiona,83,476,Arms,dps,1597203026918
+Niccom,mdps,2337,Carapace of N'Zoth,63,476,Arms,dps,1597810482838
+Niccom,mdps,2343,Drest'agath,86,478,Arms,dps,1597206688183
+Niccom,mdps,2344,N'Zoth the Corruptor,77,478,Arms,dps,1597377892314
+Niccom,mdps,2345,"Il'gynoth, Corruption Reborn",76,475,Arms,dps,1597284611104
+Niccom,mdps,2327,Maut,99,475,Arms,tankhps,1595385198092
+Niccom,mdps,2328,Dark Inquisitor Xanesh,99,475,Arms,tankhps,1595386571162
+Niccom,mdps,2329,Wrathion,99,475,Arms,tankhps,1595383438210
+Niccom,mdps,2331,Ra-den the Despoiled,99,475,Arms,tankhps,1595391159816
+Niccom,mdps,2333,The Hivemind,99,475,Arms,tankhps,1595388337534
+Niccom,mdps,2334,Prophet Skitra,99,475,Arms,tankhps,1595384428884
+Niccom,mdps,2335,Shad'har the Insatiable,99,475,Arms,tankhps,1595392126363
+Niccom,mdps,2336,Vexiona,99,475,Arms,tankhps,1595387635587
+Niccom,mdps,2337,Carapace of N'Zoth,99,475,Arms,tankhps,1595561454015
+Niccom,mdps,2343,Drest'agath,99,477,Arms,tankhps,1595392591272
+Niccom,mdps,2344,N'Zoth the Corruptor,99,477,Arms,tankhps,1594779828264
+Niccom,mdps,2345,"Il'gynoth, Corruption Reborn",99,475,Arms,tankhps,1595471004181
+Jampers,healer,2327,Maut,87,477,Restoration,hps,1596594803884
+Jampers,healer,2328,Dark Inquisitor Xanesh,40,476,Restoration,hps,1595386571162
+Jampers,healer,2329,Wrathion,54,477,Restoration,hps,1596593211153
+Jampers,healer,2331,Ra-den the Despoiled,80,477,Restoration,hps,1597804551755
+Jampers,healer,2333,The Hivemind,8,477,Restoration,hps,1596597466606
+Jampers,healer,2334,Prophet Skitra,21,475,Restoration,hps,1595384428884
+Jampers,healer,2335,Shad'har the Insatiable,84,477,Restoration,hps,1596600126996
+Jampers,healer,2336,Vexiona,45,476,Restoration,hps,1595387635587
+Jampers,healer,2337,Carapace of N'Zoth,44,477,Restoration,hps,1596681501779
+Jampers,healer,2343,Drest'agath,41,477,Restoration,hps,1596599548609
+Jampers,healer,2344,N'Zoth the Corruptor,44,477,Restoration,hps,1597377892314
+Jampers,healer,2345,"Il'gynoth, Corruption Reborn",65,477,Restoration,hps,1595471004181
+Jampers,healer,2327,Maut,86,477,Restoration,dps,1596594803884
+Jampers,healer,2328,Dark Inquisitor Xanesh,99,475,Restoration,dps,1596596338807
+Jampers,healer,2329,Wrathion,91,477,Restoration,dps,1597802709571
+Jampers,healer,2331,Ra-den the Despoiled,71,477,Restoration,dps,1597804551755
+Jampers,healer,2333,The Hivemind,99,477,Restoration,dps,1597803914006
+Jampers,healer,2334,Prophet Skitra,96,477,Restoration,dps,1596593885077
+Jampers,healer,2335,Shad'har the Insatiable,79,476,Restoration,dps,1595392126363
+Jampers,healer,2336,Vexiona,84,477,Restoration,dps,1596596868616
+Jampers,healer,2337,Carapace of N'Zoth,43,477,Restoration,dps,1597810482838
+Jampers,healer,2343,Drest'agath,80,476,Restoration,dps,1595392591272
+Jampers,healer,2344,N'Zoth the Corruptor,93,477,Restoration,dps,1597893585588
+Jampers,healer,2345,"Il'gynoth, Corruption Reborn",47,477,Restoration,dps,1595471004181
+Jampers,healer,2327,Maut,80,475,Restoration,tankhps,1595385198092
+Jampers,healer,2328,Dark Inquisitor Xanesh,50,476,Restoration,tankhps,1595386571162
+Jampers,healer,2329,Wrathion,71,477,Restoration,tankhps,1597802709571
+Jampers,healer,2331,Ra-den the Despoiled,89,477,Restoration,tankhps,1596598878771
+Jampers,healer,2333,The Hivemind,7,477,Restoration,tankhps,1597803914006
+Jampers,healer,2334,Prophet Skitra,9,475,Restoration,tankhps,1595384428884
+Jampers,healer,2335,Shad'har the Insatiable,85,477,Restoration,tankhps,1596600126996
+Jampers,healer,2336,Vexiona,96,476,Restoration,tankhps,1595387635587
+Jampers,healer,2337,Carapace of N'Zoth,49,477,Restoration,tankhps,1596681501779
+Jampers,healer,2343,Drest'agath,14,476,Restoration,tankhps,1595392591272
+Jampers,healer,2344,N'Zoth the Corruptor,45,477,Restoration,tankhps,1596686358309
+Jampers,healer,2345,"Il'gynoth, Corruption Reborn",72,477,Restoration,tankhps,1595471004181
+Kopye,rdps,2327,Maut,10,475,Fire,hps,1596594803884
+Kopye,rdps,2328,Dark Inquisitor Xanesh,42,477,Fire,hps,1597202341435
+Kopye,rdps,2329,Wrathion,23,477,Fire,hps,1597802709571
+Kopye,rdps,2331,Ra-den the Despoiled,71,475,Fire,hps,1596598878771
+Kopye,rdps,2333,The Hivemind,44,475,Fire,hps,1596597466606
+Kopye,rdps,2334,Prophet Skitra,9,475,Fire,hps,1595384428884
+Kopye,rdps,2335,Shad'har the Insatiable,47,475,Fire,hps,1596600126996
+Kopye,rdps,2336,Vexiona,66,475,Fire,hps,1596596868616
+Kopye,rdps,2337,Carapace of N'Zoth,20,477,Fire,hps,1597810482838
+Kopye,rdps,2343,Drest'agath,30,475,Fire,hps,1596599548609
+Kopye,rdps,2344,N'Zoth the Corruptor,44,477,Fire,hps,1597893585588
+Kopye,rdps,2345,"Il'gynoth, Corruption Reborn",31,475,Fire,hps,1596602591830
+Kopye,rdps,2327,Maut,81,475,Fire,dps,1595385198092
+Kopye,rdps,2328,Dark Inquisitor Xanesh,29,475,Fire,dps,1596596338807
+Kopye,rdps,2329,Wrathion,59,477,Fire,dps,1597802709571
+Kopye,rdps,2331,Ra-den the Despoiled,49,477,Fire,dps,1597804551755
+Kopye,rdps,2333,The Hivemind,57,475,Fire,dps,1596597466606
+Kopye,rdps,2334,Prophet Skitra,65,475,Fire,dps,1596593885077
+Kopye,rdps,2335,Shad'har the Insatiable,78,475,Fire,dps,1596600126996
+Kopye,rdps,2336,Vexiona,67,475,Fire,dps,1596596868616
+Kopye,rdps,2337,Carapace of N'Zoth,52,477,Fire,dps,1597810482838
+Kopye,rdps,2343,Drest'agath,40,475,Fire,dps,1595392591272
+Kopye,rdps,2344,N'Zoth the Corruptor,40,475,Fire,dps,1595991482427
+Kopye,rdps,2345,"Il'gynoth, Corruption Reborn",48,475,Fire,dps,1596602591830
+Kopye,rdps,2327,Maut,99,475,Fire,tankhps,1595385198092
+Kopye,rdps,2328,Dark Inquisitor Xanesh,99,475,Fire,tankhps,1595386571162
+Kopye,rdps,2329,Wrathion,99,475,Fire,tankhps,1595383438210
+Kopye,rdps,2331,Ra-den the Despoiled,99,475,Fire,tankhps,1595391159816
+Kopye,rdps,2333,The Hivemind,99,475,Fire,tankhps,1595388337534
+Kopye,rdps,2334,Prophet Skitra,99,475,Fire,tankhps,1595384428884
+Kopye,rdps,2335,Shad'har the Insatiable,99,475,Fire,tankhps,1595392126363
+Kopye,rdps,2336,Vexiona,99,475,Fire,tankhps,1595387635587
+Kopye,rdps,2337,Carapace of N'Zoth,99,475,Fire,tankhps,1595561454015
+Kopye,rdps,2343,Drest'agath,99,475,Fire,tankhps,1595392591272
+Kopye,rdps,2344,N'Zoth the Corruptor,99,475,Fire,tankhps,1594779828264
+Kopye,rdps,2345,"Il'gynoth, Corruption Reborn",99,475,Fire,tankhps,1595471004181
+Ølympius,rdps,2327,Maut,74,474,Fire,hps,1596594803884
+Ølympius,rdps,2328,Dark Inquisitor Xanesh,46,474,Fire,hps,1596596338807
+Ølympius,rdps,2329,Wrathion,8,476,Fire,hps,1597197975312
+Ølympius,rdps,2331,Ra-den the Despoiled,99,477,Fire,hps,1597804551755
+Ølympius,rdps,2333,The Hivemind,43,474,Fire,hps,1596597466606
+Ølympius,rdps,2334,Prophet Skitra,37,476,Fire,hps,1595384428884
+Ølympius,rdps,2335,Shad'har the Insatiable,84,475,Fire,hps,1595392126363
+Ølympius,rdps,2336,Vexiona,51,474,Fire,hps,1596596868616
+Ølympius,rdps,2337,Carapace of N'Zoth,71,476,Fire,hps,1597288717506
+Ølympius,rdps,2343,Drest'agath,69,474,Fire,hps,1597206688183
+Ølympius,rdps,2344,N'Zoth the Corruptor,83,474,Fire,hps,1595991482427
+Ølympius,rdps,2345,"Il'gynoth, Corruption Reborn",95,474,Fire,hps,1596602591830
+Ølympius,rdps,2327,Maut,89,476,Fire,dps,1597199505906
+Ølympius,rdps,2328,Dark Inquisitor Xanesh,66,476,Fire,dps,1597202341435
+Ølympius,rdps,2329,Wrathion,68,476,Fire,dps,1597197975312
+Ølympius,rdps,2331,Ra-den the Despoiled,61,475,Fire,dps,1595391159816
+Ølympius,rdps,2333,The Hivemind,59,475,Fire,dps,1595388337534
+Ølympius,rdps,2334,Prophet Skitra,90,476,Fire,dps,1597198574747
+Ølympius,rdps,2335,Shad'har the Insatiable,74,474,Fire,dps,1597206309526
+Ølympius,rdps,2336,Vexiona,41,476,Fire,dps,1597203026918
+Ølympius,rdps,2337,Carapace of N'Zoth,56,477,Fire,dps,1597810482838
+Ølympius,rdps,2343,Drest'agath,75,474,Fire,dps,1597206688183
+Ølympius,rdps,2344,N'Zoth the Corruptor,68,476,Fire,dps,1597377892314
+Ølympius,rdps,2345,"Il'gynoth, Corruption Reborn",55,474,Fire,dps,1597284611104
+Ølympius,rdps,2327,Maut,99,476,Fire,tankhps,1595385198092
+Ølympius,rdps,2328,Dark Inquisitor Xanesh,99,475,Fire,tankhps,1595386571162
+Ølympius,rdps,2329,Wrathion,99,476,Fire,tankhps,1595383438210
+Ølympius,rdps,2331,Ra-den the Despoiled,99,475,Fire,tankhps,1595391159816
+Ølympius,rdps,2333,The Hivemind,99,475,Fire,tankhps,1595388337534
+Ølympius,rdps,2334,Prophet Skitra,99,476,Fire,tankhps,1595384428884
+Ølympius,rdps,2335,Shad'har the Insatiable,99,475,Fire,tankhps,1595392126363
+Ølympius,rdps,2336,Vexiona,99,475,Fire,tankhps,1595387635587
+Ølympius,rdps,2337,Carapace of N'Zoth,99,475,Fire,tankhps,1595561454015
+Ølympius,rdps,2343,Drest'agath,99,475,Fire,tankhps,1595392591272
+Ølympius,rdps,2344,N'Zoth the Corruptor,99,475,Fire,tankhps,1594779828264
+Ølympius,rdps,2345,"Il'gynoth, Corruption Reborn",99,475,Fire,tankhps,1595471004181
+Cunegonde,rdps,2327,Maut,55,478,Shadow,hps,1597199505906
+Cunegonde,rdps,2328,Dark Inquisitor Xanesh,30,477,Shadow,hps,1596596338807
+Cunegonde,rdps,2329,Wrathion,23,477,Shadow,hps,1595383438210
+Cunegonde,rdps,2331,Ra-den the Despoiled,24,477,Shadow,hps,1596598878771
+Cunegonde,rdps,2333,The Hivemind,61,480,Shadow,hps,1597803914006
+Cunegonde,rdps,2334,Prophet Skitra,57,477,Shadow,hps,1595384428884
+Cunegonde,rdps,2335,Shad'har the Insatiable,67,477,Shadow,hps,1595392126363
+Cunegonde,rdps,2336,Vexiona,25,477,Shadow,hps,1596596868616
+Cunegonde,rdps,2337,Carapace of N'Zoth,33,480,Shadow,hps,1597810482838
+Cunegonde,rdps,2343,Drest'agath,37,477,Shadow,hps,1596599548609
+Cunegonde,rdps,2344,N'Zoth the Corruptor,29,478,Shadow,hps,1596686358309
+Cunegonde,rdps,2345,"Il'gynoth, Corruption Reborn",39,477,Shadow,hps,1595471004181
+Cunegonde,rdps,2327,Maut,98,477,Shadow,dps,1596594803884
+Cunegonde,rdps,2328,Dark Inquisitor Xanesh,80,477,Shadow,dps,1596596338807
+Cunegonde,rdps,2329,Wrathion,77,477,Shadow,dps,1596593211153
+Cunegonde,rdps,2331,Ra-den the Despoiled,79,477,Shadow,dps,1595391159816
+Cunegonde,rdps,2333,The Hivemind,80,477,Shadow,dps,1595388337534
+Cunegonde,rdps,2334,Prophet Skitra,50,477,Shadow,dps,1595384428884
+Cunegonde,rdps,2335,Shad'har the Insatiable,91,478,Shadow,dps,1597206309526
+Cunegonde,rdps,2336,Vexiona,69,478,Shadow,dps,1597203026918
+Cunegonde,rdps,2337,Carapace of N'Zoth,52,480,Shadow,dps,1597810482838
+Cunegonde,rdps,2343,Drest'agath,83,479,Shadow,dps,1597206688183
+Cunegonde,rdps,2344,N'Zoth the Corruptor,31,478,Shadow,dps,1596686358309
+Cunegonde,rdps,2345,"Il'gynoth, Corruption Reborn",61,477,Shadow,dps,1596602591830
+Cunegonde,rdps,2327,Maut,0,477,Shadow,tankhps,1595385198092
+Cunegonde,rdps,2328,Dark Inquisitor Xanesh,30,477,Shadow,tankhps,1595386571162
+Cunegonde,rdps,2329,Wrathion,79,477,Shadow,tankhps,1595383438210
+Cunegonde,rdps,2331,Ra-den the Despoiled,24,477,Shadow,tankhps,1595391159816
+Cunegonde,rdps,2333,The Hivemind,81,478,Shadow,tankhps,1597204219433
+Cunegonde,rdps,2334,Prophet Skitra,25,477,Shadow,tankhps,1595384428884
+Cunegonde,rdps,2335,Shad'har the Insatiable,93,477,Shadow,tankhps,1595392126363
+Cunegonde,rdps,2336,Vexiona,20,477,Shadow,tankhps,1595387635587
+Cunegonde,rdps,2337,Carapace of N'Zoth,10,477,Shadow,tankhps,1595561454015
+Cunegonde,rdps,2343,Drest'agath,37,479,Shadow,tankhps,1597206688183
+Cunegonde,rdps,2344,N'Zoth the Corruptor,24,477,Shadow,tankhps,1594779828264
+Cunegonde,rdps,2345,"Il'gynoth, Corruption Reborn",25,477,Shadow,tankhps,1595471004181
+Deviöus,rdps,2329,Wrathion,50,473,Destruction,hps,1590546040254
+Deviöus,rdps,2329,Wrathion,8,475,Demonology,hps,1594778896207
+Deviöus,rdps,2334,Prophet Skitra,61,473,Destruction,hps,1590547418502
+Deviöus,rdps,2335,Shad'har the Insatiable,62,477,Destruction,hps,1592368486074
+Deviöus,rdps,2336,Vexiona,57,477,Destruction,hps,1593570371036
+Deviöus,rdps,2343,Drest'agath,64,477,Destruction,hps,1596765452391
+Deviöus,rdps,2327,Maut,79,476,Destruction,hps,1597199505906
+Deviöus,rdps,2328,Dark Inquisitor Xanesh,63,476,Destruction,hps,1597202341435
+Deviöus,rdps,2335,Shad'har the Insatiable,53,475,Affliction,hps,1597206309526
+Deviöus,rdps,2345,"Il'gynoth, Corruption Reborn",84,476,Destruction,hps,1597284611104
+Deviöus,rdps,2329,Wrathion,53,475,Affliction,hps,1597802709571
+Deviöus,rdps,2331,Ra-den the Despoiled,74,476,Destruction,hps,1597804551755
+Deviöus,rdps,2333,The Hivemind,58,476,Destruction,hps,1597803914006
+Deviöus,rdps,2337,Carapace of N'Zoth,37,477,Destruction,hps,1597810482838
+Deviöus,rdps,2344,N'Zoth the Corruptor,72,476,Destruction,hps,1597893585588
+Deviöus,rdps,2329,Wrathion,70,473,Destruction,dps,1590546040254
+Deviöus,rdps,2329,Wrathion,7,475,Demonology,dps,1594778896207
+Deviöus,rdps,2334,Prophet Skitra,73,477,Destruction,dps,1594779786839
+Deviöus,rdps,2335,Shad'har the Insatiable,77,477,Destruction,dps,1592368486074
+Deviöus,rdps,2336,Vexiona,68,477,Destruction,dps,1593570371036
+Deviöus,rdps,2343,Drest'agath,72,477,Destruction,dps,1593579255914
+Deviöus,rdps,2345,"Il'gynoth, Corruption Reborn",82,477,Destruction,dps,1596768764244
+Deviöus,rdps,2327,Maut,84,476,Destruction,dps,1597199505906
+Deviöus,rdps,2328,Dark Inquisitor Xanesh,74,476,Destruction,dps,1597202341435
+Deviöus,rdps,2331,Ra-den the Despoiled,79,476,Destruction,dps,1597205517661
+Deviöus,rdps,2333,The Hivemind,73,476,Destruction,dps,1597204219433
+Deviöus,rdps,2335,Shad'har the Insatiable,58,475,Affliction,dps,1597206309526
+Deviöus,rdps,2337,Carapace of N'Zoth,51,476,Destruction,dps,1597288717506
+Deviöus,rdps,2344,N'Zoth the Corruptor,29,476,Destruction,dps,1597377892314
+Deviöus,rdps,2329,Wrathion,79,475,Affliction,dps,1597802709571
+Deviöus,rdps,2329,Wrathion,99,473,Destruction,tankhps,1590546040247
+Deviöus,rdps,2329,Wrathion,95,475,Demonology,tankhps,1594778896207
+Deviöus,rdps,2335,Shad'har the Insatiable,99,477,Destruction,tankhps,1592368486243
+Deviöus,rdps,2327,Maut,99,476,Destruction,tankhps,1597199505679
+Deviöus,rdps,2328,Dark Inquisitor Xanesh,99,476,Destruction,tankhps,1597202341317
+Deviöus,rdps,2334,Prophet Skitra,99,476,Destruction,tankhps,1597198574747
+Deviöus,rdps,2335,Shad'har the Insatiable,99,475,Affliction,tankhps,1597206309382
+Deviöus,rdps,2336,Vexiona,99,476,Destruction,tankhps,1597203026776
+Deviöus,rdps,2343,Drest'agath,99,476,Destruction,tankhps,1597206688183
+Deviöus,rdps,2345,"Il'gynoth, Corruption Reborn",99,476,Destruction,tankhps,1597284611104
+Deviöus,rdps,2329,Wrathion,99,475,Affliction,tankhps,1597802709571
+Deviöus,rdps,2331,Ra-den the Despoiled,99,476,Destruction,tankhps,1597804551755
+Deviöus,rdps,2333,The Hivemind,99,476,Destruction,tankhps,1597803914006
+Deviöus,rdps,2337,Carapace of N'Zoth,99,477,Destruction,tankhps,1597810482838
+Deviöus,rdps,2344,N'Zoth the Corruptor,99,476,Destruction,tankhps,1597893585588
+Owoo,mdps,2329,Wrathion,35,477,Frost,hps,1597802709571
+Owoo,mdps,2331,Ra-den the Despoiled,40,477,Frost,hps,1597804551755
+Owoo,mdps,2333,The Hivemind,9,477,Blood,hps,1595388337534
+Owoo,mdps,2333,The Hivemind,37,477,Frost,hps,1597803914006
+Owoo,mdps,2337,Carapace of N'Zoth,82,477,Frost,hps,1595561454015
+Owoo,mdps,2344,N'Zoth the Corruptor,90,477,Frost,hps,1595991482427
+Owoo,mdps,2345,"Il'gynoth, Corruption Reborn",57,476,Frost,hps,1595471004181
+Owoo,mdps,2329,Wrathion,46,477,Frost,dps,1597802709571
+Owoo,mdps,2331,Ra-den the Despoiled,9,477,Frost,dps,1597804551755
+Owoo,mdps,2333,The Hivemind,34,477,Frost,dps,1597803914006
+Owoo,mdps,2333,The Hivemind,10,477,Blood,dps,1595388337534
+Owoo,mdps,2337,Carapace of N'Zoth,19,477,Frost,dps,1595561454015
+Owoo,mdps,2344,N'Zoth the Corruptor,43,477,Frost,dps,1595991482427
+Owoo,mdps,2345,"Il'gynoth, Corruption Reborn",25,476,Frost,dps,1595471004181
+Owoo,mdps,2329,Wrathion,99,477,Frost,tankhps,1597802709571
+Owoo,mdps,2331,Ra-den the Despoiled,99,476,Frost,tankhps,1595391159816
+Owoo,mdps,2333,The Hivemind,9,477,Blood,tankhps,1595388337534
+Owoo,mdps,2333,The Hivemind,99,477,Frost,tankhps,1597803914006
+Owoo,mdps,2337,Carapace of N'Zoth,99,477,Frost,tankhps,1595561454015
+Owoo,mdps,2344,N'Zoth the Corruptor,99,477,Frost,tankhps,1595991482427
+Owoo,mdps,2345,"Il'gynoth, Corruption Reborn",100,476,Frost,tankhps,1595471004181
+Bobbydigital,mdps,2327,Maut,70,475,Arms,hps,1595385198092
+Bobbydigital,mdps,2328,Dark Inquisitor Xanesh,79,475,Arms,hps,1595386571162
+Bobbydigital,mdps,2329,Wrathion,84,476,Arms,hps,1595383438210
+Bobbydigital,mdps,2331,Ra-den the Despoiled,45,475,Arms,hps,1595391159816
+Bobbydigital,mdps,2333,The Hivemind,16,475,Arms,hps,1595388337534
+Bobbydigital,mdps,2334,Prophet Skitra,8,475,Arms,hps,1595384428884
+Bobbydigital,mdps,2335,Shad'har the Insatiable,41,475,Arms,hps,1595392126363
+Bobbydigital,mdps,2336,Vexiona,29,475,Arms,hps,1595387635587
+Bobbydigital,mdps,2343,Drest'agath,24,475,Arms,hps,1595392591272
+Bobbydigital,mdps,2344,N'Zoth the Corruptor,68,477,Arms,hps,1595991482427
+Bobbydigital,mdps,2345,"Il'gynoth, Corruption Reborn",24,475,Arms,hps,1595471004181
+Bobbydigital,mdps,2327,Maut,90,475,Arms,dps,1595385198092
+Bobbydigital,mdps,2328,Dark Inquisitor Xanesh,85,475,Arms,dps,1595386571162
+Bobbydigital,mdps,2329,Wrathion,81,476,Arms,dps,1595383438210
+Bobbydigital,mdps,2331,Ra-den the Despoiled,91,475,Arms,dps,1595391159816
+Bobbydigital,mdps,2333,The Hivemind,97,475,Arms,dps,1595388337534
+Bobbydigital,mdps,2334,Prophet Skitra,9,475,Arms,dps,1595384428884
+Bobbydigital,mdps,2335,Shad'har the Insatiable,88,475,Arms,dps,1595392126363
+Bobbydigital,mdps,2336,Vexiona,87,475,Arms,dps,1595387635587
+Bobbydigital,mdps,2337,Carapace of N'Zoth,69,475,Arms,dps,1595561454015
+Bobbydigital,mdps,2343,Drest'agath,80,475,Arms,dps,1595392591272
+Bobbydigital,mdps,2344,N'Zoth the Corruptor,91,477,Arms,dps,1595991482427
+Bobbydigital,mdps,2345,"Il'gynoth, Corruption Reborn",96,475,Arms,dps,1595471004181
+Bobbydigital,mdps,2327,Maut,99,475,Arms,tankhps,1595385198092
+Bobbydigital,mdps,2328,Dark Inquisitor Xanesh,99,475,Arms,tankhps,1595386571162
+Bobbydigital,mdps,2329,Wrathion,99,476,Arms,tankhps,1595383438210
+Bobbydigital,mdps,2331,Ra-den the Despoiled,99,475,Arms,tankhps,1595391159816
+Bobbydigital,mdps,2333,The Hivemind,99,475,Arms,tankhps,1595388337534
+Bobbydigital,mdps,2334,Prophet Skitra,99,475,Arms,tankhps,1595384428884
+Bobbydigital,mdps,2335,Shad'har the Insatiable,99,475,Arms,tankhps,1595392126363
+Bobbydigital,mdps,2336,Vexiona,99,475,Arms,tankhps,1595387635587
+Bobbydigital,mdps,2337,Carapace of N'Zoth,99,475,Arms,tankhps,1595561454015
+Bobbydigital,mdps,2343,Drest'agath,99,475,Arms,tankhps,1595392591272
+Bobbydigital,mdps,2344,N'Zoth the Corruptor,99,476,Arms,tankhps,1594779828264
+Bobbydigital,mdps,2345,"Il'gynoth, Corruption Reborn",99,475,Arms,tankhps,1595471004181
+Inradhrill,mdps,2327,Maut,99,475,Assassination,hps,1595393081583
+Inradhrill,mdps,2327,Maut,73,477,Outlaw,hps,1594183853237
+Inradhrill,mdps,2328,Dark Inquisitor Xanesh,88,477,Assassination,hps,1594360638637
+Inradhrill,mdps,2329,Wrathion,35,475,Assassination,hps,1594786161030
+Inradhrill,mdps,2329,Wrathion,13,477,Outlaw,hps,1594182246316
+Inradhrill,mdps,2331,Ra-den the Despoiled,88,476,Outlaw,hps,1592633259953
+Inradhrill,mdps,2331,Ra-den the Despoiled,39,475,Assassination,hps,1595566041810
+Inradhrill,mdps,2333,The Hivemind,84,477,Outlaw,hps,1594790110238
+Inradhrill,mdps,2334,Prophet Skitra,68,475,Assassination,hps,1595391779217
+Inradhrill,mdps,2334,Prophet Skitra,32,477,Outlaw,hps,1594183100445
+Inradhrill,mdps,2335,Shad'har the Insatiable,84,475,Assassination,hps,1594962470843
+Inradhrill,mdps,2336,Vexiona,68,477,Outlaw,hps,1595051860410
+Inradhrill,mdps,2343,Drest'agath,77,476,Assassination,hps,1595650859417
+Inradhrill,mdps,2333,The Hivemind,11,476,Assassination,hps,1596597466606
+Inradhrill,mdps,2336,Vexiona,6,477,Assassination,hps,1597203026918
+Inradhrill,mdps,2337,Carapace of N'Zoth,23,478,Outlaw,hps,1597810482838
+Inradhrill,mdps,2337,Carapace of N'Zoth,8,476,Assassination,hps,1596681501779
+Inradhrill,mdps,2344,N'Zoth the Corruptor,17,479,Assassination,hps,1597893585588
+Inradhrill,mdps,2345,"Il'gynoth, Corruption Reborn",66,477,Assassination,hps,1597284611104
+Inradhrill,mdps,2327,Maut,79,477,Outlaw,dps,1594183853237
+Inradhrill,mdps,2329,Wrathion,32,477,Outlaw,dps,1594182246316
+Inradhrill,mdps,2331,Ra-den the Despoiled,90,475,Assassination,dps,1595566041810
+Inradhrill,mdps,2331,Ra-den the Despoiled,88,476,Outlaw,dps,1592633259953
+Inradhrill,mdps,2333,The Hivemind,89,477,Outlaw,dps,1595394416648
+Inradhrill,mdps,2334,Prophet Skitra,85,477,Outlaw,dps,1594183100445
+Inradhrill,mdps,2336,Vexiona,79,477,Outlaw,dps,1595051860410
+Inradhrill,mdps,2343,Drest'agath,90,476,Assassination,dps,1595650859417
+Inradhrill,mdps,2327,Maut,91,476,Assassination,dps,1596594803884
+Inradhrill,mdps,2328,Dark Inquisitor Xanesh,87,477,Assassination,dps,1597202341435
+Inradhrill,mdps,2329,Wrathion,84,478,Assassination,dps,1597802709571
+Inradhrill,mdps,2333,The Hivemind,73,476,Assassination,dps,1596597466606
+Inradhrill,mdps,2334,Prophet Skitra,89,477,Assassination,dps,1597198574747
+Inradhrill,mdps,2335,Shad'har the Insatiable,88,476,Assassination,dps,1596600126996
+Inradhrill,mdps,2336,Vexiona,82,477,Assassination,dps,1597203026918
+Inradhrill,mdps,2337,Carapace of N'Zoth,24,476,Assassination,dps,1596681501779
+Inradhrill,mdps,2337,Carapace of N'Zoth,10,478,Outlaw,dps,1597810482838
+Inradhrill,mdps,2344,N'Zoth the Corruptor,63,479,Assassination,dps,1597377892314
+Inradhrill,mdps,2345,"Il'gynoth, Corruption Reborn",85,476,Assassination,dps,1596602591830
+Inradhrill,mdps,2327,Maut,99,474,Outlaw,tankhps,1591160247592
+Inradhrill,mdps,2329,Wrathion,99,477,Outlaw,tankhps,1594182246464
+Inradhrill,mdps,2331,Ra-den the Despoiled,99,476,Outlaw,tankhps,1592633260873
+Inradhrill,mdps,2334,Prophet Skitra,99,474,Outlaw,tankhps,1591159316893
+Inradhrill,mdps,2336,Vexiona,100,474,Outlaw,tankhps,1590813355580
+Inradhrill,mdps,2327,Maut,99,476,Assassination,tankhps,1596594803884
+Inradhrill,mdps,2328,Dark Inquisitor Xanesh,99,476,Assassination,tankhps,1596596338807
+Inradhrill,mdps,2329,Wrathion,99,476,Assassination,tankhps,1596593211153
+Inradhrill,mdps,2331,Ra-den the Despoiled,99,476,Assassination,tankhps,1596598878771
+Inradhrill,mdps,2333,The Hivemind,99,476,Assassination,tankhps,1596597466606
+Inradhrill,mdps,2333,The Hivemind,99,478,Outlaw,tankhps,1597204219433
+Inradhrill,mdps,2334,Prophet Skitra,99,476,Assassination,tankhps,1596593885077
+Inradhrill,mdps,2335,Shad'har the Insatiable,99,476,Assassination,tankhps,1596600126996
+Inradhrill,mdps,2336,Vexiona,99,476,Assassination,tankhps,1596596868616
+Inradhrill,mdps,2337,Carapace of N'Zoth,99,476,Assassination,tankhps,1596681501779
+Inradhrill,mdps,2337,Carapace of N'Zoth,100,478,Outlaw,tankhps,1597288717506
+Inradhrill,mdps,2343,Drest'agath,99,476,Assassination,tankhps,1596599548609
+Inradhrill,mdps,2344,N'Zoth the Corruptor,99,479,Assassination,tankhps,1597377892314
+Inradhrill,mdps,2345,"Il'gynoth, Corruption Reborn",99,476,Assassination,tankhps,1596602591830
+Thelyne,mdps,2327,Maut,44,477,Assassination,hps,1592961377966
+Thelyne,mdps,2328,Dark Inquisitor Xanesh,32,477,Assassination,hps,1592965606643
+Thelyne,mdps,2329,Wrathion,63,477,Assassination,hps,1592355526815
+Thelyne,mdps,2331,Ra-den the Despoiled,90,474,Assassination,hps,1591155475187
+Thelyne,mdps,2333,The Hivemind,76,474,Outlaw,hps,1592362421715
+Thelyne,mdps,2333,The Hivemind,14,477,Assassination,hps,1592968433856
+Thelyne,mdps,2334,Prophet Skitra,16,477,Assassination,hps,1592960808171
+Thelyne,mdps,2335,Shad'har the Insatiable,51,477,Assassination,hps,1592962258432
+Thelyne,mdps,2336,Vexiona,76,474,Assassination,hps,1590546868969
+Thelyne,mdps,2337,Carapace of N'Zoth,49,480,Assassination,hps,1596681501779
+Thelyne,mdps,2337,Carapace of N'Zoth,7,478,Outlaw,hps,1597288717506
+Thelyne,mdps,2343,Drest'agath,60,477,Assassination,hps,1592962911797
+Thelyne,mdps,2344,N'Zoth the Corruptor,16,480,Assassination,hps,1597377892314
+Thelyne,mdps,2345,"Il'gynoth, Corruption Reborn",11,478,Assassination,hps,1593570672117
+Thelyne,mdps,2327,Maut,96,479,Assassination,dps,1597199505906
+Thelyne,mdps,2328,Dark Inquisitor Xanesh,91,479,Assassination,dps,1597202341435
+Thelyne,mdps,2329,Wrathion,94,480,Assassination,dps,1596593211153
+Thelyne,mdps,2331,Ra-den the Despoiled,78,479,Assassination,dps,1597205517661
+Thelyne,mdps,2333,The Hivemind,89,479,Assassination,dps,1597204219433
+Thelyne,mdps,2333,The Hivemind,66,475,Outlaw,dps,1590541975359
+Thelyne,mdps,2334,Prophet Skitra,88,479,Assassination,dps,1594948158865
+Thelyne,mdps,2335,Shad'har the Insatiable,92,479,Assassination,dps,1597206309526
+Thelyne,mdps,2336,Vexiona,83,479,Assassination,dps,1597203026918
+Thelyne,mdps,2337,Carapace of N'Zoth,54,480,Assassination,dps,1595383993431
+Thelyne,mdps,2337,Carapace of N'Zoth,22,478,Outlaw,dps,1597288717506
+Thelyne,mdps,2343,Drest'agath,68,479,Assassination,dps,1596599548609
+Thelyne,mdps,2344,N'Zoth the Corruptor,44,480,Assassination,dps,1597377892314
+Thelyne,mdps,2345,"Il'gynoth, Corruption Reborn",85,480,Assassination,dps,1597284611104
+Thelyne,mdps,2327,Maut,99,477,Assassination,tankhps,1592961377089
+Thelyne,mdps,2328,Dark Inquisitor Xanesh,100,474,Assassination,tankhps,1590545001304
+Thelyne,mdps,2329,Wrathion,99,477,Assassination,tankhps,1592355527852
+Thelyne,mdps,2331,Ra-den the Despoiled,100,474,Assassination,tankhps,1590544179937
+Thelyne,mdps,2333,The Hivemind,99,475,Outlaw,tankhps,1590541974610
+Thelyne,mdps,2333,The Hivemind,99,477,Assassination,tankhps,1592968433856
+Thelyne,mdps,2334,Prophet Skitra,99,477,Assassination,tankhps,1592960807176
+Thelyne,mdps,2335,Shad'har the Insatiable,99,477,Assassination,tankhps,1592365933879
+Thelyne,mdps,2336,Vexiona,100,474,Assassination,tankhps,1590546818225
+Thelyne,mdps,2337,Carapace of N'Zoth,99,477,Assassination,tankhps,1593056435230
+Thelyne,mdps,2337,Carapace of N'Zoth,100,478,Outlaw,tankhps,1597288717506
+Thelyne,mdps,2343,Drest'agath,99,477,Assassination,tankhps,1592442308344
+Thelyne,mdps,2344,N'Zoth the Corruptor,99,480,Assassination,tankhps,1596686358309
+Thelyne,mdps,2345,"Il'gynoth, Corruption Reborn",99,478,Assassination,tankhps,1593570671580
+Aphy,mdps,2327,Maut,94,474,Windwalker,hps,1597199505906
+Aphy,mdps,2328,Dark Inquisitor Xanesh,68,474,Windwalker,hps,1597202341435
+Aphy,mdps,2329,Wrathion,79,474,Windwalker,hps,1594775030102
+Aphy,mdps,2331,Ra-den the Despoiled,90,476,Windwalker,hps,1597205517661
+Aphy,mdps,2333,The Hivemind,97,475,Windwalker,hps,1594350753822
+Aphy,mdps,2334,Prophet Skitra,96,473,Windwalker,hps,1593740331271
+Aphy,mdps,2335,Shad'har the Insatiable,95,474,Windwalker,hps,1594347915264
+Aphy,mdps,2336,Vexiona,40,475,Windwalker,hps,1597203026918
+Aphy,mdps,2337,Carapace of N'Zoth,52,476,Windwalker,hps,1597288717506
+Aphy,mdps,2343,Drest'agath,70,475,Windwalker,hps,1597206688183
+Aphy,mdps,2345,"Il'gynoth, Corruption Reborn",91,476,Windwalker,hps,1597284611104
+Aphy,mdps,2327,Maut,89,474,Windwalker,dps,1595554709068
+Aphy,mdps,2328,Dark Inquisitor Xanesh,75,474,Windwalker,dps,1597202341435
+Aphy,mdps,2329,Wrathion,87,474,Windwalker,dps,1594775030102
+Aphy,mdps,2331,Ra-den the Despoiled,82,476,Windwalker,dps,1597205517661
+Aphy,mdps,2333,The Hivemind,94,475,Windwalker,dps,1594350753822
+Aphy,mdps,2334,Prophet Skitra,76,474,Windwalker,dps,1595555717076
+Aphy,mdps,2335,Shad'har the Insatiable,91,476,Windwalker,dps,1597206309526
+Aphy,mdps,2336,Vexiona,35,475,Windwalker,dps,1597203026918
+Aphy,mdps,2337,Carapace of N'Zoth,32,476,Windwalker,dps,1597288717506
+Aphy,mdps,2343,Drest'agath,74,475,Windwalker,dps,1597206688183
+Aphy,mdps,2345,"Il'gynoth, Corruption Reborn",67,476,Windwalker,dps,1597284611104
+Aphy,mdps,2327,Maut,92,474,Windwalker,tankhps,1594949078011
+Aphy,mdps,2328,Dark Inquisitor Xanesh,87,474,Windwalker,tankhps,1597202341435
+Aphy,mdps,2329,Wrathion,84,473,Windwalker,tankhps,1593739523802
+Aphy,mdps,2331,Ra-den the Despoiled,82,476,Windwalker,tankhps,1597205517661
+Aphy,mdps,2333,The Hivemind,92,475,Windwalker,tankhps,1594350753822
+Aphy,mdps,2334,Prophet Skitra,86,474,Windwalker,tankhps,1594345256358
+Aphy,mdps,2335,Shad'har the Insatiable,66,476,Windwalker,tankhps,1597206309526
+Aphy,mdps,2336,Vexiona,62,475,Windwalker,tankhps,1597203026918
+Aphy,mdps,2337,Carapace of N'Zoth,66,476,Windwalker,tankhps,1597288717506
+Aphy,mdps,2343,Drest'agath,67,475,Windwalker,tankhps,1597206688183
+Aphy,mdps,2345,"Il'gynoth, Corruption Reborn",89,476,Windwalker,tankhps,1597284611104
