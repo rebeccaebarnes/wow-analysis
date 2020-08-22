@@ -10,7 +10,7 @@ import warcraft_logs_fn as wl
 # Set formatting
 sns.set()
 sns.set_style('white')
-palette=['#dcb950', '#55a868', '#dd8452', '#4c72b0', '#7fb3e6']
+palette = ['#dcb950', '#55a868', '#dd8452', '#4c72b0', '#7fb3e6']
 
 def max_parses(df, player_name, primary_role):
     '''
@@ -25,7 +25,7 @@ def max_parses(df, player_name, primary_role):
         pandas DataFrame.
     '''
     # Confirm metric
-    if primary_role == 'mdps' or primary_role == 'rdps':
+    if primary_role in ('mdps', 'rdps'):
         metric = 'dps'
     if primary_role == 'healer':
         metric = 'hps'
@@ -46,7 +46,6 @@ def max_parses(df, player_name, primary_role):
             index = boss_rows.index[0]
         index_list.append(index)
     index_list = list(set(index_list))
-    index_list
 
     # Create parse df from index_list
     return player_df.loc[index_list]
@@ -197,7 +196,7 @@ def clean_fight_count(fight_df,
     # Join hit counts
     df = join_fight_count(df, log_df, boss_id)
     # Manage alts
-    if player_names['alt'].unique().shape[0] != 1 :
+    if player_names['alt'].unique().shape[0] != 1:
         change_names(df, player_names)
         df = df.groupby('player').sum().reset_index()
     # Join player role
@@ -348,13 +347,9 @@ def first_kill_logs(log_df):
         pandas DataFrame.
     '''
     # Get only kill logs
-    kill_logs = log_df[['log_id',
-                    'log_start',
-                    'log_end',
-                    'pull_start',
-                    'pull_end',
-                    'boss_id',
-                    'boss_name']][log_df.kill == True]
+    kill_logs = log_df.loc[log_df.kill,
+                           ['log_id', 'log_start', 'log_end', 'pull_start',
+                            'pull_end', 'boss_id', 'boss_name']]
 
     # Sort by kill date
     kill_logs.sort_values('log_start', inplace=True)

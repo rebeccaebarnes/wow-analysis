@@ -1,13 +1,11 @@
-import pandas as pd
 import json
 import os
+import pandas as pd
 import requests
 
-GUILD_INFO = {
-              'guild_name': 'Dauntless',
+GUILD_INFO = {'guild_name': 'Dauntless',
               'realm': 'Tichondrius',
-              'region': 'US'
-}
+              'region': 'US'}
 
 def get_logs(api_key, guild_info, log_start=0):
     '''
@@ -30,12 +28,8 @@ def get_logs(api_key, guild_info, log_start=0):
     log_list = guild_logs.json()
 
     # Convert to def
-    log_info = pd.DataFrame(log_list, columns = ['id',
-                                                 'title',
-                                                 'owner',
-                                                 'start',
-                                                 'end',
-                                                 'zone'])
+    log_info = pd.DataFrame(log_list,
+                            columns=['id', 'title', 'owner', 'start', 'end', 'zone'])
     log_info.columns = ['log_id',
                         'title',
                         'owner',
@@ -481,9 +475,9 @@ def get_player_rankings():
     for player in player_names:
         for metric in metrics:
             # Create player df
-            player_df = create_rankings_df(player,
-                                           metric,
-                                           player_list[player_list.player == player]['primary_role'].iloc[0])
+            player_df = create_rankings_df(
+                player, metric,
+                player_list[player_list.player == player]['primary_role'].iloc[0])
             # Join to df
             df = pd.concat([df, player_df])
 
