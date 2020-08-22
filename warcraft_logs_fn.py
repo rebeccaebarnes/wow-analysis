@@ -4,8 +4,8 @@ import os
 import requests
 
 GUILD_INFO = {
-              'guild_name': 'Tempest',
-              'realm': 'Proudmoore',
+              'guild_name': 'Dauntless',
+              'realm': 'Tichondrius',
               'region': 'US'
 }
 
